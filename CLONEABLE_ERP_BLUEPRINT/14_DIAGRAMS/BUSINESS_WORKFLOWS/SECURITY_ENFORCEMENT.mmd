@@ -1,0 +1,9 @@
+flowchart LR
+ Req[Request] --> Auth[Authentication/session]
+ Auth --> Route[Route auth/CSRF/CORS policy]
+ Route --> ACL[Model access operation]
+ ACL --> Rule[Record rule/domain]
+ Rule --> Logic[Model constraints/domain logic]
+ Logic --> DB[(Transactional persistence)]
+ ACL --> Deny[Explicit denial]
+ Rule --> Deny

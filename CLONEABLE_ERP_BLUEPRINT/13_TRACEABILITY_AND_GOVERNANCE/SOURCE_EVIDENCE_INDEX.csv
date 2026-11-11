@@ -1,0 +1,13 @@
+Source Artifact,Evidence Type,Rows/Count,Blueprint Use,Status
+ERP_SYSTEM_DOCUMENTATION/03_MODULE_DOCUMENTATION/Feature_Inventory.csv,Feature inventory,666,Module/product scope,VERIFIED source package
+ERP_SYSTEM_DOCUMENTATION/10_TESTING/Master_Traceability_Matrix.csv,Requirements traceability,2963,Requirement/source/UI/API/database/test links,VERIFIED source package
+ERP_SYSTEM_DOCUMENTATION/05_DATABASE_DOCUMENTATION/Entity_Dictionary.csv,ORM entities,4209,Database entity evidence,VERIFIED source package
+ERP_SYSTEM_DOCUMENTATION/05_DATABASE_DOCUMENTATION/Field_Dictionary.csv,ORM fields,17272,Data dictionary evidence,VERIFIED source package
+ERP_SYSTEM_DOCUMENTATION/05_DATABASE_DOCUMENTATION/Relationship_Dictionary.csv,ORM relationships,5290,Relationship evidence,VERIFIED source package
+ERP_SYSTEM_DOCUMENTATION/06_API_DOCUMENTATION/API_Endpoint_Inventory.csv,Controller routes,669,API evidence,VERIFIED source package
+ERP_SYSTEM_DOCUMENTATION/07_WORKFLOWS/Workflow_Evidence_Inventory.csv,Module workflow evidence,666,Workflow/state evidence,VERIFIED source package
+ERP_SYSTEM_DOCUMENTATION/08_SECURITY/Model_Access_Inventory.csv,Model access,2577,ACL evidence,VERIFIED source package
+ERP_SYSTEM_DOCUMENTATION/09_UI_UX_DOCUMENTATION/View_Inventory.csv,Views,3962,UI evidence,VERIFIED source package
+ERP_SYSTEM_DOCUMENTATION/10_TESTING/Evidence_Test_Cases.csv,Test artifacts,3470,Test evidence,VERIFIED source package
+ERP_SYSTEM_DOCUMENTATION/11_DEPLOYMENT_AND_OPERATIONS/Deployment_Artifact_Inventory.csv,Deployment artifacts,30,Deployment evidence,VERIFIED source package
+ERP_SYSTEM_DOCUMENTATION/12_AUDIT_AND_RECOMMENDATIONS/Audit_Finding_Register.csv,Audit findings,10,Known gaps and remediation,VERIFIED source package

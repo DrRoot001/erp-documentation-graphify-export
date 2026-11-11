@@ -1,0 +1,40 @@
+name: Validate Graphify knowledge graph
+
+on:
+  pull_request:
+    paths:
+      - "GRAPHIFY.md"
+      - ".graphifyignore"
+      - "graphify-out/**"
+      - ".github/workflows/graphify-validate.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate graph structure
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          graph_path = Path("graphify-out/graph.json")
+          graph = json.loads(graph_path.read_text())
+          assert graph["graph"]["schema_version"] == "1.0"
+          nodes = {node["id"] for node in graph["nodes"]}
+          assert len(nodes) == len(graph["nodes"])
+          for edge in graph["edges"]:
+              assert edge["source"] in nodes
+              assert edge["target"] in nodes
+              assert edge["confidence"] in {"EXTRACTED", "INFERRED", "AMBIGUOUS"}
+          assert Path("graphify-out/GRAPH_REPORT.md").exists()
+          assert Path("graphify-out/ai-index.md").exists()
+          assert Path("graphify-out/graph.mmd").exists()
+          print(f"Validated {len(nodes)} nodes and {len(graph['edges'])} edges")
+          PY

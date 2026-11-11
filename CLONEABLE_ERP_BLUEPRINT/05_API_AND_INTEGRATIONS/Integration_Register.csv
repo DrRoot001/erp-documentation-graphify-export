@@ -1,0 +1,205 @@
+Module,Manifest,Integration Types,Summary,External Dependencies,Evidence Status,Activation Status
+account,addons/account/__manifest__.py,Payment provider,Invoices & Payments,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+account_edi,addons/account_edi/__manifest__.py,EDI/e-invoicing,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+account_edi_proxy_client,addons/account_edi_proxy_client/__manifest__.py,EDI/e-invoicing,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+account_edi_ubl_cii,addons/account_edi_ubl_cii/__manifest__.py,EDI/e-invoicing,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+account_payment,addons/account_payment/__manifest__.py,Payment provider,Enable customers to pay invoices on the portal and post payments when transactions are processed.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+account_payment_custom,addons/account_payment_custom/__manifest__.py,Payment provider,Bridge between payment_custom and account_payment.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+account_payment_interco,addons/account_payment_interco/__manifest__.py,Payment provider,Enable Intercompany payments to reconcile with their invoices on post.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+account_peppol,addons/account_peppol/__manifest__.py,Peppol/e-invoicing,This module is used to send/receive documents with Peppol,"{""python"": [""phonenumbers""], ""apt"": {""phonenumbers"": ""python3-phonenumbers""}}",VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+account_qr_code_emv,addons/account_qr_code_emv/__manifest__.py,Payment provider,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+account_qr_code_sepa,addons/account_qr_code_sepa/__manifest__.py,Payment provider,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+auth_ldap,addons/auth_ldap/__manifest__.py,Authentication provider; LDAP,,"{""python"": [""python-ldap""], ""apt"": {""python-ldap"": ""python3-ldap""}}",VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+auth_oauth,addons/auth_oauth/__manifest__.py,Authentication provider; OAuth,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+auth_passkey,addons/auth_passkey/__manifest__.py,Authentication provider; Passkey,Log in with a Passkey,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+auth_passkey_portal,addons/auth_passkey_portal/__manifest__.py,Authentication provider; Passkey,Passkeys for portal users,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+auth_password_policy,addons/auth_password_policy/__manifest__.py,Authentication provider,Implement basic password policy configuration & check,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+auth_password_policy_portal,addons/auth_password_policy_portal/__manifest__.py,Authentication provider,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+auth_password_policy_signup,addons/auth_password_policy_signup/__manifest__.py,Authentication provider,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+auth_signup,addons/auth_signup/__manifest__.py,Authentication provider,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+auth_timeout,addons/auth_timeout/__manifest__.py,Authentication provider,Ask for authentication after user inactivity,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+auth_totp,addons/auth_totp/__manifest__.py,Authentication provider; MFA/TOTP,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+auth_totp_mail,addons/auth_totp_mail/__manifest__.py,Authentication provider; MFA/TOTP; Mail integration,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+auth_totp_portal,addons/auth_totp_portal/__manifest__.py,Authentication provider; MFA/TOTP,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+barcodes,addons/barcodes/__manifest__.py,Barcode/device,Scan and Parse Barcodes,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+barcodes_gs1_nomenclature,addons/barcodes_gs1_nomenclature/__manifest__.py,Barcode/device,Parse barcodes according to the GS1-128 specifications,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+calendar,addons/calendar/__manifest__.py,Calendar integration,Schedule employees' meetings,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+calendar_sms,addons/calendar_sms/__manifest__.py,Calendar integration; SMS provider,Send text messages as event reminders,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+cloud_storage,addons/cloud_storage/__manifest__.py,Cloud storage,Store chatter attachments in the cloud,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+cloud_storage_azure,addons/cloud_storage_azure/__manifest__.py,Cloud storage,Store chatter attachments in the Azure cloud,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+cloud_storage_google,addons/cloud_storage_google/__manifest__.py,Cloud storage; Google integration,Store chatter attachments in the Google cloud,"{""python"": [""google-auth""], ""apt"": {""google-auth"": ""python3-google-auth""}}",VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+cloud_storage_migration,addons/cloud_storage_migration/__manifest__.py,Cloud storage,Migrate local attachments to cloud storage,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+crm_iap_enrich,addons/crm_iap_enrich/__manifest__.py,Mail integration,Enrich Leads/Opportunities using email address domain,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+crm_mail_plugin,addons/crm_mail_plugin/__manifest__.py,Mail integration,Turn emails received in your mailbox into leads and log their content as internal notes.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+crm_sms,addons/crm_sms/__manifest__.py,SMS provider,Add SMS capabilities to CRM,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+delivery,addons/delivery/__manifest__.py,Delivery/carrier,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+event_sms,addons/event_sms/__manifest__.py,SMS provider,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+google_account,addons/google_account/__manifest__.py,Google integration,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+google_address_autocomplete,addons/google_address_autocomplete/__manifest__.py,Google integration,Assist with automatic completion & suggestions when filling address,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+google_calendar,addons/google_calendar/__manifest__.py,Calendar integration; Google integration,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+google_gmail,addons/google_gmail/__manifest__.py,Google integration; Mail integration,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+google_recaptcha,addons/google_recaptcha/__manifest__.py,Captcha; Google integration,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+hr_calendar,addons/hr_calendar/__manifest__.py,Calendar integration,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+hr_calendar_google,addons/hr_calendar_google/__manifest__.py,Calendar integration; Google integration,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+hr_recruitment_sms,addons/hr_recruitment_sms/__manifest__.py,Mail integration; SMS provider,Mass mailing sms to job applicants,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+html_editor,addons/html_editor/__manifest__.py,EDI/e-invoicing,A Html Editor component and plugin system.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+iap_mail,addons/iap_mail/__manifest__.py,Mail integration,Bridge between IAP and mail,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+iot_drivers,addons/iot_drivers/__manifest__.py,IoT,Connect the Web Client to Hardware Peripherals,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+iot_webserial,addons/iot_webserial/__manifest__.py,IoT,Interface with serial devices directly via the browser using Web Serial.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_account_edi_ubl_cii_tests,addons/l10n_account_edi_ubl_cii_tests/__manifest__.py,EDI/e-invoicing,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_anz_ubl_pint,addons/l10n_anz_ubl_pint/__manifest__.py,EDI/e-invoicing,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_dk_fik,addons/l10n_dk_fik/__manifest__.py,Payment provider,Use FIK Number as Payment reference,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_eg_edi_eta,addons/l10n_eg_edi_eta/__manifest__.py,EDI/e-invoicing,Egypt Tax Authority Invoice Integration,"{""python"": [""asn1crypto""], ""apt"": {""asn1crypto"": ""python3-asn1crypto""}}",VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_eg_edi_pos,addons/l10n_eg_edi_pos/__manifest__.py,EDI/e-invoicing,Submit POS receipts to the Egyptian Tax Authority,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_es_edi_facturae,addons/l10n_es_edi_facturae/__manifest__.py,EDI/e-invoicing,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_es_edi_sii,addons/l10n_es_edi_sii/__manifest__.py,EDI/e-invoicing,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_es_edi_tbai,addons/l10n_es_edi_tbai/__manifest__.py,EDI/e-invoicing,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_es_edi_tbai_pos,addons/l10n_es_edi_tbai_pos/__manifest__.py,EDI/e-invoicing,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_es_edi_verifactu,addons/l10n_es_edi_verifactu/__manifest__.py,EDI/e-invoicing,Module for sending Spanish Veri*Factu XML to the AEAT,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_es_edi_verifactu_pos,addons/l10n_es_edi_verifactu_pos/__manifest__.py,EDI/e-invoicing,Add Veri*Factu support to Point of Sale,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_fr_facturx_chorus_pro,addons/l10n_fr_facturx_chorus_pro/__manifest__.py,EDI/e-invoicing,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_fr_payment,addons/l10n_fr_payment/__manifest__.py,Payment provider,Applies CAWL/Worldline branding rules for French companies.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_fr_pdp,addons/l10n_fr_pdp/__manifest__.py,EDI/e-invoicing,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_fr_pdp_penalty_rate,addons/l10n_fr_pdp_penalty_rate/__manifest__.py,EDI/e-invoicing,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_gr_edi,addons/l10n_gr_edi/__manifest__.py,EDI/e-invoicing,Connect to myDATA API implementation for Greece,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_gr_edi_delivery_note,addons/l10n_gr_edi_delivery_note/__manifest__.py,Delivery/carrier; EDI/e-invoicing,Transmit Greece myDATA EDI for Delivery Notes,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_gr_edi_e_invoo,addons/l10n_gr_edi_e_invoo/__manifest__.py,EDI/e-invoicing,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_gr_edi_e_invoo_bridge,addons/l10n_gr_edi_e_invoo_bridge/__manifest__.py,EDI/e-invoicing,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_hr_edi,addons/l10n_hr_edi/__manifest__.py,EDI/e-invoicing,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_hu_edi,addons/l10n_hu_edi/__manifest__.py,EDI/e-invoicing,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_id_efaktur_coretax,addons/l10n_id_efaktur_coretax/__manifest__.py,EDI/e-invoicing,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_id_pos_self_order_qris,addons/l10n_id_pos_self_order_qris/__manifest__.py,Payment provider,Accept QRIS QR code payments in a kiosk.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_in_edi,addons/l10n_in_edi/__manifest__.py,EDI/e-invoicing,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_in_ewaybill_stock,addons/l10n_in_ewaybill_stock/__manifest__.py,EDI/e-invoicing,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_it_edi,addons/l10n_it_edi/__manifest__.py,EDI/e-invoicing,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_it_edi_doi,addons/l10n_it_edi_doi/__manifest__.py,EDI/e-invoicing,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_it_edi_sale,addons/l10n_it_edi_sale/__manifest__.py,EDI/e-invoicing,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_it_stock_ddt,addons/l10n_it_stock_ddt/__manifest__.py,EDI/e-invoicing,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_jo_edi,addons/l10n_jo_edi/__manifest__.py,EDI/e-invoicing,Electronic Invoicing for Jordan UBL 2.1,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_jo_edi_pos,addons/l10n_jo_edi_pos/__manifest__.py,EDI/e-invoicing,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_jp_ubl_pint,addons/l10n_jp_ubl_pint/__manifest__.py,EDI/e-invoicing,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_ke_edi_tremol,addons/l10n_ke_edi_tremol/__manifest__.py,EDI/e-invoicing,Kenya Tremol Device EDI Integration,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_my_edi,addons/l10n_my_edi/__manifest__.py,EDI/e-invoicing,E-invoicing using MyInvois,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_my_edi_pos,addons/l10n_my_edi_pos/__manifest__.py,EDI/e-invoicing,Consolidated E-invoicing using MyInvois,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_my_ubl_pint,addons/l10n_my_ubl_pint/__manifest__.py,EDI/e-invoicing,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_ph_invoice,addons/l10n_ph_invoice/__manifest__.py,EDI/e-invoicing,Apply Philippine SC/PWD discount privileges on customer invoices and credit notes.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_pk_edi,addons/l10n_pk_edi/__manifest__.py,EDI/e-invoicing,Electronic Invoicing for Pakistan FBR(v1.12),{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_pk_edi_pos,addons/l10n_pk_edi_pos/__manifest__.py,EDI/e-invoicing,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_pl_edi,addons/l10n_pl_edi/__manifest__.py,EDI/e-invoicing,Support for FA(3) electronic invoices in Poland via KSeF,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_pl_edi_jst,addons/l10n_pl_edi_jst/__manifest__.py,EDI/e-invoicing,Support for Local Government Unit (LGU) in the FA(3) format,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_ro_edi,addons/l10n_ro_edi/__manifest__.py,EDI/e-invoicing,E-Invoice implementation for Romania,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_ro_edi_stock,addons/l10n_ro_edi_stock/__manifest__.py,EDI/e-invoicing,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_rs_edi,addons/l10n_rs_edi/__manifest__.py,EDI/e-invoicing,E-Invoice implementation for Serbia,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_sa_edi,addons/l10n_sa_edi/__manifest__.py,EDI/e-invoicing,"E-Invoicing, Universal Business Language",{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_sa_edi_pos,addons/l10n_sa_edi_pos/__manifest__.py,EDI/e-invoicing,"ZATCA E-Invoicing, support for PoS",{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_sg_ubl_pint,addons/l10n_sg_ubl_pint/__manifest__.py,EDI/e-invoicing,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_test_pos_qr_payment,addons/l10n_test_pos_qr_payment/__manifest__.py,Payment provider,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_tw_edi_ecpay,addons/l10n_tw_edi_ecpay/__manifest__.py,EDI/e-invoicing,E-invoicing using ECpay,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_tw_edi_ecpay_pos,addons/l10n_tw_edi_ecpay_pos/__manifest__.py,EDI/e-invoicing,ECpay E-invoice bridge module for POS,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_tw_edi_ecpay_sale,addons/l10n_tw_edi_ecpay_sale/__manifest__.py,EDI/e-invoicing,ECPay E-invoice bridge module for Sales,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_tw_edi_ecpay_website_sale,addons/l10n_tw_edi_ecpay_website_sale/__manifest__.py,EDI/e-invoicing,ECpay E-invoice bridge module for Ecommerce,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_vn_edi_viettel,addons/l10n_vn_edi_viettel/__manifest__.py,EDI/e-invoicing,E-invoicing using SInvoice by Viettel,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_vn_edi_viettel_pos,addons/l10n_vn_edi_viettel_pos/__manifest__.py,EDI/e-invoicing,POS E-invoicing using SInvoice by Viettel,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+l10n_vn_edi_viettel_stock,addons/l10n_vn_edi_viettel_stock/__manifest__.py,Delivery/carrier; EDI/e-invoicing,Delivery E-invoicing using SInvoice by Viettel,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+mail,addons/mail/__manifest__.py,Mail integration,"Chat, mail gateway and private channels",{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+mail_bot,addons/mail_bot/__manifest__.py,Mail integration,Add OdooBot in discussions,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+mail_bot_hr,addons/mail_bot_hr/__manifest__.py,Mail integration,Bridge module between hr and mailbot.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+mail_group,addons/mail_group/__manifest__.py,Mail integration,Manage your mailing lists,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+mail_plugin,addons/mail_plugin/__manifest__.py,Mail integration,Allows integration with mail plugins.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+mail_tracking,addons/mail_tracking/__manifest__.py,Mail integration,Technical tracking of discussion and message-related data,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+mail_tracking_mass_mailing,addons/mail_tracking_mass_mailing/__manifest__.py,Mail integration,Track source of messages by mass mailing,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+mail_tracking_sms,addons/mail_tracking_sms/__manifest__.py,Mail integration; SMS provider,Track source of messages by sms,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+mass_mailing,addons/mass_mailing/__manifest__.py,Mail integration,"Design, send and track emails",{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+mass_mailing_crm,addons/mass_mailing_crm/__manifest__.py,Mail integration,Add lead / opportunities UTM info on mass mailing,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+mass_mailing_crm_sms,addons/mass_mailing_crm_sms/__manifest__.py,Mail integration; SMS provider,Add lead / opportunities info on mass mailing sms,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+mass_mailing_event,addons/mass_mailing_event/__manifest__.py,Mail integration,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+mass_mailing_event_sms,addons/mass_mailing_event_sms/__manifest__.py,Mail integration; SMS provider,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+mass_mailing_event_track,addons/mass_mailing_event_track/__manifest__.py,Mail integration,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+mass_mailing_event_track_sms,addons/mass_mailing_event_track_sms/__manifest__.py,Mail integration; SMS provider,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+mass_mailing_sale,addons/mass_mailing_sale/__manifest__.py,Mail integration,Add sale order UTM info on mass mailing,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+mass_mailing_sale_sms,addons/mass_mailing_sale_sms/__manifest__.py,Mail integration; SMS provider,Add sale order info on mass mailing sms,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+mass_mailing_slides,addons/mass_mailing_slides/__manifest__.py,Mail integration,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+mass_mailing_sms,addons/mass_mailing_sms/__manifest__.py,Mail integration; SMS provider,"Design, send and track SMS",{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+mass_mailing_themes,addons/mass_mailing_themes/__manifest__.py,Mail integration,Design gorgeous mails,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+microsoft_account,addons/microsoft_account/__manifest__.py,Microsoft integration,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+microsoft_calendar,addons/microsoft_calendar/__manifest__.py,Calendar integration; Microsoft integration,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+microsoft_outlook,addons/microsoft_outlook/__manifest__.py,Microsoft integration,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+mrp_delivery,addons/mrp_delivery/__manifest__.py,Delivery/carrier,Carrier with kits,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+payment,addons/payment/__manifest__.py,Payment provider,The payment engine used by payment provider modules.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+payment_adyen,addons/payment_adyen/__manifest__.py,Payment provider,A Dutch payment provider covering Europe and the US.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+payment_aps,addons/payment_aps/__manifest__.py,Payment provider,An Amazon payment provider covering the MENA region.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+payment_asiapay,addons/payment_asiapay/__manifest__.py,Payment provider,An payment provider based in Hong Kong covering most Asian countries.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+payment_authorize,addons/payment_authorize/__manifest__.py,Payment provider,"An payment provider covering the US, Australia, and Canada.",{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+payment_buckaroo,addons/payment_buckaroo/__manifest__.py,Payment provider,A Dutch payment provider covering several countries in Europe.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+payment_custom,addons/payment_custom/__manifest__.py,Payment provider,A payment provider for custom flows like wire transfers.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+payment_demo,addons/payment_demo/__manifest__.py,Payment provider,A payment provider for running fake payment flows for demo purposes.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+payment_dpo,addons/payment_dpo/__manifest__.py,Payment provider,A Kenyan payment provider covering several African countries.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+payment_ecpay,addons/payment_ecpay/__manifest__.py,Payment provider,A payment provider covering the Taiwanese market.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+payment_flutterwave,addons/payment_flutterwave/__manifest__.py,Payment provider,A Nigerian payment provider covering several African countries.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+payment_iyzico,addons/payment_iyzico/__manifest__.py,Payment provider,A payment provider covering Turkey.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+payment_mercado_pago,addons/payment_mercado_pago/__manifest__.py,Payment provider,A payment provider covering several countries in Latin America.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+payment_mollie,addons/payment_mollie/__manifest__.py,Payment provider,A Dutch payment provider covering several European countries.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+payment_nuvei,addons/payment_nuvei/__manifest__.py,Payment provider,A payment provider covering Latin America.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+payment_paymob,addons/payment_paymob/__manifest__.py,Payment provider,An Egyptian payment provider for the Middle East.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+payment_paypal,addons/payment_paypal/__manifest__.py,Payment provider,An American payment provider for online payments all over the world.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+payment_payu,addons/payment_payu/__manifest__.py,Payment provider,A payment provider covering India.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+payment_razorpay,addons/payment_razorpay/__manifest__.py,Payment provider,A payment provider covering India.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+payment_redsys,addons/payment_redsys/__manifest__.py,Payment provider,A payment provider covering the Spanish market.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+payment_stripe,addons/payment_stripe/__manifest__.py,Payment provider,An Irish-American payment provider covering the US and many others.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+payment_toss_payments,addons/payment_toss_payments/__manifest__.py,Payment provider,A payment provider covering the South Korea market,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+payment_worldline,addons/payment_worldline/__manifest__.py,Payment provider,A French payment provider covering several European countries.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+payment_xendit,addons/payment_xendit/__manifest__.py,Payment provider,A payment provider for Indonesian and the Philippines.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+point_of_sale,addons/point_of_sale/__manifest__.py,Payment provider,Handle checkouts and payments for shops and restaurants.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+pos_adyen,addons/pos_adyen/__manifest__.py,Payment provider,Integrate your POS with an Adyen payment terminal,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+pos_bancontact_pay,addons/pos_bancontact_pay/__manifest__.py,Payment provider,Accept Bancontact Pay and Wero QR code payments in POS (Payconiq).,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+pos_cashdro,addons/pos_cashdro/__manifest__.py,Payment provider,Integrate your POS with a Cashdro automatic cash payment device,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+pos_cashmatic,addons/pos_cashmatic/__manifest__.py,Payment provider,Integrate your POS with a cash matic automatic cash payment device,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+pos_dpopay,addons/pos_dpopay/__manifest__.py,Payment provider,Integrate your POS with DPO payment terminal.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+pos_edi_ubl,addons/pos_edi_ubl/__manifest__.py,EDI/e-invoicing,UBL in the Point of Sale ,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+pos_glory_cash,addons/pos_glory_cash/__manifest__.py,Payment provider,Integrate your POS with a Glory automatic cash payment device,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+pos_mollie,addons/pos_mollie/__manifest__.py,Payment provider,Integrate your POS with a Mollie payment terminal,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+pos_online_payment,addons/pos_online_payment/__manifest__.py,Payment provider,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+pos_online_payment_self_order,addons/pos_online_payment_self_order/__manifest__.py,Payment provider,Support online payment in self-order,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+pos_pine_labs,addons/pos_pine_labs/__manifest__.py,Payment provider,Integrate your POS with Pine Labs payment terminals,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+pos_razorpay,addons/pos_razorpay/__manifest__.py,Payment provider,Integrate your POS with a Razorpay payment terminal,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+pos_safaricom,addons/pos_safaricom/__manifest__.py,Payment provider,Integrate your POS with the Safaricom Payment Provider,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+pos_sale_delivery,addons/pos_sale_delivery/__manifest__.py,Delivery/carrier,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+pos_self_order_bancontact_pay,addons/pos_self_order_bancontact_pay/__manifest__.py,Payment provider,Accept Bancontact Pay and Wero QR code payments in a kiosk (Payconiq).,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+pos_self_order_sms,addons/pos_self_order_sms/__manifest__.py,SMS provider,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+pos_sms,addons/pos_sms/__manifest__.py,SMS provider,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+pos_stripe,addons/pos_stripe/__manifest__.py,Payment provider,Integrate your POS with a Stripe payment terminal,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+pos_sumup,addons/pos_sumup/__manifest__.py,Payment provider,Integrate your POS with a SumUp payment terminal,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+pos_viva_com,addons/pos_viva_com/__manifest__.py,Payment provider,Integrate your PoS with a Viva.com payment terminal,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+product_email_template,addons/product_email_template/__manifest__.py,Mail integration,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+project_mail_plugin,addons/project_mail_plugin/__manifest__.py,Mail integration,Integrate your inbox with projects,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+project_sms,addons/project_sms/__manifest__.py,SMS provider,Send text messages when project/task stage move,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+purchase_edi_ubl_bis3,addons/purchase_edi_ubl_bis3/__manifest__.py,EDI/e-invoicing,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+resource_mail,addons/resource_mail/__manifest__.py,Mail integration,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+sale_edi_ubl,addons/sale_edi_ubl/__manifest__.py,EDI/e-invoicing,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+sale_expense,addons/sale_expense/__manifest__.py,Delivery/carrier,"Quotation, Sales Orders, Delivery & Invoicing Control",{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+sale_loyalty_delivery,addons/sale_loyalty_delivery/__manifest__.py,Delivery/carrier,Adds free shipping mechanism in sales orders,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+sale_sms,addons/sale_sms/__manifest__.py,SMS provider,Ease SMS integration with sales capabilities,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+sale_stock,addons/sale_stock/__manifest__.py,Delivery/carrier,"Quotation, Sales Orders, Delivery & Invoicing Control",{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+sms,addons/sms/__manifest__.py,SMS provider,SMS Text Messaging,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+sms_twilio,addons/sms_twilio/__manifest__.py,SMS provider,Send SMS messages using Twilio,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+snailmail,addons/snailmail/__manifest__.py,Mail integration; Postal integration,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+snailmail_account,addons/snailmail_account/__manifest__.py,Mail integration; Postal integration,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+social_media,addons/social_media/__manifest__.py,EDI/e-invoicing; Social integration,Social media connectors for company settings.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+stock_delivery,addons/stock_delivery/__manifest__.py,Delivery/carrier,,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+stock_sms,addons/stock_sms/__manifest__.py,SMS provider,Send text messages when final stock move,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+test_mail,addons/test_mail/__manifest__.py,Mail integration,Mail Tests: performances and tests specific to mail,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+test_mail_full,addons/test_mail_full/__manifest__.py,Mail integration,Mail Tests: performances and tests specific to mail with all sub-modules,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+test_mail_sms,addons/test_mail_sms/__manifest__.py,Mail integration; SMS provider,SMS Tests: performances and tests specific to SMS,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+test_mass_mailing,addons/test_mass_mailing/__manifest__.py,Mail integration,Mass Mail Tests: feature and performance tests for mass mailing,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+test_sale_purchase_edi_ubl,addons/test_sale_purchase_edi_ubl/__manifest__.py,EDI/e-invoicing,Sale & Purchase Order EDI Tests: Ensure Flow Robustness,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+website,addons/website/__manifest__.py,External dependency declaration,Enterprise website builder,"{""python"": [""geoip2""], ""apt"": {""geoip2"": ""python3-geoip2""}}",VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+website_crm_sms,addons/website_crm_sms/__manifest__.py,SMS provider,Allows to send sms to website visitor that have lead,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+website_google_map,addons/website_google_map/__manifest__.py,Google integration,Show your company address on Google Maps,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+website_mail,addons/website_mail/__manifest__.py,Mail integration,Website Module for Mail,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+website_mail_group,addons/website_mail_group/__manifest__.py,Mail integration,Add a website snippet for the mail groups.,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+website_mass_mailing,addons/website_mass_mailing/__manifest__.py,Mail integration,Attract visitors to subscribe to mailing lists,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+website_mass_mailing_event,addons/website_mass_mailing_event/__manifest__.py,Mail integration,Add pre-filled snippets in mass_mailing with an event snapshot,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+website_mass_mailing_sms,addons/website_mass_mailing_sms/__manifest__.py,Mail integration; SMS provider,Attract visitors to subscribe to mailing lists,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+website_payment,addons/website_payment/__manifest__.py,Payment provider,Payment integration with website,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+website_sale_mass_mailing,addons/website_sale_mass_mailing/__manifest__.py,Mail integration,Let new customers sign up for a newsletter during checkout,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED
+website_sms,addons/website_sms/__manifest__.py,SMS provider,Allows to send sms to website visitor,{},VERIFIED manifest/integration evidence,DEPLOYMENT_CONFIGURATION_REQUIRED

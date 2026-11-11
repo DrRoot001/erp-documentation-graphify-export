@@ -1,0 +1,131 @@
+Source File,Asset ID,Name,Type,Evidence Status,Runtime Resolution Status
+addons/test_website/tests/asset_tag.xml,theme_default.test_asset_tag_aaa,Test asset tag (init active => keep active => update active),,VERIFIED source inventory,VERIFIED source inventory
+addons/test_website/tests/asset_tag.xml,theme_default.test_asset_tag_aii,Test asset tag (init active => make inactive => update inactive),,VERIFIED source inventory,VERIFIED source inventory
+addons/test_website/tests/asset_tag.xml,theme_default.test_asset_tag_aia,Test asset tag (init active => make inactive => update active),,VERIFIED source inventory,VERIFIED source inventory
+addons/test_website/tests/asset_tag.xml,theme_default.test_asset_tag_iii,Test asset tag (init inactive => keep inactive => update inactive),,VERIFIED source inventory,VERIFIED source inventory
+addons/test_website/tests/asset_tag.xml,theme_default.test_asset_tag_iaa,Test asset tag (init inactive => make active => update active),,VERIFIED source inventory,VERIFIED source inventory
+addons/test_website/tests/asset_tag.xml,theme_default.test_asset_tag_prepend,Test asset tag with directive,,VERIFIED source inventory,VERIFIED source inventory
+addons/test_website/tests/asset_tag.xml,theme_default.test_asset_tag_extra,Test asset tag with extra field,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/data/ir_asset.xml,website.user_custom_bootstrap_overridden_scss,User custom bootstrap overridden SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/data/ir_asset.xml,website.user_custom_rules_scss,User custom rules SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/data/ir_asset.xml,website.configurator_tour,Website Configurator Tour,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_accordion.xml,website.s_accordion_000_scss,Accordion 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_age_verification_popup.xml,website.s_age_verification_popup_001_scss,Age Verification Popup 001 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_alert.xml,website.s_alert_000_scss,Alert 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_alert.xml,website.s_alert_001_scss,Alert 001 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_animated_cover.xml,website.s_animated_cover_000_scss,Animated Cover 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_announcement_scroll.xml,website.s_announcement_scroll_000_scss,Announcement Scroll 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_attributes_horizontal.xml,website.s_attributes_horizontal_000_scss,Horizontal Attributes 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_attributes_vertical.xml,website.s_attributes_vertical_000_scss,Vertical Attributes 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_avatars.xml,website.s_avatars_000_scss,Avatars 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_badge.xml,website.s_badge_000_variables_scss,Badge 000 variables SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_badge.xml,website.s_badge_000_scss,Badge 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_banner_categories.xml,website.s_banner_categories_000_scss,Banner Categories 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_bento_features.xml,website.s_bento_features_000_scss,Bento Features 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_bento_grid.xml,website.s_bento_grid_000_scss,Bento Grid 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_bento_grid_avatars.xml,website.s_bento_grid_avatars_000_scss,Bento Grid Avatars 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_blockquote.xml,website.s_blockquote_001_scss,Blockquote 001 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_blockquote.xml,website.s_blockquote_000_scss,Blockquote 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_card.xml,website.s_card_000_scss,Card 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_carousel.xml,website.s_carousel_000_scss,Carousel 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_carousel.xml,website.s_carousel_001_scss,Carousel 001 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_carousel_cards.xml,website.s_carousel_cards_000_scss,Carousel Intro 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_carousel_intro.xml,website.s_carousel_intro_000_scss,Carousel Intro 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_color_blocks_2.xml,website.s_color_blocks_2_000_scss,Color blocks 2 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_company_team.xml,website.s_company_team_000_scss,Company team 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_comparisons.xml,website.s_comparisons_000_scss,Comparisons 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_countdown.xml,website.s_countdown_000_xml,Countdown 000 XML,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_countdown.xml,website.s_countdown_000_scss,Countdown 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_countdown.xml,website.s_countdown_001_scss,Countdown 001 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_dynamic_snippet.xml,website.s_dynamic_snippet_000_scss,Dynamic snippet 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_dynamic_snippet.xml,website.s_dynamic_snippet_000_xml,Dynamic snippet 000 XML,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_dynamic_snippet_carousel.xml,website.s_dynamic_snippet_carousel_000_scss,Dynamic snippet carousel 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_dynamic_snippet_carousel.xml,website.s_dynamic_snippet_carousel_000_xml,Dynamic snippet carousel 000 XML,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_ecomm_categories_showcase.xml,website.s_ecomm_categories_showcase_000_scss,Categories Grid 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_embed_code.xml,website.s_embed_code_000_scss,Embed Code 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_faq_collapse.xml,website.s_faq_collapse_000_scss,Faq collapse 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_features.xml,website.s_features_000_scss,Features 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_features_grid.xml,website.s_features_grid_000_scss,Features grid 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_features_grid.xml,website.s_features_grid_001_scss,Features grid 001 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_floating_blocks.xml,website.s_floating_blocks_000_scss,Floating Blocks 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_google_map.xml,website.s_google_map_000_scss,Google map 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_hr.xml,website.s_hr_000_scss,Hr 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_icon_list.xml,website.s_icon_list_000_scss,Icon List 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_image_gallery.xml,website.s_image_gallery_000_scss,Image gallery 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_image_gallery.xml,website.s_image_gallery_001_scss,Image gallery 001 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_image_gallery.xml,website.s_image_gallery_002_scss,Image gallery 002 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_instagram_page.xml,website.s_instagram_page_000_scss,Instagram Page 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_map.xml,website.s_map_000_scss,Map 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_masonry_block.xml,website.s_masonry_block_000_scss,Masonry block 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_masonry_block.xml,website.s_masonry_block_001_scss,Masonry block 001 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_masonry_block.xml,website.s_masonry_block_000_variables_scss,Masonry block 000 variables SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_media_list.xml,website.s_media_list_000_scss,Media list 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_media_list.xml,website.s_media_list_001_scss,Media list 001 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_mega_menu_big_icons_subtitles.xml,website.s_mega_menu_big_icons_subtitles_000_scss,Menu - Big icons & subtitles 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_mega_menu_cards.xml,website.s_mega_menu_cards_000_scss,Menu - Cards 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_mega_menu_dropzone.xml,website.s_mega_menu_dropzone_000_scss,Menu - Dropzone 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_mega_menu_images_subtitles.xml,website.s_mega_menu_images_subtitles_000_scss,Menu - images & subtitles 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_mega_menu_little_icons.xml,website.s_mega_menu_little_icons_000_scss,Menu - Little icons 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_mega_menu_menus_logos.xml,website.s_mega_menu_menus_logos_000_scss,Menus & logos 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_mega_menu_odoo_menu.xml,website.s_mega_menu_odoo_menu_000_scss,Odoo Menu 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_popup.xml,website.s_popup_000_scss,Popup 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_popup.xml,website.s_popup_001_scss,Popup 001 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_pricelist_cafe.xml,website.s_pricelist_cafe_000_scss,Pricelist Cafe 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_process_steps.xml,website.s_process_steps_000_scss,Process steps 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_process_steps.xml,website.s_process_steps_001_scss,Process steps 001 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_process_steps.xml,website.s_process_steps_002_scss,Process steps 002 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_product_catalog.xml,website.s_product_catalog_001_scss,Product catalog 001 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_product_list.xml,website.s_product_list_000_variables_scss,Product list 000 variables SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_product_list.xml,website.s_product_list_000_scss,Product list 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_progress_bar.xml,website.s_progress_bar_001_scss,Progress bar 001 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_quadrant.xml,website.s_quadrant_000_scss,Quadrant 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_quotes_carousel.xml,website.s_quotes_carousel_000_scss,Quotes carousel 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_quotes_carousel.xml,website.s_quotes_carousel_001_scss,Quotes carousel 001 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_quotes_carousel.xml,website.s_quotes_carousel_002_scss,Quotes carousel 002 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_rating.xml,website.s_rating_000_scss,Rating 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_rating.xml,website.s_rating_001_scss,Rating 001 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_references.xml,website.s_references_000_scss,References 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_references_tiles.xml,website.s_references_tiles_000_scss,References Tiles 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_searchbar.xml,website.s_searchbar_000_xml,Searchbar 000 XML,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_share.xml,website.s_share_000_scss,Share 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_showcase.xml,website.s_showcase_000_scss,Showcase 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_showcase.xml,website.s_showcase_001_scss,Showcase 001 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_showcase.xml,website.s_showcase_002_scss,Showcase 002 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_showcase.xml,website.s_showcase_003_scss,Showcase 003 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_social_media.xml,website.s_social_media_000_scss,SocialMedia 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_splash_intro.xml,website.s_splash_intro_000_scss,Splash Intro 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_table_of_content.xml,website.s_table_of_content_000_scss,Table of content 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_tabs.xml,website.s_tabs_001_scss,Tabs 001 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_tabs.xml,website.s_tabs_002_scss,Tabs 002 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_tabs.xml,website.s_tabs_003_scss,Tabs 003 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_tabs_images.xml,website.s_tabs_images_000_scss,Tabs Images 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_text_cover.xml,website.s_text_cover_000_scss,Text cover 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_text_highlight.xml,website.s_text_highlight_000_scss,Text highlight 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_three_columns.xml,website.s_three_columns_000_scss,Three columns 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_timeline.xml,website.s_timeline_000_scss,Timeline 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_timeline.xml,website.s_timeline_001_scss,Timeline 001 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_timeline.xml,website.s_timeline_002_scss,Timeline 002 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_timeline_list.xml,website.s_timeline_list_000_scss,Timeline List 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_title.xml,website.s_title_000_scss,Title 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_website_form.xml,website.s_website_form_000_scss,Website form 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_website_form.xml,website.s_website_form_001_scss,Website form 001 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_website_form.xml,website.s_website_form_xml,Website form XML,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_website_form_cover.xml,website.s_website_form_cover_000_scss,Website Form Cover 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_whatsapp.xml,website.s_whatsapp_chatbox_xml,Whatsapp Chatbox XML,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/snippets/s_whatsapp.xml,website.s_whatsapp_000_scss,Whatsapp 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/website_templates.xml,website.ripple_effect_scss,Ripple effect SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/website_templates.xml,website.ripple_effect_js,Ripple effect JS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_blog/views/snippets/s_blog_posts.xml,website_blog.s_blog_posts_000_scss,Blog posts 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_event/views/snippets/s_events.xml,website_event.s_events_000_scss,Event 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_payment/views/snippets/s_supported_payment_methods.xml,s_supported_payment_methods_OOO_xml,Supported Payment Methods 000 XML,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_payment/views/snippets/s_supported_payment_methods.xml,s_supported_payment_methods_OOO_edit_xml,Supported Payment Methods 000 XML (edit),,VERIFIED source inventory,VERIFIED source inventory
+addons/website_sale/templates/snippets/product_snippet_template_data.xml,website_sale.s_dynamic_snippet_products_000_scss,Dynamic snippet products 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_sale/templates/snippets/s_donation.xml,website_sale.s_donation_000_scss,Donation 000 SCSS,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/tests/asset_tag.xml,base.test_asset_tag_aaa,Test asset tag (init active => keep active => update active),,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/tests/asset_tag.xml,base.test_asset_tag_aii,Test asset tag (init active => make inactive => update inactive),,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/tests/asset_tag.xml,base.test_asset_tag_aia,Test asset tag (init active => make inactive => update active),,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/tests/asset_tag.xml,base.test_asset_tag_iii,Test asset tag (init inactive => keep inactive => update inactive),,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/tests/asset_tag.xml,base.test_asset_tag_iaa,Test asset tag (init inactive => make active => update active),,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/tests/asset_tag.xml,base.test_asset_tag_prepend,Test asset tag with directive,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/tests/asset_tag.xml,base.test_asset_tag_extra,Test asset tag with extra field,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/test_assetsbundle/data/ir_asset.xml,test_assetsbundle.test_jsfile[!4]_js,Test jsfile[!4] JS,,VERIFIED source inventory,VERIFIED source inventory

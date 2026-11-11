@@ -1,0 +1,8 @@
+flowchart TB
+ Core[Core platform] --> Addon[Addon/module metadata]
+ Addon --> Model[Models and domain services]
+ Addon --> API[Controllers and routes]
+ Addon --> UI[Views/templates/components/assets]
+ Addon --> Sec[Security declarations]
+ Addon --> Jobs[Jobs/events/reports]
+ Extension[Custom module] -.declares dependency and extends.-> Addon

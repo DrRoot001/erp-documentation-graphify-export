@@ -1,0 +1,885 @@
+Source File,Menu XML ID,Name,Parent,Action,Groups,Evidence Status,Runtime Resolution Status
+addons/account/views/account_menuitem.xml,menu_finance,Invoicing,,,"account.group_account_readonly,account.group_account_invoice",VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,menu_board_journal_1,Dashboard,,open_account_journal_dashboard_kanban,account.group_account_basic,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,menu_finance_receivables,Customers,,,,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,menu_action_move_out_invoice_type,,,action_move_out_invoice,,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,menu_action_move_out_refund_type,,,action_move_out_refund_type_non_legacy,,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,menu_action_account_payments_receivable,Payments,,action_account_payments,,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,product_product_menu_sellable,Products,,product_product_action_sellable,,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,menu_account_customer,Customers,,res_partner_action_customer,,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,menu_finance_payables,Vendors,,,,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,menu_action_move_in_invoice_type,,,action_move_in_invoice,,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,menu_action_move_in_refund_type,,,action_move_in_refund_type,,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,menu_action_account_payments_payable,Payments,,action_account_payments_payable,,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,product_product_menu_purchasable,Products,,product_product_action_purchasable,,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,menu_account_supplier,Vendors,,account.res_partner_action_supplier,,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,menu_finance_entries,Accounting,,,account.group_account_readonly,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,account_transactions_menu,Transactions,,,account.group_account_readonly,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,menu_action_move_journal_line_form,,,action_move_journal_line,account.group_account_readonly,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,menu_action_analytic_lines_tree,Analytic Items,,analytic.account_analytic_line_action_entries,analytic.group_analytic_accounting,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,account_closing_menu,Closing,,,account.group_account_readonly,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,account_audit_menu,Review,,,account.group_account_readonly,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,account_audit_control_menu,Control,,,account.group_account_readonly,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,menu_action_account_moves_all,,,action_account_moves_all,account.group_account_readonly,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,menu_finance_reports,Reporting,,,"account.group_account_readonly,account.group_account_invoice",VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,account_reports_partners_reports_menu,Partner Reports,,,,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,account_reports_taxes_and_fiscal_menu,Taxes & Fiscal,,,,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,account_reports_management_menu,Management,,,,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,menu_action_account_invoice_report_all,Invoice Analysis,,action_account_invoice_report_all,,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,menu_action_account_cashflow_analysis,Cashflow Analysis,,action_account_cashflow_analysis,,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,menu_action_analytic_reporting,Analytic Report,,action_analytic_reporting,account.group_account_readonly,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,account_reports_legal_statements_menu,Statement Reports,,,"account.group_account_readonly,account.group_account_basic",VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,menu_finance_configuration,Configuration,,,account.group_account_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,menu_account_config,Settings,,action_account_config,base.group_system,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,account_account_menu,Accounting,,,account.group_account_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,menu_action_account_form,,,action_account_form,account.group_account_readonly,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,menu_action_tax_form,,,action_tax_form,,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,menu_action_account_journal_form,,,action_account_journal_form,account.group_account_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,account_report_folder,Reporting,,,account.group_account_readonly,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,menu_action_currency_form,Currencies,,base.action_currency_form,,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,menu_action_account_fiscal_position_form,,,action_account_fiscal_position_form,,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,menu_action_account_journal_group_list,Multi-Ledger,,action_account_journal_group_list,account.group_account_readonly,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,menu_action_tax_group,,,action_tax_group,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,menu_action_rounding_form_view,,,rounding_list_action,account.group_cash_rounding,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,account_invoicing_menu,Invoicing,,,"account.group_account_invoice,account.group_account_readonly",VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,menu_action_payment_term_form,,,action_payment_term_form,,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,menu_action_incoterm_open,,,action_incoterms_tree,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,menu_product_product_categories,Product Categories,,product.product_category_action_form,,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,menu_analytic_accounting,Analytic Accounting,,,analytic.group_analytic_accounting,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,menu_analytic__distribution_model,Analytic Distribution Models,,analytic.action_analytic_distribution_model,analytic.group_analytic_accounting,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,account_analytic_def_account,,,analytic.action_account_analytic_account_form,analytic.group_analytic_accounting,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/account_menuitem.xml,account_analytic_plan_menu,Analytic Plans,,analytic.account_analytic_plan_action,analytic.group_analytic_accounting,VERIFIED source inventory,VERIFIED source inventory
+addons/account/views/mail_message_views.xml,account_audit_trail_menu,Audit Trail,account.account_audit_control_menu,action_account_audit_trail_report,,VERIFIED source inventory,VERIFIED source inventory
+addons/account/wizard/account_secure_entries_wizard.xml,menu_action_secure_entries,Secure Entries,account.account_closing_menu,action_view_account_secure_entries_wizard,"base.group_no_one,account.group_account_secured",VERIFIED source inventory,VERIFIED source inventory
+addons/account_edi_proxy_client/views/account_edi_proxy_user_views.xml,menu_account_proxy_client_user,EDI Proxy Users,account.account_invoicing_menu,action_tree_account_edi_proxy_client_user,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/account_payment/views/account_payment_menus.xml,payment_provider_menu,Online Payments,account.menu_finance_configuration,payment.action_payment_provider,account.group_account_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/account_test/views/accounting_assert_test_views.xml,menu_action_license,Accounting Tests,account.menu_finance_reports,action_accounting_assert,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/auth_oauth/views/auth_oauth_views.xml,menu_oauth_providers,OAuth Providers,base.menu_users,action_oauth_provider,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/base_automation/views/base_automation_views.xml,menu_base_automation_form,,base.menu_automation,base_automation_act,,VERIFIED source inventory,VERIFIED source inventory
+addons/base_import_module/views/base_import_module_view.xml,menu_view_base_module_import,Import Module,base.menu_management,action_view_base_module_import,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/base_setup/views/res_config_settings_views.xml,menu_config,General Settings,base.menu_administration,action_general_configuration,base.group_system,VERIFIED source inventory,VERIFIED source inventory
+addons/board/views/board_views.xml,menu_board_my_dash,My Dashboard,spreadsheet_dashboard.spreadsheet_dashboard_menu_root,open_board_my_dash_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/calendar/views/calendar_views.xml,mail_menu_calendar,Calendar,,,base.group_user_regular,VERIFIED source inventory,VERIFIED source inventory
+addons/calendar/views/calendar_views.xml,calendar_event_menu,Calendar,mail_menu_calendar,action_calendar_event,base.group_user,VERIFIED source inventory,VERIFIED source inventory
+addons/calendar/views/calendar_views.xml,calendar_menu_config,Configuration,calendar.mail_menu_calendar,calendar.action_calendar_event,,VERIFIED source inventory,VERIFIED source inventory
+addons/calendar/views/calendar_views.xml,menu_calendar_settings,Settings,calendar_menu_config,calendar_settings_action,base.group_system,VERIFIED source inventory,VERIFIED source inventory
+addons/calendar/views/calendar_views.xml,calendar_submenu_reminders,Reminders,calendar_menu_config,action_calendar_alarm,base.group_system,VERIFIED source inventory,VERIFIED source inventory
+addons/calendar/views/calendar_views.xml,calendar_submenu_event_type,Tags,calendar_menu_config,action_calendar_event_type,,VERIFIED source inventory,VERIFIED source inventory
+addons/calendar/views/calendar_views.xml,menu_calendar_configuration,Calendar,base.menu_custom,,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/calendar/views/calendar_views.xml,menu_calendar_event_type,,menu_calendar_configuration,action_calendar_event_type,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/calendar/views/calendar_views.xml,menu_calendar_alarm,,menu_calendar_configuration,action_calendar_alarm,,VERIFIED source inventory,VERIFIED source inventory
+addons/calendar/views/calendar_views.xml,menu_calendar_calendars,Calendars,calendar_menu_config,action_calendar_calendar,base.group_user,VERIFIED source inventory,VERIFIED source inventory
+addons/contacts/views/contact_views.xml,menu_contacts,Contacts,,,"base.group_user_regular,base.group_partner_manager",VERIFIED source inventory,VERIFIED source inventory
+addons/contacts/views/contact_views.xml,res_partner_menu_contacts,Contacts,menu_contacts,action_contacts,,VERIFIED source inventory,VERIFIED source inventory
+addons/contacts/views/contact_views.xml,res_partner_menu_config,Configuration,menu_contacts,,base.group_system,VERIFIED source inventory,VERIFIED source inventory
+addons/contacts/views/contact_views.xml,menu_partner_category_form,Contact Tags,res_partner_menu_config,base.action_partner_category_form,,VERIFIED source inventory,VERIFIED source inventory
+addons/contacts/views/contact_views.xml,res_partner_industry_menu,Industries,res_partner_menu_config,base.res_partner_industry_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/contacts/views/contact_views.xml,menu_action_res_partner_bank_form,,res_partner_menu_config,base.action_res_partner_bank_account_form,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/contacts/views/contact_views.xml,menu_localisation,Localization,res_partner_menu_config,,,VERIFIED source inventory,VERIFIED source inventory
+addons/contacts/views/contact_views.xml,menu_country_partner,,,base.action_country,,VERIFIED source inventory,VERIFIED source inventory
+addons/contacts/views/contact_views.xml,menu_country_state_partner,,,base.action_country_state,,VERIFIED source inventory,VERIFIED source inventory
+addons/contacts/views/contact_views.xml,menu_res_city,,,base_address_extended.action_res_city_tree,,VERIFIED source inventory,VERIFIED source inventory
+addons/contacts/views/contact_views.xml,menu_country_group,Country Group,,base.action_country_group,,VERIFIED source inventory,VERIFIED source inventory
+addons/crm/views/crm_menu_views.xml,crm_menu_root,CRM,,,"sales_team.group_sale_salesman,sales_team.group_sale_manager",VERIFIED source inventory,VERIFIED source inventory
+addons/crm/views/crm_menu_views.xml,crm_menu_sales,Sales,crm_menu_root,,,VERIFIED source inventory,VERIFIED source inventory
+addons/crm/views/crm_menu_views.xml,menu_crm_opportunities,My Pipeline,crm_menu_sales,crm.crm_lead_action_pipeline,,VERIFIED source inventory,VERIFIED source inventory
+addons/crm/views/crm_menu_views.xml,crm_lead_menu_my_activities,My Activities,crm_menu_sales,crm.crm_lead_action_my_activities,sales_team.group_sale_salesman,VERIFIED source inventory,VERIFIED source inventory
+addons/crm/views/crm_menu_views.xml,sales_team_menu_team_pipeline,Teams,crm_menu_sales,sales_team.crm_team_action_pipeline,,VERIFIED source inventory,VERIFIED source inventory
+addons/crm/views/crm_menu_views.xml,res_partner_menu_customer,Customers,crm_menu_sales,base.action_partner_form,,VERIFIED source inventory,VERIFIED source inventory
+addons/crm/views/crm_menu_views.xml,crm_menu_leads,Leads,crm_menu_root,crm.crm_lead_all_leads,crm.group_use_lead,VERIFIED source inventory,VERIFIED source inventory
+addons/crm/views/crm_menu_views.xml,crm_menu_report,Reporting,crm_menu_root,,sales_team.group_sale_salesman,VERIFIED source inventory,VERIFIED source inventory
+addons/crm/views/crm_menu_views.xml,crm_menu_forecast,Forecast,crm_menu_report,crm.crm_lead_action_forecast,,VERIFIED source inventory,VERIFIED source inventory
+addons/crm/views/crm_menu_views.xml,crm_opportunity_report_menu,Pipeline,crm_menu_report,crm.crm_opportunity_report_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/crm/views/crm_menu_views.xml,crm_opportunity_report_menu_lead,Leads,crm_menu_report,crm.crm_opportunity_report_action_lead,,VERIFIED source inventory,VERIFIED source inventory
+addons/crm/views/crm_menu_views.xml,crm_activity_report_menu,Activities,crm_menu_report,crm_activity_report_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/crm/views/crm_menu_views.xml,crm_menu_config,Configuration,crm_menu_root,crm.crm_lead_action_pipeline,sales_team.group_sale_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/crm/views/crm_menu_views.xml,crm_config_settings_menu,Settings,crm_menu_config,crm.crm_config_settings_action,base.group_system,VERIFIED source inventory,VERIFIED source inventory
+addons/crm/views/crm_menu_views.xml,menu_crm_config_opportunity,Opportunities,crm_menu_config,,sales_team.group_sale_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/crm/views/crm_menu_views.xml,crm_team_config,Sales Teams,crm_menu_config,sales_team.crm_team_action_config,,VERIFIED source inventory,VERIFIED source inventory
+addons/crm/views/crm_menu_views.xml,crm_team_member_config,Teams Members,crm_menu_config,sales_team.crm_team_member_action,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/crm/views/crm_menu_views.xml,crm_team_menu_config_activities,Activities,crm_menu_config,,,VERIFIED source inventory,VERIFIED source inventory
+addons/crm/views/crm_menu_views.xml,crm_team_menu_config_activity_types,Activity Types,crm_team_menu_config_activities,sales_team.mail_activity_type_action_config_sales,,VERIFIED source inventory,VERIFIED source inventory
+addons/crm/views/crm_menu_views.xml,mail_activity_plan_menu_config_lead,Activity Plans,crm_team_menu_config_activities,mail_activity_plan_action_lead,sales_team.group_sale_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/crm/views/crm_menu_views.xml,crm_recurring_plan_menu_config,Recurring Plans,crm_menu_config,crm.crm_recurring_plan_action,crm.group_use_recurring_revenues,VERIFIED source inventory,VERIFIED source inventory
+addons/crm/views/crm_menu_views.xml,menu_crm_config_lead,Pipeline,crm_menu_config,,sales_team.group_sale_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/crm/views/crm_menu_views.xml,menu_crm_lead_stage_act,Stages,menu_crm_config_lead,crm.crm_stage_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/crm/views/crm_menu_views.xml,menu_crm_lead_categ,Tags,menu_crm_config_lead,sales_team.sales_team_crm_tag_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/crm/views/crm_menu_views.xml,menu_crm_lost_reason,Lost Reasons,menu_crm_config_lead,crm.crm_lost_reason_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/crm/views/crm_menu_views.xml,menu_import_crm,Import & Synchronize,crm_menu_root,,,VERIFIED source inventory,VERIFIED source inventory
+addons/crm_iap_mine/views/crm_menus.xml,crm_menu_lead_generation,Lead Generation,crm.crm_menu_config,,,VERIFIED source inventory,VERIFIED source inventory
+addons/crm_iap_mine/views/crm_menus.xml,crm_iap_lead_mining_request_menu_action,,crm_menu_lead_generation,crm_iap_lead_mining_request_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/data_recycle/views/data_cleaning_menu.xml,menu_data_cleaning_root,Data Cleaning,,,,VERIFIED source inventory,VERIFIED source inventory
+addons/data_recycle/views/data_cleaning_menu.xml,menu_data_recycle_record,Recycle Records,menu_data_cleaning_root,action_data_recycle_record,,VERIFIED source inventory,VERIFIED source inventory
+addons/data_recycle/views/data_cleaning_menu.xml,menu_data_cleaning_config,Configuration,menu_data_cleaning_root,,,VERIFIED source inventory,VERIFIED source inventory
+addons/data_recycle/views/data_cleaning_menu.xml,menu_data_cleaning_config_rules,Rules,menu_data_cleaning_config,,,VERIFIED source inventory,VERIFIED source inventory
+addons/data_recycle/views/data_cleaning_menu.xml,menu_data_cleaning_config_rules_recycle,Recycle Records,menu_data_cleaning_config_rules,action_data_recycle_config,,VERIFIED source inventory,VERIFIED source inventory
+addons/delivery/views/delivery_carrier_views.xml,sale_menu_action_delivery_carrier_form,Deliveries,sale.menu_sale_config,action_delivery_carrier_form,,VERIFIED source inventory,VERIFIED source inventory
+addons/digest/views/digest_views.xml,digest_menu,,base.menu_email,digest_digest_action,base.group_erp_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/digest/views/digest_views.xml,digest_tip_menu,,base.menu_email,digest_tip_action,base.group_erp_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/event/views/event_event_views.xml,menu_event_registration_desk,Registration Desk,event.event_main_menu,event.event_barcode_action_main_view,event.group_event_registration_desk,VERIFIED source inventory,VERIFIED source inventory
+addons/event/views/event_menu_views.xml,event_main_menu,Events,,,event.group_event_registration_desk,VERIFIED source inventory,VERIFIED source inventory
+addons/event/views/event_menu_views.xml,menu_event_event,Events,event.event_main_menu,,event.group_event_registration_desk,VERIFIED source inventory,VERIFIED source inventory
+addons/event/views/event_menu_views.xml,menu_reporting_events,Reporting,event_main_menu,,event.group_event_user,VERIFIED source inventory,VERIFIED source inventory
+addons/event/views/event_menu_views.xml,menu_event_configuration,Configuration,event_main_menu,,event.group_event_user,VERIFIED source inventory,VERIFIED source inventory
+addons/event/views/event_menu_views.xml,menu_event_type,Event Templates,menu_event_configuration,,,VERIFIED source inventory,VERIFIED source inventory
+addons/event/views/event_menu_views.xml,event_stage_menu,Event Stages,menu_event_configuration,,,VERIFIED source inventory,VERIFIED source inventory
+addons/event/views/event_menu_views.xml,menu_event_mail_schedulers,Mail Schedulers,menu_event_configuration,,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/event/views/event_menu_views.xml,menu_event_category,Event Tags Categories,menu_event_configuration,,,VERIFIED source inventory,VERIFIED source inventory
+addons/event/views/event_menu_views.xml,event_question_menu,Event Questions,menu_event_configuration,,,VERIFIED source inventory,VERIFIED source inventory
+addons/event/views/event_registration_views.xml,menu_action_registration,Attendees,event.menu_reporting_events,action_registration,event.group_event_user,VERIFIED source inventory,VERIFIED source inventory
+addons/event/views/res_config_settings_views.xml,menu_event_global_settings,Settings,menu_event_configuration,action_event_configuration,base.group_system,VERIFIED source inventory,VERIFIED source inventory
+addons/event_booth/views/event_menus.xml,menu_event_booth_category,Booth Categories,event.menu_event_configuration,event_booth_category_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/event_booth/views/event_menus.xml,menu_event_booth,Booths,event.menu_event_configuration,event_booth_action,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/event_crm/views/event_lead_rule_views.xml,event_lead_rule_menu,Lead Generation,event.menu_event_configuration,event_lead_rule_action,event.group_event_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/event_sale/report/event_sale_report_views.xml,menu_action_show_revenues,Revenues,event.menu_reporting_events,event_sale_report_action,event.group_event_user,VERIFIED source inventory,VERIFIED source inventory
+addons/fleet/views/fleet_board_view.xml,menu_fleet_reporting,Reporting,menu_root,,fleet_group_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/fleet/views/fleet_board_view.xml,menu_fleet_reporting_costs,Costs,menu_fleet_reporting,fleet_costs_reporting_action,fleet_group_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/fleet/views/fleet_vehicle_cost_views.xml,fleet_vehicle_log_contract_menu,,fleet_vehicles,fleet_vehicle_log_contract_action,fleet_group_user,VERIFIED source inventory,VERIFIED source inventory
+addons/fleet/views/fleet_vehicle_cost_views.xml,fleet_vehicle_log_services_menu,,fleet_vehicles,fleet_vehicle_log_services_action,fleet_group_user,VERIFIED source inventory,VERIFIED source inventory
+addons/fleet/views/fleet_vehicle_model_views.xml,menu_root,Fleet,,,fleet_group_user,VERIFIED source inventory,VERIFIED source inventory
+addons/fleet/views/fleet_vehicle_model_views.xml,fleet_configuration,Configuration,menu_root,,fleet_group_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/fleet/views/fleet_vehicle_model_views.xml,fleet_models_configuration,Models,fleet_configuration,,fleet_group_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/fleet/views/fleet_vehicle_model_views.xml,fleet_vehicle_model_brand_menu,,fleet_models_configuration,fleet_vehicle_model_brand_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/fleet/views/fleet_vehicle_model_views.xml,fleet_vehicle_model_menu,,fleet_models_configuration,fleet_vehicle_model_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/fleet/views/fleet_vehicle_model_views.xml,fleet_vehicle_model_category_menu,,fleet_models_configuration,fleet_vehicle_model_category_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/fleet/views/fleet_vehicle_odometer_report.xml,menu_fleet_odometer_reporting_odometer,Odometers,menu_fleet_reporting,fleet_vehicle_odometer_reporting_action,fleet_group_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/fleet/views/fleet_vehicle_views.xml,fleet_vehicles,Fleet,menu_root,,fleet_group_user,VERIFIED source inventory,VERIFIED source inventory
+addons/fleet/views/fleet_vehicle_views.xml,fleet_vehicle_menu,Fleet,fleet_vehicles,fleet_vehicle_action,fleet_group_user,VERIFIED source inventory,VERIFIED source inventory
+addons/fleet/views/fleet_vehicle_views.xml,fleet_vehicle_odometer_menu,,fleet_vehicles,fleet_vehicle_odometer_action,fleet_group_user,VERIFIED source inventory,VERIFIED source inventory
+addons/fleet/views/fleet_vehicle_views.xml,fleet_contracts_configuration,Contracts,fleet_configuration,,fleet.fleet_group_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/fleet/views/fleet_vehicle_views.xml,fleet_vehicle_contract_types_menu,Contract Types,fleet_contracts_configuration,fleet_vehicle_contract_types_action,fleet.fleet_group_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/fleet/views/fleet_vehicle_views.xml,fleet_services_configuration,Services,fleet_configuration,,fleet.fleet_group_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/fleet/views/fleet_vehicle_views.xml,fleet_vehicle_service_types_menu,Service Types,fleet_services_configuration,fleet_vehicle_service_types_action,fleet.fleet_group_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/fleet/views/fleet_vehicle_views.xml,fleet_vehicles_configuration,Vehicle,fleet_configuration,,fleet.fleet_group_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/fleet/views/fleet_vehicle_views.xml,fleet_vehicle_state_menu,,fleet_vehicles_configuration,fleet_vehicle_state_action,fleet.fleet_group_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/fleet/views/fleet_vehicle_views.xml,fleet_vehicle_tag_menu,,fleet_vehicles_configuration,fleet_vehicle_tag_action,fleet.fleet_group_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/fleet/views/mail_activity_views.xml,fleet_menu_config_activity_type,,fleet_configuration,mail_activity_type_action_config_fleet,fleet.fleet_group_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/fleet/views/res_config_settings_views.xml,fleet_config_settings_menu,Settings,fleet.fleet_configuration,fleet_config_settings_action,base.group_system,VERIFIED source inventory,VERIFIED source inventory
+addons/gamification/views/gamification_menus.xml,gamification_menu,Gamification Tools,base.menu_administration,,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/gamification/views/gamification_menus.xml,gamification_challenge_menu,,gamification_menu,challenge_list_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/gamification/views/gamification_menus.xml,gamification_goal_menu,,gamification_menu,goal_list_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/gamification/views/gamification_menus.xml,gamification_definition_menu,,gamification_menu,goal_definition_list_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/gamification/views/gamification_menus.xml,gamification_badge_menu,,gamification_menu,badge_list_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/gamification/views/gamification_menus.xml,gamification_karma_ranks_menu,,gamification_menu,gamification_karma_ranks_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/gamification/views/gamification_menus.xml,gamification_karma_tracking_menu,,gamification_menu,gamification_karma_tracking_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr/views/hr_views.xml,menu_hr_root,Employees,,,"group_hr_manager,group_hr_user,base.group_user",VERIFIED source inventory,VERIFIED source inventory
+addons/hr/views/hr_views.xml,menu_hr_main,Human Resources,menu_hr_root,,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr/views/hr_views.xml,menu_hr_employee_payroll,Management,menu_hr_root,open_view_employee_list_my,group_hr_user,VERIFIED source inventory,VERIFIED source inventory
+addons/hr/views/hr_views.xml,menu_hr_employee,Directory,menu_hr_root,hr_employee_public_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr/views/hr_views.xml,hr_menu_hr_reports,Reporting,menu_hr_root,,group_hr_user,VERIFIED source inventory,VERIFIED source inventory
+addons/hr/views/hr_views.xml,menu_hr_department_kanban,,menu_hr_root,hr_department_kanban_action,base.group_user,VERIFIED source inventory,VERIFIED source inventory
+addons/hr/views/hr_views.xml,menu_human_resources_configuration,Configuration,menu_hr_root,,group_hr_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/hr/views/hr_views.xml,menu_config_employee,Employee,menu_human_resources_configuration,,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr/views/hr_views.xml,menu_config_plan_plan,Onboarding / Offboarding,menu_config_employee,mail_activity_plan_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr/views/hr_views.xml,menu_view_hr_contract_type,,menu_config_employee,hr_contract_type_action,group_hr_user,VERIFIED source inventory,VERIFIED source inventory
+addons/hr/views/hr_views.xml,menu_hr_work_location_tree,,menu_config_employee,hr_work_location_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr/views/hr_views.xml,menu_hr_departure_reason_tree,,menu_config_employee,hr_departure_reason_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr/views/hr_views.xml,menu_view_employee_category_form,Tags,menu_config_employee,open_view_categ_form,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/hr/views/hr_views.xml,menu_config_working_times,Time Management,menu_human_resources_configuration,,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr/views/hr_views.xml,menu_resource_calendar_view,Working Schedules,menu_config_working_times,resource.action_resource_calendar_form,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr/views/hr_views.xml,menu_config_recruitment,Recruitment,menu_human_resources_configuration,,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr/views/hr_views.xml,menu_view_hr_job,,menu_config_recruitment,action_hr_job,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr/views/hr_views.xml,menu_hr_employee_contract_templates,Contract Templates,menu_config_recruitment,action_hr_contract_templates,hr.group_hr_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/hr/views/res_config_settings_views.xml,hr_menu_configuration,Settings,menu_human_resources_configuration,hr_config_settings_action,base.group_system,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_attendance/views/hr_attendance_view.xml,menu_hr_attendance_root,Attendances,,,"hr_attendance.group_hr_attendance_own,hr_attendance.group_hr_attendance_officer",VERIFIED source inventory,VERIFIED source inventory
+addons/hr_attendance/views/hr_attendance_view.xml,menu_action_open_form,Kiosk Mode,menu_hr_attendance_root,open_kiosk_url,hr_attendance.group_hr_attendance_user,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_attendance/views/hr_attendance_view.xml,menu_hr_attendance_reporting,Reporting,menu_hr_attendance_root,,hr_attendance.group_hr_attendance_officer,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_attendance/views/hr_attendance_view.xml,menu_hr_attendance_attendance_reporting,Attendances,menu_hr_attendance_reporting,hr_attendance_reporting,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_attendance/views/hr_attendance_view.xml,menu_hr_attendance_my_attendances,My Attendances,menu_hr_attendance_root,hr_attendance_my_action,hr_attendance.group_hr_attendance_own,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_attendance/views/hr_attendance_view.xml,menu_hr_attendance_view_attendances_management,Management,menu_hr_attendance_root,,hr_attendance.group_hr_attendance_user,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_attendance/views/hr_attendance_view.xml,menu_hr_attendance_view_dashboard,Dashboard,menu_hr_attendance_view_attendances_management,hr_attendance_action,hr_attendance.group_hr_attendance_user,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_attendance/views/hr_attendance_view.xml,menu_hr_attendance_management_list,Attendances,menu_hr_attendance_view_attendances_management,hr_attendance_management_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_attendance/views/hr_attendance_view.xml,menu_hr_attendance_configuration,Configuration,menu_hr_attendance_root,,hr_attendance.group_hr_attendance_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_attendance/views/hr_attendance_view.xml,menu_hr_attendance_onboarding,Onboarding,menu_hr_attendance_configuration,action_try_kiosk,hr.group_hr_user,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_attendance/views/hr_attendance_view.xml,menu_hr_attendance_work_entry_type,Time Types,menu_hr_attendance_configuration,hr_work_entry.hr_work_entry_type_action,hr_attendance.group_hr_attendance_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_attendance/views/hr_attendance_view.xml,menu_hr_attendance_time_rules,Automatic Rules,menu_hr_attendance_configuration,hr_work_entry.hr_time_rule_action,hr_attendance.group_hr_attendance_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_attendance/views/hr_employee_view.xml,menu_hr_attendance_employee,Employees,hr_attendance.menu_hr_attendance_view_attendances_management,action_attendance_employee_view_access,hr_attendance.group_hr_attendance_officer,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_attendance/views/res_config_settings_views.xml,menu_hr_attendance_settings,Settings,menu_hr_attendance_configuration,action_hr_attendance_settings,hr_attendance.group_hr_attendance_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_calendar/views/calendar_views.xml,menu_hr_homeworking_location_menu,,calendar.calendar_menu_config,hr.hr_work_location_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_expense/views/hr_expense_views.xml,menu_hr_expense_root,Expenses,,,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_expense/views/hr_expense_views.xml,menu_hr_expense_my_expenses,My Expenses,menu_hr_expense_root,,base.group_user,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_expense/views/hr_expense_views.xml,menu_hr_expense_my_expenses_all,My Expenses,menu_hr_expense_my_expenses,hr_expense_actions_my_all,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_expense/views/hr_expense_views.xml,menu_hr_expense_expenses_to_process,Expenses to Process,menu_hr_expense_my_expenses,hr_expense_actions_to_process,base.group_user,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_expense/views/hr_expense_views.xml,menu_hr_expense_reports,Reporting,menu_hr_expense_root,,base.group_user,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_expense/views/hr_expense_views.xml,menu_hr_expense_all_expenses,Expenses Analysis,menu_hr_expense_reports,hr_expense_actions_all,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_expense/views/hr_expense_views.xml,menu_hr_expense_configuration,Configuration,menu_hr_expense_root,,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_expense/views/hr_expense_views.xml,menu_hr_product,Expense Products,menu_hr_expense_configuration,hr_expense_product,hr_expense.group_hr_expense_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_expense/views/mail_activity_views.xml,hr_expense_menu_config_activity_type,,menu_hr_expense_configuration,mail_activity_type_action_config_hr_expense,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_expense/views/res_config_settings_views.xml,menu_hr_expense_global_settings,Settings,menu_hr_expense_configuration,action_hr_expense_configuration,base.group_system,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_gamification/views/gamification_views.xml,menu_hr_gamification,Challenges,hr.menu_human_resources_configuration,,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_gamification/views/gamification_views.xml,gamification_badge_menu_hr,,menu_hr_gamification,gamification.badge_list_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_gamification/views/gamification_views.xml,gamification_challenge_menu_hr,,menu_hr_gamification,challenge_list_action2,hr.group_hr_user,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_gamification/views/gamification_views.xml,gamification_goal_menu_hr,,menu_hr_gamification,goals_menu_groupby_action2,hr.group_hr_user,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_holidays/views/hr_holidays_views.xml,menu_hr_holidays_root,Time Off,,,base.group_user,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_holidays/views/hr_holidays_views.xml,menu_hr_holidays_my_leaves,My Time,menu_hr_holidays_root,,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_holidays/views/hr_holidays_views.xml,hr_leave_menu_new_request,Days Off,menu_hr_holidays_my_leaves,hr_leave_action_new_request,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_holidays/views/hr_holidays_views.xml,menu_open_allocation,Requests,menu_hr_holidays_my_leaves,hr_leave_allocation_action_my,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_holidays/views/hr_holidays_views.xml,menu_hr_holidays_dashboard,Overview,menu_hr_holidays_root,action_hr_holidays_dashboard,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_holidays/views/hr_holidays_views.xml,menu_hr_holidays_management,Management,menu_hr_holidays_root,,hr_holidays.group_hr_holidays_responsible,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_holidays/views/hr_holidays_views.xml,menu_open_department_leave_approve,Time Off,menu_hr_holidays_management,hr_leave_action_action_approve_department,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_holidays/views/hr_holidays_views.xml,hr_holidays_menu_manager_approve_allocations,Allocations,menu_hr_holidays_management,hr_leave_allocation_action_approve_department,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_holidays/views/hr_holidays_views.xml,menu_hr_holidays_report,Reporting,menu_hr_holidays_root,,hr_holidays.group_hr_holidays_user,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_holidays/views/hr_holidays_views.xml,menu_hr_available_holidays_report_tree,by Employee,menu_hr_holidays_report,action_hr_leave_employee_report,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_holidays/views/hr_holidays_views.xml,menu_hr_holidays_summary_all,by Type,menu_hr_holidays_report,action_hr_leave_report,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_holidays/views/hr_holidays_views.xml,menu_hr_holidays_balance,Balance,menu_hr_holidays_report,action_hr_holidays_by_employee_and_type_report,hr_holidays.group_hr_holidays_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_holidays/views/hr_holidays_views.xml,menu_hr_holidays_configuration,Configuration,menu_hr_holidays_root,,hr_holidays.group_hr_holidays_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_holidays/views/hr_holidays_views.xml,hr_holidays_status_menu_configuration,Time Types,menu_hr_holidays_configuration,open_view_work_entry_type,hr_holidays.group_hr_holidays_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_holidays/views/hr_holidays_views.xml,hr_holidays_accrual_menu_configuration,Accrual Plans,menu_hr_holidays_configuration,open_view_accrual_plans,hr_holidays.group_hr_holidays_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_holidays/views/hr_holidays_views.xml,hr_holidays_public_time_off_menu_configuration,Company Holidays,menu_hr_holidays_configuration,open_view_public_holiday,hr_holidays.group_hr_holidays_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_holidays/views/hr_holidays_views.xml,hr_holidays_mandatory_day_menu_configuration,Mandatory Days,menu_hr_holidays_configuration,hr_leave_mandatory_day_action,hr_holidays.group_hr_holidays_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_holidays/views/hr_holidays_views.xml,hr_holidays_menu_config_activity_type,,menu_hr_holidays_configuration,mail_activity_type_action_config_hr_holidays,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_holidays/views/hr_time_rule_views.xml,menu_hr_holidays_time_rules,Automatic Rules,hr_holidays.menu_hr_holidays_configuration,hr_work_entry.hr_time_rule_action,hr_holidays.group_hr_holidays_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_holidays_attendance/views/hr_leave_attendance_report_views.xml,hr_leave_attendance_report,Time Off Ledger,hr_attendance.menu_hr_attendance_reporting,hr_leave_attendance_report_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_recruitment/views/menuitems.xml,menu_hr_recruitment_root,Recruitment,,,"hr_recruitment.group_hr_recruitment_user,hr_recruitment.group_hr_recruitment_interviewer",VERIFIED source inventory,VERIFIED source inventory
+addons/hr_recruitment/views/menuitems.xml,menu_crm_case_categ0_act_job,Applications,menu_hr_recruitment_root,,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_recruitment/views/menuitems.xml,menu_hr_job_position,By Job Positions,menu_crm_case_categ0_act_job,action_hr_job,hr_recruitment.group_hr_recruitment_user,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_recruitment/views/menuitems.xml,menu_hr_job_position_interviewer,By Job Positions,menu_crm_case_categ0_act_job,action_hr_job_interviewer,hr_recruitment.group_hr_recruitment_interviewer,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_recruitment/views/menuitems.xml,menu_hr_talent_pools,By Talent Pools,menu_crm_case_categ0_act_job,action_hr_talent_pool,hr_recruitment.group_hr_recruitment_user,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_recruitment/views/menuitems.xml,menu_crm_case_categ_all_app,All Applications,menu_crm_case_categ0_act_job,crm_case_categ0_act_job,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_recruitment/views/menuitems.xml,report_hr_recruitment,Reporting,menu_hr_recruitment_root,,group_hr_recruitment_user,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_recruitment/views/menuitems.xml,hr_applicant_report_menu,Recruitment Analysis,report_hr_recruitment,hr_applicant_action_analysis,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_recruitment/views/menuitems.xml,menu_hr_recruitment_configuration,Configuration,menu_hr_recruitment_root,,group_hr_recruitment_user,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_recruitment/views/menuitems.xml,menu_hr_recruitment_global_settings,Settings,menu_hr_recruitment_configuration,action_hr_recruitment_configuration,base.group_system,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_recruitment/views/menuitems.xml,menu_hr_recruitment_config_jobs,Job Positions,menu_hr_recruitment_configuration,,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_recruitment/views/menuitems.xml,menu_hr_recruitment_stage,Stages,menu_hr_recruitment_config_jobs,hr_recruitment_stage_act,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_recruitment/views/menuitems.xml,menu_hr_recruitment_contract_type,,menu_hr_recruitment_config_jobs,hr.hr_contract_type_action,hr.group_hr_user,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_recruitment/views/menuitems.xml,menu_hr_job_tag_menu,,menu_hr_recruitment_config_jobs,hr_job_tag_action,hr.group_hr_user,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_recruitment/views/menuitems.xml,menu_hr_recruitment_utm,UTMs,menu_hr_recruitment_configuration,,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_recruitment/views/menuitems.xml,menu_hr_recruitment_utm_sources,Sources,menu_hr_recruitment_utm,utm.utm_source_action,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_recruitment/views/menuitems.xml,menu_hr_recruitment_utm_mediums,Mediums,menu_hr_recruitment_utm,utm.utm_medium_action,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_recruitment/views/menuitems.xml,menu_hr_recruitment_utm_campaigns,Campaigns,menu_hr_recruitment_utm,utm.utm_campaign_action,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_recruitment/views/menuitems.xml,menu_hr_recruitment_config_applications,Applications,menu_hr_recruitment_configuration,,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_recruitment/views/menuitems.xml,menu_hr_recruitment_degree,Degrees,menu_hr_recruitment_config_applications,hr_recruitment_degree_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_recruitment/views/menuitems.xml,menu_hr_applicant_refuse_reason,,menu_hr_recruitment_config_applications,hr_applicant_refuse_reason_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_recruitment/views/menuitems.xml,hr_applicant_category_menu,,menu_hr_recruitment_config_applications,hr_applicant_category_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_recruitment/views/menuitems.xml,menu_hr_recruitment_config_employees,Employees,menu_hr_recruitment_configuration,,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_recruitment/views/menuitems.xml,menu_hr_department,Departments,menu_hr_recruitment_config_employees,action_hr_department,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_recruitment/views/menuitems.xml,menu_hr_recruitment_config_activities,Activities,menu_hr_recruitment_configuration,,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_recruitment/views/menuitems.xml,hr_recruitment_menu_config_activity_type,,menu_hr_recruitment_config_activities,mail_activity_type_action_config_hr_applicant,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_recruitment/views/menuitems.xml,hr_recruitment_menu_config_activity_plan,Activity Plans,menu_hr_recruitment_config_activities,mail_activity_plan_action_config_hr_applicant,hr_recruitment.group_hr_recruitment_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_recruitment/views/menuitems.xml,menu_hr_job_boards,Job Boards,menu_hr_recruitment_configuration,,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_recruitment/views/menuitems.xml,menu_hr_recruitment_emails,Emails,menu_hr_job_boards,action_hr_job_platforms,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_recruitment_skills/views/hr_applicant_skill_views.xml,hr_recruitment_skill_type_menu,Skill Types,hr_recruitment.menu_hr_recruitment_config_employees,hr_skills.hr_skill_type_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_recruitment_survey/views/survey_survey_views.xml,menu_hr_recruitment_config_surveys,Interviews,hr_recruitment.menu_hr_recruitment_configuration,survey_survey_action_recruitment,hr_recruitment.group_hr_recruitment_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_skills/report/hr_employee_skill_report_views.xml,hr_employee_skill_inventory_report_menu,Skills Inventory,hr.hr_menu_hr_reports,hr_employee_skill_report_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_skills/views/hr_views.xml,menu_human_resources_configuration_resume,Resume,hr.menu_human_resources_configuration,,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_skills/views/hr_views.xml,hr_resume_line_type_menu,Sections,hr_skills.menu_human_resources_configuration_resume,hr_resume_type_action,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_skills/views/hr_views.xml,hr_skill_type_menu,Skill Types,hr.menu_config_employee,hr_skill_type_action,hr.group_hr_user,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_skills/views/hr_views.xml,hr_skill_learning_menu,Learning,hr.menu_hr_root,,hr.group_hr_user,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_skills/views/hr_views.xml,hr_certification_menu,Certifications,hr_skill_learning_menu,action_server_hr_employee_skill_certification,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_skills/views/hr_views.xml,menu_learnings_training_attendances,Training Attendances,hr_skill_learning_menu,hr_resume_lines_training_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_skills_event/views/hr_views.xml,hr_skills.menu_learnings_training_attendances_courses,Courses,hr_skills.hr_skill_learning_menu,,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_skills_event/views/hr_views.xml,menu_learnings_training_attendances_onsite,Onsite,hr_skills.menu_learnings_training_attendances_courses,event_training_onsite_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_skills_slides/views/hr_views.xml,hr_skills.menu_learnings_training_attendances_courses,Courses,hr_skills.hr_skill_learning_menu,,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_skills_slides/views/hr_views.xml,menu_learnings_training_attendances_elearning,eLearning,hr_skills.menu_learnings_training_attendances_courses,slide_channel_training_elearning_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_timesheet/views/hr_timesheet_menus.xml,timesheet_menu_root,Timesheets,,,group_hr_timesheet_user,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_timesheet/views/hr_timesheet_menus.xml,timesheet_menu_activity_user,My Timesheets,,act_hr_timesheet_line,group_hr_timesheet_user,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_timesheet/views/hr_timesheet_menus.xml,menu_hr_time_tracking,Timesheets,,,group_hr_timesheet_approver,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_timesheet/views/hr_timesheet_menus.xml,timesheet_menu_activity_mine,My Timesheets,,act_hr_timesheet_line,group_hr_timesheet_approver,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_timesheet/views/hr_timesheet_menus.xml,timesheet_menu_activity_all,All Timesheets,,timesheet_action_all,hr_timesheet.group_hr_timesheet_approver,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_timesheet/views/hr_timesheet_menus.xml,menu_timesheets_reports,Reporting,,,group_hr_timesheet_approver,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_timesheet/views/hr_timesheet_menus.xml,menu_timesheets_reports_timesheet,Timesheets,,,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_timesheet/views/hr_timesheet_menus.xml,menu_hr_activity_analysis,By Employee,,act_hr_timesheet_report,hr_timesheet.group_hr_timesheet_approver,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_timesheet/views/hr_timesheet_menus.xml,timesheet_menu_report_timesheet_by_project,By Project,,timesheet_action_report_by_project,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_timesheet/views/hr_timesheet_menus.xml,timesheet_menu_report_timesheet_by_task,By Task,,timesheet_action_report_by_task,,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_timesheet/views/hr_timesheet_menus.xml,hr_timesheet_menu_configuration,Configuration,,hr_timesheet_config_settings_action,base.group_system,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_timesheet_attendance/report/hr_timesheet_attendance_report_view.xml,menu_hr_timesheet_attendance_report,Timesheets / Attendance Analysis,hr_timesheet.menu_timesheets_reports,action_hr_timesheet_attendance_report,hr_timesheet.group_timesheet_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/hr_work_entry/views/menuitems.xml,menu_hr_work_entry_type_view_employee,,hr.menu_config_working_times,hr_work_entry.hr_work_entry_type_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/iap/views/iap_views.xml,iap_root_menu,IAP,base.menu_custom,,,VERIFIED source inventory,VERIFIED source inventory
+addons/iap/views/iap_views.xml,iap_account_menu,In-App Purchase Accounts,iap_root_menu,iap_account_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/im_livechat/report/im_livechat_report_channel_views.xml,menu_reporting_livechat_channel,Sessions Analysis,menu_reporting_livechat,im_livechat_report_channel_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/im_livechat/views/im_livechat_channel_config_views.xml,livechat_channels_config,Live Chat Channels,livechat_config,im_livechat_channel_config_action,im_livechat_group_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/im_livechat/views/im_livechat_channel_member_history_views.xml,im_livechat.menu_member_history,Member History,im_livechat.livechat_technical,im_livechat_channel_member_history_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/im_livechat/views/im_livechat_channel_member_history_views.xml,menu_reporting_livechat_agent,Agents Performance,menu_reporting_livechat,im_livechat_agent_history_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/im_livechat/views/im_livechat_channel_views.xml,menu_livechat_root,Live Chat,,,im_livechat_group_user,VERIFIED source inventory,VERIFIED source inventory
+addons/im_livechat/views/im_livechat_channel_views.xml,support_channels,Channels,menu_livechat_root,im_livechat_channel_action,im_livechat_group_user,VERIFIED source inventory,VERIFIED source inventory
+addons/im_livechat/views/im_livechat_channel_views.xml,menu_livechat_sessions,Sessions,menu_livechat_root,discuss_channel_action,im_livechat_group_user,VERIFIED source inventory,VERIFIED source inventory
+addons/im_livechat/views/im_livechat_channel_views.xml,menu_reporting_livechat,Reporting,menu_livechat_root,,im_livechat_group_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/im_livechat/views/im_livechat_channel_views.xml,livechat_config,Configuration,menu_livechat_root,,,VERIFIED source inventory,VERIFIED source inventory
+addons/im_livechat/views/im_livechat_channel_views.xml,livechat_technical,Live Chat,base.menu_custom,,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/im_livechat/views/im_livechat_channel_views.xml,canned_responses,Canned Responses,livechat_config,mail.mail_canned_response_action,im_livechat_group_user,VERIFIED source inventory,VERIFIED source inventory
+addons/im_livechat/views/im_livechat_channel_views.xml,chatbot_config,Chatbots,livechat_config,chatbot_script_action,im_livechat_group_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/im_livechat/views/im_livechat_expertise_views.xml,expertise_menu,Expertise,livechat_config,im_livechat.expertise_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_ar/data/account_chart_template_data2.xml,account_reports_ar_statements_menu,Argentinean Statements,account.menu_finance_reports,,account.group_account_readonly,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_ar/report/invoice_report_view.xml,menu_iibb_sales_by_state_and_account,,l10n_ar.account_reports_ar_statements_menu,action_iibb_sales_by_state_and_account_pivot,,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_ar/report/invoice_report_view.xml,menu_iibb_purchases_by_state_and_account,,l10n_ar.account_reports_ar_statements_menu,action_iibb_purchases_by_state_and_account_pivot,,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_ar/views/afip_menuitem.xml,menu_afip_config,ARCA,account.menu_finance_configuration,,,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_ar/views/l10n_ar_afip_responsibility_type_view.xml,menu_afip_responsibility_type,Responsibility Types,menu_afip_config,action_afip_responsibility_type,,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_ar/views/l10n_ar_arca_activity_view.xml,menu_action_arca_activity,Activities,l10n_ar.menu_afip_config,act_arca_activity,,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_ar/views/l10n_latam_document_type_view.xml,menu_document_type_argentina,,menu_afip_config,action_document_type_argentina,,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_ar_withholding/views/l10n_ar_earnings_scale_view.xml,menu_action_afip_earnings_table_scale_line,Earnings Scale,l10n_ar.menu_afip_config,act_afip_earnings_table_scale,,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_au/views/menuitems.xml,account_reports_au_statements_menu,Australia,account.menu_finance_reports,,account.group_account_readonly,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_bd/views/menu_items.xml,account_reports_bd_corporate_report_menu,Bangladesh,account.menu_finance_reports,,account.group_account_readonly,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_be/data/menuitem_data.xml,account_reports_be_statements_menu,Belgium,account.menu_finance_reports,,account.group_account_readonly,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_br/views/ir_ui_menu_brazil.xml,brazilian_accounting_menu,Brazil,account.menu_finance_configuration,,,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_cl/views/account_move_view.xml,menu_sale_invoices_credit_notes,Sale Invoices and Credit Notes (CL),account.menu_finance_receivables,sale_invoices_credit_notes,,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_cl/views/account_move_view.xml,menu_vendor_bills_and_refunds,Vendor Bills and Refunds (CL),account.menu_finance_payables,vendor_bills_and_refunds,,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_cn/views/balance_deduction_view.xml,menu_l10n_cn_balance_deduction,Balance Deductions,account.account_reports_management_menu,action_l10n_cn_balance_deduction,account.group_account_basic,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_co/data/account_chart_template_data.xml,account_reports_co_statements_menu,Colombia,account.menu_finance_reports,,account.group_account_readonly,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_cy/data/menuitem_data.xml,account_reports_cy_statements_menu,Cyprus,account.menu_finance_reports,,account.group_account_readonly,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_cz/views/tax_office_view.xml,menu_l10n_cz_tax_office,,account.account_invoicing_menu,action_l10n_cz_tax_office_tree,account.group_account_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_ec/views/l10n_ec_sri_payment.xml,menu_action_account_l10n_ec_sri_payment,,l10n_ec.sri_menu,action_account_l10n_ec_sri_payment_tree,account.group_account_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_ec/views/root_sri_menu.xml,sri_menu,Ecuadorian SRI,account.menu_finance_configuration,,,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_eg_edi_eta/views/eta_thumb_drive.xml,account_eta_menu,ETA,account.menu_finance_configuration,,account.group_account_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_eg_edi_eta/views/eta_thumb_drive.xml,menu_action_eta_thumb_drive_tree,,,action_eta_thumb_drive_tree,,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_es_edi_facturae/views/account_menuitem.xml,menu_l10n_es_edi_facturae_root,Spain Facturae EDI,account.menu_finance_configuration,,,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_es_edi_facturae/views/account_menuitem.xml,menu_l10n_es_edi_facturae_root_certificates,Certificates,,l10n_es_edi_facturae_certificate_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_es_edi_sii/views/l10n_es_edi_sii_certificate_views.xml,menu_l10n_es_edi_sii_root,Spain SII,account.menu_finance_configuration,,account.group_account_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_es_edi_sii/views/l10n_es_edi_sii_certificate_views.xml,menu_l10n_es_edi_sii_certificates,Certificates,,l10n_es_edi_sii_certificate_action,account.group_account_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_es_edi_tbai/views/l10n_es_edi_tbai_certificate_views.xml,menu_l10n_es_edi_tbai_root,Spain TicketBAI,account.menu_finance_configuration,,account.group_account_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_es_edi_tbai/views/l10n_es_edi_tbai_certificate_views.xml,menu_l10n_es_edi_tbai_certificates,Certificates,,l10n_es_edi_tbai_certificate_action,account.group_account_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_es_edi_tbai/views/res_company_views.xml,menu_l10n_es_edi_tbai_license,Licenses,menu_l10n_es_edi_tbai_root,base.action_res_company_form,account.group_account_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_es_edi_verifactu/views/certificate_certificate_views.xml,menu_l10n_es_edi_verifactu_root,Veri*Factu (Spain),account.menu_finance_configuration,,account.group_account_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_es_edi_verifactu/views/certificate_certificate_views.xml,menu_l10n_es_edi_verifactu_certificates,Certificates,,l10n_es_edi_verifactu_certificate_action,account.group_account_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_fr_account/data/account_chart_template_data.xml,account_reports_fr_statements_menu,France,account.menu_finance_reports,,account.group_account_readonly,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_fr_hr_holidays/views/res_config_settings_views.xml,hr_holidays_menu_configuration,Settings,hr_holidays.menu_hr_holidays_configuration,hr.hr_config_settings_action,base.group_system,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_fr_pdp/views/pdp_flow_views.xml,l10n_fr_pdp_reports_menu_flows,E-reporting,l10n_fr_account.account_reports_fr_statements_menu,l10n_fr_pdp_reports_action_flows,,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_fr_pos_cert/views/account_sale_closure.xml,menu_account_closing_reporting,,l10n_fr_account.account_reports_fr_statements_menu,action_list_view_account_sale_closing,,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_fr_pos_cert/views/pos_inalterability_menuitem.xml,pos_fr_statements_menu,French Statements,point_of_sale.menu_point_rep,,,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_fr_pos_cert/views/pos_inalterability_menuitem.xml,menu_account_closing,,pos_fr_statements_menu,l10n_fr_pos_cert.action_list_view_account_sale_closing,,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_fr_pos_cert/views/pos_inalterability_menuitem.xml,menu_check_move_integrity_reporting,,pos_fr_statements_menu,l10n_fr_pos_cert.action_check_pos_hash_integrity,,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_hr/data/l10n_hr_chart_data.xml,account_reports_hr_statements_menu,Croatia,account.menu_finance_reports,,account.group_account_readonly,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_hu_edi/wizard/l10n_hu_edi_tax_audit_export.xml,menu_finance_reports_hu,Hungary,account.menu_finance_reports,,,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_hu_edi/wizard/l10n_hu_edi_tax_audit_export.xml,menu_hu_tax_audit_export,Tax audit export - Adóhatósági Ellenőrzési Adatszolgáltatás,menu_finance_reports_hu,action_l10n_hu_edi_tax_audit_export_form,,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_in/data/l10n_in_chart_data.xml,account_reports_in_statements_menu,India,account.menu_finance_reports,,account.group_account_readonly,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_in/views/l10n_in_pan_entity_views.xml,menu_l10n_in_pan_entity,PAN Entity,account.account_transactions_menu,l10n_in_pan_entity_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_in_hr_holidays/views/l10n_in_hr_leave_optional_holiday_views.xml,l10n_in_menu_optional_holiday_configuration,Optional Holidays,hr_holidays.menu_hr_holidays_configuration,l10n_in_hr_leave_optional_holiday_action,hr_holidays.group_hr_holidays_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_it_edi/views/l10n_it_view.xml,menu_action_ddt_account,DDT,account.account_account_menu,action_ddt_account,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_latam_check/views/l10n_latam_check_view.xml,menu_own_check,,account.menu_finance_payables,action_own_check,,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_latam_check/views/l10n_latam_check_view.xml,menu_third_party_check,,account.menu_finance_receivables,action_third_party_check,,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_latam_invoice_document/views/l10n_latam_document_type_view.xml,menu_document_type,,account.account_account_menu,action_document_type,,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_lu/data/l10n_lu_chart_data.xml,account_reports_lu_statements_menu,Luxembourg,account.menu_finance_reports,,account.group_account_readonly,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_mt/data/menuitem_data.xml,account_reports_mt_statements_menu,Malta,account.menu_finance_reports,,account.group_account_readonly,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_mt_pos/wizards/compliance_letter_view.xml,pos_mt_statements_menu,Malta EXO,point_of_sale.menu_point_rep,,,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_mt_pos/wizards/compliance_letter_view.xml,menu_compliance_letter,Compliance Letter,l10n_mt_pos.pos_mt_statements_menu,l10n_mt_pos.action_generate_compliance_letter,,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_my_edi_pos/views/myinvois_document_pos_views.xml,l10n_my_edi_pos.menu_consolidated_invoices,Consolidated Invoice,point_of_sale.menu_point_of_sale,l10n_my_edi_pos.action_consolidated_invoices,,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_pa/views/res_city_corregimiento_views.xml,menu_res_city_corregimiento,Corregimiento (PA),contacts.menu_localisation,action_res_city_corregimiento,,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_ph/data/menuitem_data.xml,account_reports_ph_statements_menu,Philippines,account.menu_finance_reports,,account.group_account_readonly,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_ph_invoice/data/menuitem_data.xml,menu_l10n_ph_discount_privilege_invoicing,Discount Privileges,account.account_invoicing_menu,action_l10n_ph_discount_privilege,,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_pk_edi/views/l10n_pk_edi_menus.xml,menu_l10n_pk_edi,Pakistan Federal Bureau of Revenue,account.menu_finance_configuration,,,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_pk_edi/views/l10n_pk_edi_menus.xml,menu_l10n_pk_edi_sro,Statutory Regulatory Order Schedules,menu_l10n_pk_edi,action_l10n_pk_edi_sro,,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_rs/data/menuitem_data.xml,account_reports_rs_statements_menu,Serbia,account.menu_finance_reports,,account.group_account_readonly,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_rw/data/l10n_rw_chart_data.xml,account_reports_rw_statements_menu,Rwanda,account.menu_finance_reports,,account.group_account_readonly,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_sg/data/l10n_sg_chart_data.xml,account_reports_sg_statements_menu,Singapore,account.menu_finance_reports,,account.group_account_readonly,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_syscohada/data/menuitem_data.xml,account_reports_syscohada_statements_menu,Syscohada,account.menu_finance_reports,,account.group_account_readonly,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_tr/views/l10n_tr_tax_office_views.xml,l10n_tr_menu_state_office_partner,,contacts.menu_localisation,action_l10n_tr_tax_office_list,,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_tz_account/data/l10n_tz_chart_data.xml,account_reports_tz_statements_menu,Tanzania,account.menu_finance_reports,,account.group_account_readonly,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_uk/data/l10n_uk_chart_data.xml,account_reports_uk_statements_menu,United Kingdom,account.menu_finance_reports,,account.group_account_readonly,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_us_account/views/l10n_us_account_menus.xml,menu_finance_us,United States,account.menu_finance_configuration,,account.group_account_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_us_account/views/l10n_us_account_menus.xml,menu_finance_us_reports,United States,account.menu_finance_reports,,account.group_account_readonly,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_vn_edi_viettel/views/sinvoice_views.xml,l10n_vn_edi_sinvoice_menu,SInvoice,account.menu_finance_configuration,,account.group_account_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/l10n_vn_edi_viettel/views/sinvoice_views.xml,l10n_vn_edi_sinvoice_symbols,,,action_sinvoice_symbol,,VERIFIED source inventory,VERIFIED source inventory
+addons/link_tracker/views/link_tracker_views.xml,link_tracker_menu_main,Link Tracker,utm.menu_link_tracker_root,link_tracker_action,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/lunch/views/lunch_views.xml,menu_lunch,Lunch,,,group_lunch_user,VERIFIED source inventory,VERIFIED source inventory
+addons/lunch/views/lunch_views.xml,menu_lunch_title,My Lunch,,,,VERIFIED source inventory,VERIFIED source inventory
+addons/lunch/views/lunch_views.xml,lunch_order_menu_form,New Order,,lunch.lunch_product_action_order,,VERIFIED source inventory,VERIFIED source inventory
+addons/lunch/views/lunch_views.xml,lunch_order_menu_tree,My Order History,,lunch_order_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/lunch/views/lunch_views.xml,lunch_cashmove_report_menu_form,My Account History,,lunch_cashmove_report_action_account,,VERIFIED source inventory,VERIFIED source inventory
+addons/lunch/views/lunch_views.xml,menu_lunch_admin,Manager,,,group_lunch_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/lunch/views/lunch_views.xml,lunch_order_menu_by_supplier,Today's Orders,,lunch_order_action_by_supplier,,VERIFIED source inventory,VERIFIED source inventory
+addons/lunch/views/lunch_views.xml,lunch_order_menu_control_suppliers,Control Vendors,,lunch_order_action_control_suppliers,,VERIFIED source inventory,VERIFIED source inventory
+addons/lunch/views/lunch_views.xml,lunch_cashmove_report_menu_control_accounts,Control Accounts,,lunch_cashmove_report_action_control_accounts,,VERIFIED source inventory,VERIFIED source inventory
+addons/lunch/views/lunch_views.xml,lunch_cashmove_report_menu_payment,Cash Moves,,lunch_cashmove_action_payment,,VERIFIED source inventory,VERIFIED source inventory
+addons/lunch/views/lunch_views.xml,menu_lunch_config,Configuration,,,group_lunch_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/lunch/views/lunch_views.xml,lunch_settings_menu,Settings,,lunch_config_settings_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/lunch/views/lunch_views.xml,lunch_vendors_menu,Vendors,,lunch_vendors_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/lunch/views/lunch_views.xml,lunch_location_menu,Locations,,lunch_location_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/lunch/views/lunch_views.xml,lunch_product_menu,Products,,lunch_product_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/lunch/views/lunch_views.xml,lunch_product_category_menu,Product Categories,,lunch_product_category_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/lunch/views/lunch_views.xml,lunch_alert_menu,Alerts,,lunch_alert_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/discuss/discuss_call_history_views.xml,discuss_call_history_menu,Call History,mail.menu_root_discuss,discuss_call_history_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,mail.menu_root_discuss,Discuss,,action_discuss,base.group_user_regular,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,mail.main_menu_discuss,Discuss,mail.menu_root_discuss,action_discuss,,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,mail.menu_channel,Channels,mail.menu_root_discuss,mail.discuss_channel_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,mail.menu_configuration,Configuration,mail.menu_root_discuss,,,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,mail.menu_settings,Settings,mail.menu_configuration,action_open_discuss_settings,base.group_system,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,mail.menu_discuss_category,Categories,mail.menu_configuration,mail.discuss_category_settings_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,mail.menu_canned_responses,Canned Responses,mail.menu_configuration,mail.mail_canned_response_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,mail.menu_roles,Roles,mail.menu_configuration,mail.res_role_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,mail.menu_discuss_user_settings,User Settings,mail.menu_configuration,,,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,mail.menu_notification_settings,Notifications,mail.menu_discuss_user_settings,mail.discuss_notification_settings_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,mail.menu_call_settings,Voice & Video,mail.menu_discuss_user_settings,mail.discuss_call_settings_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,menu_mail_mail,Emails,base.menu_email,action_view_mail_mail,,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,mail_alias_menu,,base.menu_email,mail_alias_action,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,mail_alias_domain_menu,,base.menu_email,mail_alias_domain_action,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,menu_action_fetchmail_server_tree,Incoming Mail Servers,base.menu_email,action_email_server_tree,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,menu_email_templates,,base.menu_email,action_email_template_tree_all,,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,ir_ui_view_menu_usage_mail_post,System Notifications,base.menu_email,ir_ui_view_action_usage_mail_post,,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,mail.discuss_channel_menu_settings,Channels,base.menu_email,mail.discuss_channel_action_view,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,mail.discuss_channel_member_menu,Channels/Members,base.menu_email,mail.discuss_channel_member_action,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,mail_gateway_allowed_menu,,base.menu_email,mail_gateway_allowed_action,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,mail_menu_technical,Discuss,base.menu_custom,,,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,menu_mail_message,Messages,mail.mail_menu_technical,action_view_mail_message,,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,mail_message_schedule_menu,Scheduled Messages,mail.mail_menu_technical,mail_message_schedule_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,menu_message_subtype,Subtypes,mail.mail_menu_technical,action_view_message_subtype,,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,mail_notification_menu,Notifications,mail.mail_menu_technical,mail_notification_action,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,menu_email_followers,Followers,mail.mail_menu_technical,action_view_followers,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,mail_blacklist_menu,Email Blacklist,mail.mail_menu_technical,mail_blacklist_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,res_users_settings_menu,User Settings,mail.mail_menu_technical,res_users_settings_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,mail_guest_menu,Guests,mail.mail_menu_technical,mail_guest_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,mail.discuss_channel_rtc_session_menu,RTC sessions,mail.mail_menu_technical,mail.discuss_channel_rtc_session_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,mail.ice_servers_menu,ICE Servers,mail.mail_menu_technical,action_ice_servers,,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,mail_message_reaction_menu,Message Reactions,mail.mail_menu_technical,mail_message_reaction_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,mail_link_preview_menu,Link Previews,mail.mail_menu_technical,mail_link_preview_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,discuss_gif_favorite_menu,GIF favorite,mail.mail_menu_technical,discuss_gif_favorite_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,menu_mail_activities_section,Activities,base.menu_custom,,,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,menu_mail_activities,,mail.menu_mail_activities_section,mail_activity_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,menu_mail_activity_type,,mail.menu_mail_activities_section,mail_activity_type_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/mail/views/mail_menus.xml,menu_mail_activity_plan,,mail.menu_mail_activities_section,mail_activity_plan_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/mail_group/views/mail_group_menus.xml,mail_group_menu,Mail Groups,mail.mail_menu_technical,mail_group_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/mail_group/views/mail_group_menus.xml,mail_group_moderation_menu,Moderation Rules,mail.mail_menu_technical,mail_group_moderation_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/mail_tracking/views/mail_menus.xml,menu_mail_tracking_value,Tracking Values,mail.mail_menu_technical,action_view_mail_tracking_value,,VERIFIED source inventory,VERIFIED source inventory
+addons/maintenance/views/mail_activity_views.xml,maintenance_menu_config_activity_type,,menu_maintenance_configuration,mail_activity_type_action_config_maintenance,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/maintenance/views/maintenance_views.xml,menu_maintenance_title,Maintenance,,,base.group_user_regular,VERIFIED source inventory,VERIFIED source inventory
+addons/maintenance/views/maintenance_views.xml,menu_m_dashboard,Dashboard,menu_maintenance_title,maintenance_dashboard_action,"group_equipment_manager,base.group_user",VERIFIED source inventory,VERIFIED source inventory
+addons/maintenance/views/maintenance_views.xml,menu_m_request,Maintenance,menu_maintenance_title,,"group_equipment_manager,base.group_user",VERIFIED source inventory,VERIFIED source inventory
+addons/maintenance/views/maintenance_views.xml,menu_m_request_form,Maintenance Requests,menu_m_request,hr_equipment_request_action,"group_equipment_manager,base.group_user",VERIFIED source inventory,VERIFIED source inventory
+addons/maintenance/views/maintenance_views.xml,menu_equipment_form,Equipment,menu_maintenance_title,hr_equipment_action,"group_equipment_manager,base.group_user",VERIFIED source inventory,VERIFIED source inventory
+addons/maintenance/views/maintenance_views.xml,menu_m_reports,Reporting,menu_maintenance_title,,"group_equipment_manager,base.group_user",VERIFIED source inventory,VERIFIED source inventory
+addons/maintenance/views/maintenance_views.xml,menu_m_reports_oee,Overall Equipment Effectiveness (OEE),menu_m_reports,,"group_equipment_manager,base.group_user",VERIFIED source inventory,VERIFIED source inventory
+addons/maintenance/views/maintenance_views.xml,menu_m_reports_losses,Losses Analysis,menu_m_reports,,"group_equipment_manager,base.group_user",VERIFIED source inventory,VERIFIED source inventory
+addons/maintenance/views/maintenance_views.xml,maintenance_reporting,Reporting,menu_maintenance_title,,,VERIFIED source inventory,VERIFIED source inventory
+addons/maintenance/views/maintenance_views.xml,maintenance_request_reporting,,maintenance_reporting,maintenance_request_action_reports,,VERIFIED source inventory,VERIFIED source inventory
+addons/maintenance/views/maintenance_views.xml,menu_maintenance_configuration,Configuration,menu_maintenance_title,,group_equipment_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/maintenance/views/maintenance_views.xml,menu_maintenance_teams,Maintenance Teams,menu_maintenance_configuration,maintenance_team_action_settings,group_equipment_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/maintenance/views/maintenance_views.xml,menu_maintenance_cat,Equipment Categories,menu_maintenance_configuration,hr_equipment_category_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/maintenance/views/maintenance_views.xml,menu_maintenance_stage_configuration,Maintenance Stages,menu_maintenance_configuration,hr_equipment_stage_action,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/maintenance/views/res_config_settings_views.xml,menu_maintenance_config,Settings,menu_maintenance_configuration,action_maintenance_configuration,base.group_system,VERIFIED source inventory,VERIFIED source inventory
+addons/marketing_card/views/card_menus.xml,card_menu,Marketing Card,,,marketing_card.marketing_card_group_user,VERIFIED source inventory,VERIFIED source inventory
+addons/marketing_card/views/card_menus.xml,card_campaign_menu,Campaigns,card_menu,card_campaign_action,marketing_card.marketing_card_group_user,VERIFIED source inventory,VERIFIED source inventory
+addons/marketing_card/views/card_menus.xml,marketing_card_menu_technical,Marketing Card,base.menu_custom,,"marketing_card.marketing_card_group_manager,base.group_no_one",VERIFIED source inventory,VERIFIED source inventory
+addons/marketing_card/views/card_menus.xml,cards_template_menu,Card Template,marketing_card.marketing_card_menu_technical,card_template_action,"marketing_card.marketing_card_group_manager,base.group_no_one",VERIFIED source inventory,VERIFIED source inventory
+addons/mass_mailing/views/mailing_menus.xml,mass_mailing_menu_root,Email Marketing,,,mass_mailing.group_mass_mailing_user,VERIFIED source inventory,VERIFIED source inventory
+addons/mass_mailing/views/mailing_menus.xml,mass_mailing_menu,Mailings,mass_mailing_menu_root,mailing_mailing_action_mail,,VERIFIED source inventory,VERIFIED source inventory
+addons/mass_mailing/views/mailing_menus.xml,mass_mailing_mailing_list_menu,Recipients,mass_mailing_menu_root,,,VERIFIED source inventory,VERIFIED source inventory
+addons/mass_mailing/views/mailing_menus.xml,menu_email_mass_mailing_lists,Mailing Lists,mass_mailing_mailing_list_menu,action_view_mass_mailing_lists,,VERIFIED source inventory,VERIFIED source inventory
+addons/mass_mailing/views/mailing_menus.xml,menu_email_mass_mailing_contacts,Mailing Contacts,mass_mailing_mailing_list_menu,action_view_mass_mailing_contacts,,VERIFIED source inventory,VERIFIED source inventory
+addons/mass_mailing/views/mailing_menus.xml,menu_email_mass_mailing_dynamic_lists,Dynamic Lists,mass_mailing_mailing_list_menu,mailing_filter_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/mass_mailing/views/mailing_menus.xml,mass_mailing_template_menu,Templates,mass_mailing_menu_root,mailing_mailing_action_templates,,VERIFIED source inventory,VERIFIED source inventory
+addons/mass_mailing/views/mailing_menus.xml,menu_email_campaigns,Campaigns,mass_mailing_menu_root,action_view_utm_campaigns,mass_mailing.group_mass_mailing_campaign,VERIFIED source inventory,VERIFIED source inventory
+addons/mass_mailing/views/mailing_menus.xml,menu_mass_mailing_report,Reporting,mass_mailing_menu_root,,,VERIFIED source inventory,VERIFIED source inventory
+addons/mass_mailing/views/mailing_menus.xml,mailing_menu_report_mailing,Mailing Analysis,menu_mass_mailing_report,mailing_trace_report_action_mail,,VERIFIED source inventory,VERIFIED source inventory
+addons/mass_mailing/views/mailing_menus.xml,mailing_menu_report_subscribe_reason,Opt-Out Report,menu_mass_mailing_report,mailing_subscription_action_report_optout,,VERIFIED source inventory,VERIFIED source inventory
+addons/mass_mailing/views/mailing_menus.xml,mass_mailing_configuration,Configuration,mass_mailing_menu_root,,,VERIFIED source inventory,VERIFIED source inventory
+addons/mass_mailing/views/mailing_menus.xml,menu_mass_mailing_global_settings,Settings,mass_mailing_configuration,action_mass_mailing_configuration,base.group_system,VERIFIED source inventory,VERIFIED source inventory
+addons/mass_mailing/views/mailing_menus.xml,menu_view_mass_mailing_stages,Campaign Stages,mass_mailing_configuration,utm.action_view_utm_stage,mass_mailing.group_mass_mailing_campaign,VERIFIED source inventory,VERIFIED source inventory
+addons/mass_mailing/views/mailing_menus.xml,mass_mailing_tag_menu,,mass_mailing_configuration,utm.action_view_utm_tag,mass_mailing.group_mass_mailing_campaign,VERIFIED source inventory,VERIFIED source inventory
+addons/mass_mailing/views/mailing_menus.xml,link_tracker_menu_mass_mailing,Link Tracker,mass_mailing_configuration,link_tracker.link_tracker_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/mass_mailing/views/mailing_menus.xml,mail_blacklist_mm_menu,Blacklisted Email Addresses,mass_mailing_configuration,mail.mail_blacklist_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/mass_mailing/views/mailing_menus.xml,mailing_subscription_optout_menu,Optout Reasons,mass_mailing_configuration,mailing_subscription_optout_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/mass_mailing/views/mailing_menus.xml,mailing_mailing_menu_technical,Mass Mailing,base.menu_custom,,,VERIFIED source inventory,VERIFIED source inventory
+addons/mass_mailing/views/mailing_menus.xml,menu_email_statistics,Mailing Traces,mass_mailing.mailing_mailing_menu_technical,mailing_trace_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/mass_mailing_sms/views/mailing_sms_menus.xml,mass_mailing_sms_menu_root,SMS Marketing,,,mass_mailing.group_mass_mailing_user,VERIFIED source inventory,VERIFIED source inventory
+addons/mass_mailing_sms/views/mailing_sms_menus.xml,mass_mailing_sms_menu_mass_sms,SMS Marketing,mass_mailing_sms_menu_root,mailing_mailing_action_sms,mass_mailing.group_mass_mailing_user,VERIFIED source inventory,VERIFIED source inventory
+addons/mass_mailing_sms/views/mailing_sms_menus.xml,mass_mailing_sms_menu_contacts,Mailing Lists,mass_mailing_sms_menu_root,,mass_mailing.group_mass_mailing_user,VERIFIED source inventory,VERIFIED source inventory
+addons/mass_mailing_sms/views/mailing_sms_menus.xml,mailing_list_menu_sms,Mailing Lists,mass_mailing_sms_menu_contacts,mailing_list_action_sms,mass_mailing.group_mass_mailing_user,VERIFIED source inventory,VERIFIED source inventory
+addons/mass_mailing_sms/views/mailing_sms_menus.xml,mailing_contact_menu_sms,Mailing Contacts,mass_mailing_sms_menu_contacts,mailing_contact_action_sms,mass_mailing.group_mass_mailing_user,VERIFIED source inventory,VERIFIED source inventory
+addons/mass_mailing_sms/views/mailing_sms_menus.xml,menu_email_campaigns,Campaigns,mass_mailing_sms_menu_root,mass_mailing.action_view_utm_campaigns,mass_mailing.group_mass_mailing_campaign,VERIFIED source inventory,VERIFIED source inventory
+addons/mass_mailing_sms/views/mailing_sms_menus.xml,mass_mailing_sms_menu_reporting,Reporting,mass_mailing_sms_menu_root,mailing_trace_report_action_sms,mass_mailing.group_mass_mailing_user,VERIFIED source inventory,VERIFIED source inventory
+addons/mass_mailing_sms/views/mailing_sms_menus.xml,mass_mailing_sms_menu_configuration,Configuration,mass_mailing_sms_menu_root,,mass_mailing.group_mass_mailing_user,VERIFIED source inventory,VERIFIED source inventory
+addons/mass_mailing_sms/views/mailing_sms_menus.xml,phone_blacklist_menu,Blacklisted Phone Numbers,mass_mailing_sms_menu_configuration,phone_validation.phone_blacklist_action,mass_mailing.group_mass_mailing_user,VERIFIED source inventory,VERIFIED source inventory
+addons/mass_mailing_sms/views/mailing_sms_menus.xml,link_tracker_menu,Link Tracker,mass_mailing_sms_menu_configuration,link_tracker.link_tracker_action,mass_mailing.group_mass_mailing_user,VERIFIED source inventory,VERIFIED source inventory
+addons/mrp/views/mrp_bom_views.xml,menu_mrp_bom_form_action,,menu_mrp_bom,mrp_bom_form_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/mrp/views/mrp_production_views.xml,menu_mrp_production_action,,menu_mrp_manufacturing,mrp_production_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/mrp/views/mrp_production_views.xml,menu_mrp_workorder_todo,Work Orders,menu_mrp_manufacturing,mrp_workorder_todo,group_mrp_routings,VERIFIED source inventory,VERIFIED source inventory
+addons/mrp/views/mrp_production_views.xml,menu_mrp_work_order_report,Work Orders,menu_mrp_reporting,mrp_workorder_report,group_mrp_routings,VERIFIED source inventory,VERIFIED source inventory
+addons/mrp/views/mrp_routing_views.xml,menu_mrp_routing_action,,menu_mrp_configuration,mrp_routing_action,group_mrp_routings,VERIFIED source inventory,VERIFIED source inventory
+addons/mrp/views/mrp_unbuild_views.xml,menu_mrp_unbuild,Unbuild Orders,menu_mrp_manufacturing,mrp_unbuild,,VERIFIED source inventory,VERIFIED source inventory
+addons/mrp/views/mrp_views_menus.xml,menu_mrp_root,Manufacturing,,,"group_mrp_user,group_mrp_manager",VERIFIED source inventory,VERIFIED source inventory
+addons/mrp/views/mrp_views_menus.xml,menu_mrp_manufacturing,Operations,,,,VERIFIED source inventory,VERIFIED source inventory
+addons/mrp/views/mrp_views_menus.xml,mrp_planning_menu_root,Planning,,,,VERIFIED source inventory,VERIFIED source inventory
+addons/mrp/views/mrp_views_menus.xml,menu_mrp_bom,Products,,,,VERIFIED source inventory,VERIFIED source inventory
+addons/mrp/views/mrp_views_menus.xml,menu_mrp_reporting,Reporting,,,,VERIFIED source inventory,VERIFIED source inventory
+addons/mrp/views/mrp_views_menus.xml,menu_mrp_configuration,Configuration,,,group_mrp_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/mrp/views/mrp_workcenter_views.xml,menu_view_resource_search_mrp,,menu_mrp_configuration,mrp_workcenter_action,group_mrp_routings,VERIFIED source inventory,VERIFIED source inventory
+addons/mrp/views/mrp_workcenter_views.xml,menu_mrp_workcenter_productivity_report,,menu_mrp_reporting,mrp_workcenter_productivity_report,group_mrp_routings,VERIFIED source inventory,VERIFIED source inventory
+addons/mrp/views/product_views.xml,menu_mrp_product_form,Products,menu_mrp_bom,product_template_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/mrp/views/res_config_settings_views.xml,menu_mrp_config,Settings,menu_mrp_configuration,action_mrp_configuration,base.group_system,VERIFIED source inventory,VERIFIED source inventory
+addons/mrp/views/stock_move_views.xml,menu_mrp_traceability,Lots/Serial Numbers,menu_mrp_bom,stock.action_production_lot_form,stock.group_production_lot,VERIFIED source inventory,VERIFIED source inventory
+addons/mrp/views/stock_move_views.xml,menu_mrp_scrap,Scrap,menu_mrp_manufacturing,stock.stock_scrapped_moves_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/mrp/views/stock_move_views.xml,menu_procurement_compute_mrp,,mrp_planning_menu_root,stock.ir_cron_scheduler_action_ir_actions_server,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/mrp/views/stock_picking_views.xml,mrp_operation_picking,Manufacturings,stock.menu_stock_transfers,action_picking_tree_mrp_operation,"stock.group_stock_manager,stock.group_stock_user",VERIFIED source inventory,VERIFIED source inventory
+addons/onboarding/views/onboarding_menus.xml,menu_onboarding,Onboardings,base.next_id_2,action_view_onboarding_onboarding,,VERIFIED source inventory,VERIFIED source inventory
+addons/onboarding/views/onboarding_menus.xml,menu_onboarding_step,Onboardings Steps,base.next_id_2,action_view_onboarding_step,,VERIFIED source inventory,VERIFIED source inventory
+addons/partnership/views/partnership_menu.xml,menu_res_partner_grade_action,,crm_menu_partners,partnership.res_partner_grade_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/phone_validation/views/phone_blacklist_views.xml,phone_menu_main,Phone / SMS,base.menu_custom,,,VERIFIED source inventory,VERIFIED source inventory
+addons/phone_validation/views/phone_blacklist_views.xml,phone_blacklist_menu,Phone Blacklist,phone_validation.phone_menu_main,phone_blacklist_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/views/account_journal_view.xml,menu_action_tax_form_open,,point_of_sale.menu_point_config_product,account.action_tax_form,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/views/point_of_sale_view.xml,menu_point_root,Point of Sale,,,"group_pos_manager,group_pos_user",VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/views/point_of_sale_view.xml,menu_point_of_sale,Orders,menu_point_root,,,VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/views/point_of_sale_view.xml,menu_point_of_sale_customer,Customers,menu_point_of_sale,account.res_partner_action_customer,,VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/views/point_of_sale_view.xml,menu_point_rep,Reporting,menu_point_root,,,VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/views/point_of_sale_view.xml,menu_report_daily_details,Session Report,menu_point_rep,action_report_pos_daily_sales_reports,,VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/views/point_of_sale_view.xml,menu_point_config_product,Configuration,menu_point_root,,group_pos_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/views/point_of_sale_view.xml,pos_menu_products_configuration,Products,menu_point_config_product,,,VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/views/point_of_sale_view.xml,menu_pos_global_settings,Settings,menu_point_config_product,action_pos_configuration,base.group_system,VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/views/pos_bill_view.xml,menu_pos_bill,Coins/Bills,menu_point_config_product,action_pos_bill,group_pos_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/views/pos_config_view.xml,menu_products_pos_category,,point_of_sale.pos_menu_products_configuration,point_of_sale.product_pos_category_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/views/pos_config_view.xml,pos_menu_products_attribute_action,,point_of_sale.pos_menu_products_configuration,pos_product_attribute_action,product.group_product_variant,VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/views/pos_config_view.xml,menu_pos_dashboard,Dashboard,menu_point_root,action_pos_config_kanban,,VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/views/pos_note_view.xml,menu_pos_note_model,,menu_point_config_product,action_pos_note_model,,VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/views/pos_order_report_view.xml,menu_report_pos_order_all,Orders,menu_point_rep,action_report_pos_order_all,,VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/views/pos_order_report_view.xml,menu_report_order_details,Sales Details,menu_point_rep,action_report_pos_details,,VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/views/pos_order_view.xml,menu_point_ofsale,,menu_point_of_sale,action_pos_pos_form,"group_pos_manager,group_pos_user",VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/views/pos_payment_method_views.xml,menu_pos_payment_method,,menu_point_config_product,action_pos_payment_method_form,"group_pos_manager,group_pos_user",VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/views/pos_payment_views.xml,menu_pos_payment,,menu_point_of_sale,action_pos_payment_form,"group_pos_manager,group_pos_user",VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/views/pos_preset_view.xml,menu_pos_preset,,menu_point_config_product,action_pos_preset_form,group_pos_preset,VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/views/pos_printer_view.xml,point_of_sale.menu_pos_printers,Printers,point_of_sale.menu_point_config_product,action_pos_printer_form,,VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/views/pos_session_view.xml,menu_pos_session_all,,menu_point_of_sale,action_pos_session,group_pos_user,VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/views/product_tag_views.xml,pos_menu_products_tag_action,,point_of_sale.pos_menu_products_configuration,product.product_tag_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/views/product_view.xml,pos_config_menu_catalog,Products,point_of_sale.menu_point_root,,,VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/views/product_view.xml,menu_pos_products,,point_of_sale.pos_config_menu_catalog,product_template_action_pos_product,,VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/views/product_view.xml,point_of_sale.menu_product_combo,Combo Choices,point_of_sale.pos_config_menu_catalog,pos_product_combo_choice_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/views/product_view.xml,pos_config_menu_action_product_pricelist,,point_of_sale.pos_config_menu_catalog,point_of_sale.pos_product_pricelist_action,product.group_product_pricelist,VERIFIED source inventory,VERIFIED source inventory
+addons/pos_loyalty/views/pos_loyalty_menu_views.xml,menu_discount_loyalty_type_config,Discount & Loyalty,point_of_sale.pos_config_menu_catalog,loyalty.loyalty_program_discount_loyalty_action,point_of_sale.group_pos_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/pos_loyalty/views/pos_loyalty_menu_views.xml,menu_gift_ewallet_type_config,Gift cards & eWallet,point_of_sale.pos_config_menu_catalog,loyalty.loyalty_program_gift_ewallet_action,point_of_sale.group_pos_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/pos_restaurant/views/pos_course_views.xml,menu_pos_course,Courses,point_of_sale.pos_menu_products_configuration,action_pos_course,,VERIFIED source inventory,VERIFIED source inventory
+addons/pos_restaurant/views/pos_restaurant_views.xml,menu_restaurant_floor_all,,point_of_sale.menu_point_config_product,action_restaurant_floor_form,point_of_sale.group_pos_user,VERIFIED source inventory,VERIFIED source inventory
+addons/privacy_lookup/views/privacy_log_views.xml,privacy_menu,Privacy,base.menu_custom,,,VERIFIED source inventory,VERIFIED source inventory
+addons/privacy_lookup/views/privacy_log_views.xml,pricacy_log_menu,Privacy Logs,privacy_menu,privacy_log_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/product_margin/views/product_product_views.xml,menu_action_product_margin,Product Margins…,account.account_reports_management_menu,product_margin_act_window,,VERIFIED source inventory,VERIFIED source inventory
+addons/project/views/project_menus.xml,menu_main_pm,Project,,,"group_project_manager,group_project_user",VERIFIED source inventory,VERIFIED source inventory
+addons/project/views/project_menus.xml,menu_projects,Projects,,open_view_project_all,,VERIFIED source inventory,VERIFIED source inventory
+addons/project/views/project_menus.xml,menu_projects_group_stage,Projects,,open_view_project_all_group_stage,project.group_project_stages,VERIFIED source inventory,VERIFIED source inventory
+addons/project/views/project_menus.xml,menu_project_management,Tasks,,,,VERIFIED source inventory,VERIFIED source inventory
+addons/project/views/project_menus.xml,menu_project_management_my_tasks,My Tasks,,action_view_my_task,,VERIFIED source inventory,VERIFIED source inventory
+addons/project/views/project_menus.xml,menu_project_management_all_tasks,All Tasks,,action_view_all_task,,VERIFIED source inventory,VERIFIED source inventory
+addons/project/views/project_menus.xml,menu_project_report,Reporting,,,project.group_project_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/project/views/project_menus.xml,menu_project_report_task_analysis,Tasks Analysis,,project.action_project_task_user_tree,,VERIFIED source inventory,VERIFIED source inventory
+addons/project/views/project_menus.xml,rating_rating_menu_project,Customer Ratings,,rating_rating_action_project_report,,VERIFIED source inventory,VERIFIED source inventory
+addons/project/views/project_menus.xml,menu_project_config,Configuration,,,project.group_project_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/project/views/project_menus.xml,project_config_settings_menu_action,Settings,,project_config_settings_action,base.group_system,VERIFIED source inventory,VERIFIED source inventory
+addons/project/views/project_menus.xml,menu_projects_config_group_stage,Projects,,open_view_project_all_config_group_stage,project.group_project_stages,VERIFIED source inventory,VERIFIED source inventory
+addons/project/views/project_menus.xml,menu_projects_config,Projects,,open_view_project_all_config,,VERIFIED source inventory,VERIFIED source inventory
+addons/project/views/project_menus.xml,menu_project_config_project_template,Project Templates,,open_view_project_template,,VERIFIED source inventory,VERIFIED source inventory
+addons/project/views/project_menus.xml,project_menu_config_project_roles,Project Roles,,project_roles_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/project/views/project_menus.xml,menu_project_config_project_stage,Project Stages,,project_project_stage_configure,,VERIFIED source inventory,VERIFIED source inventory
+addons/project/views/project_menus.xml,menu_project_config_project,Task Stages,,open_task_type_form,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/project/views/project_menus.xml,menu_project_tags_act,Tags,,project_tags_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/project/views/project_menus.xml,project_menu_config_activity_type,Activity Types,,mail_activity_type_action_config_project_types,,VERIFIED source inventory,VERIFIED source inventory
+addons/project/views/project_menus.xml,mail_activity_plan_menu_config_project,Activity Plans,,mail_activity_plan_action_config_project_task_plan,,VERIFIED source inventory,VERIFIED source inventory
+addons/project_todo/views/project_todo_menus.xml,menu_todo_todos,To-do,,project_todo.project_task_action_todo,base.group_user_regular,VERIFIED source inventory,VERIFIED source inventory
+addons/purchase/report/purchase_report_views.xml,purchase_report_main,Reporting,purchase.menu_purchase_root,,purchase.group_purchase_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/purchase/report/purchase_report_views.xml,purchase_report,Purchase,purchase.purchase_report_main,action_purchase_order_report_all,purchase.group_purchase_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/purchase/views/purchase_views.xml,menu_purchase_root,Purchase,,,"group_purchase_manager,group_purchase_user",VERIFIED source inventory,VERIFIED source inventory
+addons/purchase/views/purchase_views.xml,menu_procurement_management,Orders,menu_purchase_root,,,VERIFIED source inventory,VERIFIED source inventory
+addons/purchase/views/purchase_views.xml,menu_procurement_management_supplier_name,Vendors,menu_procurement_management,account.res_partner_action_supplier,,VERIFIED source inventory,VERIFIED source inventory
+addons/purchase/views/purchase_views.xml,menu_purchase_config,Configuration,menu_purchase_root,,group_purchase_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/purchase/views/purchase_views.xml,menu_product_pricelist_action2_purchase,,menu_purchase_config,product.product_supplierinfo_type_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/purchase/views/purchase_views.xml,menu_product_in_config_purchase,Products,menu_purchase_config,,,VERIFIED source inventory,VERIFIED source inventory
+addons/purchase/views/purchase_views.xml,menu_product_attribute_action,Attributes,purchase.menu_product_in_config_purchase,product.attribute_action,product.group_product_variant,VERIFIED source inventory,VERIFIED source inventory
+addons/purchase/views/purchase_views.xml,menu_product_category_config_purchase,,purchase.menu_product_in_config_purchase,product.product_category_action_form,,VERIFIED source inventory,VERIFIED source inventory
+addons/purchase/views/purchase_views.xml,menu_purchase_uom_form_action,Units & Packagings,purchase.menu_product_in_config_purchase,uom.uom_uom_action_list,uom.group_uom,VERIFIED source inventory,VERIFIED source inventory
+addons/purchase/views/purchase_views.xml,menu_purchase_products,Products,purchase.menu_purchase_root,,,VERIFIED source inventory,VERIFIED source inventory
+addons/purchase/views/purchase_views.xml,menu_procurement_partner_contact_form,Products,menu_purchase_products,product_normal_action_puchased,,VERIFIED source inventory,VERIFIED source inventory
+addons/purchase/views/purchase_views.xml,menu_purchase_rfq,,menu_procurement_management,purchase_rfq,,VERIFIED source inventory,VERIFIED source inventory
+addons/purchase/views/purchase_views.xml,menu_purchase_form_action,,menu_procurement_management,purchase_form_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/purchase/views/res_config_settings_views.xml,menu_purchase_general_settings,Settings,menu_purchase_config,action_purchase_configuration,base.group_system,VERIFIED source inventory,VERIFIED source inventory
+addons/purchase_requisition/views/purchase_requisition_views.xml,menu_purchase_requisition_pro_mgt,,purchase.menu_procurement_management,action_purchase_requisition,,VERIFIED source inventory,VERIFIED source inventory
+addons/rating/views/rating_rating_views.xml,rating_rating_menu_technical,Ratings,mail.mail_menu_technical,rating_rating_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/repair/views/repair_views.xml,menu_repair_order,Repairs,,,stock.group_stock_user,VERIFIED source inventory,VERIFIED source inventory
+addons/repair/views/repair_views.xml,repair_order_menu,Orders,menu_repair_order,action_repair_order_tree,stock.group_stock_user,VERIFIED source inventory,VERIFIED source inventory
+addons/repair/views/repair_views.xml,repair_menu_reporting,Reporting,menu_repair_order,,stock.group_stock_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/repair/views/repair_views.xml,repair_menu,Repairs,repair_menu_reporting,action_repair_order_graph,,VERIFIED source inventory,VERIFIED source inventory
+addons/repair/views/repair_views.xml,repair_menu_config,Configuration,menu_repair_order,,stock.group_stock_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/repair/views/repair_views.xml,repair_menu_product_template,Products,repair_menu_config,stock.product_template_action_product,,VERIFIED source inventory,VERIFIED source inventory
+addons/repair/views/repair_views.xml,repair_menu_tag,Repair Orders Tags,repair_menu_config,action_repair_order_tag,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/resource/views/menuitems.xml,menu_resource_config,Resource,base.menu_custom,,,VERIFIED source inventory,VERIFIED source inventory
+addons/resource/views/menuitems.xml,menu_resource_calendar,,menu_resource_config,action_resource_calendar_form,,VERIFIED source inventory,VERIFIED source inventory
+addons/resource/views/menuitems.xml,menu_view_resource_calendar_leaves_search,,menu_resource_config,action_resource_calendar_leave_tree,,VERIFIED source inventory,VERIFIED source inventory
+addons/resource/views/menuitems.xml,menu_resource_resource,,menu_resource_config,action_resource_resource_tree,,VERIFIED source inventory,VERIFIED source inventory
+addons/sale/views/sale_menus.xml,sale_menu_root,Sales,,,,VERIFIED source inventory,VERIFIED source inventory
+addons/sale/views/sale_menus.xml,sale_order_menu,Orders,,,,VERIFIED source inventory,VERIFIED source inventory
+addons/sale/views/sale_menus.xml,menu_sale_quotations,,,action_quotations_with_onboarding,sales_team.group_sale_salesman,VERIFIED source inventory,VERIFIED source inventory
+addons/sale/views/sale_menus.xml,menu_sale_order,Orders,,action_orders,sales_team.group_sale_salesman,VERIFIED source inventory,VERIFIED source inventory
+addons/sale/views/sale_menus.xml,menu_service_material,,,action_service_material,sale.group_services_and_material,VERIFIED source inventory,VERIFIED source inventory
+addons/sale/views/sale_menus.xml,res_partner_menu,,,account.res_partner_action_customer,sales_team.group_sale_salesman,VERIFIED source inventory,VERIFIED source inventory
+addons/sale/views/sale_menus.xml,product_menu_catalog,Products,,,sales_team.group_sale_salesman,VERIFIED source inventory,VERIFIED source inventory
+addons/sale/views/sale_menus.xml,menu_product_template_action,,,product_template_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/sale/views/sale_menus.xml,menu_product_attribute_action,,,product.attribute_action,product.group_product_variant,VERIFIED source inventory,VERIFIED source inventory
+addons/sale/views/sale_menus.xml,menu_product_pricelist_main,Pricelists,,product.product_pricelist_action2,product.group_product_pricelist,VERIFIED source inventory,VERIFIED source inventory
+addons/sale/views/sale_menus.xml,menu_sale_marketplaces,Marketplaces,,,,VERIFIED source inventory,VERIFIED source inventory
+addons/sale/views/sale_menus.xml,menu_sale_report,Reporting,,,sales_team.group_sale_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/sale/views/sale_menus.xml,menu_reporting_sales,Sales,,action_order_report_all,,VERIFIED source inventory,VERIFIED source inventory
+addons/sale/views/sale_menus.xml,menu_reporting_salespeople,Salespersons,,action_order_report_salesperson,,VERIFIED source inventory,VERIFIED source inventory
+addons/sale/views/sale_menus.xml,menu_reporting_product,Products,,action_order_report_products,,VERIFIED source inventory,VERIFIED source inventory
+addons/sale/views/sale_menus.xml,menu_reporting_customer,Customers,,action_order_report_customers,,VERIFIED source inventory,VERIFIED source inventory
+addons/sale/views/sale_menus.xml,menu_sale_config,Configuration,,,sales_team.group_sale_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/sale/views/sale_menus.xml,menu_sale_general_settings,Settings,,action_sale_config_settings,base.group_system,VERIFIED source inventory,VERIFIED source inventory
+addons/sale/views/sale_menus.xml,sales_team_config,Teams,,sales_team.crm_team_action_config,,VERIFIED source inventory,VERIFIED source inventory
+addons/sale/views/sale_menus.xml,payment_provider_menu,Payments,,payment.action_payment_provider,,VERIFIED source inventory,VERIFIED source inventory
+addons/sale/views/sale_menus.xml,menu_sales_config,Sales Orders,,,,VERIFIED source inventory,VERIFIED source inventory
+addons/sale_crm/views/sale_order_views.xml,sale_order_menu_quotations_crm,My Quotations,crm.crm_menu_sales,sale.action_quotations,,VERIFIED source inventory,VERIFIED source inventory
+addons/sale_loyalty/views/sale_loyalty_menus.xml,menu_sale_promotions,Promotions,sale.sale_menu_root,,sales_team.group_sale_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/sale_loyalty/views/sale_loyalty_menus.xml,menu_discount_loyalty_type_config,,,loyalty.loyalty_program_discount_loyalty_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/sale_loyalty/views/sale_loyalty_menus.xml,menu_gift_ewallet_type_config,,,loyalty.loyalty_program_gift_ewallet_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/sale_management/views/sale_management_menus.xml,sale_order_template_menu,Templates,sale.menu_sales_config,sale_order_template_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/sale_pdf_quote_builder/views/sale_pdf_quote_builder_menus.xml,sale_menu_quotation_document_action,Headers/Footers,sale.menu_sales_config,quotation_document_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/sale_project/views/project_menus.xml,analytic_margins_menu_project,Margins,project.menu_project_report,action_analytic_reporting_inherit_sale_project,project.group_project_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/sale_project_margin/views/project_menus.xml,analytic_projected_margins_menu_project,Forecast Margins,project.menu_project_report,sale_margin.action_order_report_projected_margins,project.group_project_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/sale_stock/views/stock_picking_views.xml,menu_stock_picking_return_report,Returns,stock.menu_warehouse_report,sale_stock.action_stock_picking_return_report,,VERIFIED source inventory,VERIFIED source inventory
+addons/sale_timesheet/report/timesheets_analysis_views.xml,menu_timesheet_billing_analysis,By Billing Type,hr_timesheet.menu_timesheets_reports_timesheet,timesheet_action_billing_report,,VERIFIED source inventory,VERIFIED source inventory
+addons/sms/views/sms_sms_views.xml,sms_sms_menu,,phone_validation.phone_menu_main,sms_sms_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/sms/views/sms_template_views.xml,sms_template_menu,SMS Templates,phone_validation.phone_menu_main,sms_template_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/snailmail/views/snailmail_views.xml,menu_snailmail_letters,,base.menu_email,action_mail_letters,,VERIFIED source inventory,VERIFIED source inventory
+addons/spreadsheet_dashboard/views/menu_views.xml,spreadsheet_dashboard_menu_root,Dashboards,,ir_actions_dashboard_action,base.group_user_regular,VERIFIED source inventory,VERIFIED source inventory
+addons/spreadsheet_dashboard/views/menu_views.xml,spreadsheet_dashboard_menu_dashboard,Dashboards,spreadsheet_dashboard_menu_root,ir_actions_dashboard_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/spreadsheet_dashboard/views/menu_views.xml,spreadsheet_dashboard_menu_configuration,Configuration,spreadsheet_dashboard_menu_root,,,VERIFIED source inventory,VERIFIED source inventory
+addons/spreadsheet_dashboard/views/menu_views.xml,spreadsheet_dashboard_menu_configuration_dashboards,Dashboards,spreadsheet_dashboard_menu_configuration,spreadsheet_dashboard_action_configuration_dashboards,,VERIFIED source inventory,VERIFIED source inventory
+addons/spreadsheet_dashboard/views/menu_views.xml,spreadsheet_dashboard_group_menu_configuration_sections,Sections,spreadsheet_dashboard_menu_configuration,spreadsheet_dashboard_group_action_configuration_sections,,VERIFIED source inventory,VERIFIED source inventory
+addons/spreadsheet_dashboard/views/menu_views.xml,spreadsheet_dashboard_share_menu_configuration_share_links,Share links,spreadsheet_dashboard_menu_configuration,spreadsheet_dashboard_share_action_configuration_share_links,,VERIFIED source inventory,VERIFIED source inventory
+addons/spreadsheet_dashboard/views/menu_views.xml,spreadsheet_dashboard_menu_technical,Dashboards,base.menu_custom,,,VERIFIED source inventory,VERIFIED source inventory
+addons/spreadsheet_dashboard/views/menu_views.xml,spreadsheet_dashboard_menu_configuration_global_filters,User-defined Dashboard Filters,spreadsheet_dashboard_menu_technical,actions_spreadsheet_dashboard_favorite_filters_view,spreadsheet_dashboard.group_dashboard_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/spreadsheet_dashboard_im_livechat/data/livechat_ongoing_sessions_actions.xml,ongoing_session_all_menu,Ongoing Sessions,im_livechat.livechat_technical,ongoing_sessions_all_action,im_livechat.im_livechat_group_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/spreadsheet_dashboard_im_livechat/data/livechat_ongoing_sessions_actions.xml,ongoing_sessions_escalated_menu,Escalated Sessions,im_livechat.livechat_technical,ongoing_sessions_escalated_action,im_livechat.im_livechat_group_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/spreadsheet_dashboard_im_livechat/data/livechat_ongoing_sessions_actions.xml,ongoing_sessions_agents_in_call_menu,Ongoing Call Sessions,im_livechat.livechat_technical,ongoing_sessions_agents_in_call_action,im_livechat.im_livechat_group_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/spreadsheet_dashboard_im_livechat/data/livechat_ongoing_sessions_actions.xml,ongoing_sessions_handle_by_agent_menu,Sessions Handled by Agent,im_livechat.livechat_technical,ongoing_sessions_handle_by_agent_action,im_livechat.im_livechat_group_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/spreadsheet_dashboard_im_livechat/data/livechat_ongoing_sessions_actions.xml,ongoing_sessions_handle_by_bot_menu,Sessions Handled by Bot,im_livechat.livechat_technical,ongoing_sessions_handle_by_bot_action,im_livechat.im_livechat_group_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/product_strategy_views.xml,menu_putaway,Putaway Rules,stock.menu_warehouse_config,action_putaway_tree,stock.group_stock_multi_locations,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/product_views.xml,menu_product_variant_config_stock,Products,stock.menu_stock_inventory_control,product_template_action_product,,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/product_views.xml,menu_product_stock,Stock,stock.menu_warehouse_report,stock.action_product_stock_view,,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/res_config_settings_views.xml,menu_stock_config_settings,Configuration,menu_stock_root,,group_stock_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/res_config_settings_views.xml,menu_stock_general_settings,Settings,menu_stock_config_settings,action_stock_config_settings,base.group_system,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_location_views.xml,menu_action_location_form,,menu_warehouse_config,action_location_form,stock.group_stock_multi_locations,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_location_views.xml,menu_routes_config,Routes,menu_warehouse_config,action_routes_form,stock.group_adv_location,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_lot_views.xml,menu_action_production_lot_form,,menu_stock_inventory_control,action_production_lot_form,stock.group_production_lot,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_menu_views.xml,menu_stock_root,Inventory,,,"group_stock_manager,group_stock_user",VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_menu_views.xml,menu_stock_warehouse_mgmt,Operations,menu_stock_root,,,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_menu_views.xml,menu_stock_transfers,Transfers,menu_stock_warehouse_mgmt,,,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_menu_views.xml,menu_stock_adjustments,Adjustments,menu_stock_warehouse_mgmt,,,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_menu_views.xml,menu_stock_procurement,Procurement,menu_stock_warehouse_mgmt,,,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_menu_views.xml,menu_stock_jobs,Jobs,menu_stock_warehouse_mgmt,,group_stock_picking_batch,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_menu_views.xml,menu_stock_config_settings,Configuration,menu_stock_root,,group_stock_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_menu_views.xml,menu_warehouse_config,Warehouse Management,menu_stock_config_settings,,stock.group_stock_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_menu_views.xml,menu_product_in_config_stock,Products,stock.menu_stock_config_settings,,,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_menu_views.xml,menu_wms_barcode_nomenclature_all,,menu_product_in_config_stock,barcodes.action_barcode_nomenclature_form,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_menu_views.xml,menu_product_category_config_stock,,stock.menu_product_in_config_stock,product.product_category_action_form,,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_menu_views.xml,menu_attribute_action,,stock.menu_product_in_config_stock,product.attribute_action,product.group_product_variant,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_menu_views.xml,menu_stock_uom_form_action,Units & Packagings,menu_product_in_config_stock,uom.uom_uom_action_list,uom.group_uom,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_menu_views.xml,menu_stock_inventory_control,Products,menu_stock_root,,,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_menu_views.xml,stock.menu_warehouse_report,Reporting,stock.menu_stock_root,,group_stock_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_move_line_views.xml,stock_move_line_menu,,stock.menu_warehouse_report,stock_move_line_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_move_views.xml,stock_move_menu,Moves Analysis,stock.menu_warehouse_report,stock_move_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_move_views.xml,menu_stock_scrap,Scrap,stock.menu_stock_adjustments,stock_scrapped_moves_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_orderpoint_views.xml,menu_reordering_rules_replenish,Replenishment,menu_stock_procurement,action_replenishment,stock.group_stock_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_package_type_view.xml,menu_delivery,Delivery,stock.menu_stock_config_settings,,stock.group_stock_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_package_type_view.xml,menu_packaging_types,Package Types,menu_delivery,action_package_type_view,stock.group_tracking_lot,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_package_views.xml,menu_package,Packages,menu_stock_inventory_control,action_package_view,stock.group_tracking_lot,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_picking_batch_views.xml,stock_picking_batch_menu,,menu_stock_jobs,stock_picking_batch_action,group_stock_picking_batch,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_picking_type_views.xml,menu_pickingtype,Operations Types,stock.menu_warehouse_config,action_picking_type_list,,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_picking_type_views.xml,stock_picking_type_menu,Overview,menu_stock_root,stock_picking_type_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_picking_views.xml,in_picking,Receipts,menu_stock_transfers,stock.method_action_picking_tree_incoming,"stock.group_stock_manager,stock.group_stock_user",VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_picking_views.xml,out_picking,Deliveries,menu_stock_transfers,stock.method_action_picking_tree_outgoing,"stock.group_stock_manager,stock.group_stock_user",VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_picking_views.xml,int_picking,Internal,menu_stock_transfers,stock.method_action_picking_tree_internal,stock.group_stock_multi_locations,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_quant_views.xml,menu_action_inventory_tree,Physical Inventory,menu_stock_adjustments,action_view_inventory_tree,,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_quant_views.xml,menu_valuation,Stock by Location,stock.menu_warehouse_report,action_view_quants,"stock.group_stock_multi_locations,stock.group_tracking_owner,base.group_no_one",VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_reference_views.xml,menu_stock_references,,menu_stock_procurement,action_stock_reference,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_rule_views.xml,menu_action_rules_form,,menu_warehouse_config,action_rules_form,stock.group_adv_location,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_rule_views.xml,stock.menu_procurement_compute,,menu_stock_warehouse_mgmt,ir_cron_scheduler_action_ir_actions_server,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_storage_category_views.xml,menu_storage_categoty_config,Storage Categories,menu_warehouse_config,action_storage_category,stock.group_stock_multi_locations,VERIFIED source inventory,VERIFIED source inventory
+addons/stock/views/stock_warehouse_views.xml,menu_action_warehouse_form,,menu_warehouse_config,action_warehouse_form,,VERIFIED source inventory,VERIFIED source inventory
+addons/stock_account/views/product_value_views.xml,valuation_adjustments_menu,Valuation Adjustments,stock.menu_warehouse_report,product_value_list_action,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/stock_delivery/views/delivery_view.xml,menu_action_delivery_carrier_form,,stock.menu_delivery,delivery.action_delivery_carrier_form,,VERIFIED source inventory,VERIFIED source inventory
+addons/stock_delivery/views/delivery_view.xml,menu_delivery_zip_prefix,,stock.menu_delivery,delivery.action_delivery_zip_prefix_list,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/stock_delivery/views/stock_menu_views.xml,cached_printers_section,Reporting,stock.menu_stock_config_settings,,,VERIFIED source inventory,VERIFIED source inventory
+addons/stock_delivery/views/stock_menu_views.xml,manage_printers_action,Manage Printers,cached_printers_section,printer.manage_printers_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/stock_delivery/views/stock_menu_views.xml,cached_printers_action,Reset Linked Printers,cached_printers_section,printer.action_reset_linked_printers,,VERIFIED source inventory,VERIFIED source inventory
+addons/stock_dropshipping/views/stock_picking_views.xml,dropship_picking,Dropships,stock.menu_stock_transfers,action_picking_tree_dropship,"stock.group_stock_manager,stock.group_stock_user",VERIFIED source inventory,VERIFIED source inventory
+addons/stock_landed_costs/views/stock_landed_cost_views.xml,menu_stock_landed_cost,Landed Costs,stock.menu_stock_adjustments,action_stock_landed_cost,,VERIFIED source inventory,VERIFIED source inventory
+addons/survey/views/survey_menus.xml,menu_surveys,Surveys,,,group_survey_user,VERIFIED source inventory,VERIFIED source inventory
+addons/survey/views/survey_menus.xml,survey_menu_questions,Questions & Answers,menu_surveys,,,VERIFIED source inventory,VERIFIED source inventory
+addons/survey/views/survey_question_views.xml,menu_survey_question_form1,Questions,survey_menu_questions,action_survey_question_form,,VERIFIED source inventory,VERIFIED source inventory
+addons/survey/views/survey_question_views.xml,menu_survey_label_form1,Suggested Values,survey_menu_questions,survey_question_answer_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/survey/views/survey_question_views.xml,menu_survey_response_line_form,Detailed Answers,survey_menu_questions,survey_user_input_line_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/survey/views/survey_survey_views.xml,menu_survey_form,Surveys,menu_surveys,action_survey_form,,VERIFIED source inventory,VERIFIED source inventory
+addons/survey/views/survey_user_views.xml,menu_survey_type_form1,Participants,menu_surveys,action_survey_user_input,,VERIFIED source inventory,VERIFIED source inventory
+addons/test_website/views/test_model_views.xml,menu_test_website_test_model,Test Model,website.menu_website_global_configuration,action_test_website_test_model,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/utm/views/utm_menus.xml,menu_link_tracker_root,Link Tracker,,,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/utm/views/utm_menus.xml,marketing_utm,UTMs,menu_link_tracker_root,,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/utm/views/utm_menus.xml,menu_utm_campaign_act,,marketing_utm,utm_campaign_action,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/utm/views/utm_menus.xml,menu_utm_medium,,marketing_utm,utm_medium_action,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/utm/views/utm_menus.xml,menu_utm_source,,marketing_utm,utm_source_action,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/web_tour/views/tour_views.xml,menu_tour_action,,base.next_id_2,tour_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/res_config_settings_views.xml,menu_website_global_configuration,Configuration,menu_website_configuration,,base.group_system,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/res_config_settings_views.xml,menu_website_website_settings,Settings,menu_website_global_configuration,action_website_configuration,base.group_system,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/res_config_settings_views.xml,menu_website_add_features,,website.menu_website_global_configuration,action_website_add_features,base.group_system,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/res_config_settings_views.xml,menu_website_websites_list,Websites,menu_website_global_configuration,action_website_list,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/res_config_settings_views.xml,menu_website_menu_list,Menus,menu_website_global_configuration,action_website_menu,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/website_controller_pages_views.xml,menu_website_controller_pages_list,Model Pages,menu_content,action_website_controller_pages_list,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/website_pages_views.xml,menu_website_pages_list,Pages,menu_content,action_website_pages_list,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/website_rewrite.xml,menu_website_rewrite,Redirects,menu_website_global_configuration,action_website_rewrite_list,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/website_views.xml,menu_website_configuration,Website,,,base.group_user_regular,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/website_views.xml,menu_site,Site,website.menu_website_configuration,,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/website_views.xml,menu_website_preview,Homepage,menu_site,website.website_preview,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/website_views.xml,menu_edit_menu,Menu Editor,menu_site,website.website_preview,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/website_views.xml,menu_content,Content,menu_site,,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/website_views.xml,menu_current_page,This page,menu_site,,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/website_views.xml,menu_page_properties,Properties,menu_current_page,website.website_preview,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/website_views.xml,menu_optimize_seo,Optimize SEO,menu_current_page,website.website_preview,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/website_views.xml,menu_ace_editor,HTML / CSS Editor,menu_current_page,website.website_preview,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/website_views.xml,custom_menu_edit_menu,Edit Menu,menu_current_page,website.website_preview,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/website_views.xml,menu_reporting,Reporting,website.menu_website_configuration,,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/website_views.xml,menu_website_dashboard,eCommerce,menu_reporting,website.ir_actions_server_website_dashboard,"base.group_system,website.group_website_designer",VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/website_views.xml,menu_website_analytics,Analytics,menu_reporting,website.ir_actions_server_website_analytics,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/website_views.xml,menu_website_technical_pages,System Pages,menu_content,action_website_technical_pages,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/website_visitor_views.xml,website_visitor_menu,Visitors,website.menu_reporting,website.website_visitors_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/website/views/website_visitor_views.xml,menu_visitor_view_menu,Page Views,website.menu_reporting,website.website_visitor_view_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_blog/views/website_blog_views.xml,menu_website_blog_root_global,Blog,website.menu_website_global_configuration,,website.group_website_designer,VERIFIED source inventory,VERIFIED source inventory
+addons/website_blog/views/website_blog_views.xml,menu_blog_global,Blogs,menu_website_blog_root_global,action_blog_blog,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_blog/views/website_blog_views.xml,menu_blog_tag_global,Tags,menu_website_blog_root_global,action_tags,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_blog/views/website_blog_views.xml,menu_website_blog_tag_category_global,Tag Categories,menu_website_blog_root_global,action_tag_category,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_blog/views/website_pages_views.xml,menu_blog_post_pages,Blog Posts,website.menu_content,action_blog_post,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_crm_iap_reveal/views/crm_menus.xml,crm_reveal_rule_menu_action,,crm_iap_mine.crm_menu_lead_generation,crm_reveal_rule_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_crm_iap_reveal/views/crm_menus.xml,crm_reveal_view_menu_action,,crm.crm_menu_report,crm_reveal_view_action,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/website_crm_partner_assign/report/crm_partner_report_view.xml,menu_report_crm_partner_assign_tree,Partnerships,crm.crm_menu_report,action_report_crm_partner_assign,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_crm_partner_assign/views/partner_assign_menus.xml,res_partner_activation_config_mi,,partnership.crm_menu_partners,res_partner_activation_act,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_crm_partner_assign/views/website_page_views.xml,menu_partners_pages,Partners,website.menu_content,action_partner_pages_list,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_customer/views/res_partner_views.xml,menu_partner_tag_form,Website Tags,contacts.res_partner_menu_config,action_partner_tag_form,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_event/views/event_menus.xml,menu_website_event_menu,Website Menus,event.menu_event_configuration,website_event_menu_action,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/website_event/views/website_pages_views.xml,menu_event_pages,Events,website.menu_content,action_event_pages_list,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_event_exhibitor/views/event_menus.xml,menu_event_sponsor_type,Sponsor Levels,event.menu_event_configuration,event_sponsor_type_action,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/website_event_track/views/event_menus.xml,menu_event_track,Tracks,event.event_main_menu,action_event_track,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/website_event_track/views/event_menus.xml,event_track_stage_menu,Track Stages,event.menu_event_configuration,event_track_stage_action,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/website_event_track/views/event_menus.xml,menu_event_track_location,Track Locations,event.menu_event_configuration,action_event_track_location,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_event_track/views/event_menus.xml,event_track_tag_category_menu,Track Tag Categories,event.menu_event_configuration,event_track_tag_category_action,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/website_event_track/views/event_menus.xml,menu_event_track_tag,Track Tags,event.menu_event_configuration,action_event_track_tag,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/website_event_track/views/event_menus.xml,event_track_visitor_menu,Track Visitors,event.menu_event_configuration,event_track_visitor_action,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/website_event_track_quiz/views/event_menus.xml,event_quiz_menu,Quizzes,event.menu_event_configuration,event_quiz_action,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/website_event_track_quiz/views/event_menus.xml,event_quiz_question_menu,Quiz Questions,event.menu_event_configuration,event_quiz_question_action,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/website_forum/views/forum_menus.xml,menu_website_forum_global,Forum,website.menu_website_global_configuration,,website.group_website_designer,VERIFIED source inventory,VERIFIED source inventory
+addons/website_forum/views/forum_menus.xml,menu_forum_global,Forums,menu_website_forum_global,forum_forum_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_forum/views/forum_menus.xml,menu_forum_rank_global,Ranks,menu_website_forum_global,gamification.gamification_karma_ranks_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_forum/views/forum_menus.xml,menu_forum_tag_global,Tags,menu_website_forum_global,forum_tag_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_forum/views/forum_menus.xml,menu_forum_badges,Badges,menu_website_forum_global,gamification.badge_list_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_forum/views/forum_menus.xml,menu_forum_post_reasons,Close Reasons,menu_website_forum_global,forum_post_reason_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_forum/views/forum_menus.xml,menu_forum_post_pages,Forum Posts,website.menu_content,forum_post_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_hr_recruitment/views/website_pages_views.xml,menu_job_pages,Jobs,website.menu_content,action_job_pages_list,hr_recruitment.group_hr_recruitment_interviewer,VERIFIED source inventory,VERIFIED source inventory
+addons/website_links/views/link_tracker_views.xml,menu_link_tracker,Link Tracker,website.menu_current_page,website.website_preview,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_livechat/views/website_visitor_views.xml,website_livechat_visitor_menu,Visitors,im_livechat.menu_livechat_root,website.website_visitors_action,im_livechat.im_livechat_group_user,VERIFIED source inventory,VERIFIED source inventory
+addons/website_mail_group/views/website_mail_group_menus.xml,mail_group_menu_website_root,Mailing Lists,website.menu_website_global_configuration,,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_mail_group/views/website_mail_group_menus.xml,mail_group_menu_website,Mailing Lists,website_mail_group.mail_group_menu_website_root,mail_group.mail_group_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_mail_group/views/website_mail_group_menus.xml,mail_group_moderation_menu_website,Moderation Rules,website_mail_group.mail_group_menu_website_root,mail_group.mail_group_moderation_action,mail_group.group_mail_group_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/website_sale/views/website_sale_menus.xml,menu_ecommerce,eCommerce,website.menu_website_configuration,,sales_team.group_sale_salesman,VERIFIED source inventory,VERIFIED source inventory
+addons/website_sale/views/website_sale_menus.xml,menu_open_shop,Shop,,action_open_shop_page,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_sale/views/website_sale_menus.xml,menu_orders,Orders,,,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_sale/views/website_sale_menus.xml,menu_orders_orders,Orders,,action_orders_ecommerce,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_sale/views/website_sale_menus.xml,menu_orders_abandoned_orders,Abandoned Carts,,action_view_abandoned_tree,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/website_sale/views/website_sale_menus.xml,menu_orders_customers,Customers,,base.action_partner_customer_form,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_sale/views/website_sale_menus.xml,menu_catalog,Products,,,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_sale/views/website_sale_menus.xml,menu_catalog_products,Products,,product_template_action_website,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_sale/views/website_sale_menus.xml,menu_catalog_pricelists,Pricelists,,product.product_pricelist_action2,product.group_product_pricelist,VERIFIED source inventory,VERIFIED source inventory
+addons/website_sale/views/website_sale_menus.xml,menu_catalog_categories,Categories,,product_public_category_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_sale/views/website_sale_menus.xml,menu_product_attribute_action,,,product.attribute_action,product.group_product_variant,VERIFIED source inventory,VERIFIED source inventory
+addons/website_sale/views/website_sale_menus.xml,product_catalog_product_ribbons,Ribbons,,website_sale.product_ribbon_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_sale/views/website_sale_menus.xml,menu_attribute_category_action,,,product_attribute_category_action,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/website_sale/views/website_sale_menus.xml,menu_ecommerce_settings,eCommerce,website.menu_website_global_configuration,,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_sale/views/website_sale_menus.xml,menu_ecommerce_payment_providers,Payments,,payment.action_payment_provider,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_sale/views/website_sale_menus.xml,menu_ecommerce_delivery,Deliveries,,delivery.action_delivery_carrier_form,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_sale/views/website_sale_menus.xml,menu_delivery_zip_prefix,,,delivery.action_delivery_zip_prefix_list,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+addons/website_sale/views/website_sale_menus.xml,menu_product_feeds,,,website_sale.action_product_feeds,website_sale.group_product_feed,VERIFIED source inventory,VERIFIED source inventory
+addons/website_sale/views/website_sale_menus.xml,menu_report_sales,Online Sales,website.menu_reporting,sale_report_action_dashboard,sales_team.group_sale_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/website_sale_loyalty/views/website_sale_loyalty_menus.xml,menu_loyalty,Loyalty,website_sale.menu_ecommerce,,sales_team.group_sale_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/website_sale_loyalty/views/website_sale_loyalty_menus.xml,menu_discount_loyalty_type_config,,,loyalty.loyalty_program_discount_loyalty_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_sale_loyalty/views/website_sale_loyalty_menus.xml,menu_gift_ewallet_type_config,,,loyalty.loyalty_program_gift_ewallet_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_sale_slides/views/website_slides_menu_views.xml,website_slides_menu_report_revenues,Revenues,website_slides.website_slides_menu_report,sale_report_action_slides,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_slides/views/website_pages_views.xml,menu_slide_channel_pages,Courses,website.menu_content,action_slide_channel_pages_list,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_slides/views/website_slides_menu_views.xml,website_slides_menu_root,eLearning,,slide_channel_action_overview,website_slides.group_website_slides_officer,VERIFIED source inventory,VERIFIED source inventory
+addons/website_slides/views/website_slides_menu_views.xml,website_slides_menu_courses,Courses,website_slides_menu_root,,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_slides/views/website_slides_menu_views.xml,website_slides_menu_report,Reporting,website_slides_menu_root,,website_slides.group_website_slides_manager,VERIFIED source inventory,VERIFIED source inventory
+addons/website_slides/views/website_slides_menu_views.xml,website_slides_menu_configuration,Configuration,website_slides_menu_root,,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_slides/views/website_slides_menu_views.xml,website_slides_menu_courses_courses,Courses,website_slides_menu_courses,slide_channel_action_overview,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_slides/views/website_slides_menu_views.xml,website_slides_menu_courses_content,Contents,website_slides_menu_courses,slide_slide_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_slides/views/website_slides_menu_views.xml,website_slides_menu_report_courses,Courses,website_slides_menu_report,slide_channel_action_report,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_slides/views/website_slides_menu_views.xml,website_slides_menu_report_contents,Contents,website_slides_menu_report,slide_slide_action_report,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_slides/views/website_slides_menu_views.xml,website_slides_menu_report_attendees,Attendees,website_slides_menu_report,slide_channel_partner_action_report,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_slides/views/website_slides_menu_views.xml,website_slides_menu_report_reviews,Reviews,website_slides_menu_report,rating_rating_action_slide_channel,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_slides/views/website_slides_menu_views.xml,website_slides_menu_report_quizzes,Quizzes,website_slides_menu_report,slide_question_action_report,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_slides/views/website_slides_menu_views.xml,website_slides_menu_config_settings,Settings,website_slides_menu_configuration,website_slides_action_settings,base.group_system,VERIFIED source inventory,VERIFIED source inventory
+addons/website_slides/views/website_slides_menu_views.xml,website_slides_menu_config_course_groups,Course Groups,website_slides_menu_configuration,slide_channel_tag_group_action,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_slides/views/website_slides_menu_views.xml,website_slides_menu_config_content_tags,Content Tags,website_slides_menu_configuration,action_slide_tag,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_slides_forum/views/website_slides_menu_views.xml,website_slides_menu_forum,Forum,website_slides.website_slides_menu_root,,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_slides_forum/views/website_slides_menu_views.xml,website_slides_menu_forum_forum,Forums,website_slides_menu_forum,forum_forum_action_channel,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_slides_forum/views/website_slides_menu_views.xml,website_slides_menu_forum_post,Posts,website_slides_menu_forum,forum_post_action_channel,,VERIFIED source inventory,VERIFIED source inventory
+addons/website_slides_survey/views/website_slides_menu_views.xml,website_slides_menu_courses_certification,Certifications,website_slides.website_slides_menu_courses,survey_survey_action_slides,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_management,Apps,,,base.group_system,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_apps,Apps,,,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_module_tree,Main Apps,,open_module_tree,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_theme_store,,,action_theme_store,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,theme_store,Theme Store,,,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_third_party,,,action_third_party,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_view_base_module_update,Update Apps List,,action_view_base_module_update,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_view_base_module_upgrade,,,action_view_base_module_upgrade,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_administration,Settings,,,"base.group_erp_manager,base.group_system",VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_users,Users & Companies,,,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_action_res_users,,,action_res_users,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_action_res_groups,,,action_res_groups,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_action_res_company_form,,,action_res_company_form,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_translation,Translations,,,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_res_lang_act_window,,,res_lang_act_window,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_translation_export,Import / Export,,,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_view_base_import_language,,,action_view_base_import_language,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_wizard_lang_export,,,action_wizard_lang_export,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_translation_app,Application Terms,,,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_config,General Settings,,,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_administration_shortcut,Custom Shortcuts,,,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_custom,Technical,,,base.group_no_one,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_email,Email,,,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_mail_servers,,,action_ir_mail_server_list,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,next_id_6,Actions,,,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_ir_sequence_actions,,,ir_sequence_actions,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_ir_action_report,,,ir_action_report,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_ir_action_window,,,ir_action_window,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_ir_client_actions_report,,,ir_client_actions_report,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_server_action,,,action_server_action,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_ir_embedded_action,,,ir_embedded_action,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_ir_actions_todo_form,,,act_ir_actions_todo_form,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,ir_default_menu,,,ir_default_menu_action,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,next_id_2,User Interface,,,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_grant_menu_access,,,grant_menu_access,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_action_ui_view,,,action_ui_view,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_action_ui_view_custom,,,action_ui_view_custom,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_ir_filters,,,actions_ir_filters_view,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,next_id_5,Sequences & Identifiers,,,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,ir_model_data_menu,,,action_model_data,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_ir_sequence_form,,,ir_sequence_form,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,next_id_9,Database Structure,,,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_decimal_precision_form,,,action_decimal_precision_form,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_action_asset,,,action_asset,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,ir_model_model_menu,,,action_model_model,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,ir_model_model_fields,,,action_model_fields,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,ir_model_model_fields_selection,,,action_model_fields_selection,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,ir_model_constraint_menu,,,action_model_constraint,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,ir_model_relation_menu,,,action_model_relation,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_action_attachment,,,action_attachment,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,ir_logging_all_menu,,,ir_logging_all_act,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_ir_profile,Profiling,,action_menu_ir_profile,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_automation,Automation,,,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_ir_cron_act,,,ir_cron_act,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,ir_cron_trigger_menu,,,ir_cron_trigger_action,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,reporting_menuitem,Reporting,,,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,paper_format_menuitem,Paper Format,,paper_format_action,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,reports_menuitem,,,reports_action,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_ir_property,Parameters,,,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,ir_config_menu,,,ir_config_list_action,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_security,Security,,,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_action_res_groups_privilege,,,action_res_groups_privilege,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_ir_access,,,ir_access_action,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_action_user_session,,,action_user_session,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,menu_action_user_device,,,action_user_device,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/base/views/base_menus.xml,base.menu_tests,Tests,,,base.group_user_regular,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/test_base/views/test_orm_views.xml,menu_main,Discussions,base.menu_tests,,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/test_base/views/test_orm_views.xml,menu_sub,Discussions,menu_main,,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/test_base/views/test_orm_views.xml,menu_discussions,,menu_sub,action_discussions,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/test_base/views/test_orm_views.xml,menu_messages,,menu_sub,action_messages,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/test_base/views/test_orm_views.xml,menu_multi,,menu_sub,action_multi,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/test_base/views/test_orm_views.xml,menu_config,Configuration,menu_main,,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/test_base/views/test_orm_views.xml,menu_categories,,menu_config,action_categories,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/test_base/views/test_orm_views.xml,menu_discussions_2,,menu_sub,action_discussions_2,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/test_base/views/test_orm_views.xml,menu_discussions_3,,menu_sub,action_discussions_3,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/test_base/views/test_orm_views.xml,menu_active,Active Test,menu_main,action_tests_active,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/test_tests/views/menu.xml,menu_ssf,Server-side form,base.menu_tests,,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/test_tests/views/menu.xml,menu_o2m,O2M onchange test thing,menu_ssf,action_test_o2m_onchange,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/test_tests/views/menu.xml,menu_m2o,test_default_and_onchange,menu_ssf,action_test_m2o_onchange,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/test_tests/views/menu.xml,menu_o2m_count,test_change_number_of_lines,menu_ssf,action_test_o2m_count,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/test_translation/view.xml,menu_test_translation,Test translation model1,,,,VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/test_translation/view.xml,menu_test_translation_model1,Test translation import model1,menu_test_translation,action_test_translation_model1,,VERIFIED source inventory,VERIFIED source inventory

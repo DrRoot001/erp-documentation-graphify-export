@@ -1,0 +1,15 @@
+Artifact,Count,Status,Notes
+Manifest-backed source modules,666,VERIFIED,All have blueprint README and implementation checklist
+Blueprint files,1483,VERIFIED,Counted on Phase 10 branch before handoff commit
+Functional requirements,2963,VERIFIED,Source master traceability matrix reconciled
+ORM entities,4209,VERIFIED,Source declaration inventory; deployed schema remains runtime-dependent
+ORM fields,17272,VERIFIED,Source declaration inventory; physical columns remain runtime-dependent
+ORM relationships,5290,VERIFIED,Source declaration inventory
+Controller routes,669,VERIFIED,Authoritative AST-derived route inventory
+Workflow evidence rows,666,VERIFIED,Source module workflow inventory
+Model access rows,2577,VERIFIED,Source ACL inventory
+Frontend component rows,1818,VERIFIED,Source frontend inventory
+Test artifacts,3470,VERIFIED,Source test inventory; execution not claimed
+Mermaid diagrams,15,VERIFIED,Structural declarations present
+Broken Markdown links,0,VERIFIED,Relative-link audit passed
+Original documentation changes,0,VERIFIED,Preservation audit passed

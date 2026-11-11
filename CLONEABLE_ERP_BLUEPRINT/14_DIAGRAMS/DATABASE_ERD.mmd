@@ -1,0 +1,12 @@
+erDiagram
+  RES_PARTNER ||--o{ CRM_LEAD : owns_or_contacts
+  RES_COMPANY ||--o{ ACCOUNT_MOVE : posts
+  ACCOUNT_MOVE ||--o{ ACCOUNT_MOVE_LINE : contains
+  RES_PARTNER ||--o{ ACCOUNT_MOVE : billed_to
+  PRODUCT_PRODUCT ||--o{ SALE_ORDER_LINE : ordered
+  SALE_ORDER ||--o{ SALE_ORDER_LINE : contains
+  SALE_ORDER ||--o{ STOCK_MOVE : fulfills
+  PURCHASE_ORDER ||--o{ PURCHASE_ORDER_LINE : contains
+  PRODUCT_PRODUCT ||--o{ STOCK_MOVE : moves
+
+  %% Representative conceptual relationships only; complete source evidence is in Relationship_Register.csv.

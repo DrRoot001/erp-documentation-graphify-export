@@ -1,0 +1,1939 @@
+Source File,Registration Matches,Source Context,Evidence Status,Runtime Resolution Status
+addons/account/static/src/services/account_move_service.js,1,"import { _t } from ""@web/core/l10n/translation"";
+import { markup } from ""@odoo/owl"";
+import { registry } from ""@web/core/registry"";
+
+export class AccountMoveService {
+    constructor(env, services) {
+        this.setup(env, services);
+    }
+
+    setup(env, services) {
+        this.env = env;
+        this.action = services.action;
+        this.dialog = services.dialog;
+        this.orm = services.orm;
+    }
+
+    async getDeletionDialogBody(body, moveIds) {
+        const isMoveEndOfChain = await t",VERIFIED source inventory,VERIFIED source inventory
+addons/account/static/src/services/account_notification_service.js,1,"import { _t } from ""@web/core/l10n/translation"";
+import { registry } from ""@web/core/registry"";
+
+
+export const accountNotificationService = {
+    dependencies: [""bus_service"", ""notification"", ""action""],
+
+    start(env, { bus_service, notification, action }) {
+        bus_service.subscribe(""account_notification"", ({ message, sticky, title, type, action_button}) => {
+            const buttons = [{
+                name: action_button.name,
+                primary: false,
+                onClick: ()",VERIFIED source inventory,VERIFIED source inventory
+addons/account_peppol/static/src/components/peppol_auth/peppol_auth_service.js,1,"import { _t } from ""@web/core/l10n/translation"";
+import { registry } from ""@web/core/registry"";
+
+
+export const peppolAuthService = {
+    dependencies: [""bus_service"", ""action""],
+
+    start(env, { bus_service, action }) {
+        bus_service.subscribe(""peppol_auth_channel"", (payload) => {
+            const notificationValsPerResult = {
+                success: {
+                    ""title"": _t(""Authentication successful""),
+                    ""type"": ""success"",
+                },
+                ",VERIFIED source inventory,VERIFIED source inventory
+addons/analytic/static/src/services/batched_orm_service.js,1,"import { registry } from ""@web/core/registry"";
+import { ORM } from ""@web/core/orm_plugin"";
+import { unique } from ""@web/core/utils/arrays"";
+
+class RequestBatcherORM extends ORM {
+    constructor() {
+        super();
+        this.searchReadBatches = {};
+        this.searchReadBatchId = 1;
+        this.batches = {};
+    }
+
+    /**
+     * @param {number[]} ids
+     * @param {any[]} keys
+     * @param {Function} callback
+     * @returns {Promise<any>}
+     */
+    async batch(ids, keys, callback) {
+ ",VERIFIED source inventory,VERIFIED source inventory
+addons/analytic/static/src/services/reload_analytic_plan_service.js,1,"import { browser } from ""@web/core/browser/browser"";
+import { rpcBus } from ""@web/core/network/rpc"";
+import { registry } from ""@web/core/registry"";
+import { UPDATE_METHODS } from ""@web/core/orm_plugin"";
+
+// reload the page if changes are being done to `account.analytic.plan`
+
+registry.category(""services"").add(""reloadAnalyticPlan"", {
+    dependencies: [""action""],
+    start(env, { action }) {
+        rpcBus.addEventListener(""RPC:RESPONSE"", (ev) => {
+            const { data, error } = ev.detail;
+ ",VERIFIED source inventory,VERIFIED source inventory
+addons/auth_timeout/static/src/services/check_identity/check_identity.js,1,"import { registry } from ""@web/core/registry"";
+import { session } from ""@web/session"";
+
+export class CheckIdentityTimeout {
+
+    constructor(env, services) {
+        this.env = env;
+        this.setup(env, services);
+    }
+
+    setup(env, services) {
+        this.checkIdentityService = services[""check_identity""];
+        this.busService = services[""bus_service""];
+        this.presenceService = services[""presence""];
+        this.inactivityTimer;
+
+        // Inactivity: Set a timer after which the",VERIFIED source inventory,VERIFIED source inventory
+addons/barcodes/static/src/barcode_handlers.js,1,"import { _t } from ""@web/core/l10n/translation"";
+import { registry } from ""@web/core/registry"";
+import { getVisibleElements } from ""@web/core/utils/ui"";
+import { Macro } from ""@web/core/macro"";
+
+const ACTION_HELPERS = {
+    click(el) {
+        el.dispatchEvent(new MouseEvent(""mouseover""));
+        el.dispatchEvent(new MouseEvent(""mouseenter""));
+        el.dispatchEvent(new MouseEvent(""mousedown""));
+        el.dispatchEvent(new MouseEvent(""mouseup""));
+        el.click();
+        el.dispatchEvent(",VERIFIED source inventory,VERIFIED source inventory
+addons/barcodes/static/src/barcode_plugin.js,1,"import { session } from ""@web/session"";
+import { browser } from ""@web/core/browser/browser"";
+import { registry } from ""@web/core/registry"";
+import { EventBus, usePlugin, Plugin, useListener, onWillDestroy } from ""@odoo/owl"";
+import { services } from ""@web/core/services"";
+import { isBrowserChrome, isMobileOS } from ""@web/core/browser/feature_detection"";
+
+function isEditable(element) {
+    return element.matches('input,textarea,[contenteditable=""true""]');
+}
+
+function makeBarcodeInput() {
+    const",VERIFIED source inventory,VERIFIED source inventory
+addons/bus/static/src/bus_parameters_plugin.js,1,"import { Plugin, signal, usePlugin } from ""@odoo/owl"";
+import { registry } from ""@web/core/registry"";
+import { services } from ""@web/core/services"";
+
+export class BusParametersPlugin extends Plugin {
+    serverURL = signal(window.origin);
+}
+
+services.add(BusParametersPlugin);
+
+/**
+ * -----------------------------------------------------------------------------
+ * @todo owl3 migration
+ * temporary - to remove when all use of the bus_parameters service are removed
+ * ------------------------------",VERIFIED source inventory,VERIFIED source inventory
+addons/bus/static/src/debug/bus_logs_plugin.js,1,"import { Plugin, signal, useListener, usePlugin } from ""@odoo/owl"";
+
+import { browser } from ""@web/core/browser/browser"";
+import { registry } from ""@web/core/registry"";
+import { services } from ""@web/core/services"";
+import { BusPlugin } from ""@bus/services/bus_plugin"";
+import { WorkerPlugin } from ""@bus/services/worker_plugin"";
+
+export class BusLogsPlugin extends Plugin {
+    /** @private */
+    busService = usePlugin(BusPlugin);
+    /** @private */
+    workerService = usePlugin(WorkerPlugin);
+
+",VERIFIED source inventory,VERIFIED source inventory
+addons/bus/static/src/multi_tab_plugin.js,1,"import { browser } from ""@web/core/browser/browser"";
+import { registry } from ""@web/core/registry"";
+import { MultiTabFallbackPlugin } from ""./multi_tab_fallback_plugin"";
+import { MultiTabSharedWorkerPlugin } from ""./multi_tab_shared_worker_plugin"";
+import { usePlugin } from ""@odoo/owl"";
+import { services } from ""@web/core/services"";
+
+const Base = browser.SharedWorker ? MultiTabSharedWorkerPlugin : MultiTabFallbackPlugin;
+
+export class MultiTabPlugin extends Base {}
+
+services.add(MultiTabPlugin);",VERIFIED source inventory,VERIFIED source inventory
+addons/bus/static/src/services/assets_watchdog_plugin.js,1,"import { _t } from ""@web/core/l10n/translation"";
+import { location, browser } from ""@web/core/browser/browser"";
+import { registry } from ""@web/core/registry"";
+import { session } from ""@web/session"";
+import { Plugin, usePlugin } from ""@odoo/owl"";
+import { BusPlugin } from ""@bus/services/bus_plugin"";
+import { NotificationPlugin } from ""@web/core/notifications/notification_plugin"";
+import { services } from ""@web/core/services"";
+
+export class AssetsWatchdogPlugin extends Plugin {
+    /** @private */",VERIFIED source inventory,VERIFIED source inventory
+addons/bus/static/src/services/bus_monitoring_plugin.js,1,"import { Plugin, signal, useListener, usePlugin } from ""@odoo/owl"";
+import { WORKER_STATE } from ""@bus/workers/websocket_worker"";
+import { browser } from ""@web/core/browser/browser"";
+import { registry } from ""@web/core/registry"";
+import { BusPlugin } from ""@bus/services/bus_plugin"";
+import { services } from ""@web/core/services"";
+
+/**
+ * Detect lost connections to the bus. A connection is considered as lost if it
+ * couldn't be established after a reconnect attempt.
+ */
+export class BusMonitoring",VERIFIED source inventory,VERIFIED source inventory
+addons/bus/static/src/services/bus_plugin.js,1,"import { EventBus, Plugin, signal, useListener, usePlugin } from ""@odoo/owl"";
+import { browser } from ""@web/core/browser/browser"";
+import { registry } from ""@web/core/registry"";
+import { user } from ""@web/core/user"";
+import { session } from ""@web/session"";
+import { services } from ""@web/core/services"";
+import { useEnv } from ""@web/owl2/utils"";
+import { MultiTabPlugin } from ""@bus/multi_tab_plugin"";
+import { BusParametersPlugin } from ""@bus/bus_parameters_plugin"";
+import { WorkerPlugin } from ""@b",VERIFIED source inventory,VERIFIED source inventory
+addons/bus/static/src/services/presence_plugin.js,1,"import { EventBus, Plugin, signal, useListener, usePlugin } from ""@odoo/owl"";
+import { browser } from ""@web/core/browser/browser"";
+import { registry } from ""@web/core/registry"";
+import { services } from ""@web/core/services"";
+import { useEnv } from ""@web/owl2/utils"";
+
+const LOCAL_STORAGE_PREFIX = ""presence"";
+
+export class PresencePlugin extends Plugin {
+    isOdooFocused = signal(true);
+    /** @private */
+    lastPresenceTime = signal(
+        browser.localStorage.getItem(`${LOCAL_STORAGE_PREFIX",VERIFIED source inventory,VERIFIED source inventory
+addons/bus/static/src/services/worker_plugin.js,1,"import { browser } from ""@web/core/browser/browser"";
+import { registry } from ""@web/core/registry"";
+import { session } from ""@web/session"";
+import { Plugin, signal, usePlugin } from ""@odoo/owl"";
+import { BusParametersPlugin } from ""@bus/bus_parameters_plugin"";
+import { services } from ""@web/core/services"";
+
+export const WORKER_STATE = Object.freeze({
+    UNINITIALIZED: ""UNINITIALIZED"",
+    INITIALIZING: ""INITIALIZING"",
+    INITIALIZED: ""INITIALIZED"",
+    FAILED: ""FAILED"",
+});
+
+export class Worke",VERIFIED source inventory,VERIFIED source inventory
+addons/calendar/static/src/js/services/calendar_notification_service.js,1,"import { _t } from ""@web/core/l10n/translation"";
+import { browser } from ""@web/core/browser/browser"";
+import { ConnectionLostError, rpc } from ""@web/core/network/rpc"";
+import { registry } from ""@web/core/registry"";
+import { markup } from ""@odoo/owl"";
+
+export const calendarNotificationService = {
+    dependencies: [""action"", ""bus_service"", ""notification""],
+
+    start(env, { action, bus_service, notification }) {
+        let calendarNotifTimeouts = {};
+        let nextCalendarNotifTimeout = null;
+",VERIFIED source inventory,VERIFIED source inventory
+addons/crm/static/src/views/fill_temporal_service.js,1,"import { registry } from ""@web/core/registry"";
+import {
+    serializeDate,
+    serializeDateTime,
+} from ""@web/core/l10n/dates"";
+
+/**
+ * Configuration depending on the granularity, using Luxon DateTime objects:
+ * @param {function} startOf function to get a DateTime at the beginning of a period
+ *                           from another DateTime.
+ * @param {int} cycle amount of 'granularity' periods constituting a cycle. The cycle duration
+ *                    is arbitrary for each granularity:
+",VERIFIED source inventory,VERIFIED source inventory
+addons/hr_timesheet/static/src/services/timesheet_uom_service.js,1,"import { session } from ""@web/session"";
+import { registry } from ""@web/core/registry"";
+import { formatFloatTime, formatFloatFactor } from ""@web/views/fields/formatters"";
+import { formatFloat } from ""@web/core/utils/numbers"";
+import { FloatFactorField } from ""@web/views/fields/float_factor/float_factor_field"";
+import { user } from ""@web/core/user"";
+
+export const timesheetUOMService = {
+    start() {
+        const service = {
+            get timesheetUOMId() {
+                return user.activeCom",VERIFIED source inventory,VERIFIED source inventory
+addons/html_builder/static/src/snippets/snippet_service.js,1,"import { ConfirmationDialog } from ""@web/core/confirmation_dialog/confirmation_dialog"";
+import { _t } from ""@web/core/l10n/translation"";
+import { memoize, uniqueId } from ""@web/core/utils/functions"";
+import { Reactive } from ""@web/core/utils/reactive"";
+import { AddSnippetDialog } from ""./add_snippet_dialog"";
+import { registry } from ""@web/core/registry"";
+import { user } from ""@web/core/user"";
+import { markup, proxy } from ""@odoo/owl"";
+import { useService } from ""@web/core/utils/hooks"";
+import { ",VERIFIED source inventory,VERIFIED source inventory
+addons/html_editor/static/src/fields/html_field.js,1,"import { DYNAMIC_FIELD_PLUGINS } from ""@html_editor/backend/dynamic_field/dynamic_field_plugin"";
+import { HtmlViewer } from ""@html_editor/components/html_viewer/html_viewer"";
+import { EditorVersionPlugin } from ""@html_editor/core/editor_version_plugin"";
+import { isHtmlContentSupported } from ""@html_editor/core/selection_plugin"";
+import { stripVersion } from ""@html_editor/html_migrations/html_migrations_utils"";
+import { HtmlUpgradeManager } from ""@html_editor/html_migrations/html_upgrade_manager""",VERIFIED source inventory,VERIFIED source inventory
+addons/html_editor/static/src/main/media/media_dialog/upload_progress_toast/upload_service.js,1,"import { proxy } from ""@odoo/owl"";
+import { rpc } from ""@web/core/network/rpc"";
+import { registry } from ""@web/core/registry"";
+import { UploadProgressToast } from ""./upload_progress_toast"";
+import { _t } from ""@web/core/l10n/translation"";
+import { checkFileSize } from ""@web/core/utils/files"";
+import { humanNumber } from ""@web/core/utils/numbers"";
+import { getDataURLFromFile } from ""@web/core/utils/urls"";
+
+export const AUTOCLOSE_DELAY = 3000;
+export const AUTOCLOSE_DELAY_LONG = 8000;
+
+export cons",VERIFIED source inventory,VERIFIED source inventory
+addons/html_editor/static/src/services/upload_local_files_service.js,1,"import { registry } from ""@web/core/registry"";
+
+export const uploadLocalFileService = {
+    dependencies: [""upload"", ""orm""],
+    start(env, { upload: uploadService, orm }) {
+        const input = document.createElement(""input"");
+        input.type = ""file"";
+
+        /**
+         * Open the system file selector and return the selected files.
+         *
+         * @param {Object} [options]
+         * @param {boolean} [options.multiple=true]
+         * @param {string} [options.accept]
+         * @r",VERIFIED source inventory,VERIFIED source inventory
+addons/iap_mail/static/src/js/services/iap_notification_service.js,1,"import { _t } from ""@web/core/l10n/translation"";
+import { registry } from ""@web/core/registry"";
+
+export const iapNotificationService = {
+    dependencies: [""bus_service"", ""notification""],
+
+    start(env, { bus_service, notification }) {
+        bus_service.subscribe(""iap_notification"", (params) => {
+            if (params.type == ""no_credit"") {
+                displayCreditErrorNotification(params);
+            } else {
+                displayNotification(params);
+            }
+        });
+     ",VERIFIED source inventory,VERIFIED source inventory
+addons/im_livechat/static/src/core/public_web/livechat_rating_notification_service.js,1,"import { _t } from ""@web/core/l10n/translation"";
+import { registry } from ""@web/core/registry"";
+
+import { convertLineBreakToBr } from ""@mail/utils/common/format"";
+import { renderToMarkup } from ""@web/core/utils/render"";
+
+export const livechatRatingNotificationService = {
+    dependencies: [""bus_service"", ""notification"", ""mail.store""],
+
+    start(env, { bus_service, notification, [""mail.store""]: store }) {
+        bus_service.subscribe(
+            ""livechat_rating_notification"",
+            ({ g",VERIFIED source inventory,VERIFIED source inventory
+addons/im_livechat/static/src/embed/common/autopopup_service.js,1,"import { expirableStorage } from ""@im_livechat/core/common/expirable_storage"";
+import { browser } from ""@web/core/browser/browser"";
+import { registry } from ""@web/core/registry"";
+
+export class AutopopupService {
+    static STORAGE_KEY = ""im_livechat_auto_popup"";
+
+    /**
+     * @param {import(""@web/env"").OdooEnv} env
+     * @param {{
+     * ""im_livechat.livechat"": import(""@im_livechat/embed/common/livechat_service"").LivechatService,
+     * ""mail.store"": import(""@mail/core/common/store_service"").",VERIFIED source inventory,VERIFIED source inventory
+addons/im_livechat/static/src/embed/common/history_service.js,1,"import { expirableStorage } from ""@im_livechat/core/common/expirable_storage"";
+import { location } from ""@web/core/browser/browser"";
+import { rpc } from ""@web/core/network/rpc"";
+import { registry } from ""@web/core/registry"";
+
+export class HistoryService {
+    static HISTORY_STORAGE_KEY = ""im_livechat_history"";
+    static HISTORY_LIMIT = 15;
+
+    constructor(env, services) {
+        /** @type {ReturnType<typeof import(""@bus/services/bus_plugin"").busService.start>} */
+        this.busService = ser",VERIFIED source inventory,VERIFIED source inventory
+addons/im_livechat/static/src/embed/common/livechat_service.js,1,"import { expirableStorage } from ""@im_livechat/core/common/expirable_storage"";
+
+import { proxy } from ""@odoo/owl"";
+
+import { rpc } from ""@web/core/network/rpc"";
+import { _t } from ""@web/core/l10n/translation"";
+import { registry } from ""@web/core/registry"";
+import { session } from ""@web/session"";
+import { canLoadLivechat } from ""@im_livechat/embed/common/misc"";
+
+export const RATING = Object.freeze({
+    GOOD: 5,
+    OK: 3,
+    BAD: 1,
+});
+
+export const ODOO_VERSION_KEY = `${location.origin.replac",VERIFIED source inventory,VERIFIED source inventory
+addons/im_livechat/static/src/embed/cors/boot.js,1,"import { expirableStorage } from ""@im_livechat/core/common/expirable_storage"";
+import { GUEST_TOKEN_STORAGE_KEY } from ""@im_livechat/embed/common/store_service_patch"";
+import { livechatRoutingMap } from ""@im_livechat/embed/cors/livechat_routing_map"";
+import { rpc } from ""@web/core/network/rpc"";
+import { registry } from ""@web/core/registry"";
+import { session } from ""@web/session"";
+
+(async function boot() {
+    const originalFetch = window.fetch;
+    window.fetch = function imLivechatMockFetch(inp",VERIFIED source inventory,VERIFIED source inventory
+addons/im_livechat/static/src/embed/frontend/boot_service.js,1,"import { makeRoot, makeShadow } from ""@im_livechat/embed/common/boot_helpers"";
+import { canLoadLivechat } from ""@im_livechat/embed/common/misc"";
+import { LivechatRoot } from ""@im_livechat/embed/frontend/livechat_root"";
+import { onWillDestroy, useApp } from ""@odoo/owl"";
+import { registry } from ""@web/core/registry"";
+
+export const livechatBootService = {
+    dependencies: [""mail.store""],
+
+    /**
+     * To be overriden in tests.
+     */
+    getTarget() {
+        return document.body;
+    },
+
+    s",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/src/convert_inline/convert_inline_service.js,1,"import { Component, onMounted, signal, types, useProps, xml } from ""@odoo/owl"";
+import { registry } from ""@web/core/registry"";
+
+const mainComponents = registry.category(""main_components"");
+
+export class ConvertInlineContainer extends Component {
+    static template = xml`<div class=""o-convert-inline"" t-ref=""this.rootRef""/>`;
+
+    setup() {
+        this.props = useProps({
+            onMounted: types.function([]),
+        });
+        /** Root element, owned by the service and bound here with `t-r",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/src/core/common/attachment_upload_service.js,1,"import { EventBus } from ""@odoo/owl"";
+import { _t } from ""@web/core/l10n/translation"";
+import { registry } from ""@web/core/registry"";
+
+export class AttachmentUploadService {
+    constructor(env, services) {
+        this.setup(env, services);
+    }
+
+    setup(env, services) {
+        this.env = env;
+        this.fileUploadService = services[""file_upload""];
+        /** @type {import(""@mail/core/common/store_service"").Store} */
+        this.store = services[""mail.store""];
+        this.notificationS",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/src/core/common/chat_hub.js,1,"import { ActionList } from ""@mail/core/common/action_list"";
+import { ChatWindow } from ""@mail/core/common/chat_window"";
+import { useHover, useMovable } from ""@mail/utils/common/hooks"";
+import { Component, computed, proxy, signal, useListener } from ""@odoo/owl"";
+
+import { Action } from ""@mail/core/common/action"";
+import { browser } from ""@web/core/browser/browser"";
+import { isMobileOS } from ""@web/core/browser/feature_detection"";
+import { Dropdown } from ""@web/core/dropdown/dropdown"";
+import { us",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/src/core/common/composer_service.js,1,"import { subscribeToStorage } from ""@mail/utils/common/local_storage"";
+
+import { signal } from ""@odoo/owl"";
+
+import { browser } from ""@web/core/browser/browser"";
+import { registry } from ""@web/core/registry"";
+
+export const composerService = {
+    dependencies: [""mail.store""],
+    /**
+     * Enable Html composer with: odoo.__WOWL_DEBUG__.root.env.services[""mail.composer""].setHtmlComposer()
+     */
+    start(env, services) {
+        const store = services[""mail.store""];
+        const htmlEnabled =",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/src/core/common/im_status_service.js,1,"import { browser } from ""@web/core/browser/browser"";
+import { registry } from ""@web/core/registry"";
+
+export const AWAY_DELAY = 30 * 60 * 1000; // 30 minutes
+
+/**
+ * This service keeps the user's presence up to date with the server. When the
+ * connection to the server is established, the user's presence is updated. If
+ * another device or browser updates the user's presence, the presence is sent to
+ * the server if relevant (e.g., another device is away or offline, but this one
+ * is online).
+ *",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/src/core/common/mail_core_common_service.js,1,"import { proxy } from ""@odoo/owl"";
+
+import { registry } from ""@web/core/registry"";
+
+export class MailCoreCommon {
+    /**
+     * @param {import(""@web/env"").OdooEnv} env
+     * @param {import(""services"").ServiceFactories} services
+     */
+    constructor(env, services) {
+        this.env = env;
+        this.busService = services.bus_service;
+        this.store = services[""mail.store""];
+    }
+
+    setup() {
+        this.busService.subscribe(""ir.attachment/delete"", (payload) => {
+            const ",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/src/core/common/mail_fullscreen.js,1,"import { Component, proxy, t, useProps } from ""@odoo/owl"";
+
+import { useService } from ""@web/core/utils/hooks"";
+import { registry } from ""@web/core/registry"";
+
+const DEFAULT_ID = Symbol(""default"");
+
+export class MailFullscreen extends Component {
+    static template = ""mail.Fullscreen"";
+
+    setup() {
+        super.setup();
+        this.props = useProps({
+            component: t.component(),
+            props: t.record().optional(),
+        });
+        this.fullscreen = useService(""mail.fullscr",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/src/core/common/mail_popout_service.js,1,"import { OverlayPlugin } from ""@web/core/overlay/overlay_plugin"";
+import { Component, types, useApp, usePlugin, useProps, xml } from ""@odoo/owl"";
+import { browser } from ""@web/core/browser/browser"";
+import { useOwnDebugContext } from ""@web/core/debug/debug_context"";
+import { OverlayContainer } from ""@web/core/overlay/overlay_container"";
+import { registry } from ""@web/core/registry"";
+
+const DEFAULT_ID = Symbol(""default"");
+
+class OverlayWrapper extends Component {
+    static template = xml`
+      ",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/src/core/common/notification_permission_service.js,1,"import { proxy } from ""@odoo/owl"";
+
+import { location, browser } from ""@web/core/browser/browser"";
+import {
+    isAndroidApp,
+    isDisplayStandalone,
+    isIOS,
+    isIosApp,
+} from ""@web/core/browser/feature_detection"";
+import { _t } from ""@web/core/l10n/translation"";
+import { registry } from ""@web/core/registry"";
+
+async function getIosPwaPermission() {
+    if (location.protocol !== ""https:"") {
+        return ""denied"";
+    }
+    const registration = await browser.navigator.serviceWorker?.getRe",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/src/core/common/out_of_focus_service.js,1,"import { htmlToTextContentInline } from ""@mail/utils/common/format"";
+
+import { isAndroid } from ""@web/core/browser/feature_detection"";
+import { browser } from ""@web/core/browser/browser"";
+import { _t } from ""@web/core/l10n/translation"";
+import { registry } from ""@web/core/registry"";
+
+const PREVIEW_MSG_MAX_SIZE = 350; // optimal for native English speakers
+
+/**
+ * @typedef {Messaging} Messaging
+ */
+export class OutOfFocusService {
+    /**
+     * @param {import(""@web/env"").OdooEnv} env
+     * @par",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/src/core/common/sound_effects_plugin.js,1,"import { usePlugin, Plugin } from ""@odoo/owl"";
+import { browser } from ""@web/core/browser/browser"";
+import { registry } from ""@web/core/registry"";
+import { url } from ""@web/core/utils/urls"";
+import { services } from ""@web/core/services"";
+
+export class SoundEffectsPlugin extends Plugin {
+    setup() {
+        this.soundEffects = {
+            ""call-join"": { defaultVolume: 0.75, path: ""/mail/static/src/audio/call-join"" },
+            ""call-leave"": { defaultVolume: 0.75, path: ""/mail/static/src/aud",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/src/core/common/store_service.js,1,"import { Store as BaseStore, fields, makeStore } from ""@mail/model/export"";
+import { formatLocalDateTime, resolveTimeZoneName } from ""@mail/utils/common/dates"";
+import { attClassObjectToString, generateEmojisOnHtml } from ""@mail/utils/common/format"";
+
+import { proxy, usePlugin } from ""@odoo/owl"";
+
+import { location } from ""@web/core/browser/browser"";
+import { cookie } from ""@web/core/browser/cookie"";
+import { isMobileOS } from ""@web/core/browser/feature_detection"";
+import { DebugModePlugin } fro",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/src/core/common/suggestion_service.js,1,"import { COMPOSER_TYPES } from ""@mail/core/common/composer"";
+import { partnerCompareRegistry } from ""@mail/core/common/partner_compare"";
+import { SUGGESTION_DELIMITERS } from ""@mail/core/common/suggestion_hook"";
+
+import { compareDatetime } from ""@mail/utils/common/misc"";
+import { emojiLoader } from ""@web/core/emoji_picker/emoji_loader"";
+import { localeCompare, normalize } from ""@web/core/l10n/utils"";
+import { registry } from ""@web/core/registry"";
+import { fuzzyLookup } from ""@web/core/utils/sear",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/src/core/common/upgrade/upgrade_plugin.js,1,"import { registry } from ""@web/core/registry"";
+import { upgradeFrom } from ""./upgrade_helpers"";
+import { getCurrentLocalStorageVersion, LocalStorageEntry } from ""@mail/utils/common/local_storage"";
+import { parseVersion } from ""@mail/utils/common/misc"";
+import { Plugin, usePlugin } from ""@odoo/owl"";
+import { services } from ""@web/core/services"";
+
+export class DiscussUpgradePlugin extends Plugin {
+    setup() {
+        const lse = new LocalStorageEntry(""discuss.upgrade.version"");
+        const old",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/src/core/public_web/mail_core_public_web_service.js,1,"import { registry } from ""@web/core/registry"";
+
+export const mailCorePublicWebService = {
+    dependencies: [""mail.store""],
+    /**
+     * @param {import(""@web/env"").OdooEnv}
+     * @param {Partial<import(""services"").Services>} services
+     */
+    start(env, services) {
+        services[""mail.store""].ensureInitialized();
+        services[""mail.store""].messagingMenu.initializeCountersFetcher.fetch();
+    },
+};
+
+registry.category(""services"").add(""mail.core.public.web"", mailCorePublicWebService);
+",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/src/core/web/mail_core_web_service.js,1,"import { proxy } from ""@odoo/owl"";
+
+import { browser } from ""@web/core/browser/browser"";
+import { registry } from ""@web/core/registry"";
+
+export class MailCoreWeb {
+    /**
+     * @param {import(""@web/env"").OdooEnv} env
+     * @param {import(""services"").ServiceFactories} services
+     */
+    constructor(env, services) {
+        this.env = env;
+        this.busService = services.bus_service;
+        this.store = services[""mail.store""];
+    }
+
+    setup() {
+        this.busService.subscribe(""mail.a",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/src/discuss/call/common/call_invitations.js,1,"import { CallInvitation } from ""@mail/discuss/call/common/call_invitation"";
+
+import { Component } from ""@odoo/owl"";
+
+import { registry } from ""@web/core/registry"";
+import { useService } from ""@web/core/utils/hooks"";
+
+export class CallInvitations extends Component {
+    static components = { CallInvitation };
+    static template = ""discuss.CallInvitations"";
+
+    setup() {
+        super.setup();
+        this.rtc = useService(""discuss.rtc"");
+        this.store = useService(""mail.store"");
+    }
+}
+
+e",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/src/discuss/call/common/discuss_p2p_service.js,1,"import { registry } from ""@web/core/registry"";
+import { PeerToPeer } from ""@mail/discuss/call/common/peer_to_peer"";
+import { usePlugin } from ""@odoo/owl"";
+import { DebugModePlugin } from ""@web/core/debug_mode_plugin"";
+
+export const discussP2P = {
+    dependencies: [""bus_service""],
+    /**
+     * @param {import(""@web/env"").OdooEnv} env
+     * @param {import(""services"").ServiceFactories} services
+     */
+    start(env, services) {
+        const debugMode = usePlugin(DebugModePlugin);
+        const",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/src/discuss/call/common/pip_service.js,1,"import { Meeting } from ""./meeting"";
+
+import { proxy } from ""@odoo/owl"";
+
+import { registry } from ""@web/core/registry"";
+
+export const callPipService = {
+    dependencies: [""mail.popout""],
+
+    /**
+     * @param {import(""@web/env"").OdooEnv} env
+     * @param {import(""services"").ServiceFactories} services
+     */
+    start(env, services) {
+        const popoutService = services[""mail.popout""];
+        const popout = popoutService.createManager(""discuss.native.pip"");
+        let pipWindow = null;
+",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/src/discuss/call/common/ptt_extension_service.js,1,"import { parseVersion } from ""@mail/utils/common/misc"";
+
+import { markup, proxy } from ""@odoo/owl"";
+
+import { browser } from ""@web/core/browser/browser"";
+import { registry } from ""@web/core/registry"";
+import { _t } from ""@web/core/l10n/translation"";
+
+/** In object so it's patchable */
+export const pttExtensionServiceInternal = {
+    onAnswerIsEnabled(pttService) {
+        pttService.isEnabled = true;
+    },
+};
+
+export const pttExtensionHookService = {
+    start(env) {
+        const INITIAL_RELEA",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/src/discuss/call/common/rtc_service.js,1,"import { fields, Record } from ""@mail/model/export"";
+import { BlurManager } from ""@mail/discuss/call/common/blur_manager"";
+import { CallPermissionDialog } from ""@mail/discuss/call/common/call_permission_dialog"";
+import { CALL_GRID_LAYOUT } from ""@mail/discuss/call/common/call_layout"";
+import { monitorAudio } from ""@mail/utils/common/media_monitoring"";
+import { CallPermissionDeniedDialog } from ""@mail/discuss/call/common/call_permission_denied_dialog"";
+import { rpc } from ""@web/core/network/rpc"";",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/src/discuss/core/common/discuss_core_common_service.js,1,"import { proxy } from ""@odoo/owl"";
+
+import { registry } from ""@web/core/registry"";
+
+export class DiscussCoreCommon {
+    /**
+     * @param {import(""@web/env"").OdooEnv} env
+     * @param {import(""services"").ServiceFactories} services
+     */
+    constructor(env, services) {
+        this.busService = services.bus_service;
+        this.env = env;
+        this.notificationService = services.notification;
+        this.orm = services.orm;
+        this.presence = services.presence;
+        this.store =",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/src/discuss/core/public_web/bus_connection_alert.js,1,"import { Component } from ""@odoo/owl"";
+import { registry } from ""@web/core/registry"";
+import { useService } from ""@web/core/utils/hooks"";
+
+export class BusConnectionAlert extends Component {
+    static template = ""mail.BusConnectionAlert"";
+
+    setup() {
+        this.busMonitoring = useService(""bus.monitoring_service"");
+        this.store = useService(""mail.store"");
+    }
+}
+
+export const connectionAlertService = {
+    dependencies: [""bus.monitoring_service"", ""mail.store""],
+    start() {
+        ",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/src/discuss/core/public_web/discuss_core_public_web_service.js,1,"import { proxy } from ""@odoo/owl"";
+
+import { browser } from ""@web/core/browser/browser"";
+import { registry } from ""@web/core/registry"";
+
+export class DiscussCorePublicWeb {
+    /**
+     * @param {import(""@web/env"").OdooEnv} env
+     * @param {import(""services"").ServiceFactories} services
+     */
+    constructor(env, services) {
+        this.env = env;
+        this.store = services[""mail.store""];
+        this.busService = services.bus_service;
+        this.busService.subscribe(""discuss.channel/jo",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/src/discuss/core/web/discuss_core_web_service.js,1,"import { proxy } from ""@odoo/owl"";
+
+import { _t } from ""@web/core/l10n/translation"";
+import { registry } from ""@web/core/registry"";
+
+export class DiscussCoreWeb {
+    /**
+     * @param {import(""@web/env"").OdooEnv} env
+     * @param {import(""services"").ServiceFactories} services
+     */
+    constructor(env, services) {
+        this.env = env;
+        this.busService = services.bus_service;
+        this.notificationService = services.notification;
+        this.ui = services.ui;
+        this.store ",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/src/discuss/voice_message/common/voice_message_service.js,1,"import { loadBundle } from ""@web/core/assets"";
+import { registry } from ""@web/core/registry"";
+import { memoize } from ""@web/core/utils/functions"";
+
+const loader = {
+    loadLamejs: memoize(() => loadBundle(""mail.assets_lamejs"")),
+};
+
+export async function loadLamejs() {
+    try {
+        await loader.loadLamejs();
+    } catch {
+        // Could be intentional (tour ended successfully while lamejs still loading)
+    }
+}
+
+export class VoiceMessageService {
+    constructor(env) {
+        /** @type ",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/tests/web/fields/many2many_avatar_user.test.js,2,"import {
+    click,
+    contains,
+    defineMailModels,
+    openFormView,
+    openKanbanView,
+    openListView,
+    start,
+    startServer,
+    triggerHotkey,
+} from ""@mail/../tests/mail_test_helpers"";
+import { describe, expect, test } from ""@odoo/hoot"";
+import { registry } from ""@web/core/registry"";
+import { getOrigin } from ""@web/core/utils/urls"";
+
+defineMailModels();
+describe.current.tags(""desktop"");
+
+test(""many2many_avatar_user in kanban view"", async () => {
+    const pyEnv = await startServ",VERIFIED source inventory,VERIFIED source inventory
+addons/mass_mailing/static/src/themes/theme_service.js,1,"import { children } from ""@html_editor/utils/dom_traversal"";
+import { parseHTML } from ""@html_editor/utils/html"";
+import { getInnerHtml } from ""@mail/utils/common/html"";
+import { registry } from ""@web/core/registry"";
+import { htmlTrim } from ""@web/core/utils/html"";
+import { Reactive } from ""@web/core/utils/reactive"";
+import { renderToMarkup } from ""@web/core/utils/render"";
+
+function hasDataOption(element, attribute) {
+    attribute = ""data-"" + attribute;
+    return element.hasAttribute(attribute",VERIFIED source inventory,VERIFIED source inventory
+addons/mrp_subcontracting/static/src/subcontracting_portal/main.js,1,"import { startWebClient } from ""@web/start"";
+import { SubcontractingPortalWebClient } from ""./subcontracting_portal"";
+import { registry } from ""@web/core/registry"";
+
+const servicesToRemove = [""menu""];
+
+const servicesRegistry = registry.category(""services"");
+
+/**
+ * Remove services unsued in subcontracting portal feature.
+ *
+ * This function is used before starting the webclient
+ * to remove the services that we don't want in the registry.
+ * In this case, the home_menu service is removed via the",VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/static/src/app/main.js,2,"import { Loader } from ""@point_of_sale/app/components/loader/loader"";
+import { getTemplate } from ""@web/core/templates"";
+import { mount, whenReady, proxy } from ""@odoo/owl"";
+import { appTranslateFn } from ""@web/core/l10n/translation"";
+import { hasTouch } from ""@web/core/browser/feature_detection"";
+import { browser } from ""@web/core/browser/browser"";
+import { localization } from ""@web/core/l10n/localization"";
+import { user } from ""@web/core/user"";
+import { session } from ""@web/session"";
+import { ",VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/static/src/app/services/barcode_reader_service.js,1,"import { _t } from ""@web/core/l10n/translation"";
+import { registry } from ""@web/core/registry"";
+import { Mutex } from ""@web/core/utils/concurrency"";
+import { session } from ""@web/session"";
+import { AlertDialog } from ""@web/core/confirmation_dialog/confirmation_dialog"";
+import { BarcodeParser } from ""@barcodes/js/barcode_parser"";
+import { GS1BarcodeError } from ""@barcodes_gs1_nomenclature/js/barcode_parser"";
+import { logPosMessage } from ""../utils/pretty_console_log"";
+
+export class BarcodeReader ",VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/static/src/app/services/pos_store.js,1,"import { proxy, usePlugin } from ""@odoo/owl"";
+import { Mutex } from ""@web/core/utils/concurrency"";
+import { registry } from ""@web/core/registry"";
+import { AlertDialog, ConfirmationDialog } from ""@web/core/confirmation_dialog/confirmation_dialog"";
+import {
+    random5Chars,
+    uuidv4,
+    Counter,
+    orderUsageUTCtoLocalUtil,
+    getTimeUtil,
+    generateQRCodeDataUrl,
+    getColorScheme,
+} from ""@point_of_sale/utils"";
+import { ConnectionLostError, RPCError } from ""@web/core/network/rpc"";
+impor",VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/static/src/app/services/report_service.js,1,"import { rpc } from ""@web/core/network/rpc"";
+import { registry } from ""@web/core/registry"";
+import { user } from ""@web/core/user"";
+import { downloadReport } from ""@web/webclient/actions/reports/utils"";
+
+export const reportService = {
+    dependencies: [""ui"", ""orm"", ""pos""],
+    start(env, { ui, orm, pos }) {
+        const reportActionsCache = {};
+        return {
+            async doAction(reportXmlId, active_ids) {
+                ui.block();
+                try {
+                    reportActio",VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/static/tests/generic_components/mount_generic_components.test.js,1,"import { expect, test } from ""@odoo/hoot"";
+import { mountWithCleanup } from ""@web/../tests/web_test_helpers"";
+import { Component, xml, proxy } from ""@odoo/owl"";
+import { OdooLogo } from ""@point_of_sale/app/components/odoo_logo/odoo_logo"";
+import { CenteredIcon } from ""@point_of_sale/app/components/centered_icon/centered_icon"";
+import { Input } from ""@point_of_sale/app/components/inputs/input/input"";
+import { NumericInput } from ""@point_of_sale/app/components/inputs/numeric_input/numeric_input"";
+",VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/static/tests/unit/tools/lazy_getter.test.js,2,"import { afterEach, expect, test } from ""@odoo/hoot"";
+import { animationFrame } from ""@odoo/hoot-dom"";
+import { Component, onMounted, onPatched, proxy, t, useProps, xml } from ""@odoo/owl"";
+import {
+    WithLazyGetterTrap,
+    clearGettersCache,
+    createLazyGetter,
+} from ""@point_of_sale/lazy_getter"";
+import {
+    allowTranslations,
+    clearRegistry,
+    mountWithCleanup,
+    patchWithCleanup,
+} from ""@web/../tests/web_test_helpers"";
+import { registry } from ""@web/core/registry"";
+import { zip ",VERIFIED source inventory,VERIFIED source inventory
+addons/portal/static/src/chatter/portal/portal_chatter_service.js,1,"import { loadCssFromBundle } from ""@mail/utils/common/misc"";
+import { onWillDestroy, useApp } from ""@odoo/owl"";
+import { PortalChatter } from ""@portal/chatter/portal/portal_chatter"";
+import { registry } from ""@web/core/registry"";
+import { session } from ""@web/session"";
+
+export class PortalChatterService {
+    constructor(env, services) {
+        this.setup(env, services);
+    }
+
+    app = useApp();
+    /** @type {import(""@odoo/owl"").Root<PortalChatter> | null} */
+    root = null;
+
+    setup(env,",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_restaurant/static/src/app/services/floor_plan/floor_plan_service.js,1,"import { Reactive } from ""@web/core/utils/reactive"";
+import { uuid } from ""@web/core/utils/strings"";
+import { History } from ""./utils/history"";
+import { registry } from ""@web/core/registry"";
+
+import {
+    Floor,
+    FloorTable,
+    Line,
+    Decor,
+    Image,
+    OnlyBorderDecor,
+    Text,
+    SHAPE_TYPES,
+    DEFAULT_FLOOR_COLOR_KEY,
+    DEFAULT_FLOOR_COLOR_OPACITY,
+} from ""./elements"";
+import { SIZES } from ""@web/core/ui/ui_utils"";
+import { AlertDialog } from ""@web/core/confirmation_dialog/con",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_self_order/static/src/app/services/self_order_router_service.js,1,"import { registry } from ""@web/core/registry"";
+import { Reactive } from ""@web/core/utils/reactive"";
+import { location } from ""@web/core/browser/browser"";
+
+export class SelfOrderRouter extends Reactive {
+    static serviceDependencies = [];
+
+    constructor(...args) {
+        super(...args);
+        this.setup(...args);
+    }
+
+    setup(env) {
+        this.path = window.location.pathname;
+        this.registeredRoutes = {};
+        this.historyPage = """";
+        this.activeSlot = null;
+        wi",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_self_order/static/src/app/services/self_order_service.js,1,"import { Reactive } from ""@web/core/utils/reactive"";
+import { Mutex } from ""@web/core/utils/concurrency"";
+import { ConnectionLostError, RPCError, rpc } from ""@web/core/network/rpc"";
+import { _t } from ""@web/core/l10n/translation"";
+import { formatCurrency as webFormatCurrency } from ""@web/core/currency"";
+import { markup, usePlugin } from ""@odoo/owl"";
+import { useService } from ""@web/core/utils/hooks"";
+import { registry } from ""@web/core/registry"";
+import { cookie } from ""@web/core/browser/cookie""",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_self_order/static/tests/unit/utils.js,1,"import { uuidv4 } from ""@point_of_sale/utils"";
+import {
+    assignDialogTestEnv,
+    getService,
+    onRpc,
+    patchWithCleanup,
+    MockServer,
+    mountWithCleanup,
+    makeTestApp,
+} from ""@web/../tests/web_test_helpers"";
+import { session } from ""@web/session"";
+import { registry } from ""@web/core/registry"";
+import { selfOrderIndex } from ""@pos_self_order/app/self_order_index"";
+import { setupPosEnv } from ""@point_of_sale/../tests/unit/utils"";
+import { unpatchSelf } from ""@pos_self_order/app/p",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_self_order_bancontact_pay/static/tests/unit/app/payment_bancontact.test.js,1,"import { test, expect, describe, beforeEach, animationFrame } from ""@odoo/hoot"";
+import { waitFor } from ""@odoo/hoot-dom"";
+import { createPaymentLine } from ""@point_of_sale/../tests/unit/utils"";
+import { setupSelfPosEnv, getFilledSelfOrder } from ""@pos_self_order/../tests/unit/utils"";
+import { definePosSelfModels } from ""@pos_self_order/../tests/unit/data/generate_model_definitions"";
+import { MockServer, onRpc } from ""@web/../tests/web_test_helpers"";
+import { registry } from ""@web/core/registry""",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_self_order_bancontact_pay/static/tests/unit/ui_utils.js,1,"import { animationFrame, waitFor } from ""@odoo/hoot-dom"";
+import { advanceTime } from ""@odoo/hoot-mock"";
+import { expect } from ""@odoo/hoot"";
+import { MockServer, mountWithCleanup, onRpc, contains } from ""@web/../tests/web_test_helpers"";
+import { registry } from ""@web/core/registry"";
+import { PaymentPage } from ""@pos_self_order/app/pages/payment_page/payment_page"";
+import { setupSelfPosEnv, getFilledSelfOrder } from ""@pos_self_order/../tests/unit/utils"";
+import { mockBancontactCall } from ""@pos_",VERIFIED source inventory,VERIFIED source inventory
+addons/printer/static/src/services/report_printers_cache.js,1,"import { registry } from ""@web/core/registry"";
+import { browser } from ""@web/core/browser/browser"";
+
+const STORAGE_KEY = ""odoo_reports_printer"";
+
+function readFromStorage() {
+    try {
+        return JSON.parse(browser.localStorage.getItem(STORAGE_KEY) || ""{}"");
+    } catch {
+        return {};
+    }
+}
+
+function writeToStorage(cache) {
+    if (Object.keys(cache).length === 0) {
+        browser.localStorage.removeItem(STORAGE_KEY);
+    } else {
+        browser.localStorage.setItem(STORAGE_KEY, JS",VERIFIED source inventory,VERIFIED source inventory
+addons/spreadsheet/static/src/helpers/geo_json_service.js,1,"import { _t } from ""@web/core/l10n/translation"";
+import { registry } from ""@web/core/registry"";
+
+const diacriticalMarksRegex = /[\u0300-\u036f]/g;
+
+/** Put the feature name in lowercase and remove the accents */
+function normalizeFeatureName(name) {
+    return name.normalize(""NFD"").replace(diacriticalMarksRegex, """").toLowerCase();
+}
+
+export const geoJsonService = {
+    dependencies: [""orm""],
+    start(env, { orm }) {
+        const geoJsonPromises = new Map();
+        const geoJsonCache = new Map",VERIFIED source inventory,VERIFIED source inventory
+addons/spreadsheet/static/src/ir_ui_menu/spreadsheet_link_service.js,1,"import { registry } from ""@web/core/registry"";
+import * as spreadsheet from ""@odoo/o-spreadsheet"";
+
+import {
+    isMarkdownIrMenuIdUrl,
+    isIrMenuXmlUrl,
+    isMarkdownViewUrl,
+    parseIrMenuXmlUrl,
+    parseViewLink,
+    parseIrMenuIdLink,
+} from ""./odoo_menu_link_cell"";
+import { _t } from ""@web/core/l10n/translation"";
+import { navigateTo } from ""../actions/helpers"";
+
+const { urlRegistry, errorTypes } = spreadsheet.registries;
+const { EvaluationError } = spreadsheet;
+
+const LINK_ERROR = ""#LI",VERIFIED source inventory,VERIFIED source inventory
+addons/spreadsheet/static/tests/helpers/ui.js,1,"import { Model, Spreadsheet, stores } from ""@odoo/o-spreadsheet"";
+import { loadBundle } from ""@web/core/assets"";
+
+import { getFixture } from ""@odoo/hoot"";
+import { animationFrame } from ""@odoo/hoot-mock"";
+import { Component, onMounted, onWillUnmount, t, useProps, xml } from ""@odoo/owl"";
+import { useSpreadsheetNotificationStore } from ""@spreadsheet/hooks"";
+import { mountWithCleanup } from ""@web/../tests/web_test_helpers"";
+import { MainComponentsContainer } from ""@web/core/main_components_containe",VERIFIED source inventory,VERIFIED source inventory
+addons/spreadsheet_dashboard/static/src/bundle/dashboard_action/dashboard_loader_service.js,1,"import { markRaw, proxy } from ""@odoo/owl"";
+import { Model } from ""@odoo/o-spreadsheet"";
+import { registry } from ""@web/core/registry"";
+import { OdooDataProvider } from ""@spreadsheet/data_sources/odoo_data_provider"";
+import { createDefaultCurrency } from ""@spreadsheet/currency/helpers"";
+import { _t } from ""@web/core/l10n/translation"";
+import { cookie } from ""@web/core/browser/cookie"";
+import { DashboardSearchModel } from ""./dashboard_search_model"";
+import { rpcBus } from ""@web/core/network/rpc"";",VERIFIED source inventory,VERIFIED source inventory
+addons/stock/static/src/stock_warehouse_service.js,1,"import { registry } from ""@web/core/registry"";
+
+registry.category(""services"").add(""stock_warehouse"", {
+    dependencies: [""action"", ""bus_service""],
+    start(env, { action, bus_service }) {
+        bus_service.subscribe(""stock_group_sync"", () => action.doAction(""reload_context""));
+    },
+});
+",VERIFIED source inventory,VERIFIED source inventory
+addons/stock/static/tests/forecasted_details.test.js,1,"import { before, expect, test } from ""@odoo/hoot"";
+import { xml } from ""@odoo/owl"";
+import { ForecastedDetails } from ""@stock/stock_forecasted/forecasted_details"";
+import { mountWithCleanup, patchWithCleanup } from ""@web/../tests/web_test_helpers"";
+import { registry } from ""@web/core/registry"";
+
+before(() => {
+    // Remove mail services and components
+    const services = registry.category(""services"");
+    for (const [name] of services.getEntries()) {
+        if (
+            name.startsWith(""m",VERIFIED source inventory,VERIFIED source inventory
+addons/test_translation_mode/static/src/translation_mode_service.js,1,"import { onMounted, onWillUnmount, proxy } from ""@odoo/owl"";
+import { localization } from ""@web/core/l10n/localization"";
+import { registry } from ""@web/core/registry"";
+import { patch } from ""@web/core/utils/patch"";
+import { debounce } from ""@web/core/utils/timing"";
+import { session } from ""@web/session"";
+import { siphash } from ""./siphash"";
+import { isTranslationModeEnabled, parseTranslatedText } from ""./translation.patch"";
+import {
+    TRANSLATABLE_PROPERTY_LABELS,
+    TranslationModeSidePanel,",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/core/bottom_sheet/bottom_sheet_plugin.js,1,"import { assertType, markRaw, Plugin, signal, t, useEffect, usePlugin } from ""@odoo/owl"";
+import { BottomSheet } from ""@web/core/bottom_sheet/bottom_sheet"";
+import { registry } from ""@web/core/registry"";
+import { OverlayPlugin } from ""@web/core/overlay/overlay_plugin"";
+import { services } from ""@web/core/services"";
+
+const BottomSheetOptionSchema = t.object({
+    scope: t.object().optional(),
+    onClose: t.function().optional(),
+    class: t.or([t.string(), t.object()]).optional(),
+    role: t.s",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/core/browser/title_plugin.js,1,"import { computed, usePlugin, Plugin, signal, useEffect } from ""@odoo/owl"";
+import { services } from ""@web/core/services"";
+import { registry } from ""@web/core/registry"";
+
+export class TitlePlugin extends Plugin {
+    prefix = signal("""");
+
+    /** @private */
+    titleParts = signal.Object({});
+
+    /** @private */
+    defaultTitle = document.title || ""Odoo"";
+
+    title = computed(() => {
+        const prefix = this.prefix() ? this.prefix() + "" "" : """";
+        const name = Object.values(this.titl",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/core/commands/command_service.js,1,"import { registry } from ""@web/core/registry"";
+import { CommandPalette } from ""./command_palette"";
+
+import { Component, EventBus, t, useProps } from ""@odoo/owl"";
+
+/**
+ * @typedef {import(""./command_palette"").CommandPaletteConfig} CommandPaletteConfig
+ * @typedef {import(""../hotkeys/hotkey_plugin"").HotkeyOptions} HotkeyOptions
+ */
+
+/**
+ * @typedef {{
+ *  name: TranslatedString;
+ *  action: ()=>(void | CommandPaletteConfig);
+ *  category?: string;
+ *  href?: string;
+ *  className?: string;
+ * }} C",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/core/datetime/datetimepicker_service.js,1,"import {
+    getDefault,
+    immediateEffect,
+    markRaw,
+    onMounted,
+    onPatched,
+    onWillDestroy,
+    proxy,
+    untrack,
+} from ""@odoo/owl"";
+import { hasTouch } from ""@web/core/browser/feature_detection"";
+import { onWillRender, useLayoutEffect } from ""@web/owl2/utils"";
+import { areDatesEqual, formatDate, formatDateTime, parseDate, parseDateTime } from ""../l10n/dates"";
+import { makePopover } from ""../popover/popover_hook"";
+import { registry } from ""../registry"";
+import { ensureArray, z",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/core/dialog/dialog_plugin.js,1,"import { useSubEnv } from ""@web/owl2/utils"";
+import {
+    assertType,
+    Component,
+    markRaw,
+    Plugin,
+    proxy,
+    t,
+    useProps,
+    usePlugin,
+    xml,
+} from ""@odoo/owl"";
+import { registry } from ""@web/core/registry"";
+import { OverlayPlugin } from ""@web/core/overlay/overlay_plugin"";
+import { services } from ""@web/core/services"";
+
+class DialogWrapper extends Component {
+    static template = xml`<t t-component=""this.props.subComponent"" t-props=""this.props.subProps"" />`;
+    props =",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/core/effects/effect_plugin.js,1,"import { _t } from ""@web/core/l10n/translation"";
+import { registry } from ""@web/core/registry"";
+import { user } from ""@web/core/user"";
+import { RainbowMan } from ""./rainbow_man"";
+import { Plugin, usePlugin, useScope } from ""@odoo/owl"";
+import { useService } from ""@web/core/utils/hooks"";
+import { services } from ""@web/core/services"";
+import { OverlayPlugin } from ""@web/core/overlay/overlay_plugin"";
+
+const effectRegistry = registry.category(""effects"");
+
+// -----------------------------------------",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/core/emoji_picker/frequent_emoji_plugin.js,1,"import { registry } from ""@web/core/registry"";
+import { computed, Plugin, signal, useListener, usePlugin } from ""@odoo/owl"";
+import { services } from ""@web/core/services"";
+
+const STORAGE_KEY = ""web.emoji.frequent"";
+
+export class FrequentEmojiPlugin extends Plugin {
+    all = signal.Object(JSON.parse(localStorage.getItem(STORAGE_KEY) || ""{}""));
+    mostFrequent = computed(() =>
+        Object.entries(this.all())
+            .sort(([, usage_1], [, usage_2]) => usage_2 - usage_1)
+            .map((",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/core/errors/error_service.js,1,"import { browser } from ""../browser/browser"";
+import { registry } from ""../registry"";
+import { completeUncaughtError, getErrorTechnicalName } from ""./error_utils"";
+import { isBrowserFirefox, isBrowserChrome } from ""@web/core/browser/feature_detection"";
+import { usePlugin, useScope } from ""@odoo/owl"";
+import { DebugModePlugin } from ""@web/core/debug_mode_plugin"";
+
+export class HTMLElementLoadingError extends Error {
+    static message = ""Error loading an HTML Element"";
+    constructor(message = H",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/core/errors/scss_error_dialog.js,1,"import { location } from ""@web/core/browser/browser"";
+import { registry } from ""@web/core/registry"";
+import { _t, translationIsReady } from ""@web/core/l10n/translation"";
+import { getOrigin } from ""@web/core/utils/urls"";
+
+const scssErrorNotificationService = {
+    dependencies: [""notification""],
+    start(env, { notification }) {
+        const origin = getOrigin();
+        // Iframe with src ""about:blank"" origin isn't a valid base URL.
+        if (location.origin === ""null"") {
+            return;",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/core/field_service.js,1,"import { Domain } from ""@web/core/domain"";
+import { registry } from ""@web/core/registry"";
+
+/**
+ * @typedef {Object} LoadFieldsOptions
+ * @property {string[]|false} [fieldNames]
+ * @property {string[]} [attributes]
+ */
+
+function getRelation(fieldDef, followRelationalProperties = false) {
+    if (fieldDef.relation) {
+        return fieldDef.relation;
+    }
+    if (fieldDef.comodel && followRelationalProperties) {
+        return fieldDef.comodel;
+    }
+    return null;
+}
+
+export const fieldService ",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/core/file_upload/file_upload_service.js,1,"import { _t } from ""@web/core/l10n/translation"";
+import { registry } from ""../registry"";
+
+import { EventBus, proxy } from ""@odoo/owl"";
+
+export const fileUploadService = {
+    dependencies: [""notification""],
+    /**
+     * Overridden during tests to return a mocked XHR.
+     *
+     * @private
+     * @returns {XMLHttpRequest}
+     */
+    createXhr() {
+        return new window.XMLHttpRequest();
+    },
+
+    start(env, { notification: notificationService }) {
+        const uploads = proxy({});
+     ",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/core/file_viewer/file_viewer_hook.js,1,"import { onWillDestroy } from ""@odoo/owl"";
+import { registry } from ""@web/core/registry"";
+import { useService } from ""../utils/hooks"";
+import { FileViewer } from ""./file_viewer"";
+
+/** @typedef {import(""@web/core/file_viewer/file_viewer"").File} File */
+
+const fileViewerService = {
+    dependencies: [""overlay""],
+    /**
+     * @param {import(""@web/env"").OdooEnv} _env
+     * @param {import(""services"").Services} services
+     */
+    start(_env, { overlay }) {
+        /**
+         * @param {import(""@",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/core/hotkeys/hotkey_plugin.js,1,"import { registry } from ""../registry"";
+import { browser } from ""../browser/browser"";
+import { getVisibleElements } from ""../utils/ui"";
+import { onWillDestroy, Plugin, usePlugin } from ""@odoo/owl"";
+import { services } from ""@web/core/services"";
+import { UIPlugin } from ""@web/core/ui/ui_plugin"";
+import { AUTHORIZED_KEYS, getActiveHotkey, MODIFIERS } from ""./hotkey_utils"";
+
+/**
+ * @typedef {(context: { area: HTMLElement, target: EventTarget }) => void} HotkeyCallback
+ *
+ * @typedef {Object} Hotkey",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/core/l10n/localization_plugin.js,1,"import { onWillDestroy, onWillStart, usePlugin, Plugin, useListener } from ""@odoo/owl"";
+import { session } from ""@web/session"";
+import { jsToPyLocale } from ""@web/core/l10n/utils"";
+import { user } from ""@web/core/user"";
+import { browser } from ""@web/core/browser/browser"";
+import { services } from ""@web/core/services"";
+import { strftimeToLuxonFormat } from ""./dates"";
+import { localization } from ""./localization"";
+import { rpcBus } from ""@web/core/network/rpc"";
+import {
+    translatedTerms,
+    tr",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/core/legacy_service_starter.js,2,"/**
+ * @todo owl3 migration
+ * temporary - to remove when all service are converted
+ */
+
+import { onWillDestroy, onWillStart, Plugin, t, useScope } from ""@odoo/owl"";
+import { registry } from ""@web/core/registry"";
+import { services } from ""@web/core/services"";
+import { SERVICES_METADATA } from ""@web/core/utils/hooks"";
+import { useEnv } from ""@web/owl2/utils"";
+
+const serviceRegistry = registry.category(""services"");
+
+serviceRegistry.addValidation(
+    t.object({
+        start: t.function(),
+       ",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/core/name_service.js,1,"import { registry } from ""@web/core/registry"";
+import { unique, zip } from ""@web/core/utils/arrays"";
+
+export const ERROR_INACCESSIBLE_OR_MISSING = Symbol(""INACCESSIBLE OR MISSING RECORD ID"");
+
+function isId(val) {
+    // normally, ids are positive, but negative ids can happen in rare cases, such as merging records in migration
+    return Number.isInteger(val) && (val !== 0);
+}
+
+/**
+ * @typedef {Record<string, (string|ERROR_INACCESSIBLE_OR_MISSING)>} DisplayNames
+ */
+
+export const nameService = {",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/core/network/http_service.js,1,"import { browser } from ""@web/core/browser/browser"";
+import { registry } from ""../registry"";
+
+function checkResponseStatus(response) {
+    if (response.status === 502) {
+        throw new Error(""Failed to fetch"");
+    }
+    if (response.status === 413) {
+        throw new Error(""Content too large"");
+    }
+}
+
+export async function get(route, readMethod = ""json"") {
+    const response = await browser.fetch(route, { method: ""GET"" });
+    checkResponseStatus(response);
+    if (readMethod === ""respons",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/core/notifications/notification_plugin.js,1,"import { Plugin, Resource, types as t, untrack, usePlugin } from ""@odoo/owl"";
+import { services } from ""@web/core/services"";
+import { registry } from ""@web/core/registry"";
+
+const AUTOCLOSE_DELAY = 4000;
+
+const NotificationOptionSchema = t.object({
+    type: t.selection([""warning"", ""danger"", ""success"", ""info""]).optional(""warning""),
+    title: t.or([t.string(), t.boolean(), t.object({ toString: t.function() })]).optional(),
+    className: t.string().optional(""""),
+    buttons: t.array(
+        t.ob",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/core/offline/offline_plugin.js,1,"import {
+    computed,
+    markRaw,
+    onWillDestroy,
+    Plugin,
+    signal,
+    useListener,
+    usePlugin,
+} from ""@odoo/owl"";
+import { browser } from ""@web/core/browser/browser"";
+import { Crypto, CRYPTO_ALGO } from ""@web/core/crypto"";
+import { DebugModePlugin } from ""@web/core/debug_mode_plugin"";
+import { NonSecureContextError } from ""@web/core/errors/non_secure_context_error"";
+import { _t } from ""@web/core/l10n/translation"";
+import { normalize } from ""@web/core/l10n/utils"";
+import { Connec",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/core/orm_plugin.js,1,"import { assertType, Plugin, types as t, usePlugin } from ""@odoo/owl"";
+import { services } from ""@web/core/services"";
+import { registry } from ""@web/core/registry"";
+import { rpc } from ""@web/core/network/rpc"";
+import { user } from ""@web/core/user"";
+import { Domain } from ""@web/core/domain"";
+
+/**
+ * This ORM plugin is the standard way to interact with the ORM in python from
+ * the javascript codebase.
+ */
+
+// -----------------------------------------------------------------------------
+// ORM
+// ",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/core/overlay/overlay_plugin.js,1,"import {
+    applyDefaults,
+    assertType,
+    Component,
+    Plugin,
+    Resource,
+    t,
+    untrack,
+    usePlugin,
+} from ""@odoo/owl"";
+import { registry } from ""../registry"";
+import { services } from ""@web/core/services"";
+
+const OverlayOptionsSchema = t.object({
+    scope: t.object().optional(),
+    onRemove: t.function().optional(),
+    sequence: t.number().optional(50),
+    rootId: t.string().optional(),
+});
+
+const OverlayItemSchema = t.object({
+    id: t.number(),
+    component: t.constr",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/core/popover/popover_plugin.js,1,"import { markRaw, t, Plugin, usePlugin, assertType } from ""@odoo/owl"";
+import { Popover } from ""@web/core/popover/popover"";
+import { registry } from ""@web/core/registry"";
+import { OverlayPlugin } from ""@web/core/overlay/overlay_plugin"";
+import { services } from ""@web/core/services"";
+
+export const PopoverOptionSchema = t.object({
+    animation: t.boolean().optional(),
+    arrow: t.boolean().optional(),
+    closeOnClickAway: t.or([t.boolean(), t.function()]).optional(),
+    closeOnEscape: t.boolea",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/core/pwa/pwa_service.js,1,"import { proxy } from ""@odoo/owl"";
+import { location, browser } from ""@web/core/browser/browser"";
+import {
+    isDisplayStandalone,
+    isIOS,
+    isMacOS,
+    isBrowserSafari,
+} from ""@web/core/browser/feature_detection"";
+import { get } from ""@web/core/network/http_service"";
+import { registry } from ""@web/core/registry"";
+import { InstallPrompt } from ""./install_prompt"";
+
+const serviceRegistry = registry.category(""services"");
+
+/* Ideally, the service would directly add the event listener. Unfort",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/core/session/check_identity.js,2,"import { Component, onWillStart, proxy, t, useProps } from ""@odoo/owl"";
+import { Dialog } from ""@web/core/dialog/dialog"";
+import { rpc, RPCError } from ""@web/core/network/rpc"";
+import { registry } from ""@web/core/registry"";
+import { useService } from ""@web/core/utils/hooks"";
+import { redirect } from ""@web/core/utils/urls"";
+import { post } from ""@web/core/network/http_service"";
+import { session } from ""@web/session"";
+
+/**
+ * CheckIdentityForm component
+ *
+ * Displays a re-authentication form base",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/core/tooltip/tooltip_service.js,1,"import { browser } from ""@web/core/browser/browser"";
+import { registry } from ""@web/core/registry"";
+import { Tooltip } from ""./tooltip"";
+import { hasTouch } from ""@web/core/browser/feature_detection"";
+
+import { whenReady } from ""@odoo/owl"";
+
+/**
+ * The tooltip service allows to display custom tooltips on every elements with
+ * a ""data-tooltip"" attribute. This attribute can be set on elements for which
+ * we prefer a custom tooltip instead of the native one displaying the value of
+ * the ""title"" ",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/core/tree_editor/tree_processor.js,1,"import {
+    deserializeDate,
+    deserializeDateTime,
+    formatDate,
+    toLocaleDateTimeString,
+} from ""@web/core/l10n/dates"";
+import { _t } from ""@web/core/l10n/translation"";
+import { registry } from ""@web/core/registry"";
+import { getOperatorLabel } from ""@web/core/tree_editor/tree_editor_operator_editor"";
+import { unique, zip } from ""@web/core/utils/arrays"";
+import { condition, Expression, isTree, normalizeValue } from ""./condition_tree"";
+import { constructTreeFromDomain } from ""./construct",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/core/ui/ui_plugin.js,1,"import { useLayoutEffect } from ""@web/owl2/utils"";
+import { registry } from ""@web/core/registry"";
+import { services } from ""@web/core/services"";
+import { BlockUI } from ""./block_ui"";
+import { isFocusable } from ""@web/core/utils/ui"";
+import { getActiveHotkey } from ""../hotkeys/hotkey_utils"";
+import { getFirstAndLastTabableElements, refreshMedias, utils } from ""./ui_utils"";
+
+import { computed, EventBus, Plugin, signal, untrack, useListener, usePlugin } from ""@odoo/owl"";
+
+/**
+ * This hook will set ",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/core/utils/sortable_plugin.js,1,"import { registry } from ""../registry"";
+import { useSortable } from ""@web/core/utils/sortable"";
+import { throttleForAnimation } from ""@web/core/utils/timing"";
+import { Plugin, proxy, usePlugin } from ""@odoo/owl"";
+import { services } from ""@web/core/services"";
+
+/**
+ * @typedef SortableServiceHookParams
+ * @extends SortableParams
+ * @property {import(""@odoo/owl"").Signal<HTMLElement> | (() => HTMLElement)} [ref]
+ *  container of sortable
+ * @property {string | Symbol} [sortableId] identifier when m",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/public/interaction_service.js,1,"import { Scope, useApp, useScope } from ""@odoo/owl"";
+import { registry } from ""@web/core/registry"";
+import { addLoadingEffect, isClickable } from ""@web/core/utils/ui"";
+import { Colibri } from ""./colibri"";
+import { Interaction } from ""./interaction"";
+import lazyloader from ""./lazyloader"";
+import { BUTTON_HANDLER_SELECTOR, PairSet } from ""./utils"";
+
+/**
+ * Website Core
+ *
+ * This service handles the core interactions for the website codebase.
+ * It will replace public root, publicroot instance, an",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/views/fields/dynamic_placeholder_popover.js,1,"import { Component, onWillStart, proxy, signal, usePlugin, useProps } from ""@odoo/owl"";
+import { DebugModePlugin } from ""@web/core/debug_mode_plugin"";
+import { ModelFieldSelectorPopover } from ""@web/core/model_field_selector/model_field_selector_popover"";
+import { registry } from ""@web/core/registry"";
+import { user } from ""@web/core/user"";
+import { useAutofocus } from ""@web/core/utils/hooks"";
+
+const allowedQwebExpressionsService = {
+    dependencies: [""orm""],
+    start(env, { orm }) {
+        co",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/views/view_service.js,1,"import { usePlugin } from ""@odoo/owl"";
+import { DebugModePlugin } from ""@web/core/debug_mode_plugin"";
+import { rpcBus } from ""@web/core/network/rpc"";
+import { UPDATE_METHODS } from ""@web/core/orm_plugin"";
+import { registry } from ""@web/core/registry"";
+
+/**
+ * @typedef {Object} IrFilter
+ * @property {[number, string] | false} user_id
+ * @property {string} sort
+ * @property {string} context
+ * @property {string} name
+ * @property {string} domain
+ * @property {number} id
+ * @property {boolean} is_d",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/webclient/actions/action_plugin.js,1,"import { useSubEnv, useEnv } from ""@web/owl2/utils"";
+import { _t } from ""@web/core/l10n/translation"";
+import { location, browser } from ""@web/core/browser/browser"";
+import { makeContext } from ""@web/core/context"";
+import { useDebugCategory } from ""@web/core/debug/debug_context"";
+import { evaluateExpr } from ""@web/core/py_js/py"";
+import { rpc, rpcBus } from ""@web/core/network/rpc"";
+import { registry } from ""@web/core/registry"";
+import { services } from ""@web/core/services"";
+import { user } from """,VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/webclient/currency_plugin.js,1,"import { rpcBus } from ""@web/core/network/rpc"";
+import { registry } from ""@web/core/registry"";
+import { currencies } from ""@web/core/currency"";
+import { ORM, UPDATE_METHODS } from ""@web/core/orm_plugin"";
+import { Plugin, useListener, usePlugin } from ""@odoo/owl"";
+import { services } from ""@web/core/services"";
+
+export class CurrencyPlugin extends Plugin {
+    orm = usePlugin(ORM);
+
+    setup() {
+        useListener(rpcBus, ""RPC:RESPONSE"", (ev) => {
+            const { data, error } = ev.detail;
+ ",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/webclient/debug/profiling/profiling_service.js,2,"import { effect, EventBus, proxy, usePlugin } from ""@odoo/owl"";
+import { DebugModePlugin } from ""@web/core/debug_mode_plugin"";
+import { registry } from ""@web/core/registry"";
+import { session } from ""@web/session"";
+import { ProfilingItem } from ""@web/webclient/debug/profiling/profiling_item"";
+import { profilingSystrayItem } from ""@web/webclient/debug/profiling/profiling_systray_item"";
+
+const systrayRegistry = registry.category(""systray"");
+
+export const profilingService = {
+    dependencies: [""act",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/webclient/menus/menu_service.js,1,"import { computed, signal, t, usePlugin } from ""@odoo/owl"";
+import { DebugModePlugin } from ""@web/core/debug_mode_plugin"";
+import { registry } from ""@web/core/registry"";
+import { IndexedDB } from ""@web/core/utils/indexed_db"";
+import { session } from ""@web/session"";
+
+export const menuService = {
+    dependencies: [""action""],
+    async start(env, { action }) {
+        /**
+         * @param {boolean} [reload=false]
+         */
+        async function fetchMenus(reload) {
+            if (!reload && o",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/webclient/reload_company_service.js,1,"import { browser } from ""@web/core/browser/browser"";
+import { rpcBus } from ""@web/core/network/rpc"";
+import { registry } from ""@web/core/registry"";
+import { UPDATE_METHODS } from ""@web/core/orm_plugin"";
+
+// reload the page if changes are being done to `res.company`
+
+registry.category(""services"").add(""reloadCompany"", {
+    dependencies: [""action""],
+    start(env, { action }) {
+        rpcBus.addEventListener(""RPC:RESPONSE"", (ev) => {
+            const { data, error } = ev.detail;
+            cons",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/webclient/session_service.js,1,"import { registry } from ""@web/core/registry"";
+import { deepCopy } from ""@web/core/utils/objects"";
+
+export const lazySession = {
+    dependencies: [""orm""],
+    start(env, { orm }) {
+        let resolveWebClientReady;
+        let lazyConfigPromise;
+        const fetchServerData = async () => {
+            await webClientReadyPromise;
+            return orm.call(""ir.http"", ""lazy_session_info"");
+        };
+        const webClientReadyPromise = new Promise((r) => (resolveWebClientReady = r));
+      ",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/webclient/share_target/share_target_service.js,1,"import { registry } from ""@web/core/registry"";
+import { location, browser } from ""@web/core/browser/browser"";
+import { ShareTargetDialog } from ""@web/webclient/share_target/share_target_dialog"";
+
+export const shareTargetService = {
+    dependencies: [""dialog""],
+    /**
+     * @return {Promise<File[]>}
+     */
+    async _getShareTargetFiles() {
+        return new Promise((resolve) => {
+            if (
+                !(
+                    browser.navigator.serviceWorker?.controller &&
+         ",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/webclient/webclient.js,2,"import { Component, onMounted, onWillStart, proxy, useListener, usePlugin } from ""@odoo/owl"";
+import { location, browser } from ""@web/core/browser/browser"";
+import { router, routerBus } from ""@web/core/browser/router"";
+import { useOwnDebugContext } from ""@web/core/debug/debug_context"";
+import { DebugMenu } from ""@web/core/debug/debug_menu"";
+import { DebugModePlugin } from ""@web/core/debug_mode_plugin"";
+import { localization } from ""@web/core/l10n/localization"";
+import { MainComponentsContainer }",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/tests/_framework/app_test_helpers.js,1,"import {
+    after,
+    afterEach,
+    animationFrame,
+    beforeEach,
+    getCurrent,
+    registerDebugInfo,
+} from ""@odoo/hoot"";
+import { App, Scope } from ""@odoo/owl"";
+import { startRouter } from ""@web/core/browser/router"";
+import { appTranslateFn } from ""@web/core/l10n/translation"";
+import { OfflinePlugin } from ""@web/core/offline/offline_plugin"";
+import { registry } from ""@web/core/registry"";
+import { services } from ""@web/core/services"";
+import { getTemplate } from ""@web/core/templates"";
+i",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/tests/core/debug/debug_manager.test.js,1,"import {
+    animationFrame,
+    beforeEach,
+    click,
+    describe,
+    expect,
+    queryAll,
+    queryAllProperties,
+    queryAllTexts,
+    queryOne,
+    queryText,
+    test,
+} from ""@odoo/hoot"";
+import { Component, xml } from ""@odoo/owl"";
+import {
+    assignDialogTestEnv,
+    clearRegistry,
+    contains,
+    defineModels,
+    defineWebModels,
+    fields,
+    getService,
+    models,
+    mountWithCleanup,
+    onRpc,
+    patchWithCleanup,
+    serverState,
+    webModels,
+} from ""@web/../tests/we",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/tests/core/domain_field.test.js,1,"import { expect, getFixture, test } from ""@odoo/hoot"";
+import { queryAllTexts, scroll } from ""@odoo/hoot-dom"";
+import { animationFrame, mockDate } from ""@odoo/hoot-mock"";
+import { getPickerCell } from ""@web/../tests/core/datetime/datetime_test_helpers"";
+import { SELECTORS } from ""@web/../tests/core/domain_selector/domain_selector_helpers"";
+import {
+    Country,
+    Partner,
+    Player,
+    Product,
+    Stage,
+    Team,
+    addNewRule,
+    clearNotSupported,
+    clickOnButtonDeleteNode,
+    editV",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/tests/core/session_service.test.js,2,"import { Component, onMounted, onWillStart, xml } from ""@odoo/owl"";
+import { expect, test } from ""@odoo/hoot"";
+import { animationFrame } from ""@odoo/hoot-mock"";
+import {
+    getService,
+    mountWithCleanup,
+    onRpc,
+    patchWithCleanup,
+} from ""@web/../tests/web_test_helpers"";
+
+import { registry } from ""@web/core/registry"";
+import { WebClient } from ""@web/webclient/webclient"";
+import { useService } from ""@web/core/utils/hooks"";
+
+test(""Only call once session info data when services calls lazy",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/tests/core/utils/hooks.test.js,3,"import {
+    animationFrame,
+    click,
+    describe,
+    expect,
+    getFixture,
+    mockTouch,
+    mockUserAgent,
+    queryOne,
+    test,
+} from ""@odoo/hoot"";
+import {
+    Component,
+    onMounted,
+    Plugin,
+    providePlugins,
+    proxy,
+    signal,
+    t,
+    useConfig,
+    usePlugin,
+    useProps,
+    xml,
+} from ""@odoo/owl"";
+import {
+    contains,
+    destroyApp,
+    getMockEnv,
+    getService,
+    mountWithCleanup,
+    patchWithCleanup,
+} from ""@web/../tests/web_test_helpers"";
+import { ",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/tests/env.test.js,21,"import { afterEach, beforeEach, describe, expect, getFixture, test, tick } from ""@odoo/hoot"";
+import { Component, signal, useProps, xml } from ""@odoo/owl"";
+import {
+    allowTranslations,
+    clearRegistry,
+    getService,
+    makeTestApp,
+    patchWithCleanup,
+} from ""@web/../tests/web_test_helpers"";
+
+import { LegacyServiceStarterPlugin, startServices } from ""@web/core/legacy_service_starter"";
+import { registry } from ""@web/core/registry"";
+import { services } from ""@web/core/services"";
+import {",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/tests/views/view_button_hook.test.js,2,"import { expect, test } from ""@odoo/hoot"";
+import { contains, mockService, mountWithCleanup } from ""@web/../tests/web_test_helpers"";
+
+import { Component, signal, xml } from ""@odoo/owl"";
+
+import { ViewButton } from ""@web/views/view_button/view_button"";
+import { useViewButtonHandler, useViewButtons } from ""@web/views/view_button/view_button_hook"";
+import { registry } from ""@web/core/registry"";
+import { Dropdown } from ""@web/core/dropdown/dropdown"";
+import { DropdownItem } from ""@web/core/dropdown/",VERIFIED source inventory,VERIFIED source inventory
+addons/web_tour/static/src/tour_plugin.js,1,"import { assertType, onWillStart, Plugin, t, usePlugin, whenReady } from ""@odoo/owl"";
+import { loadBundle } from ""@web/core/assets"";
+import { location } from ""@web/core/browser/browser"";
+import { EffectPlugin } from ""@web/core/effects/effect_plugin"";
+import { ORM } from ""@web/core/orm_plugin"";
+import { OverlayPlugin } from ""@web/core/overlay/overlay_plugin"";
+import { registry } from ""@web/core/registry"";
+import { services } from ""@web/core/services"";
+import { redirect } from ""@web/core/utils/url",VERIFIED source inventory,VERIFIED source inventory
+addons/web_unsplash/static/src/unsplash_service.js,1,"import { rpc } from ""@web/core/network/rpc"";
+import { registry } from ""@web/core/registry"";
+import { _t } from ""@web/core/l10n/translation"";
+import { AUTOCLOSE_DELAY } from ""@html_editor/main/media/media_dialog/upload_progress_toast/upload_service"";
+
+export const unsplashService = {
+    dependencies: [""upload""],
+    async start(env, { upload }) {
+        const _cache = {};
+        return {
+            async uploadUnsplashRecords(records, { resModel, resId }, onUploaded) {
+                upload.",VERIFIED source inventory,VERIFIED source inventory
+addons/website/static/src/core/website_cookies_service.js,1,"import { registry } from ""@web/core/registry"";
+import { EventBus } from ""@website/utils/misc"";
+
+export const websiteCookiesService = {
+    dependencies: [""public.interactions""],
+    start(env, deps) {
+        const bus = new EventBus();
+        const publicInteractions = deps[""public.interactions""];
+        /**
+         * Updates the element's iframe according to whether the cookies should
+         * be approved (marked by `_post_processing_att` server-side).
+         *
+         * @param {HTMLIF",VERIFIED source inventory,VERIFIED source inventory
+addons/website/static/src/core/website_edit_service.js,1,"import { registry } from ""@web/core/registry"";
+import { Colibri } from ""@web/public/colibri"";
+import { Interaction } from ""@web/public/interaction"";
+import { patch } from ""@web/core/utils/patch"";
+import { setupIgnoreDOMMutations } from ""@website/js/content/auto_hide_menu"";
+import { omit } from ""@web/core/utils/objects"";
+import { Cache } from ""@web/core/utils/cache"";
+import { rpc } from ""@web/core/network/rpc"";
+
+export function buildEditableInteractions(builders) {
+    const result = [];
+
+    con",VERIFIED source inventory,VERIFIED source inventory
+addons/website/static/src/core/website_menus_service.js,1,"import { registry } from ""@web/core/registry"";
+
+export const websiteMenusService = {
+    start() {
+        const updateCallbacks = new Set();
+        return {
+            updateCallbacks,
+            registerCallback(fn) {
+                updateCallbacks.add(fn);
+                return () => updateCallbacks.delete(fn);
+            },
+            triggerCallbacks() {
+                for (const callback of updateCallbacks) {
+                    callback();
+                }
+            },
+        ",VERIFIED source inventory,VERIFIED source inventory
+addons/website/static/src/core/website_page_service.js,1,"import { jsToPyLocale } from ""@web/core/l10n/utils"";
+import { registry } from ""@web/core/registry"";
+import { user } from ""@web/core/user"";
+
+export const websitePageService = {
+    start() {
+        const htmlEl = document.querySelector(""html"");
+        // TODO this is duplicated in website_service.js at least... to share
+        const match = htmlEl.dataset.mainObject?.match(/(.+)\((-?\d+),(.*)\)/);
+
+        return {
+            context: {
+                ...user.context,
+                website",VERIFIED source inventory,VERIFIED source inventory
+addons/website/static/src/services/google_maps_service.js,1,"/* eslint-disable no-async-promise-executor */
+
+import { registry } from ""@web/core/registry"";
+import { _t } from ""@web/core/l10n/translation"";
+import { rpc } from ""@web/core/network/rpc"";
+import { user } from ""@web/core/user"";
+import { markup } from ""@odoo/owl"";
+
+/**
+ * Initializes the Google Maps JavaScript API using the dynamic library import
+ * bootstrap pattern. Libraries (e.g. ""maps"", ""places"", ""marker"") are loaded
+ * lazily via `google.maps.importLibrary()` at each call site.
+ *
+ * @param",VERIFIED source inventory,VERIFIED source inventory
+addons/website/static/src/services/website_custom_menus.js,1,"import { _t } from ""@web/core/l10n/translation"";
+import { registry } from ""@web/core/registry"";
+import { EditMenuDialog } from ""@website/components/dialog/edit_menu"";
+import { OptimizeSEODialog } from ""@website/components/dialog/seo"";
+import { PagePropertiesDialog } from ""@website/components/dialog/page_properties"";
+
+/**
+ * This service displays contextual menus, depending of the state of the
+ * website. These menus are defined in xml with the ""website_preview"" action,
+ * which is overriden here",VERIFIED source inventory,VERIFIED source inventory
+addons/website/static/src/services/website_service.js,1,"import { jsToPyLocale } from ""@web/core/l10n/utils"";
+import { _t } from ""@web/core/l10n/translation"";
+import { registry } from ""@web/core/registry"";
+import { user } from ""@web/core/user"";
+import { isVisible } from ""@web/core/utils/ui"";
+
+import { FullscreenIndication } from ""../components/fullscreen_indication/fullscreen_indication"";
+import { WebsiteLoader } from ""../components/website_loader/website_loader"";
+import { EventBus, proxy } from ""@odoo/owl"";
+
+const websiteSystrayRegistry = registry.ca",VERIFIED source inventory,VERIFIED source inventory
+addons/website/static/tests/builder/website_helpers.js,1,"import {
+    confirmAddSnippet,
+    getSnippetStructure,
+    getSnippetView,
+    patchWithCleanupImg,
+    waitForEndOfOperation,
+} from ""@html_builder/../tests/helpers"";
+import { Builder } from ""@html_builder/builder"";
+import { SetupEditorPlugin } from ""@html_builder/core/setup_editor_plugin"";
+import { Plugin } from ""@html_editor/plugin"";
+import { defineMailModels, startServer } from ""@mail/../tests/mail_test_helpers"";
+import { describe } from ""@odoo/hoot"";
+import { advanceTime, animationFrame, ",VERIFIED source inventory,VERIFIED source inventory
+addons/website_event_track/static/src/interactions/website_event_pwa.js,2,"import { Interaction } from ""@web/public/interaction"";
+import { registry } from ""@web/core/registry"";
+import { utils as uiUtils } from ""@web/core/ui/ui_utils"";
+
+export class WebsiteEventPWA extends Interaction {
+    static selector = ""#wrapwrap.event"";
+
+    dynamicContent = {
+        _window : { ""t-on-beforeinstallprompt.prevent"": (event) => this.showInstallBanner(event) },
+        "".o_btn_close"": { ""t-on-click"": this.hideInstallBanner },
+        "".o_btn_install"": { ""t-on-click"": this.onPromptIn",VERIFIED source inventory,VERIFIED source inventory
+addons/website_sale/static/src/js/cart_service.js,1,"import { proxy } from ""@odoo/owl"";
+import {
+    ComboConfiguratorDialog
+} from '@sale/js/combo_configurator_dialog/combo_configurator_dialog';
+import { ProductCombo } from '@sale/js/models/product_combo';
+import {
+    ProductConfiguratorDialog
+} from '@sale/js/product_configurator_dialog/product_configurator_dialog';
+import { getSelectedCustomPtav, serializeComboItem } from '@sale/js/sale_utils';
+import { browser } from '@web/core/browser/browser';
+import { serializeDateTime } from '@web/core/l1",VERIFIED source inventory,VERIFIED source inventory
+addons/website_slides/static/src/js/slides_course_service.js,1,"import { registry } from ""@web/core/registry"";
+import { rpc } from ""@web/core/network/rpc"";
+import { markup, EventBus } from ""@odoo/owl"";
+
+const websiteSlidesService = {
+    dependencies: [],
+    filter(object) {
+        for (const key of Object.keys(object)) {
+            if (object[key] === undefined) {
+                delete object[key];
+            }
+        }
+        return object;
+    },
+    start() {
+        const quizCache = {};
+        const data = {
+            slides: [],
+            ",VERIFIED source inventory,VERIFIED source inventory

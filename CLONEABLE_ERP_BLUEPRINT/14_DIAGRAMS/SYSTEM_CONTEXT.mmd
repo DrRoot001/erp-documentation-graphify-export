@@ -1,0 +1,7 @@
+flowchart LR
+ User[Business users] --> ERP[ERP SYSTEM]
+ Portal[Portal/public actors] --> ERP
+ Operator[System operators] --> ERP
+ ERP <--> Providers[Optional external providers]
+ ERP <--> DB[(Relational database)]
+ ERP --> Files[File/report storage]

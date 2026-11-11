@@ -1,0 +1,24 @@
+Rule XML ID,Name,Model XML ID,Domain,Group,Operation,Active,Source File
+gamification.gamification_badge_user_access,,,,,,False,addons/hr_gamification/security/gamification_security.xml
+project_task_rule_portal_project_sharing,Project/Task: portal users: portal user can edit with project sharing feature,project.model_project_task,"[
+            ('project_id.privacy_visibility', 'in', ['invited_users', 'portal']),
+            ('has_template_ancestor', '=', False),
+            ('active', '=', True),
+            ('project_id.collaborator_ids', 'any', [
+                ('partner_id', '=', user.partner_id.id),
+                ('access_mode', 'in', ['edit', 'advanced_edit'])
+            ]),
+        ]",base.group_portal,cu,0,addons/project/security/project_security.xml
+account.account_analytic_line_rule_billing_user,,,,,,False,addons/sale_timesheet/security/sale_timesheet_security.xml
+account.account_analytic_line_rule_readonly_user,,,,,,False,addons/sale_timesheet/security/sale_timesheet_security.xml
+base.res_partner_bank_rule_user,,,,,,False,addons/hr/security/hr_security.xml
+base.res_partner_bank_rule_user_1,,,,,,False,addons/hr/security/hr_security.xml
+hr.access_hr_job_user,,,,,,False,addons/hr_recruitment/security/hr_recruitment_security.xml
+timesheet_line_rule_portal_user,account.analytic.line.timesheet.portal.user,analytic.model_account_analytic_line,"[
+                ('project_id', '!=', False),
+                ('project_id.privacy_visibility', 'in', ['invited_users', 'portal']),
+                ('project_id.collaborator_ids.partner_id', 'in', [user.partner_id.id]),
+            ]",base.group_portal,r,0,addons/hr_timesheet/security/hr_timesheet_security.xml
+project.account_analytic_line_rule_manager,,,,,,False,addons/hr_timesheet/security/hr_timesheet_security.xml
+product.product_pricelist_comp_rule,,,,,,False,addons/website_sale/security/ir_access.xml
+product.product_pricelist_item_comp_rule,,,,,,False,addons/website_sale/security/ir_access.xml

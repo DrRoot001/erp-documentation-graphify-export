@@ -1,0 +1,8 @@
+flowchart LR
+ R[Demand / replenishment trigger] --> M[Manufacturing order]
+ M --> V[Validate components, work centers, permissions]
+ V --> P[Reserve/consume components]
+ P --> W[Execute work operations]
+ W --> F[Produce finished goods]
+ F --> I[Update inventory and downstream documents]
+ V --> E[Explicit failure] 

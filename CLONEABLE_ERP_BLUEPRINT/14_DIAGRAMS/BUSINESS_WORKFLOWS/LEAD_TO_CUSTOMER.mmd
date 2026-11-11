@@ -1,0 +1,10 @@
+sequenceDiagram
+ participant U as User/API client
+ participant CRM as CRM service
+ participant P as Partner/customer data
+ U->>CRM: Submit lead/customer action
+ CRM->>CRM: Authenticate, authorize, validate
+ CRM->>P: Create/update partner when source flow permits
+ P-->>CRM: Persisted identity/result
+ CRM-->>U: Success or explicit error
+ Note over CRM,P: Exact conversion fields and states require module/runtime evidence

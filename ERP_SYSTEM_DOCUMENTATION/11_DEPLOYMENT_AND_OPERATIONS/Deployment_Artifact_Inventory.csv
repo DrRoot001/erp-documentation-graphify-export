@@ -1,0 +1,31 @@
+Path,Artifact Type,Lines,Evidence
+requirements.txt,dependency manifest,62,Source/deployment artifact
+setup.py,Python package,76,Source/deployment artifact
+debian/odoo.conf,configuration,9,Source/deployment artifact
+debian/odoo.service,systemd service,14,Source/deployment artifact
+setup/win32/conf/iot/sumatrapdfrestrict.ini,configuration,10,Source/deployment artifact
+setup/win32/conf/nginx/nginx.conf,configuration,27,Source/deployment artifact
+setup/iot_box_builder/configuration/requirements.txt,dependency manifest,15,Source/deployment artifact
+setup/iot_box_builder/configuration/odoo.conf,configuration,11,Source/deployment artifact
+setup/iot_box_builder/overwrite_before_init/etc/dnsmasq.conf,configuration,669,Source/deployment artifact
+setup/iot_box_builder/overwrite_before_init/etc/logrotate.conf,configuration,17,Source/deployment artifact
+setup/iot_box_builder/overwrite_before_init/etc/resolv.conf,configuration,4,Source/deployment artifact
+setup/iot_box_builder/overwrite_before_init/etc/cups/cups-files.conf,configuration,93,Source/deployment artifact
+setup/iot_box_builder/overwrite_before_init/etc/cups/cupsd.conf,configuration,186,Source/deployment artifact
+setup/iot_box_builder/overwrite_before_init/etc/hostapd/hostapd.conf,configuration,3,Source/deployment artifact
+setup/iot_box_builder/overwrite_before_init/etc/nginx/conf.d/access_point.conf,configuration,11,Source/deployment artifact
+setup/iot_box_builder/overwrite_before_init/etc/nginx/conf.d/iot.conf,configuration,44,Source/deployment artifact
+setup/iot_box_builder/overwrite_before_init/etc/systemd/system/sos.service,systemd service,12,Source/deployment artifact
+setup/iot_box_builder/overwrite_before_init/etc/systemd/system/odoo-bluetooth.service,systemd service,12,Source/deployment artifact
+setup/iot_box_builder/overwrite_before_init/etc/systemd/system/labwc.service,systemd service,16,Source/deployment artifact
+setup/iot_box_builder/overwrite_before_init/etc/systemd/system/odoo.service,systemd service,30,Source/deployment artifact
+setup/iot_box_builder/overwrite_before_init/etc/systemd/system/ramdisks.service,systemd service,12,Source/deployment artifact
+setup/iot_box_builder/overwrite_before_init/etc/systemd/system/odoo-led-manager.service,systemd service,12,Source/deployment artifact
+setup/iot_box_builder/overwrite_before_init/etc/NetworkManager/conf.d/90-dns-none.conf,configuration,2,Source/deployment artifact
+odoo/addons/test_base/tests/test_tools/config/empty.conf,configuration,1,Source/deployment artifact
+odoo/addons/test_base/tests/test_tools/config/multidb.conf,configuration,2,Source/deployment artifact
+odoo/addons/test_base/tests/test_tools/config/16.0.conf,configuration,67,Source/deployment artifact
+odoo/addons/test_base/tests/test_tools/config/non_default.conf,configuration,99,Source/deployment artifact
+odoo/addons/test_base/tests/test_tools/config/sysloglogfile.conf,configuration,3,Source/deployment artifact
+odoo/addons/test_base/tests/test_tools/config/save_posix.conf,configuration,83,Source/deployment artifact
+addons/populate/requirements.txt,dependency manifest,5,Source/deployment artifact

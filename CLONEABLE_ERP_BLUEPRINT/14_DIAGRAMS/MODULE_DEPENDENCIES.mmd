@@ -1,0 +1,11 @@
+flowchart LR
+ Foundation[Platform foundation] --> Security[Security and identity]
+ Foundation --> CoreData[Core data and persistence]
+ CoreData --> Accounting[Accounting and localization]
+ CoreData --> CRM[CRM and sales]
+ CoreData --> Supply[Purchase, inventory, manufacturing]
+ CoreData --> Workforce[HR and workforce]
+ CoreData --> Projects[Projects and services]
+ CRM --> Ecommerce[Ecommerce and website]
+ Sales[Sales] --> POS[Point of sale]
+ Supply --> POS

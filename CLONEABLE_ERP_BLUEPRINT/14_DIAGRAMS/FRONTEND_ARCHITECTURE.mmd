@@ -1,0 +1,8 @@
+flowchart LR
+ User[User/browser] --> Nav[Navigation and route resolution]
+ Nav --> View[View/template/component resolution]
+ View --> Service[Frontend services/state]
+ Service --> API[HTTP/API controller]
+ API --> Domain[Backend domain service]
+ Domain --> DB[(Transactional persistence)]
+ View --> Assets[Bundled JS/TS/CSS/XML assets]

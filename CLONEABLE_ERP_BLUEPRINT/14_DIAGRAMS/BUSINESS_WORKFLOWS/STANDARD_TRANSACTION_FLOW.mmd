@@ -1,0 +1,9 @@
+flowchart TD
+ T[Trigger: user/API/scheduler/webhook] --> C[Establish context]
+ C --> A[Authenticate and authorize]
+ A --> V[Validate input, state, ACL, record rules]
+ V -->|valid| S[Execute domain service]
+ V -->|invalid/denied| E[Explicit error response]
+ S --> P[Persist transaction and side effects]
+ P --> R[Commit and render/return]
+ P -->|failure| X[Rollback or compensating action]

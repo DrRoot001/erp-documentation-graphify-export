@@ -1,0 +1,1525 @@
+Source File,Route/Router Matches,Source Context,Evidence Status,Runtime Resolution Status
+addons/api_doc/static/tests/api_doc.test.js,2,"import { DocClient } from ""@api_doc/doc_client"";
+import { startDocClient } from ""@api_doc/start_doc_client"";
+import { DocCopyablePre } from ""@api_doc/components/doc_copyable_pre"";
+import { mockDocIndex, mockDocModel } from ""./doc_test_helpers"";
+import { keyDown, keyUp, queryAll, queryAllTexts, queryFirst, resize } from ""@odoo/hoot-dom"";
+import {
+    after,
+    animationFrame,
+    expect,
+    getFixture,
+    press,
+    test,
+    tick,
+    waitFor
+} from ""@odoo/hoot"";
+
+import {
+    contains,
+    m",VERIFIED source inventory,VERIFIED source inventory
+addons/base_import/static/tests/import_action.test.js,2,"import { useEffect } from ""@odoo/owl"";
+import { before, describe, expect, test } from ""@odoo/hoot"";
+import {
+    animationFrame,
+    drag,
+    queryOne,
+    runAllTimers,
+    setInputFiles,
+    waitFor,
+} from ""@odoo/hoot-dom"";
+import {
+    contains,
+    defineActions,
+    defineModels,
+    fields,
+    getService,
+    isSmall,
+    mockService,
+    models,
+    mountWebClient,
+    onRpc,
+    patchWithCleanup,
+    serverState,
+} from ""@web/../tests/web_test_helpers"";
+import { location } from ""@web/",VERIFIED source inventory,VERIFIED source inventory
+addons/crm/static/src/core/common/crm_lead_model.js,3,"import { Record } from ""@mail/model/export"";
+import { router } from ""@web/core/browser/router"";
+
+export class CrmLead extends Record {
+    static _name = ""crm.lead"";
+
+    /** @type {number} */
+    id;
+    /** @type {string} */
+    name;
+    href = this.computed(() => router.stateToUrl({ model: ""crm.lead"", resId: this.id }));
+}
+
+CrmLead.register();
+",VERIFIED source inventory,VERIFIED source inventory
+addons/im_livechat/static/src/core/web/livechat_channel_info_list.js,1,"import { TranscriptSender } from ""@im_livechat/core/common/transcript_sender"";
+import { ExpertiseTagsAutocomplete } from ""@im_livechat/core/web/expertise_tags_autocomplete"";
+
+import { ActionPanel } from ""@mail/discuss/core/common/action_panel"";
+import { prettifyMessageContent } from ""@mail/utils/common/format"";
+
+import { Component, t, useEffect, useProps } from ""@odoo/owl"";
+
+import { startUrl } from ""@web/core/browser/router"";
+import { rpc } from ""@web/core/network/rpc"";
+import { useService } fr",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/lib/odoo_sfu/odoo_sfu.js,13,"/* @odoo-module */
+var lib$4 = {};
+
+var browser = {exports: {}};
+
+/**
+ * Helpers.
+ */
+
+var ms;
+var hasRequiredMs;
+
+function requireMs () {
+	if (hasRequiredMs) return ms;
+	hasRequiredMs = 1;
+	var s = 1000;
+	var m = s * 60;
+	var h = m * 60;
+	var d = h * 24;
+	var w = d * 7;
+	var y = d * 365.25;
+
+	/**
+	 * Parse or format the given `val`.
+	 *
+	 * Options:
+	 *
+	 *  - `long` verbose formatting [false]
+	 *
+	 * @param {String|Number} val
+	 * @param {Object} [options]
+	 * @throws {Error} throw an error if",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/src/chatter/web_portal_project/chatter.js,3,"import { useSubEnv } from ""@web/owl2/utils"";
+import { Composer } from ""@mail/core/common/composer"";
+import { Thread } from ""@mail/core/common/thread"";
+import { propComputed, useMessageScrolling } from ""@mail/utils/common/hooks"";
+
+import { Component, onMounted, proxy, signal, t, useOnChange } from ""@odoo/owl"";
+
+import { _t } from ""@web/core/l10n/translation"";
+import { router } from ""@web/core/browser/router"";
+import { useBus, useService } from ""@web/core/utils/hooks"";
+import { useThrottleForAnima",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/src/core/common/message_model.js,3,"import { isEmptyBlock } from ""@html_editor/utils/dom_info"";
+
+import { fields, Record } from ""@mail/model/export"";
+import {
+    convertBrToLineBreak,
+    decorateEmojis,
+    EMOJI_REGEX,
+    generateEmojisOnHtml,
+    generateMentionElement,
+    inlineElement,
+    prepareBodyForEditing,
+    htmlToTextContentInline,
+} from ""@mail/utils/common/format"";
+import {
+    createElementFromContent,
+    getInnerHtml,
+    getOuterHtml,
+    removeHtmlComments,
+} from ""@mail/utils/common/html"";
+
+import { browse",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/src/core/public_web/discuss_app/client_action.js,4,"import { Discuss } from ""@mail/core/public_web/discuss_app/discuss_app"";
+import { propComputed } from ""@mail/utils/common/hooks"";
+
+import { Component, onMounted, onWillUnmount, t, useOnChange } from ""@odoo/owl"";
+
+import { registry } from ""@web/core/registry"";
+import { useService } from ""@web/core/utils/hooks"";
+import { router } from ""@web/core/browser/router"";
+
+export class DiscussClientAction extends Component {
+    static components = { Discuss };
+    static template = ""mail.DiscussClientActio",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/src/core/public_web/discuss_app/discuss_app_model.js,3,"import { MENU_TABS } from ""@mail/core/public_web/messaging_menu/messaging_menu_model"";
+import { fields, Record } from ""@mail/model/export"";
+
+import { router } from ""@web/core/browser/router"";
+
+const SIDEBAR_WIDTH = 400;
+
+export class DiscussApp extends Record {
+    setup() {
+        super.setup(...arguments);
+        this.onChange(
+            () => [this.thread],
+            function onChangeThread(thread) {
+                if (!thread && !this.hasRestoredThread) {
+                    // Keep t",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/src/core/public_web/store_service_patch.js,3,"import { Store, storeService } from ""@mail/core/common/store_service"";
+import { fields } from ""@mail/model/export"";
+import { router } from ""@web/core/browser/router"";
+import { patch } from ""@web/core/utils/patch"";
+
+patch(Store.prototype, {
+    setup() {
+        super.setup(...arguments);
+        this.discuss = fields.One(""DiscussApp"");
+        this.messagingMenu = this.computed(() => this.MessagingMenu.insert({}));
+        this.showPushPermissionRequest = this.computed(
+            () =>
+       ",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/src/discuss/call/common/store_service_patch.js,10,"import { fields } from ""@mail/model/export"";
+import { Store } from ""@mail/core/common/store_service"";
+import { router } from ""@web/core/browser/router"";
+
+import { patch } from ""@web/core/utils/patch"";
+
+/**
+ * Shareable meeting link currently mirrored in the address bar, or `undefined` when not in the
+ * full-screen meeting view. Kept in sync from the share url observer below (which gates on the
+ * full-screen state) and read back by the router patch below.
+ * @type {string|undefined}
+ */
+let cal",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/src/discuss/core/public/discuss_app/discuss_app_model_patch.js,2,"import { DiscussApp } from ""@mail/core/public_web/discuss_app/discuss_app_model"";
+import { location, browser } from ""@web/core/browser/browser"";
+
+import { patch } from ""@web/core/utils/patch"";
+
+patch(DiscussApp.prototype, {
+    /**
+     * The public page has no backend router/action stack, so `activeId` can't be
+     * persisted as a `router.pushState` query param the way the backend does (it
+     * would rewrite the path to `/odoo`). Instead, a channel selection is reflected
+     * in the URL p",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/src/utils/common/format.js,3,"/**
+ * @typedef DependencyInManifest
+ * ⚠️ Each dependency of this file in `mail` must be explicitly added in
+ * `web.assets_frontend` in the manifest. This error is not caught by the
+ * standard runbot, only during staging or nightly. The missing dependency might
+ * added by livechat so it only happens when frontend modules are installed and
+ * tested while livechat is not installed.
+ */
+import { createElementFromContent, getInnerHtml, getOuterHtml } from ""@mail/utils/common/html"";
+
+import { ht",VERIFIED source inventory,VERIFIED source inventory
+addons/mail/static/tests/thread/message_highlight.test.js,6,"import {
+    click,
+    contains,
+    defineMailModels,
+    isInViewportOf,
+    openDiscuss,
+    start,
+    startServer,
+} from ""@mail/../tests/mail_test_helpers"";
+import { UseForwardRefsToParent } from ""@mail/utils/common/hooks"";
+import { describe, test } from ""@odoo/hoot"";
+import { advanceTime, tick, waitFor } from ""@odoo/hoot-dom"";
+import { disableAnimations } from ""@odoo/hoot-mock"";
+import { router, routerBus } from ""@web/core/browser/router"";
+import { range } from ""@web/core/utils/numbers"";",VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/static/src/app/components/navbar/navbar.js,2,"import { usePos } from ""@point_of_sale/app/hooks/pos_hook"";
+import { useService } from ""@web/core/utils/hooks"";
+
+import { OrderTrackerDropdown } from ""@point_of_sale/app/components/order_tracker_dropdown/order_tracker_dropdown"";
+import { CashierName } from ""@point_of_sale/app/components/navbar/cashier_name/cashier_name"";
+import { SaleDetailsButton } from ""@point_of_sale/app/components/navbar/sale_details_button/sale_details_button"";
+import { BurgerMenuDialog } from ""@point_of_sale/app/components",VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/static/src/app/components/popups/closing_popup/closing_popup.js,1,"import { Dialog } from ""@web/core/dialog/dialog"";
+import { SaleDetailsButton } from ""@point_of_sale/app/components/navbar/sale_details_button/sale_details_button"";
+import { ConfirmationDialog, AlertDialog } from ""@web/core/confirmation_dialog/confirmation_dialog"";
+import { MoneyDetailsPopup } from ""@point_of_sale/app/components/popups/money_details_popup/money_details_popup"";
+import { useService } from ""@web/core/utils/hooks"";
+import { Component, proxy, useProps, t } from ""@odoo/owl"";
+import { _",VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/static/src/app/hooks/pos_router_hook.js,6,"import { registry } from ""@web/core/registry"";
+import { usePos } from ""./pos_hook"";
+import { PosRouterPlugin } from ""../plugins/pos_router_plugin"";
+import { usePlugin } from ""@odoo/owl"";
+
+/**
+ * @param {string} pageName
+ */
+export function useRouterParamsChecker(pageName) {
+    const router = usePlugin(PosRouterPlugin);
+    const pos = usePos();
+    const routeParams = registry.category(""pos_pages"").get(pageName);
+    const params = routeParams.params;
+
+    if (params.orderUuid && Object.keys(pa",VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/static/src/app/plugins/access_right_plugin.js,4,"import { Plugin, usePlugin, signal } from ""@odoo/owl"";
+import { NotificationPlugin } from ""@web/core/notifications/notification_plugin"";
+import { DialogPlugin } from ""@web/core/dialog/dialog_plugin"";
+import { PosRouterPlugin } from ""@point_of_sale/app/plugins/pos_router_plugin"";
+import { PosDataPlugin } from ""@point_of_sale/app/plugins/pos_data_plugin"";
+import { user } from ""@web/core/user"";
+
+export class PosAccessRightPlugin extends Plugin {
+    notification = usePlugin(NotificationPlugin);
+   ",VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/static/src/app/pos_app.js,5,"import { Transition } from ""@web/core/transition"";
+import { MainComponentsContainer } from ""@web/core/main_components_container"";
+import { Navbar } from ""@point_of_sale/app/components/navbar/navbar"";
+import { usePos } from ""@point_of_sale/app/hooks/pos_hook"";
+import { Component, onMounted, useProps, t, usePlugin } from ""@odoo/owl"";
+import { useOwnDebugContext } from ""@web/core/debug/debug_context"";
+import { useIdleTimer } from ""./utils/use_idle_timer"";
+import useTours from ""./hooks/use_tours"";
+i",VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/static/src/app/screens/action_screen.js,1,"import { Component, xml, useProps, t } from ""@odoo/owl"";
+import { registry } from ""@web/core/registry"";
+import { ActionContainer } from ""@web/webclient/actions/action_container"";
+
+export class ActionScreen extends Component {
+    static components = { ActionContainer };
+    props = useProps({
+        actionName: t.string(),
+        viewMode: t.string().optional(),
+    });
+    static storeOnOrder = false;
+    static template = xml`
+        <div class=""o_web_client"">
+            <ActionContainer/>",VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/static/src/app/screens/feedback_screen/feedback_screen.js,4,"import { Component, onMounted, onWillStart, onWillUnmount, signal, useProps, t } from ""@odoo/owl"";
+import { FeedbackPaymentSummary } from ""@point_of_sale/app/components/feedback_payment_summary/feedback_payment_summary"";
+import { PrintPopup } from ""@point_of_sale/app/components/popups/print_popup/print_popup"";
+import { SendReceiptPopup } from ""@point_of_sale/app/components/popups/send_receipt_popup/send_receipt_popup"";
+import { usePos } from ""@point_of_sale/app/hooks/pos_hook"";
+import { useRoute",VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/static/src/app/screens/login_screen/login_screen.js,1,"import { registry } from ""@web/core/registry"";
+import { usePos } from ""@point_of_sale/app/hooks/pos_hook"";
+import { Component, useProps, t } from ""@odoo/owl"";
+import { useService } from ""@web/core/utils/hooks"";
+import { useTime } from ""@point_of_sale/app/hooks/time_hook"";
+import { _t } from ""@web/core/l10n/translation"";
+
+export class LoginScreen extends Component {
+    static template = ""point_of_sale.LoginScreen"";
+    props = useProps({
+        orderUuid: t.string().optional(),
+    });
+    stat",VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/static/src/app/screens/payment_screen/payment_screen.js,4,"import { _t } from ""@web/core/l10n/translation"";
+import { registry } from ""@web/core/registry"";
+import { useService } from ""@web/core/utils/hooks"";
+import { parseFloat } from ""@web/views/fields/parsers"";
+
+import { NumberPopup } from ""@point_of_sale/app/components/popups/number_popup/number_popup"";
+import { PriceFormatter } from ""@point_of_sale/app/components/price_formatter/price_formatter"";
+import { AlertDialog } from ""@web/core/confirmation_dialog/confirmation_dialog"";
+
+import { Component, onM",VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/static/src/app/screens/product_screen/action_pad/action_pad.js,1,"import { usePos } from ""@point_of_sale/app/hooks/pos_hook"";
+import { Component, useProps, t } from ""@odoo/owl"";
+import { SelectPartnerButton } from ""@point_of_sale/app/screens/product_screen/control_buttons/select_partner_button/select_partner_button"";
+import { useService } from ""@web/core/utils/hooks"";
+import { BackButton } from ""@point_of_sale/app/screens/product_screen/action_pad/back_button/back_button"";
+import { PosOrder } from ""@point_of_sale/app/models/pos_order"";
+
+export const actionpadW",VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/static/src/app/screens/product_screen/product_screen.js,4,"import { onWillRender } from ""@web/owl2/utils"";
+import { registry } from ""@web/core/registry"";
+import { useService } from ""@web/core/utils/hooks"";
+import { useTrackedAsync } from ""@point_of_sale/app/hooks/hooks"";
+import { useLongPress } from ""@point_of_sale/app/hooks/long_press_hook"";
+import { useBarcodeReader } from ""@point_of_sale/app/hooks/barcode_reader_hook"";
+import { _t } from ""@web/core/l10n/translation"";
+import { usePos } from ""@point_of_sale/app/hooks/pos_hook"";
+import {
+    Component,
+",VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/static/src/app/screens/saver_screen/saver_screen.js,1,"import { OverlayPlugin } from ""@web/core/overlay/overlay_plugin"";
+import { registry } from ""@web/core/registry"";
+import { Component, usePlugin } from ""@odoo/owl"";
+import { useTime } from ""@point_of_sale/app/hooks/time_hook"";
+import { useService } from ""@web/core/utils/hooks"";
+
+export class SaverScreen extends Component {
+    static template = ""point_of_sale.SaverScreen"";
+    static storeOnOrder = false;
+    static updatePreviousScreen = false;
+
+    setup() {
+        this.time = useTime();
+      ",VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/static/src/app/screens/ticket_screen/ticket_screen.js,1,"import { useLayoutEffect } from ""@web/owl2/utils"";
+import { registry } from ""@web/core/registry"";
+import { useService } from ""@web/core/utils/hooks"";
+import { parseDate, parseDateTime, serializeDate, serializeDateTime } from ""@web/core/l10n/dates"";
+import { parseFloat } from ""@web/views/fields/parsers"";
+import { _t } from ""@web/core/l10n/translation"";
+import { AlertDialog } from ""@web/core/confirmation_dialog/confirmation_dialog"";
+import { ActionpadWidget } from ""@point_of_sale/app/screens/produ",VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/static/src/app/screens/tip_screen/tip_screen.js,4,"import { _t } from ""@web/core/l10n/translation"";
+import { registry } from ""@web/core/registry"";
+import { AlertDialog } from ""@web/core/confirmation_dialog/confirmation_dialog"";
+import { usePos } from ""@point_of_sale/app/hooks/pos_hook"";
+import { useService } from ""@web/core/utils/hooks"";
+import { Component, onMounted, useProps, t } from ""@odoo/owl"";
+import { ask } from ""@point_of_sale/app/utils/make_awaitable_dialog"";
+import { useRouterParamsChecker } from ""@point_of_sale/app/hooks/pos_router_ho",VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/static/src/app/services/pos_store.js,26,"import { proxy, usePlugin } from ""@odoo/owl"";
+import { Mutex } from ""@web/core/utils/concurrency"";
+import { registry } from ""@web/core/registry"";
+import { AlertDialog, ConfirmationDialog } from ""@web/core/confirmation_dialog/confirmation_dialog"";
+import {
+    random5Chars,
+    uuidv4,
+    Counter,
+    orderUsageUTCtoLocalUtil,
+    getTimeUtil,
+    generateQRCodeDataUrl,
+    getColorScheme,
+} from ""@point_of_sale/utils"";
+import { ConnectionLostError, RPCError } from ""@web/core/network/rpc"";
+impor",VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/static/src/app/store/router.js,3,"import { router } from ""@web/core/browser/router"";
+import { patch } from ""@web/core/utils/patch"";
+
+patch(router, {
+    pushState: () => {},
+    replaceState: () => {},
+    cancelPushes: () => {},
+    addLockedKey: () => {},
+});
+",VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/static/tests/unit/customer_display/utils.js,1,"import { expect, runAllTimers, waitFor } from ""@odoo/hoot"";
+import { mountWithCleanup, patchWithCleanup } from ""@web/../tests/web_test_helpers"";
+import { CustomerDisplay } from ""@point_of_sale/customer_display/customer_display"";
+import { CustomerDisplayTerminalPlugin } from ""@point_of_sale/app/plugins/customer_display_terminal_plugin"";
+import { setupPosEnv } from ""../utils"";
+
+export const CustomerDisplayAssertions = {
+    async waitAndExpect(selector, count = 1) {
+        await waitFor(selector)",VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/static/tests/unit/services/pos_service.test.js,4,"import { test, expect, describe } from ""@odoo/hoot"";
+import { getFilledOrder, setupPosEnv, createPaymentLine } from ""../utils"";
+import { definePosModels } from ""../data/generate_model_definitions"";
+import { ConnectionLostError } from ""@web/core/network/rpc"";
+import {
+    getStrNotes,
+    filterChangeByCategories,
+} from ""@point_of_sale/app/models/utils/order_change"";
+import { prepareRoundingVals } from ""../accounting/utils"";
+import { getService, patchWithCleanup } from ""@web/../tests/web_test_he",VERIFIED source inventory,VERIFIED source inventory
+addons/point_of_sale/static/tests/unit/utils.js,1,"import { uuidv4 } from ""@point_of_sale/utils"";
+import {
+    assignDialogTestEnv,
+    contains,
+    getService,
+    makeTestApp,
+    mountWithCleanup,
+    patchWithCleanup,
+    onRpc,
+    serverState,
+} from ""@web/../tests/web_test_helpers"";
+import { animationFrame, tick, waitFor, waitUntil } from ""@odoo/hoot-dom"";
+import { mountPosApp } from ""@point_of_sale/../tests/unit/ui_utils"";
+import { expect } from ""@odoo/hoot"";
+import { MainComponentsContainer } from ""@web/core/main_components_container"";",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_dpopay/static/src/app/utils/payment/payment_dpopay.js,1,"import { registry } from ""@web/core/registry"";
+import { handleRPCError, offlineErrorHandler } from ""@point_of_sale/app/utils/error_handlers"";
+import { PaymentInterface } from ""@point_of_sale/app/utils/payment/payment_interface"";
+import { AlertDialog } from ""@web/core/confirmation_dialog/confirmation_dialog"";
+import { serializeDateTime } from ""@web/core/l10n/dates"";
+import { _t } from ""@web/core/l10n/translation"";
+import { ConnectionLostError, RPCError } from ""@web/core/network/rpc"";
+import { isN",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_hr/static/src/app/screens/login_screen/login_screen.js,1,"import { _t } from ""@web/core/l10n/translation"";
+import { LoginScreen } from ""@point_of_sale/app/screens/login_screen/login_screen"";
+import { patch } from ""@web/core/utils/patch"";
+import { useAutofocus } from ""@web/core/utils/hooks"";
+import { useBarcodeReader } from ""@point_of_sale/app/hooks/barcode_reader_hook"";
+import { onWillUnmount, proxy, signal, useListener } from ""@odoo/owl"";
+
+patch(LoginScreen.prototype, {
+    setup() {
+        super.setup(...arguments);
+
+        this.state = proxy({
+   ",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_hr/static/src/app/services/pos_store.js,4,"import { patch } from ""@web/core/utils/patch"";
+import { PosStore } from ""@point_of_sale/app/services/pos_store"";
+import { _t } from ""@web/core/l10n/translation"";
+import { makeAwaitable, ask } from ""@point_of_sale/app/utils/make_awaitable_dialog"";
+import { browser } from ""@web/core/browser/browser"";
+import { CashierSelectionPopup } from ""@pos_hr/app/components/popups/cashier_selection_popup/cashier_selection_popup"";
+
+patch(PosStore.prototype, {
+    async setup() {
+        this.employeeBuffer = []",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_hr/static/tests/unit/components/popups/cashier_selection_popup.test.js,1,"import { test, expect } from ""@odoo/hoot"";
+import { setupPosEnv } from ""@point_of_sale/../tests/unit/utils"";
+import { CashierSelectionPopup } from ""@pos_hr/app/components/popups/cashier_selection_popup/cashier_selection_popup"";
+import { mountWithCleanup } from ""@web/../tests/web_test_helpers"";
+import { definePosModels } from ""@point_of_sale/../tests/unit/data/generate_model_definitions"";
+
+definePosModels();
+
+test(""displayableOptions"", async () => {
+    const store = await setupPosEnv();
+    cons",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_hr/static/tests/unit/services/pos_store.test.js,3,"import { test, expect } from ""@odoo/hoot"";
+import { setupPosEnv } from ""@point_of_sale/../tests/unit/utils"";
+import { definePosModels } from ""@point_of_sale/../tests/unit/data/generate_model_definitions"";
+import { makeServerError, mountWithCleanup, onRpc } from ""@web/../tests/web_test_helpers"";
+import { patch } from ""@web/core/utils/patch"";
+import { location } from ""@web/core/browser/browser"";
+import { OrderSummary } from ""@point_of_sale/app/screens/product_screen/order_summary/order_summary"";
+
+",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_online_payment_self_order/static/src/app/components/order_widget/order_widget.js,2,"import { patch } from ""@web/core/utils/patch"";
+import { _t } from ""@web/core/l10n/translation"";
+import { OrderDisplay } from ""@point_of_sale/app/components/order_display/order_display"";
+
+patch(OrderDisplay.prototype, {
+    get buttonToShow() {
+        const buttonName = this.router.activeSlot === ""product_list"" ? _t(""Order"") : _t(""Pay"");
+        const type = this.selfOrder.config.self_ordering_mode;
+        const mode = this.selfOrder.config.self_ordering_pay_after;
+        const isOnlinePayment",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_online_payment_self_order/static/tests/unit/services/self_order_service.test.js,1,"import { test, describe, expect } from ""@odoo/hoot"";
+import { patchWithCleanup } from ""@web/../tests/web_test_helpers"";
+import { setupSelfPosEnv, getFilledSelfOrder } from ""@pos_self_order/../tests/unit/utils"";
+import { definePosSelfModels } from ""@pos_self_order/../tests/unit/data/generate_model_definitions"";
+import { session } from ""@web/session"";
+
+definePosSelfModels();
+
+describe(""getOnlinePaymentUrl"", () => {
+    test(""pay route params"", async () => {
+        patchWithCleanup(session, { base",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_pine_labs/static/src/app/utils/payment/payment_pine_labs.js,1,"import { _t } from ""@web/core/l10n/translation"";
+import { PaymentInterface } from ""@point_of_sale/app/utils/payment/payment_interface"";
+import { AlertDialog } from ""@web/core/confirmation_dialog/confirmation_dialog"";
+import { serializeDateTime } from ""@web/core/l10n/dates"";
+import { offlineErrorHandler, handleRPCError } from ""@point_of_sale/app/utils/error_handlers"";
+import { registry } from ""@web/core/registry"";
+import { ConnectionLostError, RPCError } from ""@web/core/network/rpc"";
+
+const REQUE",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_razorpay/static/src/app/utls/payment/payment_razorpay.js,1,"/* global Sha1 */
+
+import { _t } from ""@web/core/l10n/translation"";
+import { PaymentInterface } from ""@point_of_sale/app/utils/payment/payment_interface"";
+import { AlertDialog } from ""@web/core/confirmation_dialog/confirmation_dialog"";
+import { serializeDateTime } from ""@web/core/l10n/dates"";
+import { registry } from ""@web/core/registry"";
+
+const REQUEST_TIMEOUT = 10000;
+const { DateTime } = luxon;
+
+export class PaymentRazorpay extends PaymentInterface {
+    setup() {
+        super.setup(...argum",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_restaurant/static/src/app/components/navbar/navbar.js,1,"import { Navbar, BurgerMenuDialog } from ""@point_of_sale/app/components/navbar/navbar"";
+import { patch } from ""@web/core/utils/patch"";
+import { FloorPlanEditorNavBar } from ""@pos_restaurant/app/screens/floor_screen/floor_plan_editor/navbar/navbar"";
+import { useFloorPlanStore } from ""@pos_restaurant/app/hooks/floor_plan_hook"";
+
+patch(Navbar.prototype, {
+    setup() {
+        super.setup();
+        if (this.pos.config.module_pos_restaurant) {
+            this.floorPlanStore = useFloorPlanStore();
+",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_restaurant/static/src/app/screens/floor_screen/floor_screen.js,1,"import { Component, onMounted, useEffect } from ""@odoo/owl"";
+import { useService } from ""@web/core/utils/hooks"";
+import { registry } from ""@web/core/registry"";
+import { usePos } from ""@point_of_sale/app/hooks/pos_hook"";
+import { FloorEditorToolBar } from ""@pos_restaurant/app/screens/floor_screen/floor_plan_editor/toolbar/toolbar"";
+import { NumpadDropdown } from ""@pos_restaurant/app/components/numpad_dropdown/numpad_dropdown"";
+import { FloorPlan } from ""@pos_restaurant/app/screens/floor_screen/fl",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_restaurant/static/src/app/screens/product_screen/actionpad_widget/actionpad_widget.js,1,"import { t } from ""@odoo/owl"";
+import { patch } from ""@web/core/utils/patch"";
+import {
+    ActionpadWidget,
+    actionpadWidgetProps,
+} from ""@point_of_sale/app/screens/product_screen/action_pad/action_pad"";
+import { _t } from ""@web/core/l10n/translation"";
+import { useTrackedAsync } from ""@point_of_sale/app/hooks/hooks"";
+
+/**
+ * @props partner
+ */
+Object.assign(actionpadWidgetProps, {
+    setTable: t.function().optional(),
+    assignOrder: t.function().optional(),
+});
+
+patch(ActionpadWidget.prot",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_restaurant/static/src/app/screens/split_bill_screen/split_bill_screen.js,4,"import { Component, onWillDestroy, useProps, proxy, t } from ""@odoo/owl"";
+import { OrderDisplay } from ""@point_of_sale/app/components/order_display/order_display"";
+import { Orderline } from ""@point_of_sale/app/components/orderline/orderline"";
+import { PriceFormatter } from ""@point_of_sale/app/components/price_formatter/price_formatter"";
+import { usePos } from ""@point_of_sale/app/hooks/pos_hook"";
+import { useRouterParamsChecker } from ""@point_of_sale/app/hooks/pos_router_hook"";
+import { _t } from",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_restaurant/static/src/app/services/pos_store.js,6,"import { patch } from ""@web/core/utils/patch"";
+import { CONSOLE_COLOR, PosStore } from ""@point_of_sale/app/services/pos_store"";
+import { ConnectionLostError } from ""@web/core/network/rpc"";
+import { _t } from ""@web/core/l10n/translation"";
+import { formatList } from ""@web/core/l10n/utils/format_list"";
+import { EditOrderNamePopup } from ""@pos_restaurant/app/components/popup/edit_order_name_popup/edit_order_name_popup"";
+import { NumberPopup } from ""@point_of_sale/app/components/popups/number_popup/n",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_restaurant/static/tests/unit/scenario/restaurant_flow.test.js,19,"import { expect, test } from ""@odoo/hoot"";
+import { animationFrame, waitFor, press, queryAll, tick, queryOne, edit } from ""@odoo/hoot-dom"";
+import { mockDate } from ""@odoo/hoot-mock"";
+import { contains, mountWithCleanup } from ""@web/../tests/web_test_helpers"";
+import { setupPosEnv, setupAndMountPosApp } from ""@point_of_sale/../tests/unit/utils"";
+import { definePosModels } from ""@point_of_sale/../tests/unit/data/generate_model_definitions"";
+import { FloorScreen } from ""@pos_restaurant/app/screens",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_restaurant/static/tests/unit/services/pos_service.test.js,1,"import { describe, expect, test } from ""@odoo/hoot"";
+import { mockDate, tick } from ""@odoo/hoot-mock"";
+import { definePosModels } from ""@point_of_sale/../tests/unit/data/generate_model_definitions"";
+import OrderPaymentValidation from ""@point_of_sale/app/utils/order_payment_validation"";
+import { getFilledOrder, setupPosEnv } from ""@point_of_sale/../tests/unit/utils"";
+import { MockServer, patchWithCleanup } from ""@web/../tests/web_test_helpers"";
+import { waitUntil } from ""@odoo/hoot-dom"";
+import {",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_restaurant/static/tests/unit/util.js,2,"import { tick } from ""@odoo/hoot-dom"";
+import { mountWithCleanup } from ""@web/../tests/web_test_helpers"";
+import { Chrome } from ""@point_of_sale/app/pos_app"";
+
+export async function mountPosApp(store) {
+    store.session.state = ""opened"";
+    store.router.currentScreen.set(""FloorScreen"");
+    store.router.currentScreenParams.set({});
+    await mountWithCleanup(Chrome, { props: { disableLoader: () => {} } });
+    await tick();
+}
+",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_restaurant/static/tests/unit/utils.js,2,"import { tick } from ""@odoo/hoot-dom"";
+import { mountWithCleanup } from ""@web/../tests/web_test_helpers"";
+import { Chrome } from ""@point_of_sale/app/pos_app"";
+
+export async function mountPosApp(store) {
+    store.session.state = ""opened"";
+    store.router.currentScreen.set(""FloorScreen"");
+    store.router.currentScreenParams.set({});
+    await mountWithCleanup(Chrome, { props: { disableLoader: () => {} } });
+    await tick();
+}
+",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_self_order/static/src/app/components/product_card/product_card.js,5,"import { Component, useProps, t } from ""@odoo/owl"";
+import { ProductTemplate } from ""@point_of_sale/app/models/product_template"";
+import { ProductProduct } from ""@point_of_sale/app/models/product_product"";
+import { useSelfOrder } from ""@pos_self_order/app/services/self_order_service"";
+import { flyToCart } from ""@pos_self_order/app/utils/ui_animations"";
+import { formatProductName } from ""@pos_self_order/app/utils"";
+import { ProductInfoPopup } from ""../product_info_popup/product_info_popup"";
+
+expo",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_self_order/static/src/app/pages/cart_page/cart_page.js,12,"import { useLayoutEffect } from ""@web/owl2/utils"";
+import { Component, proxy, signal } from ""@odoo/owl"";
+import { useService } from ""@web/core/utils/hooks"";
+import { useSelfOrder } from ""@pos_self_order/app/services/self_order_service"";
+import { OrderWidget } from ""@pos_self_order/app/components/order_widget/order_widget"";
+import { PresetInfoPopup } from ""@pos_self_order/app/components/preset_info_popup/preset_info_popup"";
+import { useScrollShadow } from ""../../utils/scroll_shadow_hook"";
+import ",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_self_order/static/src/app/pages/combo_page/combo_page.js,5,"import { useSubEnv } from ""@web/owl2/utils"";
+import { Component, proxy, useProps, t } from ""@odoo/owl"";
+import { useSelfOrder } from ""@pos_self_order/app/services/self_order_service"";
+import { useService } from ""@web/core/utils/hooks"";
+import { AttributeSelectionHelper } from ""@pos_self_order/app/components/attribute_selection/attribute_selection_helper"";
+import { AttributeSelection } from ""@pos_self_order/app/components/attribute_selection/attribute_selection"";
+import { ProductCard } from ""@pos",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_self_order/static/src/app/pages/confirmation_page/confirmation_page.js,7,"import { Component, onMounted, onWillUnmount, proxy, t, useProps } from ""@odoo/owl"";
+import { PrintingFailurePopup } from ""@pos_self_order/app/components/printing_failure_popup/printing_failure_popup"";
+import { useSelfOrder } from ""@pos_self_order/app/services/self_order_service"";
+import { location } from ""@web/core/browser/browser"";
+import { cookie } from ""@web/core/browser/cookie"";
+import { rpc } from ""@web/core/network/rpc"";
+import { useService } from ""@web/core/utils/hooks"";
+import { imageDa",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_self_order/static/src/app/pages/eating_location_page/eating_location_page.js,4,"import { Component, signal } from ""@odoo/owl"";
+import { useSelfOrder } from ""@pos_self_order/app/services/self_order_service"";
+import { useService } from ""@web/core/utils/hooks"";
+import { useScrollShadow } from ""../../utils/scroll_shadow_hook"";
+import { SIZES } from ""@web/core/ui/ui_utils"";
+
+export class EatingLocationPage extends Component {
+    static template = ""pos_self_order.EatingLocationPage"";
+
+    scrollContainerRef = signal.ref();
+
+    setup() {
+        this.selfOrder = useSelfOrder();
+",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_self_order/static/src/app/pages/landing_page/landing_page.js,7,"import { Component, onWillStart, signal } from ""@odoo/owl"";
+import { useSelfOrder } from ""@pos_self_order/app/services/self_order_service"";
+import { useService } from ""@web/core/utils/hooks"";
+import { LanguagePopup } from ""@pos_self_order/app/components/language_popup/language_popup"";
+import { useCarousel } from ""@pos_self_order/app/utils/carousel_hook"";
+
+export class LandingPage extends Component {
+    static template = ""pos_self_order.LandingPage"";
+
+    carouselRef = signal.ref();
+
+    setup()",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_self_order/static/src/app/pages/optional_product_page/optional_product_page.js,3,"import { Component, proxy, types, useProps } from ""@odoo/owl"";
+import { useSelfOrder } from ""@pos_self_order/app/services/self_order_service"";
+import { useService } from ""@web/core/utils/hooks"";
+import { ProductCard } from ""@pos_self_order/app/components/product_card/product_card"";
+import { ProductInterface } from ""@pos_self_order/app/components/product_interface/product_interface"";
+import { ProductTemplate } from ""@point_of_sale/app/models/product_template"";
+
+export class OptionalProductPage ex",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_self_order/static/src/app/pages/order_history_page/order_history_page.js,4,"import { Component } from ""@odoo/owl"";
+import { useSelfOrder } from ""@pos_self_order/app/services/self_order_service"";
+import { _t } from ""@web/core/l10n/translation"";
+import { useService } from ""@web/core/utils/hooks"";
+
+export class OrdersHistoryPage extends Component {
+    static template = ""pos_self_order.OrdersHistoryPage"";
+
+    async setup() {
+        this.selfOrder = useSelfOrder();
+        this.router = useService(""router"");
+    }
+
+    get orders() {
+        return this.selfOrder.models[""",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_self_order/static/src/app/pages/payment_page/payment_page.js,3,"import { Component, onMounted, onWillUnmount, proxy } from ""@odoo/owl"";
+import { useSelfOrder } from ""@pos_self_order/app/services/self_order_service"";
+import { rpc } from ""@web/core/network/rpc"";
+import { useService } from ""@web/core/utils/hooks"";
+import { ask } from ""@point_of_sale/app/utils/make_awaitable_dialog"";
+import { _t } from ""@web/core/l10n/translation"";
+
+// This component is only use in Kiosk mode
+export class PaymentPage extends Component {
+    static template = ""pos_self_order.Paym",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_self_order/static/src/app/pages/product_list_page/product_list_page.js,4,"import { Component, onMounted, onWillUnmount, computed, proxy, signal } from ""@odoo/owl"";
+import { useSelfOrder } from ""@pos_self_order/app/services/self_order_service"";
+import { useService } from ""@web/core/utils/hooks"";
+import { _t } from ""@web/core/l10n/translation"";
+
+import { OrderWidget } from ""@pos_self_order/app/components/order_widget/order_widget"";
+import { ProductCard } from ""@pos_self_order/app/components/product_card/product_card"";
+import { CategoryListPopup } from ""@pos_self_order/a",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_self_order/static/src/app/pages/product_page/product_page.js,5,"import { useSubEnv } from ""@web/owl2/utils"";
+import { Component, proxy, useProps, t } from ""@odoo/owl"";
+import { useSelfOrder } from ""@pos_self_order/app/services/self_order_service"";
+import { useService } from ""@web/core/utils/hooks"";
+import { AttributeSelection } from ""@pos_self_order/app/components/attribute_selection/attribute_selection"";
+import { ProductInterface } from ""@pos_self_order/app/components/product_interface/product_interface"";
+import {
+    getProductVariantByAttributes,
+    getA",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_self_order/static/src/app/pages/stand_number_page/stand_number_page.js,2,"import { Component, proxy } from ""@odoo/owl"";
+import { useSelfOrder } from ""@pos_self_order/app/services/self_order_service"";
+import { useService } from ""@web/core/utils/hooks"";
+import { Numpad } from ""@point_of_sale/app/components/numpad/numpad"";
+import { _t } from ""@web/core/l10n/translation"";
+
+export class StandNumberPage extends Component {
+    static template = ""pos_self_order.StandNumberPage"";
+    static components = { Numpad };
+
+    setup() {
+        this.selfOrder = useSelfOrder();
+     ",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_self_order/static/src/app/router.js,7,"import { Component, computed, xml, useProps, t, useEffect } from ""@odoo/owl"";
+import { escapeRegExp } from ""@web/core/utils/strings"";
+import { zip } from ""@web/core/utils/arrays"";
+import { useService } from ""@web/core/utils/hooks"";
+
+function parseParams(matches, paramSpecs) {
+    return Object.fromEntries(
+        zip(matches, paramSpecs).map(([match, paramSpec]) => {
+            const { type, name } = paramSpec;
+            switch (type) {
+                case ""int"":
+                    return ",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_self_order/static/src/app/self_order_index.js,3,"import { Component, usePlugin } from ""@odoo/owl"";
+import { MainComponentsContainer } from ""@web/core/main_components_container"";
+import { useSelfOrder } from ""@pos_self_order/app/services/self_order_service"";
+import { Router } from ""@pos_self_order/app/router"";
+import { LandingPage } from ""@pos_self_order/app/pages/landing_page/landing_page"";
+import { ProductListPage } from ""@pos_self_order/app/pages/product_list_page/product_list_page"";
+import { ComboPage } from ""@pos_self_order/app/pages/combo",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_self_order/static/src/app/services/self_order_router_service.js,6,"import { registry } from ""@web/core/registry"";
+import { Reactive } from ""@web/core/utils/reactive"";
+import { location } from ""@web/core/browser/browser"";
+
+export class SelfOrderRouter extends Reactive {
+    static serviceDependencies = [];
+
+    constructor(...args) {
+        super(...args);
+        this.setup(...args);
+    }
+
+    setup(env) {
+        this.path = window.location.pathname;
+        this.registeredRoutes = {};
+        this.historyPage = """";
+        this.activeSlot = null;
+        wi",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_self_order/static/src/app/services/self_order_service.js,21,"import { Reactive } from ""@web/core/utils/reactive"";
+import { Mutex } from ""@web/core/utils/concurrency"";
+import { ConnectionLostError, RPCError, rpc } from ""@web/core/network/rpc"";
+import { _t } from ""@web/core/l10n/translation"";
+import { formatCurrency as webFormatCurrency } from ""@web/core/currency"";
+import { markup, usePlugin } from ""@odoo/owl"";
+import { useService } from ""@web/core/utils/hooks"";
+import { registry } from ""@web/core/registry"";
+import { cookie } from ""@web/core/browser/cookie""",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_self_order/static/tests/unit/pages/cart_page.test.js,2,"import { test, expect, mockUserAgent } from ""@odoo/hoot"";
+import { animationFrame } from ""@odoo/hoot-dom"";
+import { contains, mountWithCleanup, patchWithCleanup } from ""@web/../tests/web_test_helpers"";
+import { CartPage } from ""@pos_self_order/app/pages/cart_page/cart_page"";
+import { EatingLocationPage } from ""@pos_self_order/app/pages/eating_location_page/eating_location_page"";
+import { setupSelfPosEnv, getFilledSelfOrder, addComboProduct } from ""../utils"";
+import { definePosSelfModels } from """,VERIFIED source inventory,VERIFIED source inventory
+addons/pos_self_order/static/tests/unit/pages/landing_page.test.js,7,"import { test, expect } from ""@odoo/hoot"";
+import { animationFrame } from ""@odoo/hoot-dom"";
+import { mountWithCleanup } from ""@web/../tests/web_test_helpers"";
+import { patch } from ""@web/core/utils/patch"";
+import { mockDate } from ""@odoo/hoot-mock"";
+import { LandingPage } from ""@pos_self_order/app/pages/landing_page/landing_page"";
+import { setupSelfPosEnv, getFilledSelfOrder, mockNavigate } from ""../utils"";
+import { definePosSelfModels } from ""../data/generate_model_definitions"";
+import { PosCon",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_self_order/static/tests/unit/scenario/pos_self_order_flow.test.js,3,"import { expect, test } from ""@odoo/hoot"";
+import { mockDate } from ""@odoo/hoot-mock"";
+import { patchWithCleanup } from ""@web/../tests/web_test_helpers"";
+import { setupSelfPosEnv } from ""@pos_self_order/../tests/unit/utils"";
+import { definePosSelfModels } from ""@pos_self_order/../tests/unit/data/generate_model_definitions"";
+import { SelfOrderRouter } from ""@pos_self_order/app/services/self_order_router_service"";
+import * as Utils from ""@pos_self_order/../tests/unit/ui_utils"";
+
+definePosSelfModel",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_self_order/static/tests/unit/services/self_order_service.test.js,7,"import { beforeEach, describe, expect, mockDate, test } from ""@odoo/hoot"";
+import { MockServer, onRpc, patchWithCleanup } from ""@web/../tests/web_test_helpers"";
+import { location } from ""@web/core/browser/browser"";
+import { registry } from ""@web/core/registry"";
+import { patch } from ""@web/core/utils/patch"";
+import { definePosSelfModels } from ""../data/generate_model_definitions"";
+import {
+    addComboProduct,
+    getFilledSelfOrder,
+    mockLNAPermissionCheck,
+    setupSelfPosEnv,
+} from ""../uti",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_self_order/static/tests/unit/utils.js,6,"import { uuidv4 } from ""@point_of_sale/utils"";
+import {
+    assignDialogTestEnv,
+    getService,
+    onRpc,
+    patchWithCleanup,
+    MockServer,
+    mountWithCleanup,
+    makeTestApp,
+} from ""@web/../tests/web_test_helpers"";
+import { session } from ""@web/session"";
+import { registry } from ""@web/core/registry"";
+import { selfOrderIndex } from ""@pos_self_order/app/self_order_index"";
+import { setupPosEnv } from ""@point_of_sale/../tests/unit/utils"";
+import { unpatchSelf } from ""@pos_self_order/app/p",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_self_order_event/static/src/app/components/product_card/product_card.js,1,"import { ProductCard } from ""@pos_self_order/app/components/product_card/product_card"";
+import { patch } from ""@web/core/utils/patch"";
+import { _t } from ""@web/core/l10n/translation"";
+
+patch(ProductCard.prototype, {
+    get ticketAvailabilityText() {
+        const event = this.props.product.event_id;
+        const noOfSlots = event?.event_slot_ids?.length || 0;
+
+        if (noOfSlots) {
+            return `${noOfSlots} ${_t(""slots available"")}`;
+        }
+
+        const tickets = event.event_tic",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_self_order_event/static/src/app/pages/event_page/event_page.js,3,"import { Component, proxy, useProps, t, signal } from ""@odoo/owl"";
+import { Stepper } from ""@pos_self_order/app/components/combo_stepper/combo_stepper"";
+import { useSelfOrder } from ""@pos_self_order/app/services/self_order_service"";
+import { useScrollShadow } from ""@pos_self_order/app/utils/scroll_shadow_hook"";
+import { isValidEmail, isValidPhone } from ""@point_of_sale/utils"";
+import { useService } from ""@web/core/utils/hooks"";
+import { rpc } from ""@web/core/network/rpc"";
+import { _t } from ""@we",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_self_order_event/static/tests/unit/components/product_card.test.js,1,"import { test, expect } from ""@odoo/hoot"";
+import { mountWithCleanup, patchWithCleanup } from ""@web/../tests/web_test_helpers"";
+import { ProductCard } from ""@pos_self_order/app/components/product_card/product_card"";
+import { setupSelfPosEnv } from ""@pos_self_order/../tests/unit/utils"";
+import { definePosSelfModels } from ""@pos_self_order/../tests/unit/data/generate_model_definitions"";
+
+definePosSelfModels();
+
+test(""ticketAvailabilityText"", async () => {
+    const store = await setupSelfPosEnv();",VERIFIED source inventory,VERIFIED source inventory
+addons/pos_viva_com/static/src/app/hooks/use_viva_app.js,1,"import { usePos } from ""@point_of_sale/app/hooks/pos_hook"";
+import { AlertDialog } from ""@web/core/confirmation_dialog/confirmation_dialog"";
+import { useService } from ""@web/core/utils/hooks"";
+import { roundPrecision } from ""@web/core/utils/numbers"";
+import { _t } from ""@web/core/l10n/translation"";
+import { uuidv4 } from ""@point_of_sale/utils"";
+import { getPaymentMismatchErrorMessage } from ""../utils/error_messages"";
+
+/**
+ * This hook is used to handle the Viva Wallet app integration in the POS.",VERIFIED source inventory,VERIFIED source inventory
+addons/project/static/src/project_sharing/router.js,6,"import { location } from ""@web/core/browser/browser"";
+import { router, startUrl } from ""@web/core/browser/router"";
+import { patch } from ""@web/core/utils/patch"";
+
+patch(router, {
+    /**
+     * @param {{ [key: string]: any }} state
+     * @returns {string}
+     */
+    stateToUrl(state) {
+        const url = super.stateToUrl(state);
+        return url.replace(startUrl(), ""my/projects"");
+    },
+    urlToState(urlObj) {
+        const { pathname } = urlObj;
+        urlObj.pathname = pathname.replace",VERIFIED source inventory,VERIFIED source inventory
+addons/project/static/src/project_sharing/views/view.js,5,"import { patch } from ""@web/core/utils/patch"";
+import { router } from ""@web/core/browser/router"";
+import { session } from ""@web/session"";
+import { View } from ""@web/views/view"";
+
+/** Hack to display the project name when we load project sharing */
+patch(View.prototype, {
+    setup() {
+        super.setup();
+        if (
+            router.current.action === ""project_sharing"" &&
+            !router.current.resId &&
+            router.current.active_id === session.project_id
+        ) {
+          ",VERIFIED source inventory,VERIFIED source inventory
+addons/project_todo/static/src/views/todo_form/todo_form_control_panel.js,5,"import { useEffect, onMounted } from ""@odoo/owl"";
+import { browser } from ""@web/core/browser/browser"";
+import { router } from ""@web/core/browser/router"";
+import { ControlPanel } from ""@web/search/control_panel/control_panel"";
+
+export class TodoFormControlPanel extends ControlPanel {
+    static template = ""project_todo.TodoFormControlPanel"";
+
+    setup() {
+        super.setup();
+        useEffect(() => {
+            if (this.uiService.isSmall && !this.embeddedPanelState.displayChatter) {
+        ",VERIFIED source inventory,VERIFIED source inventory
+addons/spreadsheet_dashboard/static/tests/dashboard/dashboard_action.test.js,8,"import { beforeEach, describe, expect, test } from ""@odoo/hoot"";
+import { queryAll, press, queryAllTexts, pointerDown } from ""@odoo/hoot-dom"";
+import { animationFrame } from ""@odoo/hoot-mock"";
+import { getBasicData, Product } from ""@spreadsheet/../tests/helpers/data"";
+import { createSpreadsheetDashboard } from ""@spreadsheet_dashboard/../tests/helpers/dashboard_action"";
+import {
+    defineSpreadsheetDashboardModels,
+    getDashboardServerData,
+} from ""@spreadsheet_dashboard/../tests/helpers/data""",VERIFIED source inventory,VERIFIED source inventory
+addons/test_translation_mode/static/src/translate_mode_debug_providers.js,4,"import { usePlugin } from ""@odoo/owl"";
+import { router } from ""@web/core/browser/router"";
+import { DebugModePlugin } from ""@web/core/debug_mode_plugin"";
+import { _t } from ""@web/core/l10n/translation"";
+import { registry } from ""@web/core/registry"";
+
+const commandProviderRegistry = registry.category(""command_provider"");
+
+if (commandProviderRegistry.contains(""debug"")) {
+    const { provide } = commandProviderRegistry.get(""debug"");
+
+    commandProviderRegistry.add(
+        ""debug"",
+        {
+      ",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/core/browser/router.js,17,"import { EventBus } from ""@odoo/owl"";
+import { omit, pick } from ""../utils/objects"";
+import { compareUrls, objectToUrlEncodedString } from ""../utils/urls"";
+import { location, browser } from ""./browser"";
+import { isDisplayStandalone } from ""@web/core/browser/feature_detection"";
+import { slidingWindow } from ""@web/core/utils/arrays"";
+import { isNumeric } from ""@web/core/utils/strings"";
+
+// Keys that are serialized in the URL as path segments instead of query string
+export const PATH_KEYS = [""resId",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/core/debug/debug_menu_items.js,6,"import { _t } from ""@web/core/l10n/translation"";
+import { location, browser } from ""@web/core/browser/browser"";
+import { router } from ""@web/core/browser/router"";
+import { registry } from ""@web/core/registry"";
+import { user } from ""@web/core/user"";
+import { isRPCCacheDisabled } from ""@web/core/network/rpc_cache"";
+import { usePlugin } from ""@odoo/owl"";
+import { ORM } from ""@web/core/orm_plugin"";
+
+function activateTestsAssetsDebugging() {
+    if (String(router.current.debug).includes(""tests"")) {
+ ",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/core/debug/debug_providers.js,6,"import { usePlugin } from ""@odoo/owl"";
+import { browser } from ""@web/core/browser/browser"";
+import { router } from ""@web/core/browser/router"";
+import { DebugModePlugin } from ""@web/core/debug_mode_plugin"";
+import { _t } from ""@web/core/l10n/translation"";
+import { registry } from ""@web/core/registry"";
+
+const commandProviderRegistry = registry.category(""command_provider"");
+
+commandProviderRegistry.add(""debug"", {
+    provide(options) {
+        const debugMode = usePlugin(DebugModePlugin);
+        c",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/core/file_input/file_input.js,1,"import { Component, onMounted, proxy, signal, status, t, useProps } from ""@odoo/owl"";
+import { useFileUploader } from ""@web/core/utils/files"";
+
+/**
+ * Custom file input
+ *
+ * Component representing a customized input of type file. It takes a sub-template
+ * in its default t-slot and uses it as the trigger to open the file upload
+ * prompt.
+ * @extends Component
+ *
+ * Props:
+ * @param {string} [props.acceptedFileExtensions='*'] Comma-separated
+ *      list of authorized file extensions (default t",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/core/network/rpc_cache.js,4,"import { IDBQuotaExceededError, IndexedDB } from ""@web/core/utils/indexed_db"";
+import { router } from ""../browser/router"";
+import { deepCopy } from ""../utils/objects"";
+import { Crypto, CRYPTO_ALGO } from ""../crypto"";
+
+/**
+ * The rpc cache can be turned off for the current browsing session by putting
+ * `cache=0` in the url (see the ""Disable RPC Cache"" debug menu item). This is
+ * useful to check whether a bug comes from stale cached data.
+ *
+ * Note that the router serializes falsy values as an ",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/core/utils/hooks.js,6,"import {
+    onMounted,
+    onPatched,
+    onWillUnmount,
+    proxy,
+    t,
+    toRaw,
+    useOnChange,
+    useScope,
+} from ""@odoo/owl"";
+import { hasTouch, isMobileOS } from ""@web/core/browser/feature_detection"";
+import { router } from ""@web/core/browser/router"";
+import { useEnv } from ""@web/owl2/utils"";
+
+/**
+ * This file contains various custom hooks.
+ * Their inner working is rather simple:
+ * Each custom hook simply hooks itself to any number of owl lifecycle hooks.
+ * You can then use them ",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/core/utils/urls.js,1,"import { location } from ""@web/core/browser/browser"";
+import { shallowEqual } from ""@web/core/utils/objects"";
+import { session } from ""@web/session"";
+
+const { DateTime } = luxon;
+
+export class RedirectionError extends Error {}
+
+/**
+ * Transforms a key value mapping to a string formatted as url hash, e.g.
+ * {a: ""x"", b: 2} -> ""a=x&b=2""
+ *
+ * @param {Object} obj
+ * @returns {string}
+ */
+export function objectToUrlEncodedString(obj) {
+    return Object.entries(obj)
+        .map(([k, v]) => `${encod",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/search/search_model.js,3,"import { computed, EventBus, proxy, signal, toRaw, usePlugin } from ""@odoo/owl"";
+import { router } from ""@web/core/browser/router"";
+import { makeContext } from ""@web/core/context"";
+import { DebugModePlugin } from ""@web/core/debug_mode_plugin"";
+import { Domain } from ""@web/core/domain"";
+import { getDefaultDomain } from ""@web/core/domain_selector/utils"";
+import { DomainSelectorDialog } from ""@web/core/domain_selector_dialog/domain_selector_dialog"";
+import { _t } from ""@web/core/l10n/translation"";
+",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/webclient/actions/action_plugin.js,20,"import { useSubEnv, useEnv } from ""@web/owl2/utils"";
+import { _t } from ""@web/core/l10n/translation"";
+import { location, browser } from ""@web/core/browser/browser"";
+import { makeContext } from ""@web/core/context"";
+import { useDebugCategory } from ""@web/core/debug/debug_context"";
+import { evaluateExpr } from ""@web/core/py_js/py"";
+import { rpc, rpcBus } from ""@web/core/network/rpc"";
+import { registry } from ""@web/core/registry"";
+import { services } from ""@web/core/services"";
+import { user } from """,VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/webclient/actions/client_actions.js,4,"import { markup } from ""@odoo/owl"";
+import { location, browser } from ""@web/core/browser/browser"";
+import { router } from ""@web/core/browser/router"";
+import { makeErrorFromResponse, rpc } from ""@web/core/network/rpc"";
+import { registry } from ""@web/core/registry"";
+import { useService } from ""@web/core/utils/hooks"";
+import { htmlSprintf } from ""@web/core/utils/html"";
+
+export function displayNotificationAction(env, action) {
+    const notification = useService(""notification"");
+    const params = a",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/webclient/burger_menu/burger_menu.js,5,"import { registry } from ""@web/core/registry"";
+import { Transition } from ""@web/core/transition"";
+import { user } from ""@web/core/user"";
+import { useBus } from ""@web/core/utils/hooks"";
+import { isAndroidApp, isDisplayStandalone, isIosApp } from ""@web/core/browser/feature_detection"";
+import { router } from ""@web/core/browser/router"";
+import { BurgerUserMenu } from ""./burger_user_menu/burger_user_menu"";
+import { MobileSwitchCompanyMenu } from ""./mobile_switch_company_menu/mobile_switch_company_men",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/webclient/settings_form_view/widgets/res_config_dev_tool.js,3,"import { Component, proxy, usePlugin, useProps } from ""@odoo/owl"";
+import { router } from ""@web/core/browser/router"";
+import { DebugModePlugin } from ""@web/core/debug_mode_plugin"";
+import { registry } from ""@web/core/registry"";
+import { useService } from ""@web/core/utils/hooks"";
+import { Setting } from ""@web/views/form/setting/setting"";
+import { standardWidgetProps } from ""@web/views/widgets/standard_widget_props"";
+import { SettingsBlock } from ""@web/webclient/settings_form_view/settings/setting",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/webclient/switch_company_menu/switch_company_menu.js,4,"import { useSubEnv } from ""@web/owl2/utils"";
+import { Dropdown } from ""@web/core/dropdown/dropdown"";
+import { DropdownGroup } from ""@web/core/dropdown/dropdown_group"";
+import { DropdownItem } from ""@web/core/dropdown/dropdown_item"";
+import { registry } from ""@web/core/registry"";
+
+import { Component, proxy, signal } from ""@odoo/owl"";
+import { useCommand } from ""@web/core/commands/command_hook"";
+import { _t } from ""@web/core/l10n/translation"";
+import { symmetricalDifference } from ""@web/core/utils",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/webclient/user_menu/user_menu_items.js,4,"import { Component, markup, usePlugin, t, useProps } from ""@odoo/owl"";
+import { isDisplayStandalone, isMacOS } from ""@web/core/browser/feature_detection"";
+import { _t } from ""@web/core/l10n/translation"";
+import { user } from ""@web/core/user"";
+import { session } from ""@web/session"";
+import { router } from ""@web/core/browser/router"";
+import { browser } from ""../../core/browser/browser"";
+import { registry } from ""../../core/registry"";
+import { post } from ""@web/core/network/http_service"";
+import { ",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/src/webclient/webclient.js,9,"import { Component, onMounted, onWillStart, proxy, useListener, usePlugin } from ""@odoo/owl"";
+import { location, browser } from ""@web/core/browser/browser"";
+import { router, routerBus } from ""@web/core/browser/router"";
+import { useOwnDebugContext } from ""@web/core/debug/debug_context"";
+import { DebugMenu } from ""@web/core/debug/debug_menu"";
+import { DebugModePlugin } from ""@web/core/debug_mode_plugin"";
+import { localization } from ""@web/core/l10n/localization"";
+import { MainComponentsContainer }",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/tests/_framework/app_test_helpers.js,3,"import {
+    after,
+    afterEach,
+    animationFrame,
+    beforeEach,
+    getCurrent,
+    registerDebugInfo,
+} from ""@odoo/hoot"";
+import { App, Scope } from ""@odoo/owl"";
+import { startRouter } from ""@web/core/browser/router"";
+import { appTranslateFn } from ""@web/core/l10n/translation"";
+import { OfflinePlugin } from ""@web/core/offline/offline_plugin"";
+import { registry } from ""@web/core/registry"";
+import { services } from ""@web/core/services"";
+import { getTemplate } from ""@web/core/templates"";
+i",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/tests/_framework/mock_server/mock_server.js,7,"import {
+    after,
+    before,
+    createJobScopedGetter,
+    expect,
+    getCurrent,
+    mockFetch,
+    mockLocation,
+    mockWebSocket,
+    registerDebugInfo,
+} from ""@odoo/hoot"";
+import { makeErrorFromResponse, rpc, RPCError } from ""@web/core/network/rpc"";
+import { RPCCache } from ""@web/core/network/rpc_cache"";
+import { ensureArray, isIterable } from ""@web/core/utils/arrays"";
+import { isObject } from ""@web/core/utils/objects"";
+import { hashCode } from ""@web/core/utils/strings"";
+import { serv",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/tests/core/file_input.test.js,1,"import { beforeEach, expect, test } from ""@odoo/hoot"";
+import {
+    contains,
+    mockService,
+    mountWithCleanup,
+    patchWithCleanup,
+} from ""@web/../tests/web_test_helpers"";
+
+import { setInputFiles } from ""@odoo/hoot-dom"";
+import { animationFrame } from ""@odoo/hoot-mock"";
+import { FileInput } from ""@web/core/file_input/file_input"";
+import { Component, signal, xml } from ""@odoo/owl"";
+import { session } from ""@web/session"";
+
+// ----------------------------------------------------------------",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/tests/core/network/rpc.test.js,2,"import { after, describe, expect, test } from ""@odoo/hoot"";
+import { on } from ""@odoo/hoot-dom"";
+import { mockFetch } from ""@odoo/hoot-mock"";
+
+import {
+    ConnectionAbortedError,
+    ConnectionLostError,
+    RequestEntityTooLargeError,
+    RPCError,
+    rpc,
+    rpcBus,
+} from ""@web/core/network/rpc"";
+import { RPCCache } from ""@web/core/network/rpc_cache"";
+
+const onRpcRequest = (listener) => after(on(rpcBus, ""RPC:REQUEST"", listener));
+const onRpcResponse = (listener) => after(on(rpcBus, ""RPC:RE",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/tests/core/network/rpc_cache.test.js,4,"import {
+    advanceTime,
+    describe,
+    expect,
+    freezeTime,
+    microTick,
+    mockDate,
+    test,
+    tick,
+} from ""@odoo/hoot"";
+import { patchWithCleanup } from ""@web/../tests/web_test_helpers"";
+import { startRouter } from ""@web/core/browser/router"";
+import { isRPCCacheDisabled, RPCCache } from ""@web/core/network/rpc_cache"";
+import { IDBQuotaExceededError, IndexedDB } from ""@web/core/utils/indexed_db"";
+import { redirect } from ""@web/core/utils/urls"";
+
+const S_PENDING = Symbol(""Promise""",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/tests/core/router.test.js,260,"import { describe, expect, getFixture, test } from ""@odoo/hoot"";
+import { click, on } from ""@odoo/hoot-dom"";
+import { mockMatchMedia, tick } from ""@odoo/hoot-mock"";
+import { patchWithCleanup } from ""@web/../tests/web_test_helpers"";
+
+import { location, browser } from ""@web/core/browser/browser"";
+import {
+    parseHash,
+    parseSearchQuery,
+    router,
+    routerBus,
+    startRouter,
+} from ""@web/core/browser/router"";
+import { redirect } from ""@web/core/utils/urls"";
+
+const _urlToState = (url) => ",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/tests/mock_server/mock_server.test.js,1,"import { describe, expect, test } from ""@odoo/hoot"";
+import { mockTimeZone } from ""@odoo/hoot-mock"";
+import {
+    defineModels,
+    fields,
+    makeMockServer,
+    models,
+    onRpc,
+    patchWithCleanup,
+} from ""@web/../tests/web_test_helpers"";
+import { localization } from ""@web/core/l10n/localization"";
+
+import { ConnectionLostError, rpc } from ""@web/core/network/rpc"";
+
+class Partner extends models.Model {
+    _name = ""res.partner"";
+
+    name = fields.Char();
+    active = fields.Boolean({ defau",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/tests/webclient/actions/concurrency.test.js,4,"import { expect, test } from ""@odoo/hoot"";
+import { queryAll, queryAllTexts, runAllTimers } from ""@odoo/hoot-dom"";
+import { animationFrame } from ""@odoo/hoot-mock"";
+import { Component, onWillStart, useProps, xml } from ""@odoo/owl"";
+import {
+    contains,
+    defineActions,
+    defineModels,
+    fields,
+    getService,
+    isItemSelected,
+    models,
+    mountWithCleanup,
+    onRpc,
+    patchWithCleanup,
+    serverState,
+    stepAllNetworkCalls,
+    switchView,
+    toggleMenuItem,
+    toggleSearc",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/tests/webclient/actions/embedded_action.test.js,10,"import { describe, expect, test, beforeEach } from ""@odoo/hoot"";
+import { queryAllTexts, waitFor } from ""@odoo/hoot-dom"";
+import {
+    contains,
+    defineActions,
+    defineModels,
+    fields,
+    getService,
+    models,
+    mountWithCleanup,
+    onRpc,
+    toggleMenuItem,
+    toggleSearchBarMenu,
+    webModels,
+    getKwArgs,
+} from ""@web/../tests/web_test_helpers"";
+
+import { animationFrame, mockTouch, runAllTimers } from ""@odoo/hoot-mock"";
+import { location } from ""@web/core/browser/browser"";",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/tests/webclient/actions/load_state.test.js,40,"import { beforeEach, describe, expect, test } from ""@odoo/hoot"";
+import { queryAllAttributes, queryAllTexts, queryFirst, runAllTimers } from ""@odoo/hoot-dom"";
+import { animationFrame } from ""@odoo/hoot-mock"";
+import { Component, onMounted, useProps, xml } from ""@odoo/owl"";
+import {
+    contains,
+    defineActions,
+    defineMenus,
+    defineModels,
+    fields,
+    getService,
+    models,
+    mountWithCleanup,
+    mountWebClient,
+    onRpc,
+    patchWithCleanup,
+    stepAllNetworkCalls,
+    toggl",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/tests/webclient/actions/misc.test.js,6,"import { expect, getFixture, test } from ""@odoo/hoot"";
+import { queryOne, scroll, waitFor } from ""@odoo/hoot-dom"";
+import { animationFrame } from ""@odoo/hoot-mock"";
+import { Component, onWillStart, xml } from ""@odoo/owl"";
+import {
+    contains,
+    defineActions,
+    defineMenus,
+    defineModels,
+    fields,
+    getDropdownMenu,
+    getService,
+    makeTestApp,
+    models,
+    mountWithCleanup,
+    onRpc,
+    patchWithCleanup,
+    serverState,
+    stepAllNetworkCalls,
+    switchView,
+    webMod",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/tests/webclient/actions/multi_company_action.test.js,4,"import { beforeEach, expect, test } from ""@odoo/hoot"";
+import { cookie } from ""@web/core/browser/cookie"";
+import { redirect } from ""@web/core/utils/urls"";
+import {
+    contains,
+    defineModels,
+    fields,
+    getService,
+    makeServerError,
+    models,
+    mountWebClient,
+    onRpc,
+    patchWithCleanup,
+    serverState,
+} from ""@web/../tests/web_test_helpers"";
+import { animationFrame } from ""@odoo/hoot-dom"";
+import { location } from ""@web/core/browser/browser"";
+import { FormViewDialog } fro",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/tests/webclient/actions/push_state.test.js,36,"import { beforeEach, describe, expect, test } from ""@odoo/hoot"";
+import { queryAllTexts } from ""@odoo/hoot-dom"";
+import { animationFrame } from ""@odoo/hoot-mock"";
+import { Component, onMounted, useProps, xml } from ""@odoo/owl"";
+import {
+    contains,
+    defineActions,
+    defineMenus,
+    defineModels,
+    editSearch,
+    fields,
+    getService,
+    models,
+    mountWithCleanup,
+    onRpc,
+    patchWithCleanup,
+    validateSearch,
+} from ""@web/../tests/web_test_helpers"";
+
+import { location, bro",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/tests/webclient/actions/report_action.test.js,3,"import { afterEach, expect, queryOne, test } from ""@odoo/hoot"";
+import { animationFrame, runAllTimers } from ""@odoo/hoot-mock"";
+import { waitFor } from ""@odoo/hoot-dom"";
+import {
+    contains,
+    defineActions,
+    defineModels,
+    getService,
+    mockService,
+    models,
+    mountWithCleanup,
+    onRpc,
+    patchWithCleanup,
+    serverState,
+    stepAllNetworkCalls,
+} from ""@web/../tests/web_test_helpers"";
+
+import { router } from ""@web/core/browser/router"";
+import { download } from ""@web/core",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/tests/webclient/actions/window_action.test.js,10,"import { expect, test } from ""@odoo/hoot"";
+import { click, queryAllTexts, waitFor } from ""@odoo/hoot-dom"";
+import { animationFrame, runAllTimers } from ""@odoo/hoot-mock"";
+import { Component, xml } from ""@odoo/owl"";
+import {
+    MockServer,
+    clickSave,
+    contains,
+    createKanbanRecord,
+    defineActions,
+    defineModels,
+    editFavoriteName,
+    editKanbanRecord,
+    editKanbanRecordQuickCreateInput,
+    editSearch,
+    fields,
+    getMockEnv,
+    getPagerLimit,
+    getPagerValue,
+    ge",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/tests/webclient/settings_form_view/res_config_dev_tool.test.js,11,"import { expect, test } from ""@odoo/hoot"";
+import { click, queryAllTexts } from ""@odoo/hoot-dom"";
+import { animationFrame, tick } from ""@odoo/hoot-mock"";
+import {
+    defineModels,
+    fields,
+    getMockEnv,
+    models,
+    mountView,
+    onRpc,
+    patchWithCleanup,
+    serverState,
+} from ""@web/../tests/web_test_helpers"";
+import { location } from ""@web/core/browser/browser"";
+import { router } from ""@web/core/browser/router"";
+import { redirect } from ""@web/core/utils/urls"";
+
+class ResConfigSet",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/tests/webclient/settings_form_view/settings_form_view.test.js,3,"import { after, beforeEach, expect, getFixture, test } from ""@odoo/hoot"";
+import {
+    click,
+    edit,
+    on,
+    queryAllProperties,
+    queryAllTexts,
+    queryFirst,
+    resize,
+    unload,
+} from ""@odoo/hoot-dom"";
+import { animationFrame, mockSendBeacon, runAllTimers } from ""@odoo/hoot-mock"";
+import {
+    clickModalButton,
+    clickSave,
+    contains,
+    defineActions,
+    defineModels,
+    editSearch,
+    fields,
+    getService,
+    hideTab,
+    installLanguages,
+    makeServerError,
+   ",VERIFIED source inventory,VERIFIED source inventory
+addons/web/static/tests/webclient/user_menu.test.js,4,"import { beforeEach, describe, expect, test } from ""@odoo/hoot"";
+import { click, queryAllAttributes, queryAllProperties, queryAllTexts } from ""@odoo/hoot-dom"";
+import { animationFrame, mockMatchMedia } from ""@odoo/hoot-mock"";
+import { Component, xml } from ""@odoo/owl"";
+import {
+    clearRegistry,
+    contains,
+    mockService,
+    mountWithCleanup,
+    onRpc,
+    patchWithCleanup,
+    serverState,
+} from ""@web/../tests/web_test_helpers"";
+
+import { browser } from ""@web/core/browser/browser"";
+impo",VERIFIED source inventory,VERIFIED source inventory
+addons/website/static/src/builder/website_builder.js,3,"import { Builder } from ""@html_builder/builder"";
+import { CORE_PLUGINS, MAIN_PLUGINS } from ""@html_builder/core/core_plugins"";
+import { removePlugins } from ""@html_builder/utils/utils"";
+import { closestElement } from ""@html_editor/utils/dom_traversal"";
+import { Component, onMounted, onWillStart, onWillUnmount, useProps, t } from ""@odoo/owl"";
+import { ConfirmationDialog } from ""@web/core/confirmation_dialog/confirmation_dialog"";
+import { _t } from ""@web/core/l10n/translation"";
+import { registry }",VERIFIED source inventory,VERIFIED source inventory
+addons/website/static/src/client_actions/configurator/configurator.js,7,"import { useEnv, useLayoutEffect, useSubEnv } from ""@web/owl2/utils"";
+import { location, browser } from ""@web/core/browser/browser"";
+const sessionStorage = browser.sessionStorage;
+import { AutoComplete } from ""@web/core/autocomplete/autocomplete"";
+import { delay } from ""@web/core/utils/concurrency"";
+import { getDataURLFromFile, redirect } from ""@web/core/utils/urls"";
+import { getCSSVariableValue } from ""@html_editor/utils/formatting"";
+import { _t } from ""@web/core/l10n/translation"";
+import { isI",VERIFIED source inventory,VERIFIED source inventory
+addons/website/static/src/client_actions/website_preview/website_builder_action.js,7,"import { LocalOverlayContainer } from ""@html_editor/local_overlay_container"";
+import {
+    Component,
+    immediateEffect,
+    onMounted,
+    onPatched,
+    onWillDestroy,
+    onWillStart,
+    onWillUnmount,
+    proxy,
+    signal,
+    useEffect,
+    usePlugin,
+    useScope,
+    useProps,
+    t,
+} from ""@odoo/owl"";
+import { loadBundle } from ""@web/core/assets"";
+import { location, browser } from ""@web/core/browser/browser"";
+import { isBrowserChrome, isBrowserMicrosoftEdge } from ""@web/core/browser",VERIFIED source inventory,VERIFIED source inventory
+addons/website/static/src/js/backend/view_hierarchy/view_hierarchy.js,3,"import { useLayoutEffect } from ""@web/owl2/utils"";
+import { HierarchyNavbar } from ""./hierarchy_navbar"";
+import { Layout } from ""@web/search/layout"";
+import { registry } from ""@web/core/registry"";
+import { useService } from ""@web/core/utils/hooks"";
+import { Component, onWillStart, proxy, useProps } from ""@odoo/owl"";
+import { router } from ""@web/core/browser/router"";
+import { standardActionServiceProps } from ""@web/webclient/actions/action_plugin"";
+
+export class ViewHierarchy extends Component {
+",VERIFIED source inventory,VERIFIED source inventory
+addons/website_sale/static/src/interactions/product_page.js,3,"import { Interaction } from '@web/public/interaction';
+import { registry } from '@web/core/registry';
+import { router } from '@web/core/browser/router';
+import { localization } from '@web/core/l10n/localization';
+import { _t } from '@web/core/l10n/translation';
+import { rpc, RPCError } from '@web/core/network/rpc';
+import { memoize, uniqueId } from '@web/core/utils/functions';
+import { KeepLast } from '@web/core/utils/concurrency';
+import { setElementContent, createElementWithContent } from '@we",VERIFIED source inventory,VERIFIED source inventory
+addons/website_slides/static/src/interactions/chatter_auto_expand.js,3,"import { usePlugin } from ""@odoo/owl"";
+import { Interaction } from ""@web/public/interaction"";
+import { registry } from ""@web/core/registry"";
+import { router } from ""@web/core/browser/router"";
+import { BootstrapInstance } from ""@web/core/utils/bootstrap_plugin"";
+
+export class ChatterAutoExpand extends Interaction {
+    static selector = "".o_wslides_course_main"";
+
+    setup() {
+        this.bootstrap = usePlugin(BootstrapInstance);
+    }
+
+    start() {
+        if (router.current.highlight_message_",VERIFIED source inventory,VERIFIED source inventory
+odoo/addons/test_main_flows/static/tests/tours/switch_company_access_error_tour.js,3,"import { router } from ""@web/core/browser/router"";
+import { registry } from ""@web/core/registry"";
+
+const _console = window.console;
+function assertEqual(actual, expected, msg = """") {
+    if (actual !== expected) {
+        const description = msg ? ` ${msg}` : """";
+        _console.error(`Assert failed: expected: ${expected} ; got: ${actual}.${description}`);
+    }
+}
+
+registry.category(""web_tour.tours"").add(""test_company_switch_access_error"", {
+    steps: () => [
+        {
+            trigger: "".o",VERIFIED source inventory,VERIFIED source inventory

@@ -1,0 +1,14 @@
+sequenceDiagram
+ participant A as Actor/client
+ participant R as Router
+ participant I as Identity provider
+ participant Z as Authorization service
+ participant S as Domain service
+ A->>R: Request
+ R->>I: Authenticate/session/token
+ I-->>R: Identity or failure
+ R->>Z: Check route/model/record permissions
+ Z-->>R: Allow or deny
+ R->>S: Authorized operation
+ S-->>R: Result/error
+ R-->>A: Response

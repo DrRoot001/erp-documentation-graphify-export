@@ -1,0 +1,667 @@
+Module ID,Module,Source Path,Category,Summary,Files,Python,Model Files,XML,JS/TS,Controller Files,Routes,Security Files,Test Files,Dependencies
+MOD-001,account,addons/account,Accounting/Accounting,Invoices & Payments,553,173,57,138,115,6,10,2,80,6
+MOD-002,account_check_printing,addons/account_check_printing,Accounting/Accounting,Check printing basic features,88,12,6,5,0,0,0,1,2,1
+MOD-003,account_debit_note,addons/account_debit_note,Accounting/Accounting,Debit Notes,64,9,3,4,0,0,0,1,2,1
+MOD-004,account_edi,addons/account_edi,Accounting/Accounting,,70,16,8,4,0,0,0,1,4,1
+MOD-005,account_edi_proxy_client,addons/account_edi_proxy_client,Accounting/Accounting,,61,9,4,1,0,0,0,1,3,2
+MOD-006,account_edi_ubl_cii,addons/account_edi_ubl_cii,Accounting/Accounting,,323,73,23,198,0,0,0,0,36,1
+MOD-007,account_fleet,addons/account_fleet,Accounting/Accounting,Manage accounting with fleets,69,14,6,6,0,0,0,0,4,2
+MOD-008,account_payment,addons/account_payment,Accounting/Accounting,Enable customers to pay invoices on the portal and post payments when transactions are processed.,95,23,8,14,4,3,5,1,5,2
+MOD-009,account_payment_custom,addons/account_payment_custom,Accounting/Payment Custom,Bridge between payment_custom and account_payment.,66,15,5,2,0,2,0,0,5,2
+MOD-010,account_payment_interco,addons/account_payment_interco,Accounting/Accounting,Enable Intercompany payments to reconcile with their invoices on post.,58,8,4,1,0,0,0,0,2,1
+MOD-011,account_peppol,addons/account_peppol,Accounting/Accounting,This module is used to send/receive documents with Peppol,121,37,12,15,7,4,5,1,9,2
+MOD-012,account_qr_code_emv,addons/account_qr_code_emv,Accounting/Payment,,55,5,2,1,0,0,0,0,0,1
+MOD-013,account_qr_code_sepa,addons/account_qr_code_sepa,Accounting/Payment,,55,6,2,0,0,0,0,0,2,1
+MOD-014,account_tax_python,addons/account_tax_python,Accounting/Accounting,Use python code to define taxes,64,8,2,1,1,0,0,0,3,1
+MOD-015,account_test,addons/account_test,Accounting/Accounting,,72,6,2,4,0,0,0,1,0,1
+MOD-016,account_update_tax_tags,addons/account_update_tax_tags,Accounting/Accounting,Allow updating tax grids on existing entries,58,6,0,2,0,0,0,1,2,1
+MOD-017,analytic,addons/analytic,Accounting/Accounting,,113,18,9,8,18,0,0,2,6,3
+MOD-018,api_doc,addons/api_doc,Hidden,,89,10,2,10,21,2,5,1,4,1
+MOD-019,attachment_indexation,addons/attachment_indexation,Hidden/Tools,,56,6,2,0,0,0,0,0,2,1
+MOD-020,auth_ldap,addons/auth_ldap,Hidden/Tools,,78,9,5,2,0,0,0,1,2,2
+MOD-021,auth_oauth,addons/auth_oauth,Hidden/Tools,,80,9,5,4,0,2,3,1,0,4
+MOD-022,auth_passkey,addons/auth_passkey,Hidden/Tools,Log in with a Passkey,129,61,4,5,9,2,2,1,2,2
+MOD-023,auth_passkey_portal,addons/auth_passkey_portal,Hidden/Tools,Passkeys for portal users,58,4,0,2,3,0,0,0,2,2
+MOD-024,auth_password_policy,addons/auth_password_policy,Hidden/Tools,Implement basic password policy configuration & check,64,5,3,4,3,0,0,0,0,2
+MOD-025,auth_password_policy_portal,addons/auth_password_policy_portal,Tools,,55,5,2,1,0,1,0,0,0,2
+MOD-026,auth_password_policy_signup,addons/auth_password_policy_signup,Hidden/Tools,,57,5,2,2,1,1,0,0,0,2
+MOD-027,auth_signup,addons/auth_signup,Hidden/Tools,,86,13,5,9,2,2,5,0,4,3
+MOD-028,auth_timeout,addons/auth_timeout,Hidden/Tools,Ask for authentication after user inactivity,62,10,6,1,2,0,0,0,2,4
+MOD-029,auth_totp,addons/auth_totp,Extra Tools,,74,15,6,5,3,2,1,1,3,1
+MOD-030,auth_totp_mail,addons/auth_totp_mail,Extra Tools,,73,14,5,7,2,3,2,0,4,2
+MOD-031,auth_totp_portal,addons/auth_totp_portal,Hidden,,64,6,2,1,6,0,0,1,2,2
+MOD-032,barcodes,addons/barcodes,Supply Chain/Inventory,Scan and Parse Barcodes,98,9,5,7,11,0,0,1,2,1
+MOD-033,barcodes_gs1_nomenclature,addons/barcodes_gs1_nomenclature,Supply Chain/Inventory,Parse barcodes according to the GS1-128 specifications,65,8,4,2,6,0,0,0,2,2
+MOD-034,base_address_extended,addons/base_address_extended,Sales/Sales,Add extra fields on addresses,65,8,4,3,0,0,0,1,2,1
+MOD-035,base_automation,addons/base_automation,Sales/Sales,,92,10,3,7,8,2,1,1,3,5
+MOD-036,base_geolocalize,addons/base_geolocalize,Sales/Sales,,68,8,4,5,0,0,0,1,2,1
+MOD-037,base_import,addons/base_import,Hidden/Tools,,103,7,3,8,12,2,1,1,0,1
+MOD-038,base_import_module,addons/base_import_module,Hidden/Tools,,85,12,5,2,3,2,1,1,3,1
+MOD-039,base_install_request,addons/base_install_request,Hidden,,60,6,2,4,0,0,0,1,0,1
+MOD-040,base_report_paper_muncher,addons/base_report_paper_muncher,Hidden/Tools,Paper Muncher Engine,59,7,2,0,0,0,0,0,2,1
+MOD-041,base_report_wkhtmltox,addons/base_report_wkhtmltox,Hidden/Tools,wkhtmltopdf rendering engine,55,6,2,0,0,0,0,0,2,0
+MOD-042,base_setup,addons/base_setup,Hidden,,85,15,5,4,1,3,3,0,5,2
+MOD-043,base_sparse_field,addons/base_sparse_field,Hidden,Implementation of sparse fields.,71,7,3,1,0,0,0,1,2,1
+MOD-044,board,addons/board,Productivity,Build your own dashboards,92,6,2,4,6,2,1,1,0,1
+MOD-045,bus,addons/bus,Hidden,,141,41,12,1,34,4,6,0,15,2
+MOD-046,calendar,addons/calendar,Productivity/Calendar,Schedule employees' meetings,230,47,19,39,59,2,10,1,20,2
+MOD-047,calendar_sms,addons/calendar_sms,Productivity/Calendar,Send text messages as event reminders,64,8,4,3,0,0,0,0,2,2
+MOD-048,certificate,addons/certificate,Hidden/Tools,Manage certificate,66,9,3,4,0,0,0,1,2,1
+MOD-049,cloud_storage,addons/cloud_storage,Technical Settings,Store chatter attachments in the cloud,74,14,4,3,7,3,1,0,5,2
+MOD-050,cloud_storage_azure,addons/cloud_storage_azure,Technical Settings,Store chatter attachments in the Azure cloud,62,11,3,1,0,0,0,0,3,1
+MOD-051,cloud_storage_google,addons/cloud_storage_google,Technical Settings,Store chatter attachments in the Google cloud,64,12,3,1,0,0,0,0,4,1
+MOD-052,cloud_storage_migration,addons/cloud_storage_migration,Technical Settings,Migrate local attachments to cloud storage,62,8,4,4,0,0,0,1,2,1
+MOD-053,contacts,addons/contacts,Sales/CRM,Centralize your address book,68,7,3,2,1,0,0,0,2,3
+MOD-054,crm,addons/crm,Sales/CRM,Track leads and close opportunities,237,50,18,49,48,3,3,2,20,11
+MOD-055,crm_iap_enrich,addons/crm_iap_enrich,Sales/CRM,Enrich Leads/Opportunities using email address domain,62,8,3,5,0,0,0,0,3,2
+MOD-056,crm_iap_mine,addons/crm_iap_mine,Sales/CRM,"Generate Leads/Opportunities based on country, industries, size, etc.",77,13,8,7,2,0,0,1,3,2
+MOD-057,crm_livechat,addons/crm_livechat,Sales/CRM,Create lead from livechat conversation,85,15,6,6,14,0,0,1,5,2
+MOD-058,crm_mail_plugin,addons/crm_mail_plugin,Sales/CRM,Turn emails received in your mailbox into leads and log their content as internal notes.,57,6,0,2,0,2,1,0,2,2
+MOD-059,crm_sale_project,addons/crm_sale_project,Sales/CRM,Project Generation from Opportunities,63,10,4,4,0,0,0,0,2,2
+MOD-060,crm_sms,addons/crm_sms,Sales/CRM,Add SMS capabilities to CRM,55,4,0,1,0,0,0,1,2,2
+MOD-061,data_recycle,addons/data_recycle,Productivity/Data Cleaning,Find old records and archive/delete them,69,7,3,6,3,0,0,1,2,1
+MOD-062,delivery,addons/delivery,Sales/Delivery,,120,29,13,22,3,0,0,1,8,2
+MOD-063,digest,addons/digest,Marketing,,83,14,5,8,0,2,3,1,3,3
+MOD-064,event,addons/event,Marketing/Events,"Trainings, Conferences, Meetings, Exhibitions, Registrations",178,32,20,40,16,3,4,2,6,7
+MOD-065,event_booth,addons/event_booth,Marketing/Events,Manage event booths,76,12,6,11,0,0,0,1,4,1
+MOD-066,event_booth_sale,addons/event_booth_sale,Marketing/Events,Manage event booths sale,78,18,10,8,2,0,0,1,4,2
+MOD-067,event_crm,addons/event_crm,Marketing/Events,,74,14,7,9,1,0,0,1,5,2
+MOD-068,event_crm_sale,addons/event_crm_sale,Marketing/Events,,56,6,2,1,0,0,0,0,2,2
+MOD-069,event_product,addons/event_product,Marketing/Events,,66,12,7,5,0,0,0,0,3,3
+MOD-070,event_sale,addons/event_sale,Marketing/Events,,104,22,7,13,3,2,0,2,6,2
+MOD-071,event_sms,addons/event_sms,Marketing/Events,,62,9,5,2,0,0,0,1,2,2
+MOD-072,fleet,addons/fleet,Human Resources/Fleet,Manage your fleet and track car costs,182,30,15,15,2,0,0,2,8,2
+MOD-073,fleet_maintenance,addons/fleet_maintenance,Human Resources,Integrates Fleet and Maintenance,57,5,3,3,0,0,0,1,0,2
+MOD-074,gamification,addons/gamification,Human Resources,,123,19,10,19,0,0,0,1,4,1
+MOD-075,gamification_sale_crm,addons/gamification_sale_crm,Sales/CRM,,62,2,0,2,0,0,0,0,0,2
+MOD-076,google_account,addons/google_account,Hidden/Tools,,55,6,2,0,0,2,1,0,0,1
+MOD-077,google_address_autocomplete,addons/google_address_autocomplete,Hidden/Tools,Assist with automatic completion & suggestions when filling address,72,10,3,4,4,2,2,0,3,1
+MOD-078,google_calendar,addons/google_calendar,Productivity,,125,35,12,6,4,3,1,1,11,2
+MOD-079,google_gmail,addons/google_gmail,Hidden,,69,13,6,4,0,2,2,0,2,1
+MOD-080,google_recaptcha,addons/google_recaptcha,Hidden,,60,5,3,2,2,0,0,0,0,1
+MOD-081,hr,addons/hr,Human Resources/Employees,Centralize employee information,315,70,30,55,79,3,3,2,28,6
+MOD-082,hr_address_extended,addons/hr_address_extended,Human Resources/Employees,Centralize employee information,57,7,3,1,0,0,0,0,2,2
+MOD-083,hr_attendance,addons/hr_attendance,Human Resources/Attendances,Track employee attendance,169,29,12,29,27,2,15,2,13,4
+MOD-084,hr_calendar,addons/hr_calendar,Human Resources/Employees,,77,14,4,6,6,0,0,1,6,2
+MOD-085,hr_calendar_google,addons/hr_calendar_google,Human Resources/Remote Work,,57,7,3,1,0,0,0,0,2,2
+MOD-086,hr_expense,addons/hr_expense,Human Resources/Expenses,"Submit, validate and reinvoice employee expenses",161,38,18,27,14,2,0,2,9,3
+MOD-087,hr_fleet,addons/hr_fleet,Human Resources,Get history of driven cars by employees,70,13,9,5,2,0,0,1,2,2
+MOD-088,hr_gamification,addons/hr_gamification,Human Resources,,85,11,5,4,6,0,0,2,2,2
+MOD-089,hr_holidays,addons/hr_holidays,Human Resources/Time Off,Allocate time off and follow leave requests,330,88,25,53,74,3,5,2,44,3
+MOD-090,hr_holidays_attendance,addons/hr_holidays_attendance,Human Resources,Attendance Holidays,83,26,11,7,0,2,0,1,9,2
+MOD-091,hr_livechat,addons/hr_livechat,Human Resources,,54,2,0,3,0,0,0,0,0,2
+MOD-092,hr_maintenance,addons/hr_maintenance,Human Resources,"Equipment, Assets, Internal Hardware, Allocation Tracking",65,9,5,3,0,0,0,1,2,2
+MOD-093,hr_presence,addons/hr_presence,Human Resources,,68,9,7,6,3,0,0,1,0,3
+MOD-094,hr_recruitment,addons/hr_recruitment,Human Resources/Recruitment,Track your recruitment pipeline,188,40,25,34,18,0,0,2,8,6
+MOD-095,hr_recruitment_skills,addons/hr_recruitment_skills,Human Resources/Recruitment,Manage skills of your employees,68,9,4,6,2,0,0,1,3,2
+MOD-096,hr_recruitment_sms,addons/hr_recruitment_sms,Human Resources/Recruitment,Mass mailing sms to job applicants,55,4,2,2,0,0,0,0,0,2
+MOD-097,hr_recruitment_survey,addons/hr_recruitment_survey,Human Resources,Surveys,80,16,5,9,0,2,0,1,5,2
+MOD-098,hr_skills,addons/hr_skills,Human Resources/Employees,"Manage skills, knowledge and resume of your employees",139,29,13,27,21,2,1,1,6,1
+MOD-099,hr_skills_event,addons/hr_skills_event,Hidden,Link training events to resume of your employees,60,7,3,3,1,0,0,0,2,2
+MOD-100,hr_skills_slides,addons/hr_skills_slides,Human Resources/Employees,Add completed courses to resume of your employees,66,9,5,7,0,0,0,0,2,2
+MOD-101,hr_skills_survey,addons/hr_skills_survey,Human Resources/Employees,Add certification to resume of your employees,61,8,4,4,0,0,0,0,2,2
+MOD-102,hr_timesheet,addons/hr_timesheet,Services/Timesheets,Track employee time on tasks,164,38,16,22,21,3,1,2,12,4
+MOD-103,hr_timesheet_attendance,addons/hr_timesheet_attendance,Human Resources/Attendances,,72,9,2,1,0,0,0,1,2,2
+MOD-104,hr_work_entry,addons/hr_work_entry,Human Resources/Employees,Manage work entries,97,23,12,15,5,2,1,1,5,1
+MOD-105,html_builder,addons/html_builder,,Generic html builder,868,7,3,81,214,0,0,0,2,1
+MOD-106,html_editor,addons/html_editor,Hidden,A Html Editor component and plugin system.,638,26,10,75,395,3,17,1,11,3
+MOD-107,http_routing,addons/http_routing,Hidden,Web Routing,63,11,4,2,0,2,2,0,3,1
+MOD-108,iap,addons/iap,Hidden/Tools,Basic models and helpers to support In-App Purchase.,86,13,6,5,1,0,0,1,3,2
+MOD-109,iap_crm,addons/iap_crm,Hidden/Tools,Bridge between IAP and CRM,53,4,2,0,0,0,0,0,0,2
+MOD-110,iap_mail,addons/iap_mail,Hidden/Tools,Bridge between IAP and mail,58,4,2,2,1,0,0,0,0,2
+MOD-111,im_livechat,addons/im_livechat,Website/Live Chat,Chat with your website visitors,423,70,22,78,185,20,38,2,24,4
+MOD-112,iot_drivers,addons/iot_drivers,Hidden,Connect the Web Client to Hardware Peripherals,79,51,0,0,19,5,0,0,0,0
+MOD-113,iot_webserial,addons/iot_webserial,Administration/IoT,Interface with serial devices directly via the browser using Web Serial.,10,2,0,1,6,0,0,0,0,1
+MOD-114,l10n_account_edi_ubl_cii_tests,addons/l10n_account_edi_ubl_cii_tests,Accounting/Accounting,,55,13,0,42,0,0,0,0,11,6
+MOD-115,l10n_account_withholding_tax,addons/l10n_account_withholding_tax,Accounting/Localizations,,35,19,9,8,2,0,0,1,3,1
+MOD-116,l10n_account_withholding_tax_pos,addons/l10n_account_withholding_tax_pos,Accounting/Localizations,,4,4,2,0,0,0,0,0,0,2
+MOD-117,l10n_ae,addons/l10n_ae,Accounting/Localizations/Account Charts,,17,5,3,5,0,0,0,0,0,2
+MOD-118,l10n_ae_pos,addons/l10n_ae_pos,Accounting/Localizations/Point of Sale,,9,4,0,1,2,0,0,0,0,2
+MOD-119,l10n_anz_ubl_pint,addons/l10n_anz_ubl_pint,Accounting/Localizations/EDI,,9,8,4,1,0,0,0,0,2,1
+MOD-120,l10n_ar,addons/l10n_ar,Accounting/Localizations/Account Charts,,90,35,21,32,0,2,0,1,4,2
+MOD-121,l10n_ar_pos,addons/l10n_ar_pos,Accounting/Localizations/Point of Sale,,20,10,5,2,6,0,0,0,3,2
+MOD-122,l10n_ar_stock,addons/l10n_ar_stock,Accounting/Localizations,,19,10,4,7,0,0,0,0,4,2
+MOD-123,l10n_ar_website_sale,addons/l10n_ar_website_sale,Accounting/Localizations/Website,,13,8,4,2,1,0,0,0,2,2
+MOD-124,l10n_ar_withholding,addons/l10n_ar_withholding,Accounting/Localizations,,33,19,10,5,0,0,0,1,2,3
+MOD-125,l10n_at,addons/l10n_at,Accounting/Localizations/Account Charts,Austrian Standardized Charts & Tax,16,6,3,3,0,0,0,0,0,3
+MOD-126,l10n_au,addons/l10n_au,Accounting/Localizations/Account Charts,,29,7,5,16,0,0,0,0,0,1
+MOD-127,l10n_bd,addons/l10n_bd,Accounting/Localizations/Account Charts,,15,6,2,2,0,0,0,0,0,2
+MOD-128,l10n_be,addons/l10n_be,Accounting/Localizations/Account Charts,,27,12,8,4,0,0,0,0,0,2
+MOD-129,l10n_be_pos,addons/l10n_be_pos,Sales/Point of Sale,Link module between point_of_sale and l10n_be,8,4,2,0,0,0,0,0,0,3
+MOD-130,l10n_be_pos_restaurant,addons/l10n_be_pos_restaurant,Sales/Point of Sale,,10,5,3,0,0,0,0,0,0,2
+MOD-131,l10n_be_pos_sale,addons/l10n_be_pos_sale,Sales/Point of Sale,Link module between pos_sale and l10n_be,12,6,2,0,2,0,0,0,2,2
+MOD-132,l10n_bf,addons/l10n_bf,Accounting/Localizations/Account Charts,,15,5,3,2,0,0,0,0,0,2
+MOD-133,l10n_bg,addons/l10n_bg,Accounting/Localizations/Account Charts,,12,4,2,2,0,0,0,0,0,1
+MOD-134,l10n_bg_ledger,addons/l10n_bg_ledger,Accounting/Localizations/Account Charts,,9,5,3,2,0,0,0,0,0,1
+MOD-135,l10n_bh,addons/l10n_bh,Accounting/Localizations/Account Charts,,17,7,3,4,0,0,0,0,2,2
+MOD-136,l10n_bh_pos,addons/l10n_bh_pos,Accounting/Localizations/Point of Sale,,10,6,2,1,2,0,0,0,0,2
+MOD-137,l10n_bj,addons/l10n_bj,Accounting/Localizations/Account Charts,,15,5,3,2,0,0,0,0,0,2
+MOD-138,l10n_bo,addons/l10n_bo,Accounting/Localizations/Account Charts,,12,4,2,2,0,0,0,0,0,1
+MOD-139,l10n_br,addons/l10n_br,Accounting/Localizations/Account Charts,,50,24,12,14,1,0,0,1,3,3
+MOD-140,l10n_br_sales,addons/l10n_br_sales,Sales/Sales,,9,4,2,3,0,0,0,0,0,2
+MOD-141,l10n_br_website_sale,addons/l10n_br_website_sale,Sales/Sales,,5,2,0,1,0,0,0,0,0,2
+MOD-142,l10n_ca,addons/l10n_ca,Accounting/Localizations/Account Charts,,24,10,5,7,0,0,0,0,2,1
+MOD-143,l10n_cd,addons/l10n_cd,Accounting/Localizations/Account Charts,,15,5,3,2,0,0,0,0,0,2
+MOD-144,l10n_cf,addons/l10n_cf,Accounting/Localizations/Account Charts,,15,5,3,2,0,0,0,0,0,2
+MOD-145,l10n_cg,addons/l10n_cg,Accounting/Localizations/Account Charts,,15,5,3,2,0,0,0,0,0,2
+MOD-146,l10n_ch,addons/l10n_ch,Accounting/Localizations/Account Charts,,57,25,8,11,0,0,0,1,5,3
+MOD-147,l10n_ch_pos,addons/l10n_ch_pos,Accounting/Localizations/Point of Sale,,11,7,2,0,0,0,0,0,3,2
+MOD-148,l10n_ci,addons/l10n_ci,Accounting/Localizations/Account Charts,,15,5,3,2,0,0,0,0,0,2
+MOD-149,l10n_cl,addons/l10n_cl,Accounting/Localizations/Account Charts,,51,20,11,17,0,0,0,0,2,4
+MOD-150,l10n_cm,addons/l10n_cm,Accounting/Localizations/Account Charts,,15,5,3,2,0,0,0,0,0,2
+MOD-151,l10n_cn,addons/l10n_cn,Accounting/Localizations/Account Charts,,36,15,9,11,0,0,0,1,2,2
+MOD-152,l10n_co,addons/l10n_co,Accounting/Localizations/Account Charts,,16,8,3,2,0,0,0,0,0,2
+MOD-153,l10n_co_pos,addons/l10n_co_pos,Accounting/Localizations/Point of Sale,,14,8,2,1,3,0,0,0,2,2
+MOD-154,l10n_cr,addons/l10n_cr,Accounting/Localizations/Account Charts,,10,4,2,1,0,0,0,0,0,1
+MOD-155,l10n_cy,addons/l10n_cy,Accounting/Localizations/Account Charts,,14,4,2,3,0,0,0,0,0,2
+MOD-156,l10n_cz,addons/l10n_cz,Accounting/Localizations/Account Charts,,29,12,6,8,0,0,0,1,3,2
+MOD-157,l10n_de,addons/l10n_de,Accounting/Localizations/Account Charts,,35,18,10,5,0,0,0,0,3,3
+MOD-158,l10n_din5008,addons/l10n_din5008,Accounting/Localizations,,17,7,5,5,0,0,0,0,0,1
+MOD-159,l10n_din5008_expense,addons/l10n_din5008_expense,Accounting/Localizations,,7,2,0,1,0,0,0,0,0,2
+MOD-160,l10n_din5008_purchase,addons/l10n_din5008_purchase,Accounting/Localizations,,7,2,0,1,0,0,0,0,0,2
+MOD-161,l10n_din5008_repair,addons/l10n_din5008_repair,Accounting/Localizations,,10,4,2,2,0,0,0,0,0,2
+MOD-162,l10n_din5008_sale,addons/l10n_din5008_sale,Accounting/Localizations,,8,2,0,2,0,0,0,0,0,2
+MOD-163,l10n_din5008_stock,addons/l10n_din5008_stock,Accounting/Localizations,,8,2,0,2,0,0,0,0,0,2
+MOD-164,l10n_dk,addons/l10n_dk,Accounting/Localizations/Account Charts,,66,32,12,20,2,2,3,1,5,3
+MOD-165,l10n_dk_fik,addons/l10n_dk_fik,Accounting/Localizations,Use FIK Number as Payment reference,8,5,3,1,0,0,0,0,0,1
+MOD-166,l10n_do,addons/l10n_do,Accounting/Localizations/Account Charts,,23,9,5,8,0,0,0,0,0,2
+MOD-167,l10n_dz,addons/l10n_dz,Accounting/Localizations/Account Charts,,13,4,2,2,0,0,0,0,0,1
+MOD-168,l10n_ec,addons/l10n_ec,Accounting/Localizations/Account Charts,,39,18,10,9,0,0,0,1,2,4
+MOD-169,l10n_ec_sale,addons/l10n_ec_sale,Accounting/Localizations/Sale,,13,9,3,2,0,2,0,0,2,2
+MOD-170,l10n_ee,addons/l10n_ee,Accounting/Localizations/Account Charts,,18,9,4,3,0,0,0,0,0,2
+MOD-171,l10n_eg,addons/l10n_eg,Accounting/Localizations/Account Charts,,17,5,3,4,0,0,0,0,0,2
+MOD-172,l10n_eg_edi_eta,addons/l10n_eg_edi_eta,account,Egypt Tax Authority Invoice Integration,43,24,14,11,1,0,0,1,3,1
+MOD-173,l10n_eg_edi_pos,addons/l10n_eg_edi_pos,Accounting/Localizations/EDI,Submit POS receipts to the Egyptian Tax Authority,30,17,5,5,6,0,0,0,8,2
+MOD-174,l10n_es,addons/l10n_es,Accounting/Localizations/Account Charts,,52,19,12,20,0,0,0,0,2,2
+MOD-175,l10n_es_edi_facturae,addons/l10n_es_edi_facturae,Accounting/Localizations/EDI,,49,17,9,24,0,0,0,1,2,2
+MOD-176,l10n_es_edi_sii,addons/l10n_es_edi_sii,Accounting/Localizations/EDI,,28,17,8,6,0,0,0,1,5,2
+MOD-177,l10n_es_edi_tbai,addons/l10n_es_edi_tbai,Accounting/Localizations/EDI,,60,24,11,29,0,0,0,1,10,2
+MOD-178,l10n_es_edi_tbai_pos,addons/l10n_es_edi_tbai_pos,Accounting/Localizations/Point of Sale,,23,13,4,3,5,0,0,0,5,2
+MOD-179,l10n_es_edi_verifactu,addons/l10n_es_edi_verifactu,Accounting/Localizations/EDI,Module for sending Spanish Veri*Factu XML to the AEAT,57,22,11,10,0,0,0,1,5,2
+MOD-180,l10n_es_edi_verifactu_pos,addons/l10n_es_edi_verifactu_pos,Accounting/Localizations/Point of Sale,Add Veri*Factu support to Point of Sale,26,13,6,3,5,0,0,1,3,2
+MOD-181,l10n_es_pos,addons/l10n_es_pos,Accounting/Localizations/Point of Sale,Spanish localization for Point of Sale,25,14,6,3,6,0,0,0,4,2
+MOD-182,l10n_es_website_sale,addons/l10n_es_website_sale,Accounting/Localizations/Website,,15,12,6,1,0,2,1,0,2,2
+MOD-183,l10n_es_website_sale_id_type,addons/l10n_es_website_sale_id_type,Accounting/Localizations/Website,Let customers pick the type of their identification document at checkout,11,8,2,1,1,2,0,0,2,1
+MOD-184,l10n_et,addons/l10n_et,Accounting/Localizations/Account Charts,,11,4,2,2,0,0,0,0,0,1
+MOD-185,l10n_eu_account_vies,addons/l10n_eu_account_vies,Accounting/Accounting,,35,10,3,2,0,2,1,0,3,1
+MOD-186,l10n_eu_oss,addons/l10n_eu_oss,Accounting/Localizations,,34,11,7,1,0,0,0,0,2,1
+MOD-187,l10n_fi,addons/l10n_fi,Accounting/Localizations/Account Charts,,19,10,4,3,0,0,0,0,3,2
+MOD-188,l10n_fi_sale,addons/l10n_fi_sale,Sales/Sales,,6,4,2,0,0,0,0,0,0,2
+MOD-189,l10n_fr,addons/l10n_fr,Accounting/Localizations/Account Charts,,12,7,3,3,0,0,0,0,2,1
+MOD-190,l10n_fr_account,addons/l10n_fr_account,Accounting/Localizations/Account Charts,,39,23,14,6,0,0,0,1,4,3
+MOD-191,l10n_fr_facturx_chorus_pro,addons/l10n_fr_facturx_chorus_pro,Accounting/Localizations/EDI,,16,9,3,5,0,0,0,0,4,3
+MOD-192,l10n_fr_hr_holidays,addons/l10n_fr_hr_holidays,Human Resources/Time Off,Management of leaves for part-time workers in France,14,10,5,2,0,0,0,0,3,1
+MOD-193,l10n_fr_payment,addons/l10n_fr_payment,,Applies CAWL/Worldline branding rules for French companies.,8,5,3,0,0,0,0,0,0,2
+MOD-194,l10n_fr_pdp,addons/l10n_fr_pdp,Accounting/Localizations/EDI,,100,43,18,48,2,3,2,1,9,3
+MOD-195,l10n_fr_pdp_penalty_rate,addons/l10n_fr_pdp_penalty_rate,Accounting/Localizations/EDI,,15,11,6,2,0,0,0,1,3,1
+MOD-196,l10n_fr_pdp_pos,addons/l10n_fr_pdp_pos,Accounting/Localizations/Reporting,Flux 10 e-reporting for POS,9,7,3,0,0,0,0,0,2,2
+MOD-197,l10n_fr_pos_cert,addons/l10n_fr_pos_cert,Accounting/Localizations/Point of Sale,,39,16,5,8,11,0,0,1,5,2
+MOD-198,l10n_ga,addons/l10n_ga,Accounting/Localizations/Account Charts,,15,5,3,2,0,0,0,0,0,2
+MOD-199,l10n_gcc_invoice,addons/l10n_gcc_invoice,Accounting/Localizations,,14,9,5,2,0,0,0,0,2,1
+MOD-200,l10n_gcc_invoice_stock_account,addons/l10n_gcc_invoice_stock_account,Accounting/Localizations,,3,2,0,1,0,0,0,0,0,2
+MOD-201,l10n_gcc_pos,addons/l10n_gcc_pos,Accounting/Localizations/Point of Sale,,15,10,3,2,3,0,0,0,3,2
+MOD-202,l10n_ge,addons/l10n_ge,Accounting/Localizations/Account Charts,Georgian accounting localization package,13,4,2,3,0,0,0,0,0,1
+MOD-203,l10n_gf,addons/l10n_gf,Accounting/Localizations/Account Charts,,4,2,0,0,0,0,0,0,0,2
+MOD-204,l10n_gn,addons/l10n_gn,Accounting/Localizations/Account Charts,,15,5,3,2,0,0,0,0,0,2
+MOD-205,l10n_gp,addons/l10n_gp,Accounting/Localizations/Account Charts,,4,2,0,0,0,0,0,0,0,2
+MOD-206,l10n_gq,addons/l10n_gq,Accounting/Localizations/Account Charts,,17,5,3,2,0,0,0,0,0,2
+MOD-207,l10n_gr,addons/l10n_gr,Accounting/Localizations/Account Charts,,12,4,2,2,0,0,0,0,0,2
+MOD-208,l10n_gr_edi,addons/l10n_gr_edi,Accounting/Localizations,Connect to myDATA API implementation for Greece,41,21,13,16,0,0,0,1,3,2
+MOD-209,l10n_gr_edi_delivery_note,addons/l10n_gr_edi_delivery_note,Accounting/Localizations,Transmit Greece myDATA EDI for Delivery Notes,16,9,5,4,0,0,0,1,2,4
+MOD-210,l10n_gr_edi_e_invoo,addons/l10n_gr_edi_e_invoo,Accounting/Localizations/EDI,,15,10,6,2,0,0,0,0,2,2
+MOD-211,l10n_gr_edi_e_invoo_bridge,addons/l10n_gr_edi_e_invoo_bridge,Accounting/Localizations/EDI,,15,10,5,2,0,0,0,0,2,2
+MOD-212,l10n_gt,addons/l10n_gt,Accounting/Localizations/Account Charts,,15,7,3,1,0,0,0,0,0,1
+MOD-213,l10n_gw,addons/l10n_gw,Accounting/Localizations/Account Charts,,15,5,3,2,0,0,0,0,0,2
+MOD-214,l10n_hk,addons/l10n_hk,Accounting/Localizations/Account Charts,,16,7,3,4,0,0,0,0,2,2
+MOD-215,l10n_hn,addons/l10n_hn,Accounting/Localizations/Account Charts,,10,4,2,1,0,0,0,0,0,2
+MOD-216,l10n_hr,addons/l10n_hr,Accounting/Localizations/Account Charts,,13,4,2,3,0,0,0,0,0,1
+MOD-217,l10n_hr_edi,addons/l10n_hr_edi,Accounting/Localizations/Reporting,,52,26,14,20,0,0,0,1,6,2
+MOD-218,l10n_hr_kuna,addons/l10n_hr_kuna,Accounting/Localizations/Account Charts,,12,4,2,2,0,0,0,0,0,1
+MOD-219,l10n_hu,addons/l10n_hu,Accounting/Localizations/Account Charts,,15,7,4,2,0,0,0,0,0,1
+MOD-220,l10n_hu_edi,addons/l10n_hu_edi,Accounting/Localizations/EDI,,98,29,11,57,1,0,0,1,10,2
+MOD-221,l10n_id,addons/l10n_id,Accounting/Localizations/Account Charts,,28,15,5,5,0,2,1,1,3,1
+MOD-222,l10n_id_efaktur_coretax,addons/l10n_id_efaktur_coretax,Accounting/Localizations/EDI,,33,17,9,10,0,2,1,1,4,1
+MOD-223,l10n_id_pos,addons/l10n_id_pos,Accounting/Localizations/Point of Sale,,14,8,4,0,4,0,0,0,2,2
+MOD-224,l10n_id_pos_self_order_qris,addons/l10n_id_pos_self_order_qris,Sales/Point of Sale,Accept QRIS QR code payments in a kiosk.,9,4,2,1,2,0,0,0,0,2
+MOD-225,l10n_ie,addons/l10n_ie,Accounting/Localizations/Account Charts,,14,7,4,2,0,0,0,0,0,2
+MOD-226,l10n_il,addons/l10n_il,Accounting/Localizations/Account Charts,,14,5,2,3,0,0,0,0,0,1
+MOD-227,l10n_in,addons/l10n_in,Accounting/Localizations/Account Charts,,87,38,19,31,3,0,0,2,9,5
+MOD-228,l10n_in_boe,addons/l10n_in_boe,Accounting/Localizations,,13,8,2,2,0,0,0,1,2,2
+MOD-229,l10n_in_edi,addons/l10n_in_edi,Accounting/Localizations/EDI,,25,15,9,6,0,0,0,1,2,1
+MOD-230,l10n_in_ewaybill,addons/l10n_in_ewaybill,Accounting/Localizations,,30,18,8,8,0,0,0,1,2,1
+MOD-231,l10n_in_ewaybill_irn,addons/l10n_in_ewaybill_irn,Accounting/Localizations,,10,6,2,2,0,0,0,0,2,2
+MOD-232,l10n_in_ewaybill_stock,addons/l10n_in_ewaybill_stock,Accounting/Localizations/EDI,,15,8,4,4,0,0,0,1,2,2
+MOD-233,l10n_in_hr_holidays,addons/l10n_in_hr_holidays,Human Resources/Time Off,Leave Management of Indian Localization,18,10,5,4,1,0,0,1,3,1
+MOD-234,l10n_in_pos,addons/l10n_in_pos,Accounting/Localizations/Point of Sale,,56,27,14,13,14,0,0,0,9,2
+MOD-235,l10n_in_purchase_stock,addons/l10n_in_purchase_stock,Accounting/Localizations/Purchase,Get warehouse address if the bill is created from Purchase Order,10,8,4,0,0,0,0,0,2,2
+MOD-236,l10n_in_sale,addons/l10n_in_sale,Accounting/Localizations/Sale,,14,10,3,2,0,0,0,0,3,2
+MOD-237,l10n_in_sale_stock,addons/l10n_in_sale_stock,Accounting/Localizations/Sale,Get warehouse address if the invoice is created from Sale Order,8,6,4,0,0,0,0,0,0,3
+MOD-238,l10n_in_stock,addons/l10n_in_stock,Accounting/Localizations,,10,5,3,3,0,0,0,0,0,3
+MOD-239,l10n_iq,addons/l10n_iq,Accounting/Localizations/Account Charts,,10,4,2,1,0,0,0,0,0,1
+MOD-240,l10n_it,addons/l10n_it,Accounting/Localizations/Account Charts,,33,15,5,12,0,0,0,0,0,2
+MOD-241,l10n_it_edi,addons/l10n_it_edi,Accounting/Localizations/EDI,,119,38,13,68,2,2,0,1,14,3
+MOD-242,l10n_it_edi_doi,addons/l10n_it_edi_doi,Accounting/Localizations,,26,14,9,7,0,0,0,1,3,2
+MOD-243,l10n_it_edi_sale,addons/l10n_it_edi_sale,Accounting/Localizations/EDI,,9,6,2,1,0,0,0,0,2,2
+MOD-244,l10n_it_stock_ddt,addons/l10n_it_stock_ddt,Accounting/Localizations/EDI,,16,8,3,6,0,0,0,0,3,3
+MOD-245,l10n_jo,addons/l10n_jo,Accounting/Localizations/Account Charts,,13,4,2,3,0,0,0,0,0,1
+MOD-246,l10n_jo_edi,addons/l10n_jo_edi,Accounting/Localizations/EDI,Electronic Invoicing for Jordan UBL 2.1,33,15,8,14,1,0,0,0,5,2
+MOD-247,l10n_jo_edi_pos,addons/l10n_jo_edi_pos,Accounting/Localizations/EDI,,30,16,7,6,6,0,0,0,5,2
+MOD-248,l10n_jp,addons/l10n_jp,Accounting/Localizations/Account Charts,,25,5,2,12,0,0,0,0,0,1
+MOD-249,l10n_jp_ubl_pint,addons/l10n_jp_ubl_pint,Accounting/Localizations/EDI,,11,8,4,1,0,0,0,0,2,1
+MOD-250,l10n_ke,addons/l10n_ke,Accounting/Localizations/Account Charts,,22,8,6,6,0,0,0,1,0,1
+MOD-251,l10n_ke_edi_tremol,addons/l10n_ke_edi_tremol,Accounting/Localizations/EDI,Kenya Tremol Device EDI Integration,24,13,6,5,3,0,0,0,3,1
+MOD-252,l10n_kh,addons/l10n_kh,Accounting/Localizations/Account Charts,,16,5,3,5,0,0,0,0,0,2
+MOD-253,l10n_km,addons/l10n_km,Accounting/Localizations/Account Charts,,16,5,3,2,0,0,0,0,0,2
+MOD-254,l10n_kr,addons/l10n_kr,Accounting/Localizations/Account Charts,,22,8,4,6,0,0,0,0,2,1
+MOD-255,l10n_kr_sale,addons/l10n_kr_sale,Accounting/Localizations/Sale,,7,4,2,1,0,0,0,0,0,2
+MOD-256,l10n_kw,addons/l10n_kw,Accounting/Localizations/Account Charts,,8,4,2,1,0,0,0,0,0,2
+MOD-257,l10n_kz,addons/l10n_kz,Accounting/Localizations/Account Charts,,12,4,2,2,0,0,0,0,0,1
+MOD-258,l10n_la,addons/l10n_la,Accounting/Localizations/Account Charts,"Chart of accounts, VAT taxes and monthly VAT return for Laos",13,4,2,2,0,0,0,0,0,1
+MOD-259,l10n_latam_check,addons/l10n_latam_check,Accounting/Localizations,Checks Management,28,18,8,6,0,0,0,1,4,1
+MOD-260,l10n_latam_invoice_document,addons/l10n_latam_invoice_document,Accounting/Localizations,LATAM Document Types,26,15,7,7,0,0,0,1,0,2
+MOD-261,l10n_lb_account,addons/l10n_lb_account,Accounting/Localizations/Account Charts,,12,4,2,1,0,0,0,0,0,1
+MOD-262,l10n_lk,addons/l10n_lk,Accounting/Localizations/Account Charts,Provides accounting localizations for Sri Lanka.,22,10,6,6,0,0,0,0,2,2
+MOD-263,l10n_lt,addons/l10n_lt,Accounting/Localizations/Account Charts,,16,6,4,4,0,0,0,0,0,2
+MOD-264,l10n_lu,addons/l10n_lu,Accounting/Localizations/Account Charts,,21,6,2,6,0,0,0,0,0,2
+MOD-265,l10n_lv,addons/l10n_lv,Accounting/Localizations/Account Charts,,14,4,2,2,0,0,0,0,0,2
+MOD-266,l10n_ma,addons/l10n_ma,Accounting/Localizations/Account Charts,,19,8,4,3,0,2,0,0,0,2
+MOD-267,l10n_mc,addons/l10n_mc,Accounting/Localizations/Account Charts,,4,2,0,0,0,0,0,0,0,2
+MOD-268,l10n_mk,addons/l10n_mk,Accounting/Localizations/Account Charts,,12,4,2,2,0,0,0,0,0,1
+MOD-269,l10n_ml,addons/l10n_ml,Accounting/Localizations/Account Charts,,15,5,3,2,0,0,0,0,0,2
+MOD-270,l10n_mm,addons/l10n_mm,Accounting/Localizations/Account Charts,,15,7,3,3,0,0,0,0,2,2
+MOD-271,l10n_mn,addons/l10n_mn,Accounting/Localizations/Account Charts,,13,4,2,2,0,0,0,0,0,1
+MOD-272,l10n_mq,addons/l10n_mq,Accounting/Localizations/Account Charts,,4,2,0,0,0,0,0,0,0,2
+MOD-273,l10n_mr,addons/l10n_mr,Accounting/Localizations/Account Charts,,13,4,2,2,0,0,0,0,0,1
+MOD-274,l10n_mt,addons/l10n_mt,Accounting/Localizations/Account Charts,,12,5,2,3,0,0,0,0,0,2
+MOD-275,l10n_mt_pos,addons/l10n_mt_pos,Accounting/Localizations/Point of Sale,,7,4,0,2,0,0,0,1,0,1
+MOD-276,l10n_mu_account,addons/l10n_mu_account,Accounting/Localizations/Account Charts,,15,6,4,3,0,0,0,0,0,1
+MOD-277,l10n_mx,addons/l10n_mx,Accounting/Localizations/Account Charts,,31,16,7,6,0,0,0,0,4,1
+MOD-278,l10n_my,addons/l10n_my,Accounting/Localizations/Account Charts,,20,9,4,3,0,0,0,0,2,2
+MOD-279,l10n_my_edi,addons/l10n_my_edi,Accounting/Localizations/EDI,E-invoicing using MyInvois,59,27,14,27,0,2,0,1,6,3
+MOD-280,l10n_my_edi_pos,addons/l10n_my_edi_pos,Accounting/Localizations/EDI,Consolidated E-invoicing using MyInvois,26,13,5,10,1,2,0,0,2,2
+MOD-281,l10n_my_ubl_pint,addons/l10n_my_ubl_pint,Accounting/Localizations/EDI,,16,9,5,5,0,0,0,0,2,1
+MOD-282,l10n_mz,addons/l10n_mz,Accounting/Localizations/Account Charts,,12,4,2,2,0,0,0,0,0,2
+MOD-283,l10n_ne,addons/l10n_ne,Accounting/Localizations/Account Charts,,15,5,3,2,0,0,0,0,0,2
+MOD-284,l10n_ng,addons/l10n_ng,Accounting/Localizations/Account Charts,,10,4,2,3,0,0,0,0,0,1
+MOD-285,l10n_nl,addons/l10n_nl,Accounting/Localizations/Account Charts,,24,12,6,5,0,0,0,0,0,2
+MOD-286,l10n_no,addons/l10n_no,Accounting/Localizations/Account Charts,,18,10,7,3,0,0,0,0,0,2
+MOD-287,l10n_nz,addons/l10n_nz,Accounting/Localizations/Account Charts,,15,7,3,4,0,0,0,0,0,1
+MOD-288,l10n_om,addons/l10n_om,Accounting/Localizations/Account Charts,,12,4,2,2,0,0,0,0,0,2
+MOD-289,l10n_pa,addons/l10n_pa,Accounting/Localizations/Account Charts,,30,12,6,7,0,0,0,1,0,4
+MOD-290,l10n_pe,addons/l10n_pe,Accounting/Localizations/Account Charts,,39,20,9,7,1,2,1,1,2,3
+MOD-291,l10n_pe_pos,addons/l10n_pe_pos,Accounting/Localizations/Point of Sale,,22,12,6,3,5,0,0,0,2,2
+MOD-292,l10n_ph,addons/l10n_ph,Accounting/Localizations/Account Charts,This is the module to manage the accounting chart for The Philippines.,34,16,9,12,0,0,0,0,4,2
+MOD-293,l10n_ph_invoice,addons/l10n_ph_invoice,Accounting/Localizations,Apply Philippine SC/PWD discount privileges on customer invoices and credit notes.,19,12,6,4,0,0,0,1,2,1
+MOD-294,l10n_ph_sale,addons/l10n_ph_sale,Accounting/Localizations,Apply Philippine SC/PWD discount privileges on quotations and sale orders.,14,10,3,1,0,0,0,1,2,2
+MOD-295,l10n_pk,addons/l10n_pk,Accounting/Localizations/Account Charts,,23,13,6,6,0,0,0,0,2,4
+MOD-296,l10n_pk_edi,addons/l10n_pk_edi,Accounting/Localizations/EDI,Electronic Invoicing for Pakistan FBR(v1.12),36,21,14,11,0,0,0,1,2,4
+MOD-297,l10n_pk_edi_pos,addons/l10n_pk_edi_pos,Accounting/Localizations/Point of Sale,,31,13,7,10,8,0,0,0,2,4
+MOD-298,l10n_pl,addons/l10n_pl,Accounting/Localizations/Account Charts,,38,20,10,8,0,0,0,1,4,2
+MOD-299,l10n_pl_edi,addons/l10n_pl_edi,Accounting/Localizations,Support for FA(3) electronic invoices in Poland via KSeF,40,15,7,19,0,0,0,0,2,2
+MOD-300,l10n_pl_edi_jst,addons/l10n_pl_edi_jst,Accounting/Localizations,Support for Local Government Unit (LGU) in the FA(3) format,12,7,3,3,0,0,0,0,2,2
+MOD-301,l10n_pt,addons/l10n_pt,Accounting/Localizations/Account Charts,,17,8,4,2,1,0,0,0,2,3
+MOD-302,l10n_qa,addons/l10n_qa,Accounting/Localizations/Account Charts,,8,4,2,1,0,0,0,0,0,2
+MOD-303,l10n_re,addons/l10n_re,Accounting/Localizations/Account Charts,,4,2,0,0,0,0,0,0,0,2
+MOD-304,l10n_ro,addons/l10n_ro,Accounting/Localizations/Account Charts,,15,6,3,3,0,0,0,0,0,2
+MOD-305,l10n_ro_edi,addons/l10n_ro_edi,Accounting/Localizations/EDI,E-Invoice implementation for Romania,43,22,11,15,1,2,2,1,4,2
+MOD-306,l10n_ro_edi_stock,addons/l10n_ro_edi_stock,Accounting/Localizations/EDI,,29,13,6,13,1,0,0,0,5,2
+MOD-307,l10n_rs,addons/l10n_rs,Accounting/Localizations/Account Charts,,16,5,3,5,0,0,0,0,0,1
+MOD-308,l10n_rs_edi,addons/l10n_rs_edi,Accounting/Localizations/EDI,E-Invoice implementation for Serbia,21,13,7,5,0,0,0,0,2,2
+MOD-309,l10n_rw,addons/l10n_rw,Accounting/Localizations/Account Charts,,14,4,2,3,0,0,0,0,0,1
+MOD-310,l10n_sa,addons/l10n_sa,Accounting/Localizations/Account Charts,,41,22,7,11,0,0,0,0,3,4
+MOD-311,l10n_sa_edi,addons/l10n_sa_edi,Accounting/Localizations/EDI,"E-Invoicing, Universal Business Language",63,32,17,23,1,2,0,1,6,3
+MOD-312,l10n_sa_edi_pos,addons/l10n_sa_edi_pos,Accounting/Localizations/EDI,"ZATCA E-Invoicing, support for PoS",24,13,6,2,7,0,0,0,3,2
+MOD-313,l10n_sa_pos,addons/l10n_sa_pos,Accounting/Localizations/Point of Sale,,21,10,3,2,7,0,0,0,3,2
+MOD-314,l10n_se,addons/l10n_se,Accounting/Localizations/Account Charts,,27,11,8,5,0,0,0,0,0,2
+MOD-315,l10n_sg,addons/l10n_sg,Accounting/Localizations/Account Charts,,33,19,9,8,0,0,0,0,4,4
+MOD-316,l10n_sg_ubl_pint,addons/l10n_sg_ubl_pint,Accounting/Localizations/EDI,,10,9,5,1,0,0,0,0,2,1
+MOD-317,l10n_si,addons/l10n_si,Accounting/Localizations/Account Charts,,20,8,4,6,0,0,0,0,2,2
+MOD-318,l10n_sk,addons/l10n_sk,Accounting/Localizations/Account Charts,,23,11,6,5,0,0,0,0,2,1
+MOD-319,l10n_sn,addons/l10n_sn,Accounting/Localizations/Account Charts,,15,5,3,2,0,0,0,0,0,2
+MOD-320,l10n_syscohada,addons/l10n_syscohada,Accounting/Localizations/Account Charts,,12,5,3,1,0,0,0,0,0,1
+MOD-321,l10n_td,addons/l10n_td,Accounting/Localizations/Account Charts,,16,5,3,2,0,0,0,0,0,2
+MOD-322,l10n_test_pos_qr_payment,addons/l10n_test_pos_qr_payment,Sales/Point of Sale,,9,5,0,0,4,0,0,0,3,6
+MOD-323,l10n_tg,addons/l10n_tg,Accounting/Localizations/Account Charts,,15,5,3,2,0,0,0,0,0,2
+MOD-324,l10n_th,addons/l10n_th,Accounting/Localizations/Account Charts,,47,25,10,14,0,2,1,1,7,3
+MOD-325,l10n_tn,addons/l10n_tn,Accounting/Localizations/Account Charts,,13,4,2,2,0,0,0,0,0,1
+MOD-326,l10n_tr,addons/l10n_tr,Accounting/Localizations/Account Charts,,31,16,9,6,1,0,0,1,2,2
+MOD-327,l10n_tw,addons/l10n_tw,Accounting/Localizations/Account Charts,,17,4,2,6,0,0,0,0,0,1
+MOD-328,l10n_tw_edi_ecpay,addons/l10n_tw_edi_ecpay,Accounting/Localizations/EDI,E-invoicing using ECpay,29,19,8,6,0,2,1,1,2,1
+MOD-329,l10n_tw_edi_ecpay_pos,addons/l10n_tw_edi_ecpay_pos,Point of sale/Localizations/EDI,ECpay E-invoice bridge module for POS,31,13,6,6,10,0,0,0,3,2
+MOD-330,l10n_tw_edi_ecpay_sale,addons/l10n_tw_edi_ecpay_sale,Website Sale/Localizations/EDI,ECPay E-invoice bridge module for Sales,9,6,2,1,0,0,0,0,2,2
+MOD-331,l10n_tw_edi_ecpay_website_sale,addons/l10n_tw_edi_ecpay_website_sale,Website Sale/Localizations/EDI,ECpay E-invoice bridge module for Ecommerce,18,10,4,2,4,2,4,0,2,2
+MOD-332,l10n_tz_account,addons/l10n_tz_account,Accounting/Localizations/Account Charts,,13,4,2,3,0,0,0,0,0,1
+MOD-333,l10n_ua,addons/l10n_ua,Accounting/Localizations/Account Charts,,11,4,2,2,0,0,0,0,0,1
+MOD-334,l10n_ug,addons/l10n_ug,Accounting/Localizations/Account Charts,,12,4,2,2,0,0,0,0,0,1
+MOD-335,l10n_uk,addons/l10n_uk,Accounting/Localizations/Account Charts,,16,6,3,5,0,0,0,0,0,1
+MOD-336,l10n_us,addons/l10n_us,Accounting/Localizations/Account Charts,,15,6,4,4,0,0,0,1,0,2
+MOD-337,l10n_us_account,addons/l10n_us_account,Accounting/Localizations/Account Charts,,23,9,5,7,0,0,0,0,0,3
+MOD-338,l10n_uy,addons/l10n_uy,Accounting/Localizations/Account Charts,,33,16,7,9,0,0,0,0,3,2
+MOD-339,l10n_uz,addons/l10n_uz,Accounting/Localizations/Account Charts,,14,5,3,2,0,0,0,0,0,1
+MOD-340,l10n_ve,addons/l10n_ve,Accounting/Localizations/Account Charts,,10,4,2,1,0,0,0,0,0,1
+MOD-341,l10n_vn,addons/l10n_vn,Accounting/Localizations/Account Charts,,22,12,4,5,0,0,0,0,3,2
+MOD-342,l10n_vn_edi_viettel,addons/l10n_vn_edi_viettel,Accounting/Localizations/EDI,E-invoicing using SInvoice by Viettel,25,16,9,5,0,0,0,1,3,1
+MOD-343,l10n_vn_edi_viettel_pos,addons/l10n_vn_edi_viettel_pos,Accounting/Localizations/EDI,POS E-invoicing using SInvoice by Viettel,27,13,8,4,7,0,0,1,3,2
+MOD-344,l10n_vn_edi_viettel_stock,addons/l10n_vn_edi_viettel_stock,Accounting/Localizations/EDI,Delivery E-invoicing using SInvoice by Viettel,20,13,6,4,0,0,0,1,2,2
+MOD-345,l10n_yt,addons/l10n_yt,Accounting/Localizations/Account Charts,,4,2,0,0,0,0,0,0,0,2
+MOD-346,l10n_za,addons/l10n_za,Accounting/Localizations/Account Charts,,10,4,2,2,0,0,0,0,0,1
+MOD-347,l10n_zm_account,addons/l10n_zm_account,Accounting/Localizations/Account Charts,,12,5,3,3,0,0,0,0,0,1
+MOD-348,link_tracker,addons/link_tracker,Marketing,,82,15,4,2,0,0,0,1,5,2
+MOD-349,loyalty,addons/loyalty,Sales,"Use discounts, gift cards, eWallets and loyalty programs in your sales channels",109,21,11,17,5,2,3,1,2,3
+MOD-350,lunch,addons/lunch,Human Resources/Lunch,Handle lunch orders of your employees,154,25,13,18,10,2,6,2,6,1
+MOD-351,mail,addons/mail,Productivity/Discuss,"Chat, mail gateway and private channels",1444,201,87,271,688,26,20,1,66,5
+MOD-352,mail_bot,addons/mail_bot,Productivity/Discuss,Add OdooBot in discussions,65,8,4,2,0,2,1,0,0,1
+MOD-353,mail_bot_hr,addons/mail_bot_hr,Productivity/Discuss,Bridge module between hr and mailbot.,52,2,0,1,0,0,0,0,0,2
+MOD-354,mail_group,addons/mail_group,,Manage your mailing lists,88,18,5,14,2,2,9,1,7,2
+MOD-355,mail_plugin,addons/mail_plugin,Sales/CRM,Allows integration with mail plugins.,65,10,2,4,0,3,10,0,3,3
+MOD-356,mail_tracking,addons/mail_tracking,Productivity/Discuss,Technical tracking of discussion and message-related data,64,11,5,3,0,0,0,1,2,1
+MOD-357,mail_tracking_mass_mailing,addons/mail_tracking_mass_mailing,Productivity/Discuss,Track source of messages by mass mailing,57,7,3,1,0,0,0,0,0,2
+MOD-358,mail_tracking_sms,addons/mail_tracking_sms,Productivity/Discuss,Track source of messages by sms,57,7,3,1,0,0,0,0,0,2
+MOD-359,maintenance,addons/maintenance,Supply Chain/Maintenance,Track equipment and manage maintenance requests,98,9,3,9,9,0,0,2,4,1
+MOD-360,marketing_card,addons/marketing_card,Marketing/Marketing Card,Generate dynamic shareable cards,100,19,8,12,1,3,6,2,3,4
+MOD-361,marketing_card_event,addons/marketing_card_event,Marketing/Marketing Card,Generate dynamic shareable cards for entities linked to events.,59,8,4,2,0,0,0,0,2,2
+MOD-362,mass_mailing,addons/mass_mailing,Marketing/Email Marketing,"Design, send and track emails",481,55,26,103,97,3,17,2,16,8
+MOD-363,mass_mailing_crm,addons/mass_mailing_crm,Marketing/Email Marketing,Add lead / opportunities UTM info on mass mailing,60,6,4,1,1,0,0,0,0,2
+MOD-364,mass_mailing_crm_sms,addons/mass_mailing_crm_sms,Marketing/Email Marketing,Add lead / opportunities info on mass mailing sms,53,4,2,0,0,0,0,0,0,2
+MOD-365,mass_mailing_event,addons/mass_mailing_event,Marketing/Email Marketing,,58,5,3,1,0,0,0,0,0,2
+MOD-366,mass_mailing_event_sms,addons/mass_mailing_event_sms,Marketing/Email Marketing,,55,6,2,0,0,0,0,0,2,5
+MOD-367,mass_mailing_event_track,addons/mass_mailing_event_track,Marketing/Email Marketing,,58,5,3,1,0,0,0,0,0,2
+MOD-368,mass_mailing_event_track_sms,addons/mass_mailing_event_track_sms,Marketing/Email Marketing,,53,4,2,0,0,0,0,0,0,4
+MOD-369,mass_mailing_sale,addons/mass_mailing_sale,Marketing/Email Marketing,Add sale order UTM info on mass mailing,63,6,4,5,1,0,0,0,0,2
+MOD-370,mass_mailing_sale_sms,addons/mass_mailing_sale_sms,Marketing/Email Marketing,Add sale order info on mass mailing sms,53,4,2,0,0,0,0,0,0,2
+MOD-371,mass_mailing_slides,addons/mass_mailing_slides,Marketing/Email Marketing,,54,4,2,1,0,0,0,0,0,2
+MOD-372,mass_mailing_sms,addons/mass_mailing_sms,Marketing/Email Marketing,"Design, send and track SMS",101,29,12,16,2,2,3,1,9,3
+MOD-373,mass_mailing_themes,addons/mass_mailing_themes,Marketing/Email Marketing,Design gorgeous mails,132,2,0,2,0,0,0,0,0,1
+MOD-374,microsoft_account,addons/microsoft_account,Hidden/Tools,,57,7,3,1,0,2,1,0,0,1
+MOD-375,microsoft_calendar,addons/microsoft_calendar,Productivity,,95,29,9,6,3,3,1,1,10,2
+MOD-376,microsoft_outlook,addons/microsoft_outlook,Hidden,,68,12,6,4,0,2,2,0,2,1
+MOD-377,mrp,addons/mrp,Supply Chain/Manufacturing,Manufacturing Orders & BOMs,283,69,24,62,52,0,0,2,25,3
+MOD-378,mrp_account,addons/mrp_account,Supply Chain/Manufacturing,Analytic accounting in Manufacturing,98,24,10,13,4,0,0,1,6,2
+MOD-379,mrp_delivery,addons/mrp_delivery,Shipping Connectors,Carrier with kits,55,6,2,0,0,0,0,0,2,2
+MOD-380,mrp_landed_costs,addons/mrp_landed_costs,Supply Chain/Manufacturing,Landed Costs on Manufacturing Order,56,6,2,1,0,0,0,0,2,2
+MOD-381,mrp_product_expiry,addons/mrp_product_expiry,Supply Chain/Manufacturing,Manufacturing Expiry,58,8,2,1,0,0,0,0,2,2
+MOD-382,mrp_repair,addons/mrp_repair,Supply Chain/Inventory,,60,9,4,2,0,0,0,0,3,2
+MOD-383,mrp_subcontracting,addons/mrp_subcontracting,Supply Chain/Manufacturing,Subcontract Productions,117,28,14,25,12,2,3,1,4,1
+MOD-384,mrp_subcontracting_account,addons/mrp_subcontracting_account,Supply Chain/Manufacturing,,57,7,3,0,0,0,0,1,2,2
+MOD-385,mrp_subcontracting_dropshipping,addons/mrp_subcontracting_dropshipping,Supply Chain/Purchase,,69,18,10,2,0,0,0,0,4,2
+MOD-386,mrp_subcontracting_landed_costs,addons/mrp_subcontracting_landed_costs,Supply Chain/Manufacturing,Advanced views to manage landed cost for subcontracting orders,56,6,2,1,0,0,0,0,2,2
+MOD-387,mrp_subcontracting_purchase,addons/mrp_subcontracting_purchase,Supply Chain/Purchase,,69,17,9,3,0,0,0,0,3,2
+MOD-388,mysubscription,addons/mysubscription,Sales,Backend Subscription App,86,6,2,11,11,0,0,0,2,2
+MOD-389,onboarding,addons/onboarding,Hidden,,70,12,5,3,1,0,0,1,5,1
+MOD-390,partner_autocomplete,addons/partner_autocomplete,Hidden/Tools,Auto-complete partner companies' data,82,12,6,5,8,0,0,0,4,1
+MOD-391,partnership,addons/partnership,Sales/CRM,,71,13,8,7,0,0,0,1,3,2
+MOD-392,payment,addons/payment,Hidden,The payment engine used by payment provider modules.,338,38,12,16,7,3,7,1,14,2
+MOD-393,payment_adyen,addons/payment_adyen,Accounting/Payment Providers,A Dutch payment provider covering Europe and the US.,77,16,4,6,1,2,5,0,4,1
+MOD-394,payment_aps,addons/payment_aps,Accounting/Payment Providers,An Amazon payment provider covering the MENA region.,69,12,3,3,0,2,2,0,4,1
+MOD-395,payment_asiapay,addons/payment_asiapay,Accounting/Payment Providers,An payment provider based in Hong Kong covering most Asian countries.,70,13,3,3,0,2,2,0,5,1
+MOD-396,payment_authorize,addons/payment_authorize,Accounting/Payment Providers,"An payment provider covering the US, Australia, and Canada.",77,16,5,5,1,2,2,0,6,1
+MOD-397,payment_buckaroo,addons/payment_buckaroo,Accounting/Payment Providers,A Dutch payment provider covering several countries in Europe.,70,12,3,3,0,2,2,0,4,1
+MOD-398,payment_custom,addons/payment_custom,Accounting/Payment Providers,A payment provider for custom flows like wire transfers.,87,12,3,4,2,2,1,0,4,1
+MOD-399,payment_demo,addons/payment_demo,Accounting/Accounting,A payment provider for running fake payment flows for demo purposes.,77,14,4,6,3,3,1,0,4,1
+MOD-400,payment_dpo,addons/payment_dpo,Accounting/Payment Providers,A Kenyan payment provider covering several African countries.,68,12,3,3,0,2,1,0,4,1
+MOD-401,payment_ecpay,addons/payment_ecpay,Accounting/Payment Providers,A payment provider covering the Taiwanese market.,67,12,3,3,0,2,2,0,4,1
+MOD-402,payment_flutterwave,addons/payment_flutterwave,Accounting/Payment Providers,A Nigerian payment provider covering several African countries.,72,14,4,3,1,2,3,0,5,1
+MOD-403,payment_iyzico,addons/payment_iyzico,Accounting/Payment Providers,A payment provider covering Turkey.,69,13,3,3,0,2,2,0,5,1
+MOD-404,payment_mercado_pago,addons/payment_mercado_pago,Accounting/Payment Providers,A payment provider covering several countries in Latin America.,75,15,4,5,1,3,4,0,5,1
+MOD-405,payment_mollie,addons/payment_mollie,Accounting/Payment Providers,A Dutch payment provider covering several European countries.,69,12,4,3,0,2,2,0,3,1
+MOD-406,payment_nuvei,addons/payment_nuvei,Accounting/Payment Providers,A payment provider covering Latin America.,69,13,3,3,0,2,2,0,5,1
+MOD-407,payment_paymob,addons/payment_paymob,Accounting/Payment Providers,An Egyptian payment provider for the Middle East.,69,12,3,3,0,2,2,0,4,1
+MOD-408,payment_paypal,addons/payment_paypal,Accounting/Payment Providers,An American payment provider for online payments all over the world.,79,14,4,6,3,3,6,0,3,1
+MOD-409,payment_payu,addons/payment_payu,Accounting/Payment Providers,A payment provider covering India.,70,14,3,4,0,3,3,0,5,1
+MOD-410,payment_razorpay,addons/payment_razorpay,Accounting/Payment Providers,A payment provider covering India.,74,15,4,4,1,3,3,0,5,1
+MOD-411,payment_redsys,addons/payment_redsys,Accounting/Payment Providers,A payment provider covering the Spanish market.,68,12,3,3,0,2,2,0,4,1
+MOD-412,payment_stripe,addons/payment_stripe,Accounting/Payment Providers,An Irish-American payment provider covering the US and many others.,81,16,4,5,3,3,6,0,5,1
+MOD-413,payment_toss_payments,addons/payment_toss_payments,Accounting/Payment Providers,A payment provider covering the South Korea market,69,12,3,4,1,2,3,0,4,1
+MOD-414,payment_worldline,addons/payment_worldline,Accounting/Payment Providers,A French payment provider covering several European countries.,69,12,3,3,1,2,2,0,4,1
+MOD-415,payment_xendit,addons/payment_xendit,Accounting/Payment Providers,A payment provider for Indonesian and the Philippines.,72,13,3,4,1,2,3,0,5,1
+MOD-416,phone_validation,addons/phone_validation,Hidden,Validate and format phone numbers,89,32,8,4,0,0,0,1,5,2
+MOD-417,point_of_sale,addons/point_of_sale,Sales/Point of Sale,Handle checkouts and payments for shops and restaurants.,885,103,55,147,391,4,11,2,29,10
+MOD-418,populate,addons/populate,Hidden/Tools,Generate synthetic data for an Odoo database,83,30,5,0,0,0,0,1,0,1
+MOD-419,portal,addons/portal,Hidden,Customer Portal,142,32,12,14,33,6,16,1,8,6
+MOD-420,portal_discuss,addons/portal_discuss,Services,,63,10,3,2,1,3,0,0,2,2
+MOD-421,portal_rating,addons/portal_rating,Services,,91,9,4,10,19,3,1,0,0,2
+MOD-422,pos_account_tax_python,addons/pos_account_tax_python,Accounting/Accounting,,57,6,2,0,2,0,0,0,2,2
+MOD-423,pos_adyen,addons/pos_adyen,Sales/Point of Sale,Integrate your POS with an Adyen payment terminal,70,13,6,2,5,3,2,0,2,2
+MOD-424,pos_bancontact_pay,addons/pos_bancontact_pay,Sales/Point of Sale,Accept Bancontact Pay and Wero QR code payments in POS (Payconiq).,94,20,6,3,12,3,2,0,5,1
+MOD-425,pos_cashdro,addons/pos_cashdro,Sales/Point of Sale,Integrate your POS with a Cashdro automatic cash payment device,62,4,2,2,5,0,0,0,0,1
+MOD-426,pos_cashmatic,addons/pos_cashmatic,Sales/Point of Sale,Integrate your POS with a cash matic automatic cash payment device,61,4,2,2,4,0,0,0,0,1
+MOD-427,pos_discount,addons/pos_discount,Sales/Point of Sale,Simple Discounts in the Point of Sale ,91,10,6,6,17,0,0,0,2,1
+MOD-428,pos_dpopay,addons/pos_dpopay,Sales/Point of Sale,Integrate your POS with DPO payment terminal.,60,7,3,2,2,0,0,0,2,1
+MOD-429,pos_edi_ubl,addons/pos_edi_ubl,Sales/Point of Sale,UBL in the Point of Sale ,53,4,2,0,0,0,0,0,0,2
+MOD-430,pos_event,addons/pos_event,Technical,Link module between Point of Sale and Event,113,16,12,12,34,0,0,1,2,2
+MOD-431,pos_event_sale,addons/pos_event_sale,Technical,Link module between pos_sale and pos_event,61,10,3,0,2,0,0,0,3,3
+MOD-432,pos_glory_cash,addons/pos_glory_cash,Sales/Point of Sale,Integrate your POS with a Glory automatic cash payment device,73,4,2,5,13,0,0,0,0,1
+MOD-433,pos_hr,addons/pos_hr,Sales/Point of Sale,Link module between Point of Sale and HR,117,23,12,14,31,0,0,0,5,2
+MOD-434,pos_hr_restaurant,addons/pos_hr_restaurant,Sales/Point of Sale,Link module between pos_hr and pos_restaurant,54,4,0,0,1,0,0,0,2,2
+MOD-435,pos_imin,addons/pos_imin,Sales/Point of Sale,iMin ePOS Printers in PoS,58,4,2,1,4,0,0,0,0,1
+MOD-436,pos_loyalty,addons/pos_loyalty,Sales/Point Of Sale,"Use Coupons, Gift Cards and Loyalty programs in Point of Sale",151,29,14,16,54,0,0,1,11,2
+MOD-437,pos_mercado_pago,addons/pos_mercado_pago,Sales/Point of Sale,Integrate your POS with the Mercado Pago Smart Point terminal,62,10,3,1,1,2,1,0,3,1
+MOD-438,pos_mollie,addons/pos_mollie,Sales/Point of Sale,Integrate your POS with a Mollie payment terminal,64,8,2,1,4,2,1,0,2,2
+MOD-439,pos_mrp,addons/pos_mrp,Sales/Point of Sale,Link module between Point of Sale and Mrp,61,10,4,0,1,0,0,1,4,2
+MOD-440,pos_online_payment,addons/pos_online_payment,,,84,15,7,7,11,3,3,1,3,2
+MOD-441,pos_online_payment_self_order,addons/pos_online_payment_self_order,Sales/Point of Sale,Support online payment in self-order,78,17,7,2,10,3,2,0,5,2
+MOD-442,pos_partner_autocomplete,addons/pos_partner_autocomplete,Sales/Point of Sale,Link module between Partner Autocomplete and Point of Sale,51,2,0,0,0,0,0,0,0,2
+MOD-443,pos_pine_labs,addons/pos_pine_labs,Sales/Point of Sale,Integrate your POS with Pine Labs payment terminals,60,6,4,2,2,0,0,0,0,1
+MOD-444,pos_qfpay,addons/pos_qfpay,Sales/Point of Sale,Integrate your POS with the QFPay terminal in Hong Kong,64,8,2,1,5,2,1,0,2,1
+MOD-445,pos_razorpay,addons/pos_razorpay,Sales/Point of Sale,Integrate your POS with a Razorpay payment terminal,64,8,4,1,5,0,0,0,2,1
+MOD-446,pos_repair,addons/pos_repair,Technical,Link module between Point of Sale and Repair,58,7,3,0,2,0,0,0,2,2
+MOD-447,pos_restaurant,addons/pos_restaurant,Sales/Point of Sale,Restaurant extensions for the Point of Sale ,297,21,12,42,108,0,0,1,5,1
+MOD-448,pos_restaurant_loyalty,addons/pos_restaurant_loyalty,Sales/Point of Sale,Link module between pos_restaurant and pos_loyalty,56,4,0,0,3,0,0,0,2,2
+MOD-449,pos_safaricom,addons/pos_safaricom,Sales/Point of Sale,Integrate your POS with the Safaricom Payment Provider,73,12,4,3,8,2,3,1,2,1
+MOD-450,pos_sale,addons/pos_sale,Sales/Point of Sale,Link module between Point of Sale and Sales,116,22,12,9,30,0,0,1,4,2
+MOD-451,pos_sale_delivery,addons/pos_sale_delivery,Hidden,,55,6,2,0,0,0,0,0,2,2
+MOD-452,pos_sale_loyalty,addons/pos_sale_loyalty,Sales/Point of Sale,Link module between pos_sale and pos_loyalty,61,7,3,0,5,0,0,0,2,2
+MOD-453,pos_sale_margin,addons/pos_sale_margin,Sales/Point of Sale,Link module between Point of Sale and Sales Margin,55,6,0,0,0,0,0,0,2,2
+MOD-454,pos_sale_stock,addons/pos_sale_stock,Sales/Point of Sale,Link module between PoS Stock and Sales,69,13,5,1,6,0,0,0,4,2
+MOD-455,pos_self_order,addons/pos_self_order,Sales/Point Of Sale,Addon for the POS App that allows customers to view the menu on their smartphone.,337,51,23,59,146,4,18,1,20,5
+MOD-456,pos_self_order_bancontact_pay,addons/pos_self_order_bancontact_pay,Sales/Point of Sale,Accept Bancontact Pay and Wero QR code payments in a kiosk (Payconiq).,67,11,3,1,6,3,1,0,3,2
+MOD-457,pos_self_order_event,addons/pos_self_order_event,Sales/Point Of Sale,Link module between PoS Self Order and PoS Event,81,10,4,5,14,2,2,0,2,2
+MOD-458,pos_self_order_pine_labs,addons/pos_self_order_pine_labs,Sales/Point Of Sale,An addon for the Self Order App (KIOSK) that allows customers to pay using the Pine Labs POS Terminal.,60,8,2,0,3,2,2,0,2,2
+MOD-459,pos_self_order_qfpay,addons/pos_self_order_qfpay,Sales/Point Of Sale,Addon for the Self Order App that allows customers to pay by QFPay.,58,6,2,0,3,0,0,0,2,2
+MOD-460,pos_self_order_razorpay,addons/pos_self_order_razorpay,Sales/Point Of Sale,Addon for the Self Order App that allows customers to pay by Razorpay POS Terminal.,60,8,2,0,3,2,2,0,2,2
+MOD-461,pos_self_order_sale,addons/pos_self_order_sale,Sales/Point Of Sale,,55,4,2,2,0,0,0,0,0,2
+MOD-462,pos_self_order_sms,addons/pos_self_order_sms,Sales/Point Of Sale,,59,7,3,2,1,0,0,0,2,2
+MOD-463,pos_sms,addons/pos_sms,Send sms to customer for order confirmation,,63,8,4,3,3,0,0,0,2,2
+MOD-464,pos_stock,addons/pos_stock,Sales/Point of Sale,Stock integration for PoS,154,38,18,17,48,0,0,2,16,2
+MOD-465,pos_stripe,addons/pos_stripe,Sales/Point of Sale,Integrate your POS with a Stripe payment terminal,63,6,2,1,7,0,0,0,2,2
+MOD-466,pos_sumup,addons/pos_sumup,Sales/Point of Sale,Integrate your POS with a SumUp payment terminal,65,8,2,1,7,2,1,0,2,1
+MOD-467,pos_viva_com,addons/pos_viva_com,Sales/Point of Sale,Integrate your PoS with a Viva.com payment terminal,72,10,3,1,11,2,3,0,3,1
+MOD-468,printer,addons/printer,,"Base module to manage external printers (e.g. ePOS, ZPL)",75,10,3,5,10,0,0,1,3,1
+MOD-469,privacy_lookup,addons/privacy_lookup,Hidden,,62,9,3,3,0,0,0,1,2,1
+MOD-470,product,addons/product,Sales/Sales,,257,57,28,44,22,4,4,2,17,3
+MOD-471,product_email_template,addons/product_email_template,Accounting/Accounting,,68,7,3,2,0,0,0,0,2,1
+MOD-472,product_expiry,addons/product_expiry,Supply Chain/Inventory,,104,22,10,15,4,0,0,2,3,1
+MOD-473,product_margin,addons/product_margin,Sales/Sales,,75,8,2,2,0,0,0,1,2,1
+MOD-474,product_matrix,addons/product_matrix,Sales/Sales,Technical module: Matrix Implementation,64,6,2,5,2,0,0,0,2,1
+MOD-475,project,addons/project,Services/Project,Manage tasks and collaborate on projects,395,82,23,74,145,4,9,2,39,8
+MOD-476,project_account,addons/project_account,Accounting/Accounting,project profitability items computation,56,4,2,3,0,0,0,0,0,2
+MOD-477,project_hr_expense,addons/project_hr_expense,Services/expenses,Project expenses,58,7,3,2,0,0,0,0,2,2
+MOD-478,project_hr_skills,addons/project_hr_skills,Services/Project,Project skills,58,7,3,2,0,0,0,0,0,2
+MOD-479,project_mail_plugin,addons/project_mail_plugin,Services/Project,Integrate your inbox with projects,57,6,0,2,0,2,3,0,2,2
+MOD-480,project_mrp,addons/project_mrp,Services/Project,Monitor MRP using project,62,9,5,3,0,0,0,1,2,2
+MOD-481,project_mrp_account,addons/project_mrp_account,Services/Project,Monitor MRP account using project,63,11,6,3,0,0,0,0,3,3
+MOD-482,project_mrp_sale,addons/project_mrp_sale,Services/Project,Technical Bridge,55,6,2,0,0,0,0,0,2,3
+MOD-483,project_mrp_stock_landed_costs,addons/project_mrp_stock_landed_costs,Supply Chain/Manufacturing,Technical Bridge,53,4,2,0,0,0,0,0,0,2
+MOD-484,project_purchase,addons/project_purchase,Services/Project,Monitor purchase in project,65,12,4,3,1,2,1,0,2,2
+MOD-485,project_purchase_stock,addons/project_purchase_stock,Services/Project,,58,9,4,0,0,0,0,0,3,2
+MOD-486,project_sale_expense,addons/project_sale_expense,Services/Project,,58,9,4,0,0,0,0,0,3,3
+MOD-487,project_sms,addons/project_sms,Services/Project,Send text messages when project/task stage move,64,10,5,4,0,0,0,1,2,2
+MOD-488,project_stock,addons/project_stock,Services/Project,Link Stock pickings to Project,56,5,3,2,0,0,0,0,0,2
+MOD-489,project_stock_account,addons/project_stock_account,Services/Project,Handle analytics in Stock pickings with Project,59,9,5,1,0,0,0,0,2,2
+MOD-490,project_stock_landed_costs,addons/project_stock_landed_costs,Supply Chain/Inventory,Technical Bridge,53,4,2,0,0,0,0,0,0,2
+MOD-491,project_timesheet_holidays,addons/project_timesheet_holidays,Human Resources,Schedule timesheet when on time off,72,16,9,3,0,0,0,1,5,2
+MOD-492,project_todo,addons/project_todo,Productivity/To-Do,Organize your work with memos and to-do lists,112,17,3,8,28,0,0,1,10,1
+MOD-493,purchase,addons/purchase,Supply Chain/Purchase,"Purchase orders, tenders and agreements",168,38,15,33,21,2,5,2,13,1
+MOD-494,purchase_alternative,addons/purchase_alternative,Supply Chain/Purchase,,69,10,2,5,3,0,0,1,3,1
+MOD-495,purchase_alternative_sale,addons/purchase_alternative_sale,Supply Chain/Purchase,,55,6,0,0,0,0,0,0,2,2
+MOD-496,purchase_alternative_stock,addons/purchase_alternative_stock,Supply Chain/Purchase,,58,8,2,1,0,0,0,0,2,2
+MOD-497,purchase_edi_ubl_bis3,addons/purchase_edi_ubl_bis3,Supply Chain/Purchase,,61,9,4,3,0,0,0,0,3,2
+MOD-498,purchase_mrp,addons/purchase_mrp,Supply Chain/Purchase,,72,15,6,5,0,0,0,1,4,2
+MOD-499,purchase_product_matrix,addons/purchase_product_matrix,Supply Chain/Purchase,Add variants to your purchase orders through an Order Grid Entry.,61,6,2,4,2,0,0,0,2,2
+MOD-500,purchase_repair,addons/purchase_repair,Supply Chain/Purchase,Keep track of linked purchase and repair orders,58,7,3,2,0,0,0,0,2,2
+MOD-501,purchase_requisition,addons/purchase_requisition,Supply Chain/Purchase,,80,9,4,7,0,0,0,1,3,1
+MOD-502,purchase_requisition_stock,addons/purchase_requisition_stock,Supply Chain/Purchase,,60,8,4,2,0,0,0,1,2,2
+MOD-503,purchase_stock,addons/purchase_stock,Supply Chain/Purchase,"Purchase Orders, Receipts, Vendor Bills for Stock",140,48,13,22,16,0,0,1,24,2
+MOD-504,rating,addons/rating,Productivity,,108,14,7,4,9,2,2,1,3,1
+MOD-505,repair,addons/repair,Supply Chain/Inventory,Repair damaged products,111,24,13,14,3,0,0,1,4,2
+MOD-506,resource,addons/resource,Hidden,,131,19,9,15,27,0,0,1,8,2
+MOD-507,resource_mail,addons/resource_mail,Hidden,,70,6,2,3,10,2,0,0,0,2
+MOD-508,rpc,addons/rpc,Extra Tools,,57,8,0,0,0,4,6,0,2,1
+MOD-509,sale,addons/sale,Sales/Sales,Sales internal machinery,306,76,21,64,69,4,14,2,37,3
+MOD-510,sale_crm,addons/sale_crm,Sales/Sales,,77,13,4,5,0,0,0,1,5,2
+MOD-511,sale_edi_ubl,addons/sale_edi_ubl,Sales/Sales,,61,10,6,1,0,0,0,1,2,2
+MOD-512,sale_expense,addons/sale_expense,Sales/Sales,"Quotation, Sales Orders, Delivery & Invoicing Control",75,15,8,6,1,0,0,1,3,2
+MOD-513,sale_expense_margin,addons/sale_expense_margin,Sales/Sales,,56,7,3,0,0,0,0,0,2,2
+MOD-514,sale_gelato,addons/sale_gelato,Sales/Sales,Place orders through Gelato's print-on-demand service,82,22,9,8,0,2,1,0,5,2
+MOD-515,sale_gelato_stock,addons/sale_gelato_stock,Sales/Sales,,53,4,2,0,0,0,0,0,0,2
+MOD-516,sale_loyalty,addons/sale_loyalty,Sales/Sales,Use discounts and loyalty programs in sales orders,94,31,9,10,2,3,1,1,14,2
+MOD-517,sale_loyalty_delivery,addons/sale_loyalty_delivery,Sales/Sales,Adds free shipping mechanism in sales orders,62,12,5,1,0,2,0,0,3,2
+MOD-518,sale_management,addons/sale_management,Sales/Sales,From quotations to invoices,125,19,7,14,24,2,1,1,6,2
+MOD-519,sale_margin,addons/sale_margin,Sales/Sales,,78,10,4,4,1,0,0,0,2,1
+MOD-520,sale_mrp,addons/sale_mrp,Sales/Sales,,83,20,8,3,0,2,0,1,8,2
+MOD-521,sale_mrp_margin,addons/sale_mrp_margin,Sales/Sales,,53,4,0,0,0,0,0,0,2,2
+MOD-522,sale_pdf_quote_builder,addons/sale_pdf_quote_builder,Sales/Sales,,96,16,8,14,6,2,1,1,4,1
+MOD-523,sale_product_matrix,addons/sale_product_matrix,Sales/Sales,Add variants to Sales Order through a grid entry.,60,6,4,4,1,0,0,0,0,2
+MOD-524,sale_project,addons/sale_project,Sales/Sales,Task Generation from Sales Orders,108,32,13,16,9,2,0,1,10,3
+MOD-525,sale_project_margin,addons/sale_project_margin,Sales/Sales,Bridge module between Sales Margin and Project,56,4,2,3,0,0,0,0,0,2
+MOD-526,sale_project_stock,addons/sale_project_stock,Sales,Adds a full traceability of inventory operations on the profitability report.,59,10,5,0,0,0,0,0,3,3
+MOD-527,sale_project_stock_account,addons/sale_project_stock_account,Hidden,Technical Bridge,55,6,2,0,0,0,0,0,2,2
+MOD-528,sale_purchase,addons/sale_purchase,Sales/Sales,Sale based on service outsourcing.,66,11,5,4,0,0,0,0,4,2
+MOD-529,sale_purchase_project,addons/sale_purchase_project,Sales,Technical Bridge,56,7,3,0,0,0,0,0,2,3
+MOD-530,sale_purchase_stock,addons/sale_purchase_stock,Sales/Sales,SO/PO relation in case of MTO,63,12,5,2,0,0,0,0,5,3
+MOD-531,sale_service,addons/sale_service,Sales/Sales,Interaction between Sales and services apps (project and planning),56,4,2,1,1,0,0,0,0,1
+MOD-532,sale_sms,addons/sale_sms,Sales/Sales,Ease SMS integration with sales capabilities,52,2,0,0,0,0,0,1,0,2
+MOD-533,sale_stock,addons/sale_stock,Sales/Sales,"Quotation, Sales Orders, Delivery & Invoicing Control",132,40,11,24,6,3,3,1,17,2
+MOD-534,sale_stock_margin,addons/sale_stock_margin,Sales/Sales,,55,6,2,0,0,0,0,0,2,2
+MOD-535,sale_stock_product_expiry,addons/sale_stock_product_expiry,Sales/Sales,,60,8,3,1,2,0,0,0,3,2
+MOD-536,sale_timesheet,addons/sale_timesheet,Sales/Sales,Sell based on timesheets,141,47,16,18,5,2,2,2,22,2
+MOD-537,sale_timesheet_margin,addons/sale_timesheet_margin,Sales/Sales,Bridge module between Sales Margin and Sales Timesheet,55,6,2,0,0,0,0,0,2,2
+MOD-538,sales_team,addons/sales_team,Sales/Sales,Sales Teams,91,12,5,8,4,0,0,2,5,2
+MOD-539,sms,addons/sms,Sales/Sales,SMS Text Messaging,123,31,13,20,15,2,1,1,4,4
+MOD-540,sms_twilio,addons/sms_twilio,Hidden/Tools,Send SMS messages using Twilio,77,22,8,3,1,2,1,1,5,1
+MOD-541,snailmail,addons/snailmail,Hidden/Tools,,91,19,9,5,10,0,0,1,5,2
+MOD-542,snailmail_account,addons/snailmail_account,Hidden/Tools,,66,13,4,1,0,2,0,0,3,2
+MOD-543,social_media,addons/social_media,Marketing/Social Marketing,Social media connectors for company settings.,58,4,2,2,0,0,0,0,0,1
+MOD-544,spreadsheet,addons/spreadsheet,Productivity/Dashboard,Spreadsheet,257,24,7,13,152,2,1,0,8,3
+MOD-545,spreadsheet_account,addons/spreadsheet_account,Accounting,Spreadsheet Accounting formulas,78,12,3,0,17,0,0,0,7,2
+MOD-546,spreadsheet_dashboard,addons/spreadsheet_dashboard,Productivity/Dashboard,Spreadsheet,132,18,5,15,37,3,4,2,8,1
+MOD-547,spreadsheet_dashboard_account,addons/spreadsheet_dashboard_account,Productivity/Dashboard,Spreadsheet,56,2,0,1,2,0,0,0,0,2
+MOD-548,spreadsheet_dashboard_event_sale,addons/spreadsheet_dashboard_event_sale,Productivity/Dashboard,Spreadsheet,54,2,0,1,0,0,0,0,0,2
+MOD-549,spreadsheet_dashboard_hr_expense,addons/spreadsheet_dashboard_hr_expense,Productivity/Dashboard,Spreadsheet,54,2,0,1,0,0,0,0,0,2
+MOD-550,spreadsheet_dashboard_hr_timesheet,addons/spreadsheet_dashboard_hr_timesheet,Productivity/Dashboard,Spreadsheet,54,2,0,1,0,0,0,0,0,2
+MOD-551,spreadsheet_dashboard_im_livechat,addons/spreadsheet_dashboard_im_livechat,Productivity/Dashboard,Spreadsheet,57,2,0,2,0,0,0,0,0,2
+MOD-552,spreadsheet_dashboard_pos_hr,addons/spreadsheet_dashboard_pos_hr,Productivity/Dashboard,Spreadsheet,54,2,0,1,0,0,0,0,0,2
+MOD-553,spreadsheet_dashboard_pos_restaurant,addons/spreadsheet_dashboard_pos_restaurant,Productivity/Dashboard,Spreadsheet,54,2,0,1,0,0,0,0,0,3
+MOD-554,spreadsheet_dashboard_sale,addons/spreadsheet_dashboard_sale,Productivity/Dashboard,Spreadsheet,57,2,0,1,0,0,0,0,0,2
+MOD-555,spreadsheet_dashboard_sale_timesheet,addons/spreadsheet_dashboard_sale_timesheet,Productivity/Dashboard,Spreadsheet,54,2,0,1,0,0,0,0,0,2
+MOD-556,spreadsheet_dashboard_stock_account,addons/spreadsheet_dashboard_stock_account,Productivity/Dashboard,Spreadsheet,54,2,0,1,0,0,0,0,0,2
+MOD-557,spreadsheet_dashboard_website_sale,addons/spreadsheet_dashboard_website_sale,Productivity/Dashboard,Spreadsheet,54,2,0,1,0,0,0,0,0,2
+MOD-558,spreadsheet_dashboard_website_sale_slides,addons/spreadsheet_dashboard_website_sale_slides,Productivity/Dashboard,Spreadsheet,54,2,0,1,0,0,0,0,0,2
+MOD-559,stock,addons/stock,Supply Chain/Inventory,Manage your stock and logistics activities,345,96,29,107,55,2,1,2,32,3
+MOD-560,stock_account,addons/stock_account,Supply Chain/Inventory,"Inventory, Logistic, Valuation, Accounting",117,32,16,16,4,0,0,2,8,2
+MOD-561,stock_delivery,addons/stock_delivery,Shipping Connectors,,102,30,14,21,1,0,0,1,8,3
+MOD-562,stock_dropshipping,addons/stock_dropshipping,Supply Chain/Inventory,Drop Shipping,76,18,9,5,0,0,0,0,7,1
+MOD-563,stock_fleet,addons/stock_fleet,,Stock Transport Management,68,9,5,9,0,0,0,0,0,2
+MOD-564,stock_landed_costs,addons/stock_landed_costs,Supply Chain/Inventory,Landed Costs,91,18,8,5,0,0,0,1,8,2
+MOD-565,stock_maintenance,addons/stock_maintenance,Supply Chain/Inventory,See lots used in maintenance,56,5,3,2,0,0,0,0,0,2
+MOD-566,stock_sms,addons/stock_sms,Supply Chain/Inventory,Send text messages when final stock move,61,8,4,3,0,0,0,1,0,2
+MOD-567,survey,addons/survey,Marketing/Surveys,Send your surveys or share them live.,206,37,12,39,46,3,23,2,18,6
+MOD-568,survey_crm,addons/survey_crm,Marketing/Surveys,Generate leads from surveys,67,11,7,5,1,0,0,0,2,2
+MOD-569,test_base_automation,addons/test_base_automation,Hidden,Base Automation Tests: Ensure Flow Robustness,10,8,2,0,1,0,0,1,5,1
+MOD-570,test_crm_full,addons/test_crm_full,Hidden/Tests,,5,5,0,0,0,0,0,0,3,10
+MOD-571,test_discuss_full,addons/test_discuss_full,Productivity/Discuss,Test of Discuss with all possible overrides installed.,15,10,0,0,5,0,0,0,8,14
+MOD-572,test_event_full,addons/test_event_full,Hidden/Tests,,18,12,0,2,4,0,0,0,10,13
+MOD-573,test_html_field_history,addons/test_html_field_history,Hidden,,7,6,2,0,0,0,0,1,2,1
+MOD-574,test_import_export,addons/test_import_export,Hidden,Base Import & Export Tests: Ensure Flow Robustness,25,15,4,0,0,0,0,1,9,4
+MOD-575,test_mail,addons/test_mail,Hidden,Mail Tests: performances and tests specific to mail,64,43,7,3,17,0,0,1,36,4
+MOD-576,test_mail_full,addons/test_mail_full,Hidden,Mail Tests: performances and tests specific to mail with all sub-modules,36,21,2,2,11,2,5,1,16,12
+MOD-577,test_mail_sms,addons/test_mail_sms,Hidden,SMS Tests: performances and tests specific to SMS,19,18,2,0,0,0,0,1,15,5
+MOD-578,test_mass_mailing,addons/test_mass_mailing,Marketing/Email Marketing,Mass Mail Tests: feature and performance tests for mass mailing,27,26,4,0,0,0,0,1,18,6
+MOD-579,test_populate,addons/test_populate,Hidden/Tests,Test module for Odoo's Populate,40,38,2,1,0,0,0,1,35,1
+MOD-580,test_resource,addons/test_resource,Hidden,,15,14,2,0,0,0,0,1,11,1
+MOD-581,test_sale_product_configurators,addons/test_sale_product_configurators,Hidden,Test Suite for Sale Product Configurator,18,6,0,0,12,0,0,0,4,3
+MOD-582,test_sale_purchase_edi_ubl,addons/test_sale_purchase_edi_ubl,Hidden,Sale & Purchase Order EDI Tests: Ensure Flow Robustness,4,4,0,0,0,0,0,0,2,2
+MOD-583,test_spreadsheet,addons/test_spreadsheet,Hidden,"Spreadsheet Test, mainly to test the mixin behavior",8,6,2,1,0,0,0,2,2,1
+MOD-584,test_translation_mode,addons/test_translation_mode,Hidden,In-context and interactive translation mode to streamline the module translation process using Weblate,19,7,3,3,8,0,0,0,0,1
+MOD-585,test_utm,addons/test_utm,Hidden,UTM Tests: tests specific to the UTM module,8,7,3,0,0,0,0,1,4,1
+MOD-586,test_website,addons/test_website,Hidden,"Website Test, mainly for module install/uninstall tests",64,35,3,8,19,2,37,2,28,3
+MOD-587,test_website_modules,addons/test_website_modules,Hidden,,8,7,0,0,1,0,0,0,5,8
+MOD-588,test_website_slides_full,addons/test_website_slides_full,Hidden/Tests,,7,4,0,2,1,0,0,0,2,3
+MOD-589,theme_default,addons/theme_default,Theme,,55,2,0,1,0,0,0,0,0,1
+MOD-590,uom,addons/uom,Sales/Sales,,69,8,3,5,2,0,0,2,3,1
+MOD-591,utm,addons/utm,Marketing,,98,16,8,12,1,0,0,1,6,2
+MOD-592,web,addons/web,Hidden,,2430,70,15,287,1083,20,73,1,31,1
+MOD-593,web_hierarchy,addons/web_hierarchy,Hidden,,72,6,4,3,10,0,0,0,0,1
+MOD-594,web_tour,addons/web_tour,Hidden,,97,9,4,6,28,0,0,1,3,1
+MOD-595,web_unsplash,addons/web_unsplash,Hidden,Find free high-resolution images from Unsplash,82,12,5,4,7,2,4,0,2,2
+MOD-596,website,addons/website,Website/Website,Enterprise website builder,1812,103,38,418,674,7,65,2,49,11
+MOD-597,website_address_autocomplete,addons/website_address_autocomplete,Website/Website,Assist your users with automatic completion & suggestions when filling their address,64,9,3,3,2,2,0,0,2,2
+MOD-598,website_blog,addons/website_blog,Website/Website,"Publish blog posts, announces, news",165,18,7,27,33,2,4,2,7,3
+MOD-599,website_cf_turnstile,addons/website_cf_turnstile,Website/Website,,64,5,3,2,7,0,0,0,0,1
+MOD-600,website_crm,addons/website_crm,Website/Website,Generate leads from a contact form,81,12,4,6,4,2,0,1,4,2
+MOD-601,website_crm_iap_reveal,addons/website_crm_iap_reveal,Sales/CRM,Generate Leads/Opportunities from your website's traffic,69,12,5,7,0,2,0,1,3,4
+MOD-602,website_crm_livechat,addons/website_crm_livechat,Website/Website,View livechat sessions for leads,58,8,4,1,0,0,0,0,2,3
+MOD-603,website_crm_partner_assign,addons/website_crm_partner_assign,Website/Website,Publish your resellers/partners and forward leads to them,110,19,7,17,2,2,5,1,4,7
+MOD-604,website_crm_sms,addons/website_crm_sms,Website/Website,Allows to send sms to website visitor that have lead,55,6,2,0,0,0,0,0,2,2
+MOD-605,website_customer,addons/website_customer,Website/Website,Publish your customer references,84,9,3,4,1,2,2,1,2,3
+MOD-606,website_event,addons/website_event,Marketing/Events,"Publish events, sell tickets",166,28,13,35,23,3,9,2,10,5
+MOD-607,website_event_booth,addons/website_event_booth,Marketing/Events,"Events, display your booths on your website",69,10,4,6,1,2,6,1,2,2
+MOD-608,website_event_booth_exhibitor,addons/website_event_booth_exhibitor,Marketing/Events,"Event Booths, automatically create a sponsor.",67,9,3,6,3,2,0,0,2,2
+MOD-609,website_event_booth_sale,addons/website_event_booth_sale,Marketing/Events,"Events, sell your booths online",66,11,4,2,4,2,1,0,3,3
+MOD-610,website_event_booth_sale_exhibitor,addons/website_event_booth_sale_exhibitor,Marketing/Events,Bridge module between website_event_booth_exhibitor and website_event_booth_sale.,54,4,2,0,1,0,0,0,0,2
+MOD-611,website_event_crm,addons/website_event_crm,Website/Website,,58,7,2,2,0,0,0,0,3,2
+MOD-612,website_event_exhibitor,addons/website_event_exhibitor,Marketing/Events,Event: manage sponsors and exhibitors,84,14,7,14,2,2,3,1,3,1
+MOD-613,website_event_sale,addons/website_event_sale,Website/Website,Sell event tickets online,95,21,7,5,4,3,1,0,7,3
+MOD-614,website_event_track,addons/website_event_track,Marketing,"Sponsors, Tracks, Agenda, Event News",150,29,14,33,11,5,14,1,8,1
+MOD-615,website_event_track_live,addons/website_event_track_live,Marketing/Events,"Support live tracks: streaming, participation, youtube",65,7,2,5,3,3,1,0,0,1
+MOD-616,website_event_track_live_quiz,addons/website_event_track_live_quiz,Marketing/Events,"Bridge module to support quiz features during ""live"" tracks. ",58,4,0,3,2,2,0,0,0,2
+MOD-617,website_event_track_quiz,addons/website_event_track_quiz,Marketing/Events,Quizzes on tracks,75,10,5,12,2,3,5,1,0,2
+MOD-618,website_forum,addons/website_forum,Website/Website,Manage a forum with FAQ and Q&A,155,34,14,35,21,5,41,1,13,3
+MOD-619,website_google_map,addons/website_google_map,Website/Website,Show your company address on Google Maps,76,4,0,1,2,2,1,0,0,2
+MOD-620,website_hr_recruitment,addons/website_hr_recruitment,Website/Website,Manage your online hiring process,114,15,7,11,7,2,5,2,3,2
+MOD-621,website_hr_recruitment_livechat,addons/website_hr_recruitment_livechat,Website/Live Chat,Chatbot for the HR Recruitment,52,2,0,1,0,0,0,0,0,2
+MOD-622,website_links,addons/website_links,Website/Website,Generate trackable & short URLs,81,10,2,5,6,0,0,1,4,2
+MOD-623,website_livechat,addons/website_livechat,Website/Live Chat,Chat with your website visitors,136,28,10,9,37,5,2,1,11,2
+MOD-624,website_mail,addons/website_mail,Website/Website,Website Module for Mail,72,7,3,1,2,2,2,0,0,2
+MOD-625,website_mail_group,addons/website_mail_group,,Add a website snippet for the mail groups.,65,8,2,5,3,2,1,0,2,2
+MOD-626,website_mass_mailing,addons/website_mass_mailing,Website/Website,Attract visitors to subscribe to mailing lists,106,12,0,12,18,3,2,1,7,3
+MOD-627,website_mass_mailing_event,addons/website_mass_mailing_event,Marketing/Email Marketing/Website,Add pre-filled snippets in mass_mailing with an event snapshot,55,2,0,3,1,0,0,0,0,2
+MOD-628,website_mass_mailing_sms,addons/website_mass_mailing_sms,Website/Website,Attract visitors to subscribe to mailing lists,59,6,0,3,0,2,0,0,2,2
+MOD-629,website_partner,addons/website_partner,Website/Website,Partner module for website,67,6,2,4,0,2,1,0,0,1
+MOD-630,website_partnership,addons/website_partnership,Website/Website,Publish your partners on your website,65,7,3,7,1,2,1,1,0,2
+MOD-631,website_payment,addons/website_payment,Website/Website,Payment integration with website,85,10,3,7,3,3,3,0,2,3
+MOD-632,website_profile,addons/website_profile,Website/Website,Access the website profile of the users,79,12,4,5,5,3,8,1,3,3
+MOD-633,website_project,addons/website_project,Website/Website,Add a task suggestion form to your website,64,8,2,3,2,2,0,0,2,2
+MOD-634,website_sale,addons/website_sale,Website/Website,Sell your products online,567,123,42,108,165,17,62,3,58,8
+MOD-635,website_sale_collect,addons/website_sale_collect,Website/Website,,110,31,11,18,8,4,3,0,12,3
+MOD-636,website_sale_gelato,addons/website_sale_gelato,Website/Website,,61,10,5,2,0,0,0,0,3,2
+MOD-637,website_sale_loyalty,addons/website_sale_loyalty,Website/Website,"Use coupon, promotion, gift cards and loyalty programs in your eCommerce store",102,27,7,10,12,5,8,1,11,3
+MOD-638,website_sale_mass_mailing,addons/website_sale_mass_mailing,Website/Website,Let new customers sign up for a newsletter during checkout,62,9,3,3,1,2,0,0,2,3
+MOD-639,website_sale_mrp,addons/website_sale_mrp,Website/Website,Manage Kit product inventory & availability,59,8,2,0,2,2,1,0,2,2
+MOD-640,website_sale_project,addons/website_sale_project,Website/Website,Bridge module between website_sale and project,55,4,2,1,1,0,0,0,0,2
+MOD-641,website_sale_slides,addons/website_sale_slides,Website/eLearning,Sell your courses online,88,14,6,14,5,3,1,0,3,2
+MOD-642,website_sale_stock,addons/website_sale_stock,Website/Website,Manage product inventory & availability,123,31,9,17,17,2,2,0,16,3
+MOD-643,website_slides,addons/website_slides,Website/eLearning,Manage and publish an eLearning platform,300,47,23,65,75,4,39,2,16,5
+MOD-644,website_slides_forum,addons/website_slides_forum,Website/eLearning,Allows to link forum on a course,68,9,3,9,0,2,0,1,2,2
+MOD-645,website_slides_survey,addons/website_slides_survey,Website/eLearning,Add certification capabilities to your courses,93,15,5,21,3,4,3,1,4,2
+MOD-646,website_sms,addons/website_sms,Website/Website,Allows to send sms to website visitor,54,4,2,1,0,0,0,0,0,2
+MOD-647,website_timesheet,addons/website_timesheet,Website/Website,Allow hiding timesheet information in the portal,53,4,2,0,0,0,0,0,0,2
+MOD-648,base,odoo/addons/base,Hidden,,661,107,52,88,1,0,0,2,42,0
+MOD-649,test_assetsbundle,odoo/addons/test_assetsbundle,Hidden/Tests,,33,10,2,8,7,2,1,0,4,1
+MOD-650,test_base,odoo/addons/test_base,Hidden/Tests,,136,112,22,10,0,0,0,1,107,1
+MOD-651,test_install_auto,odoo/addons/test_base/tests/test_modules/test_install_addons/test_install_auto,Hidden/Tools,,5,4,2,1,0,0,0,0,4,1
+MOD-652,test_install_base,odoo/addons/test_base/tests/test_modules/test_install_addons/test_install_base,Hidden/Tools,,2,2,0,0,0,0,0,0,2,1
+MOD-653,test_install_fail,odoo/addons/test_base/tests/test_modules/test_install_addons/test_install_fail,Hidden/Tools,,3,2,0,1,0,0,0,0,2,1
+MOD-654,test_data_module,odoo/addons/test_data_module,Hidden/Tests,,1,1,0,0,0,0,0,0,0,0
+MOD-655,test_data_module_install,odoo/addons/test_data_module_install,Hidden/Tests,,4,4,0,0,0,0,0,0,2,1
+MOD-656,test_http,odoo/addons/test_http,Hidden/Tests,,34,27,3,2,0,1,44,0,20,4
+MOD-657,test_inherit,odoo/addons/test_inherit,Hidden/Tests,,13,11,7,1,0,0,0,1,3,2
+MOD-658,test_inherit_depends,odoo/addons/test_inherit_depends,Hidden/Tests,,5,5,1,0,0,0,0,0,2,2
+MOD-659,test_inherits_depends,odoo/addons/test_inherits_depends,Hidden/Tests,,5,5,1,0,0,0,0,0,2,1
+MOD-660,test_l10n,odoo/addons/test_l10n,Hidden/Tests,,5,5,0,0,0,0,0,0,3,1
+MOD-661,test_lint,odoo/addons/test_lint,Hidden/Tests,,30,29,0,0,0,0,0,0,27,1
+MOD-662,test_main_flows,odoo/addons/test_main_flows,Hidden/Tests,,9,5,1,0,3,0,0,0,2,6
+MOD-663,test_tests,odoo/addons/test_tests,Hidden/Tests,,18,16,3,1,0,0,0,1,11,2
+MOD-664,test_translation,odoo/addons/test_translation,Hidden/Tests,,27,11,3,3,2,0,0,1,7,2
+MOD-665,test_uninstall,odoo/addons/test_uninstall,Hidden/Tests,,4,3,1,0,0,0,0,0,0,1
+MOD-666,test_web,odoo/addons/test_web,Hidden/Tests,,27,24,5,0,2,0,0,0,20,2

@@ -1,0 +1,12 @@
+sequenceDiagram
+ participant S as Sales/Purchase client
+ participant O as Order service
+ participant I as Inventory service
+ participant A as Accounting service
+ S->>O: Create/confirm order
+ O->>O: Validate state and permissions
+ O->>I: Create/advance fulfillment demand
+ I-->>O: Stock/receipt result
+ O->>A: Create accounting document when enabled by source flow
+ A-->>O: Accounting result
+ O-->>S: Final state or explicit failure

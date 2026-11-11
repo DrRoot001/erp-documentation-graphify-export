@@ -1,0 +1,12 @@
+flowchart TB
+ CLI[Bootstrap and CLI] --> Runtime[Application runtime]
+ Runtime --> Router[HTTP/API router]
+ Runtime --> Loader[Module/dependency loader]
+ Router --> Auth[Authentication and authorization]
+ Router --> Services[Application/domain services]
+ Loader --> Modules[Addon/domain modules]
+ Services --> Persistence[ORM/persistence abstraction]
+ Persistence --> DB[(PostgreSQL or clone relational store)]
+ Services --> Jobs[Jobs/events]
+ Services --> Integrations[Integration adapters]
+ Router --> Frontend[Frontend/client]

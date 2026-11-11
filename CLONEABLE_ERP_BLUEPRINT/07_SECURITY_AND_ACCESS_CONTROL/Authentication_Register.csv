@@ -1,0 +1,38 @@
+Module,Manifest,Security Capability,Summary,Evidence Status,Activation Status
+account_payment,addons/account_payment/__manifest__.py,Portal access,Enable customers to pay invoices on the portal and post payments when transactions are processed.,Evidence Status,Activation Status
+account_test,addons/account_test/__manifest__.py,Access/security,,Evidence Status,Activation Status
+auth_ldap,addons/auth_ldap/__manifest__.py,Authentication extension; LDAP,,Evidence Status,Activation Status
+auth_oauth,addons/auth_oauth/__manifest__.py,Authentication extension; OAuth,,Evidence Status,Activation Status
+auth_passkey,addons/auth_passkey/__manifest__.py,Authentication extension; Passkey/WebAuthn; Password policy,Log in with a Passkey,Evidence Status,Activation Status
+auth_passkey_portal,addons/auth_passkey_portal/__manifest__.py,Authentication extension; Passkey/WebAuthn; Password policy; Portal access,Passkeys for portal users,Evidence Status,Activation Status
+auth_password_policy,addons/auth_password_policy/__manifest__.py,Authentication extension; Password policy,Implement basic password policy configuration & check,Evidence Status,Activation Status
+auth_password_policy_portal,addons/auth_password_policy_portal/__manifest__.py,Authentication extension; Password policy; Portal access,,Evidence Status,Activation Status
+auth_password_policy_signup,addons/auth_password_policy_signup/__manifest__.py,Authentication extension; Password policy; Signup/registration,,Evidence Status,Activation Status
+auth_signup,addons/auth_signup/__manifest__.py,Authentication extension; Password policy; Signup/registration,,Evidence Status,Activation Status
+auth_timeout,addons/auth_timeout/__manifest__.py,Authentication extension; Session timeout,Ask for authentication after user inactivity,Evidence Status,Activation Status
+auth_totp,addons/auth_totp/__manifest__.py,Access/security; Authentication extension; Password policy; TOTP/MFA,,Evidence Status,Activation Status
+auth_totp_mail,addons/auth_totp_mail/__manifest__.py,Authentication extension; Portal access; TOTP/MFA,,Evidence Status,Activation Status
+auth_totp_portal,addons/auth_totp_portal/__manifest__.py,Authentication extension; Portal access; TOTP/MFA,,Evidence Status,Activation Status
+certificate,addons/certificate/__manifest__.py,Certificate/crypto,Manage certificate,Evidence Status,Activation Status
+contacts,addons/contacts/__manifest__.py,Access/security,Centralize your address book,Evidence Status,Activation Status
+google_recaptcha,addons/google_recaptcha/__manifest__.py,Captcha,,Evidence Status,Activation Status
+hr_expense,addons/hr_expense/__manifest__.py,Access/security,"Submit, validate and reinvoice employee expenses",Evidence Status,Activation Status
+l10n_be,addons/l10n_be/__manifest__.py,Access/security,,Evidence Status,Activation Status
+l10n_dk,addons/l10n_dk/__manifest__.py,Access/security,,Evidence Status,Activation Status
+l10n_eg_edi_eta,addons/l10n_eg_edi_eta/__manifest__.py,Portal access,Egypt Tax Authority Invoice Integration,Evidence Status,Activation Status
+l10n_es_edi_sii,addons/l10n_es_edi_sii/__manifest__.py,Certificate/crypto,,Evidence Status,Activation Status
+l10n_es_edi_tbai,addons/l10n_es_edi_tbai/__manifest__.py,Certificate/crypto,,Evidence Status,Activation Status
+l10n_fi,addons/l10n_fi/__manifest__.py,Access/security,,Evidence Status,Activation Status
+l10n_fr_pos_cert,addons/l10n_fr_pos_cert/__manifest__.py,Access/security; Certificate/crypto,,Evidence Status,Activation Status
+l10n_in_edi,addons/l10n_in_edi/__manifest__.py,Password policy; Portal access,,Evidence Status,Activation Status
+l10n_in_ewaybill,addons/l10n_in_ewaybill/__manifest__.py,Password policy; Portal access,,Evidence Status,Activation Status
+l10n_pk_edi,addons/l10n_pk_edi/__manifest__.py,Portal access,Electronic Invoicing for Pakistan FBR(v1.12),Evidence Status,Activation Status
+l10n_vn,addons/l10n_vn/__manifest__.py,Portal access,,Evidence Status,Activation Status
+portal,addons/portal/__manifest__.py,Portal access,Customer Portal,Evidence Status,Activation Status
+portal_discuss,addons/portal_discuss/__manifest__.py,Access/security; Portal access,,Evidence Status,Activation Status
+portal_rating,addons/portal_rating/__manifest__.py,Portal access,,Evidence Status,Activation Status
+privacy_lookup,addons/privacy_lookup/__manifest__.py,Privacy/data protection,,Evidence Status,Activation Status
+rpc,addons/rpc/__manifest__.py,Access/security,,Evidence Status,Activation Status
+website_crm_livechat,addons/website_crm_livechat/__manifest__.py,Access/security,View livechat sessions for leads,Evidence Status,Activation Status
+website_profile,addons/website_profile/__manifest__.py,Access/security,Access the website profile of the users,Evidence Status,Activation Status
+website_timesheet,addons/website_timesheet/__manifest__.py,Portal access,Allow hiding timesheet information in the portal,Evidence Status,Activation Status

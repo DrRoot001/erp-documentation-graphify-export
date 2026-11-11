@@ -1,0 +1,9 @@
+flowchart TB
+ Dev[Developer/build pipeline] --> Artifact[Versioned application artifact]
+ Artifact --> App[Application server/workers]
+ App --> DB[(PostgreSQL)]
+ App --> Files[(Filestore/object storage)]
+ App <--> Ext[Optional external providers]
+ App --> Obs[Logs/metrics/alerts]
+ DB --> Backup[Backup and restore process]
+ Files --> Backup

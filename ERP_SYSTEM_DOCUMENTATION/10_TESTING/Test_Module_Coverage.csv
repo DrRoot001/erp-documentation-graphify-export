@@ -1,0 +1,667 @@
+Module,Manifest Path,Test Files,Python Tests,JS/TS Tests,Browser/Static Tests,HTTP/Integration Tests,Backend/Model Tests,Test Artifact Status
+account,addons/account/__manifest__.py,87,78,9,9,3,75,Test artifacts present
+account_check_printing,addons/account_check_printing/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+account_debit_note,addons/account_debit_note/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+account_edi,addons/account_edi/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+account_edi_proxy_client,addons/account_edi_proxy_client/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+account_edi_ubl_cii,addons/account_edi_ubl_cii/__manifest__.py,34,34,0,0,1,33,Test artifacts present
+account_fleet,addons/account_fleet/__manifest__.py,3,3,0,0,0,3,Test artifacts present
+account_payment,addons/account_payment/__manifest__.py,4,3,1,1,0,3,Test artifacts present
+account_payment_custom,addons/account_payment_custom/__manifest__.py,3,3,0,0,0,3,Test artifacts present
+account_payment_interco,addons/account_payment_interco/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+account_peppol,addons/account_peppol/__manifest__.py,7,7,0,0,1,6,Test artifacts present
+account_qr_code_emv,addons/account_qr_code_emv/__manifest__.py,0,0,0,0,0,0,No matching test file found
+account_qr_code_sepa,addons/account_qr_code_sepa/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+account_tax_python,addons/account_tax_python/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+account_test,addons/account_test/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+account_update_tax_tags,addons/account_update_tax_tags/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+analytic,addons/analytic/__manifest__.py,8,4,4,4,0,4,Test artifacts present
+api_doc,addons/api_doc/__manifest__.py,3,2,1,1,2,0,Test artifacts present
+attachment_indexation,addons/attachment_indexation/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+auth_ldap,addons/auth_ldap/__manifest__.py,1,1,0,0,1,0,Test artifacts present
+auth_oauth,addons/auth_oauth/__manifest__.py,0,0,0,0,0,0,No matching test file found
+auth_passkey,addons/auth_passkey/__manifest__.py,1,1,0,0,1,0,Test artifacts present
+auth_passkey_portal,addons/auth_passkey_portal/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+auth_password_policy,addons/auth_password_policy/__manifest__.py,0,0,0,0,0,0,No matching test file found
+auth_password_policy_portal,addons/auth_password_policy_portal/__manifest__.py,0,0,0,0,0,0,No matching test file found
+auth_password_policy_signup,addons/auth_password_policy_signup/__manifest__.py,0,0,0,0,0,0,No matching test file found
+auth_signup,addons/auth_signup/__manifest__.py,3,3,0,0,2,1,Test artifacts present
+auth_timeout,addons/auth_timeout/__manifest__.py,1,1,0,0,1,0,Test artifacts present
+auth_totp,addons/auth_totp/__manifest__.py,2,2,0,0,2,0,Test artifacts present
+auth_totp_mail,addons/auth_totp_mail/__manifest__.py,3,3,0,0,2,1,Test artifacts present
+auth_totp_portal,addons/auth_totp_portal/__manifest__.py,1,1,0,0,1,0,Test artifacts present
+barcodes,addons/barcodes/__manifest__.py,5,1,4,4,0,1,Test artifacts present
+barcodes_gs1_nomenclature,addons/barcodes_gs1_nomenclature/__manifest__.py,3,1,2,2,0,1,Test artifacts present
+base,odoo/addons/base/__manifest__.py,37,37,0,0,4,33,Test artifacts present
+base_address_extended,addons/base_address_extended/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+base_automation,addons/base_automation/__manifest__.py,5,2,3,3,1,1,Test artifacts present
+base_geolocalize,addons/base_geolocalize/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+base_import,addons/base_import/__manifest__.py,2,0,2,2,0,0,Test artifacts present
+base_import_module,addons/base_import_module/__manifest__.py,3,2,1,1,1,1,Test artifacts present
+base_install_request,addons/base_install_request/__manifest__.py,0,0,0,0,0,0,No matching test file found
+base_report_paper_muncher,addons/base_report_paper_muncher/__manifest__.py,1,1,0,0,1,0,Test artifacts present
+base_report_wkhtmltox,addons/base_report_wkhtmltox/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+base_setup,addons/base_setup/__manifest__.py,4,4,0,0,2,2,Test artifacts present
+base_sparse_field,addons/base_sparse_field/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+board,addons/board/__manifest__.py,2,0,2,2,0,0,Test artifacts present
+bus,addons/bus/__manifest__.py,21,13,8,8,7,6,Test artifacts present
+calendar,addons/calendar/__manifest__.py,26,19,7,7,3,16,Test artifacts present
+calendar_sms,addons/calendar_sms/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+certificate,addons/certificate/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+cloud_storage,addons/cloud_storage/__manifest__.py,4,3,1,1,2,1,Test artifacts present
+cloud_storage_azure,addons/cloud_storage_azure/__manifest__.py,2,2,0,0,1,1,Test artifacts present
+cloud_storage_google,addons/cloud_storage_google/__manifest__.py,3,3,0,0,1,2,Test artifacts present
+cloud_storage_migration,addons/cloud_storage_migration/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+contacts,addons/contacts/__manifest__.py,1,1,0,0,1,0,Test artifacts present
+crm,addons/crm/__manifest__.py,23,18,5,5,2,16,Test artifacts present
+crm_iap_enrich,addons/crm_iap_enrich/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+crm_iap_mine,addons/crm_iap_mine/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+crm_livechat,addons/crm_livechat/__manifest__.py,7,3,4,4,2,1,Test artifacts present
+crm_mail_plugin,addons/crm_mail_plugin/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+crm_sale_project,addons/crm_sale_project/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+crm_sms,addons/crm_sms/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+data_recycle,addons/data_recycle/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+delivery,addons/delivery/__manifest__.py,5,5,0,0,1,4,Test artifacts present
+digest,addons/digest/__manifest__.py,2,2,0,0,1,1,Test artifacts present
+event,addons/event/__manifest__.py,4,4,0,0,1,3,Test artifacts present
+event_booth,addons/event_booth/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+event_booth_sale,addons/event_booth_sale/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+event_crm,addons/event_crm/__manifest__.py,3,3,0,0,1,2,Test artifacts present
+event_crm_sale,addons/event_crm_sale/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+event_product,addons/event_product/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+event_sale,addons/event_sale/__manifest__.py,4,4,0,0,1,3,Test artifacts present
+event_sms,addons/event_sms/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+fleet,addons/fleet/__manifest__.py,7,7,0,0,1,6,Test artifacts present
+fleet_maintenance,addons/fleet_maintenance/__manifest__.py,0,0,0,0,0,0,No matching test file found
+gamification,addons/gamification/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+gamification_sale_crm,addons/gamification_sale_crm/__manifest__.py,0,0,0,0,0,0,No matching test file found
+google_account,addons/google_account/__manifest__.py,0,0,0,0,0,0,No matching test file found
+google_address_autocomplete,addons/google_address_autocomplete/__manifest__.py,2,1,1,1,1,0,Test artifacts present
+google_calendar,addons/google_calendar/__manifest__.py,11,10,1,1,1,9,Test artifacts present
+google_gmail,addons/google_gmail/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+google_recaptcha,addons/google_recaptcha/__manifest__.py,0,0,0,0,0,0,No matching test file found
+hr,addons/hr/__manifest__.py,36,26,10,10,4,22,Test artifacts present
+hr_address_extended,addons/hr_address_extended/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+hr_attendance,addons/hr_attendance/__manifest__.py,17,12,5,5,3,9,Test artifacts present
+hr_calendar,addons/hr_calendar/__manifest__.py,5,4,1,1,0,4,Test artifacts present
+hr_calendar_google,addons/hr_calendar_google/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+hr_expense,addons/hr_expense/__manifest__.py,7,7,0,0,3,4,Test artifacts present
+hr_fleet,addons/hr_fleet/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+hr_gamification,addons/hr_gamification/__manifest__.py,2,1,1,1,0,1,Test artifacts present
+hr_holidays,addons/hr_holidays/__manifest__.py,56,42,14,14,8,34,Test artifacts present
+hr_holidays_attendance,addons/hr_holidays_attendance/__manifest__.py,7,7,0,0,1,6,Test artifacts present
+hr_livechat,addons/hr_livechat/__manifest__.py,0,0,0,0,0,0,No matching test file found
+hr_maintenance,addons/hr_maintenance/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+hr_presence,addons/hr_presence/__manifest__.py,0,0,0,0,0,0,No matching test file found
+hr_recruitment,addons/hr_recruitment/__manifest__.py,8,7,1,1,0,7,Test artifacts present
+hr_recruitment_skills,addons/hr_recruitment_skills/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+hr_recruitment_sms,addons/hr_recruitment_sms/__manifest__.py,0,0,0,0,0,0,No matching test file found
+hr_recruitment_survey,addons/hr_recruitment_survey/__manifest__.py,3,3,0,0,0,3,Test artifacts present
+hr_skills,addons/hr_skills/__manifest__.py,6,5,1,1,2,3,Test artifacts present
+hr_skills_event,addons/hr_skills_event/__manifest__.py,1,1,0,0,1,0,Test artifacts present
+hr_skills_slides,addons/hr_skills_slides/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+hr_skills_survey,addons/hr_skills_survey/__manifest__.py,1,1,0,0,1,0,Test artifacts present
+hr_timesheet,addons/hr_timesheet/__manifest__.py,15,11,4,4,0,11,Test artifacts present
+hr_timesheet_attendance,addons/hr_timesheet_attendance/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+hr_work_entry,addons/hr_work_entry/__manifest__.py,4,3,1,1,0,3,Test artifacts present
+html_builder,addons/html_builder/__manifest__.py,53,1,52,52,1,0,Test artifacts present
+html_editor,addons/html_editor/__manifest__.py,160,10,150,150,4,6,Test artifacts present
+http_routing,addons/http_routing/__manifest__.py,1,1,0,0,1,0,Test artifacts present
+iap,addons/iap/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+iap_crm,addons/iap_crm/__manifest__.py,0,0,0,0,0,0,No matching test file found
+iap_mail,addons/iap_mail/__manifest__.py,0,0,0,0,0,0,No matching test file found
+im_livechat,addons/im_livechat/__manifest__.py,56,21,35,35,6,15,Test artifacts present
+iot_drivers,addons/iot_drivers/__manifest__.py,0,0,0,0,0,0,No matching test file found
+iot_webserial,addons/iot_webserial/__manifest__.py,2,0,2,2,0,0,Test artifacts present
+l10n_account_edi_ubl_cii_tests,addons/l10n_account_edi_ubl_cii_tests/__manifest__.py,9,9,0,0,0,9,Test artifacts present
+l10n_account_withholding_tax,addons/l10n_account_withholding_tax/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+l10n_account_withholding_tax_pos,addons/l10n_account_withholding_tax_pos/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_ae,addons/l10n_ae/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_ae_pos,addons/l10n_ae_pos/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_anz_ubl_pint,addons/l10n_anz_ubl_pint/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_ar,addons/l10n_ar/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+l10n_ar_pos,addons/l10n_ar_pos/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+l10n_ar_stock,addons/l10n_ar_stock/__manifest__.py,3,3,0,0,0,3,Test artifacts present
+l10n_ar_website_sale,addons/l10n_ar_website_sale/__manifest__.py,1,1,0,0,1,0,Test artifacts present
+l10n_ar_withholding,addons/l10n_ar_withholding/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_at,addons/l10n_at/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_au,addons/l10n_au/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_bd,addons/l10n_bd/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_be,addons/l10n_be/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_be_pos,addons/l10n_be_pos/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_be_pos_restaurant,addons/l10n_be_pos_restaurant/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_be_pos_sale,addons/l10n_be_pos_sale/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_bf,addons/l10n_bf/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_bg,addons/l10n_bg/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_bg_ledger,addons/l10n_bg_ledger/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_bh,addons/l10n_bh/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_bh_pos,addons/l10n_bh_pos/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_bj,addons/l10n_bj/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_bo,addons/l10n_bo/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_br,addons/l10n_br/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+l10n_br_sales,addons/l10n_br_sales/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_br_website_sale,addons/l10n_br_website_sale/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_ca,addons/l10n_ca/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_cd,addons/l10n_cd/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_cf,addons/l10n_cf/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_cg,addons/l10n_cg/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_ch,addons/l10n_ch/__manifest__.py,4,4,0,0,0,4,Test artifacts present
+l10n_ch_pos,addons/l10n_ch_pos/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+l10n_ci,addons/l10n_ci/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_cl,addons/l10n_cl/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_cm,addons/l10n_cm/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_cn,addons/l10n_cn/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_co,addons/l10n_co/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_co_pos,addons/l10n_co_pos/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_cr,addons/l10n_cr/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_cy,addons/l10n_cy/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_cz,addons/l10n_cz/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+l10n_de,addons/l10n_de/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+l10n_din5008,addons/l10n_din5008/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_din5008_expense,addons/l10n_din5008_expense/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_din5008_purchase,addons/l10n_din5008_purchase/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_din5008_repair,addons/l10n_din5008_repair/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_din5008_sale,addons/l10n_din5008_sale/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_din5008_stock,addons/l10n_din5008_stock/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_dk,addons/l10n_dk/__manifest__.py,3,3,0,0,0,3,Test artifacts present
+l10n_dk_fik,addons/l10n_dk_fik/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_do,addons/l10n_do/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_dz,addons/l10n_dz/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_ec,addons/l10n_ec/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_ec_sale,addons/l10n_ec_sale/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_ee,addons/l10n_ee/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_eg,addons/l10n_eg/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_eg_edi_eta,addons/l10n_eg_edi_eta/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_eg_edi_pos,addons/l10n_eg_edi_pos/__manifest__.py,6,6,0,0,0,6,Test artifacts present
+l10n_es,addons/l10n_es/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_es_edi_facturae,addons/l10n_es_edi_facturae/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_es_edi_sii,addons/l10n_es_edi_sii/__manifest__.py,3,3,0,0,0,3,Test artifacts present
+l10n_es_edi_tbai,addons/l10n_es_edi_tbai/__manifest__.py,8,8,0,0,0,8,Test artifacts present
+l10n_es_edi_tbai_pos,addons/l10n_es_edi_tbai_pos/__manifest__.py,3,3,0,0,0,3,Test artifacts present
+l10n_es_edi_verifactu,addons/l10n_es_edi_verifactu/__manifest__.py,3,3,0,0,0,3,Test artifacts present
+l10n_es_edi_verifactu_pos,addons/l10n_es_edi_verifactu_pos/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_es_pos,addons/l10n_es_pos/__manifest__.py,3,3,0,0,0,3,Test artifacts present
+l10n_es_website_sale,addons/l10n_es_website_sale/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_es_website_sale_id_type,addons/l10n_es_website_sale_id_type/__manifest__.py,1,1,0,0,1,0,Test artifacts present
+l10n_et,addons/l10n_et/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_eu_account_vies,addons/l10n_eu_account_vies/__manifest__.py,2,2,0,0,1,1,Test artifacts present
+l10n_eu_oss,addons/l10n_eu_oss/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_fi,addons/l10n_fi/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+l10n_fi_sale,addons/l10n_fi_sale/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_fr,addons/l10n_fr/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_fr_account,addons/l10n_fr_account/__manifest__.py,3,3,0,0,0,3,Test artifacts present
+l10n_fr_facturx_chorus_pro,addons/l10n_fr_facturx_chorus_pro/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+l10n_fr_hr_holidays,addons/l10n_fr_hr_holidays/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+l10n_fr_payment,addons/l10n_fr_payment/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_fr_pdp,addons/l10n_fr_pdp/__manifest__.py,7,7,0,0,0,7,Test artifacts present
+l10n_fr_pdp_penalty_rate,addons/l10n_fr_pdp_penalty_rate/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+l10n_fr_pdp_pos,addons/l10n_fr_pdp_pos/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_fr_pos_cert,addons/l10n_fr_pos_cert/__manifest__.py,6,4,2,2,0,4,Test artifacts present
+l10n_ga,addons/l10n_ga/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_gcc_invoice,addons/l10n_gcc_invoice/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_gcc_invoice_stock_account,addons/l10n_gcc_invoice_stock_account/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_gcc_pos,addons/l10n_gcc_pos/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+l10n_ge,addons/l10n_ge/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_gf,addons/l10n_gf/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_gn,addons/l10n_gn/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_gp,addons/l10n_gp/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_gq,addons/l10n_gq/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_gr,addons/l10n_gr/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_gr_edi,addons/l10n_gr_edi/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+l10n_gr_edi_delivery_note,addons/l10n_gr_edi_delivery_note/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_gr_edi_e_invoo,addons/l10n_gr_edi_e_invoo/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_gr_edi_e_invoo_bridge,addons/l10n_gr_edi_e_invoo_bridge/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_gt,addons/l10n_gt/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_gw,addons/l10n_gw/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_hk,addons/l10n_hk/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_hn,addons/l10n_hn/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_hr,addons/l10n_hr/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_hr_edi,addons/l10n_hr_edi/__manifest__.py,5,5,0,0,0,5,Test artifacts present
+l10n_hr_kuna,addons/l10n_hr_kuna/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_hu,addons/l10n_hu/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_hu_edi,addons/l10n_hu_edi/__manifest__.py,8,8,0,0,0,8,Test artifacts present
+l10n_id,addons/l10n_id/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+l10n_id_efaktur_coretax,addons/l10n_id_efaktur_coretax/__manifest__.py,3,3,0,0,0,3,Test artifacts present
+l10n_id_pos,addons/l10n_id_pos/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_id_pos_self_order_qris,addons/l10n_id_pos_self_order_qris/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_ie,addons/l10n_ie/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_il,addons/l10n_il/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_in,addons/l10n_in/__manifest__.py,7,7,0,0,0,7,Test artifacts present
+l10n_in_boe,addons/l10n_in_boe/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_in_edi,addons/l10n_in_edi/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_in_ewaybill,addons/l10n_in_ewaybill/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_in_ewaybill_irn,addons/l10n_in_ewaybill_irn/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_in_ewaybill_stock,addons/l10n_in_ewaybill_stock/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_in_hr_holidays,addons/l10n_in_hr_holidays/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+l10n_in_pos,addons/l10n_in_pos/__manifest__.py,7,7,0,0,0,7,Test artifacts present
+l10n_in_purchase_stock,addons/l10n_in_purchase_stock/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_in_sale,addons/l10n_in_sale/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+l10n_in_sale_stock,addons/l10n_in_sale_stock/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_in_stock,addons/l10n_in_stock/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_iq,addons/l10n_iq/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_it,addons/l10n_it/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_it_edi,addons/l10n_it_edi/__manifest__.py,12,12,0,0,2,10,Test artifacts present
+l10n_it_edi_doi,addons/l10n_it_edi_doi/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_it_edi_sale,addons/l10n_it_edi_sale/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_it_stock_ddt,addons/l10n_it_stock_ddt/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+l10n_jo,addons/l10n_jo/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_jo_edi,addons/l10n_jo_edi/__manifest__.py,3,3,0,0,0,3,Test artifacts present
+l10n_jo_edi_pos,addons/l10n_jo_edi_pos/__manifest__.py,3,3,0,0,0,3,Test artifacts present
+l10n_jp,addons/l10n_jp/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_jp_ubl_pint,addons/l10n_jp_ubl_pint/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_ke,addons/l10n_ke/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_ke_edi_tremol,addons/l10n_ke_edi_tremol/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+l10n_kh,addons/l10n_kh/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_km,addons/l10n_km/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_kr,addons/l10n_kr/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_kr_sale,addons/l10n_kr_sale/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_kw,addons/l10n_kw/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_kz,addons/l10n_kz/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_la,addons/l10n_la/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_latam_check,addons/l10n_latam_check/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+l10n_latam_invoice_document,addons/l10n_latam_invoice_document/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_lb_account,addons/l10n_lb_account/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_lk,addons/l10n_lk/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_lt,addons/l10n_lt/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_lu,addons/l10n_lu/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_lv,addons/l10n_lv/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_ma,addons/l10n_ma/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_mc,addons/l10n_mc/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_mk,addons/l10n_mk/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_ml,addons/l10n_ml/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_mm,addons/l10n_mm/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_mn,addons/l10n_mn/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_mq,addons/l10n_mq/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_mr,addons/l10n_mr/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_mt,addons/l10n_mt/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_mt_pos,addons/l10n_mt_pos/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_mu_account,addons/l10n_mu_account/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_mx,addons/l10n_mx/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+l10n_my,addons/l10n_my/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_my_edi,addons/l10n_my_edi/__manifest__.py,5,5,0,0,0,5,Test artifacts present
+l10n_my_edi_pos,addons/l10n_my_edi_pos/__manifest__.py,1,1,0,0,1,0,Test artifacts present
+l10n_my_ubl_pint,addons/l10n_my_ubl_pint/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_mz,addons/l10n_mz/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_ne,addons/l10n_ne/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_ng,addons/l10n_ng/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_nl,addons/l10n_nl/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_no,addons/l10n_no/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_nz,addons/l10n_nz/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_om,addons/l10n_om/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_pa,addons/l10n_pa/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_pe,addons/l10n_pe/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_pe_pos,addons/l10n_pe_pos/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_ph,addons/l10n_ph/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+l10n_ph_invoice,addons/l10n_ph_invoice/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_ph_sale,addons/l10n_ph_sale/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_pk,addons/l10n_pk/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_pk_edi,addons/l10n_pk_edi/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_pk_edi_pos,addons/l10n_pk_edi_pos/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_pl,addons/l10n_pl/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+l10n_pl_edi,addons/l10n_pl_edi/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_pl_edi_jst,addons/l10n_pl_edi_jst/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_pt,addons/l10n_pt/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_qa,addons/l10n_qa/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_re,addons/l10n_re/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_ro,addons/l10n_ro/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_ro_edi,addons/l10n_ro_edi/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+l10n_ro_edi_stock,addons/l10n_ro_edi_stock/__manifest__.py,3,3,0,0,0,3,Test artifacts present
+l10n_rs,addons/l10n_rs/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_rs_edi,addons/l10n_rs_edi/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_rw,addons/l10n_rw/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_sa,addons/l10n_sa/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+l10n_sa_edi,addons/l10n_sa_edi/__manifest__.py,4,4,0,0,0,4,Test artifacts present
+l10n_sa_edi_pos,addons/l10n_sa_edi_pos/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+l10n_sa_pos,addons/l10n_sa_pos/__manifest__.py,3,2,1,1,0,2,Test artifacts present
+l10n_se,addons/l10n_se/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_sg,addons/l10n_sg/__manifest__.py,3,3,0,0,0,3,Test artifacts present
+l10n_sg_ubl_pint,addons/l10n_sg_ubl_pint/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_si,addons/l10n_si/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_sk,addons/l10n_sk/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_sn,addons/l10n_sn/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_syscohada,addons/l10n_syscohada/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_td,addons/l10n_td/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_test_pos_qr_payment,addons/l10n_test_pos_qr_payment/__manifest__.py,2,1,1,1,0,1,Test artifacts present
+l10n_tg,addons/l10n_tg/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_th,addons/l10n_th/__manifest__.py,6,6,0,0,0,6,Test artifacts present
+l10n_tn,addons/l10n_tn/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_tr,addons/l10n_tr/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_tw,addons/l10n_tw/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_tw_edi_ecpay,addons/l10n_tw_edi_ecpay/__manifest__.py,1,1,0,0,1,0,Test artifacts present
+l10n_tw_edi_ecpay_pos,addons/l10n_tw_edi_ecpay_pos/__manifest__.py,3,2,1,1,0,2,Test artifacts present
+l10n_tw_edi_ecpay_sale,addons/l10n_tw_edi_ecpay_sale/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_tw_edi_ecpay_website_sale,addons/l10n_tw_edi_ecpay_website_sale/__manifest__.py,1,1,0,0,1,0,Test artifacts present
+l10n_tz_account,addons/l10n_tz_account/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_ua,addons/l10n_ua/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_ug,addons/l10n_ug/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_uk,addons/l10n_uk/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_us,addons/l10n_us/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_us_account,addons/l10n_us_account/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_uy,addons/l10n_uy/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+l10n_uz,addons/l10n_uz/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_ve,addons/l10n_ve/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_vn,addons/l10n_vn/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+l10n_vn_edi_viettel,addons/l10n_vn_edi_viettel/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+l10n_vn_edi_viettel_pos,addons/l10n_vn_edi_viettel_pos/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+l10n_vn_edi_viettel_stock,addons/l10n_vn_edi_viettel_stock/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+l10n_yt,addons/l10n_yt/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_za,addons/l10n_za/__manifest__.py,0,0,0,0,0,0,No matching test file found
+l10n_zm_account,addons/l10n_zm_account/__manifest__.py,0,0,0,0,0,0,No matching test file found
+link_tracker,addons/link_tracker/__manifest__.py,3,3,0,0,2,1,Test artifacts present
+loyalty,addons/loyalty/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+lunch,addons/lunch/__manifest__.py,6,4,2,2,1,3,Test artifacts present
+mail,addons/mail/__manifest__.py,189,60,129,129,28,32,Test artifacts present
+mail_bot,addons/mail_bot/__manifest__.py,0,0,0,0,0,0,No matching test file found
+mail_bot_hr,addons/mail_bot_hr/__manifest__.py,0,0,0,0,0,0,No matching test file found
+mail_group,addons/mail_group/__manifest__.py,4,4,0,0,1,3,Test artifacts present
+mail_plugin,addons/mail_plugin/__manifest__.py,1,1,0,0,1,0,Test artifacts present
+mail_tracking,addons/mail_tracking/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+mail_tracking_mass_mailing,addons/mail_tracking_mass_mailing/__manifest__.py,0,0,0,0,0,0,No matching test file found
+mail_tracking_sms,addons/mail_tracking_sms/__manifest__.py,0,0,0,0,0,0,No matching test file found
+maintenance,addons/maintenance/__manifest__.py,3,3,0,0,1,2,Test artifacts present
+marketing_card,addons/marketing_card/__manifest__.py,1,1,0,0,1,0,Test artifacts present
+marketing_card_event,addons/marketing_card_event/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+mass_mailing,addons/mass_mailing/__manifest__.py,20,15,5,5,3,12,Test artifacts present
+mass_mailing_crm,addons/mass_mailing_crm/__manifest__.py,0,0,0,0,0,0,No matching test file found
+mass_mailing_crm_sms,addons/mass_mailing_crm_sms/__manifest__.py,0,0,0,0,0,0,No matching test file found
+mass_mailing_event,addons/mass_mailing_event/__manifest__.py,0,0,0,0,0,0,No matching test file found
+mass_mailing_event_sms,addons/mass_mailing_event_sms/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+mass_mailing_event_track,addons/mass_mailing_event_track/__manifest__.py,0,0,0,0,0,0,No matching test file found
+mass_mailing_event_track_sms,addons/mass_mailing_event_track_sms/__manifest__.py,0,0,0,0,0,0,No matching test file found
+mass_mailing_sale,addons/mass_mailing_sale/__manifest__.py,0,0,0,0,0,0,No matching test file found
+mass_mailing_sale_sms,addons/mass_mailing_sale_sms/__manifest__.py,0,0,0,0,0,0,No matching test file found
+mass_mailing_slides,addons/mass_mailing_slides/__manifest__.py,0,0,0,0,0,0,No matching test file found
+mass_mailing_sms,addons/mass_mailing_sms/__manifest__.py,8,8,0,0,1,7,Test artifacts present
+mass_mailing_themes,addons/mass_mailing_themes/__manifest__.py,0,0,0,0,0,0,No matching test file found
+microsoft_account,addons/microsoft_account/__manifest__.py,0,0,0,0,0,0,No matching test file found
+microsoft_calendar,addons/microsoft_calendar/__manifest__.py,9,8,1,1,0,8,Test artifacts present
+microsoft_outlook,addons/microsoft_outlook/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+mrp,addons/mrp/__manifest__.py,24,23,1,1,4,19,Test artifacts present
+mrp_account,addons/mrp_account/__manifest__.py,4,4,0,0,0,4,Test artifacts present
+mrp_delivery,addons/mrp_delivery/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+mrp_landed_costs,addons/mrp_landed_costs/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+mrp_product_expiry,addons/mrp_product_expiry/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+mrp_repair,addons/mrp_repair/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+mrp_subcontracting,addons/mrp_subcontracting/__manifest__.py,2,2,0,0,1,1,Test artifacts present
+mrp_subcontracting_account,addons/mrp_subcontracting_account/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+mrp_subcontracting_dropshipping,addons/mrp_subcontracting_dropshipping/__manifest__.py,3,3,0,0,0,3,Test artifacts present
+mrp_subcontracting_landed_costs,addons/mrp_subcontracting_landed_costs/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+mrp_subcontracting_purchase,addons/mrp_subcontracting_purchase/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+mysubscription,addons/mysubscription/__manifest__.py,2,1,1,1,0,1,Test artifacts present
+onboarding,addons/onboarding/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+partner_autocomplete,addons/partner_autocomplete/__manifest__.py,3,2,1,1,0,2,Test artifacts present
+partnership,addons/partnership/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+payment,addons/payment/__manifest__.py,12,11,1,1,0,11,Test artifacts present
+payment_adyen,addons/payment_adyen/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+payment_aps,addons/payment_aps/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+payment_asiapay,addons/payment_asiapay/__manifest__.py,3,3,0,0,0,3,Test artifacts present
+payment_authorize,addons/payment_authorize/__manifest__.py,4,4,0,0,0,4,Test artifacts present
+payment_buckaroo,addons/payment_buckaroo/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+payment_custom,addons/payment_custom/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+payment_demo,addons/payment_demo/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+payment_dpo,addons/payment_dpo/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+payment_ecpay,addons/payment_ecpay/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+payment_flutterwave,addons/payment_flutterwave/__manifest__.py,3,3,0,0,0,3,Test artifacts present
+payment_iyzico,addons/payment_iyzico/__manifest__.py,3,3,0,0,0,3,Test artifacts present
+payment_mercado_pago,addons/payment_mercado_pago/__manifest__.py,3,3,0,0,0,3,Test artifacts present
+payment_mollie,addons/payment_mollie/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+payment_nuvei,addons/payment_nuvei/__manifest__.py,3,3,0,0,0,3,Test artifacts present
+payment_paymob,addons/payment_paymob/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+payment_paypal,addons/payment_paypal/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+payment_payu,addons/payment_payu/__manifest__.py,3,3,0,0,0,3,Test artifacts present
+payment_razorpay,addons/payment_razorpay/__manifest__.py,3,3,0,0,0,3,Test artifacts present
+payment_redsys,addons/payment_redsys/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+payment_stripe,addons/payment_stripe/__manifest__.py,3,3,0,0,0,3,Test artifacts present
+payment_toss_payments,addons/payment_toss_payments/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+payment_worldline,addons/payment_worldline/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+payment_xendit,addons/payment_xendit/__manifest__.py,3,3,0,0,0,3,Test artifacts present
+phone_validation,addons/phone_validation/__manifest__.py,4,4,0,0,0,4,Test artifacts present
+point_of_sale,addons/point_of_sale/__manifest__.py,104,26,78,78,2,24,Test artifacts present
+populate,addons/populate/__manifest__.py,0,0,0,0,0,0,No matching test file found
+portal,addons/portal/__manifest__.py,7,7,0,0,3,4,Test artifacts present
+portal_discuss,addons/portal_discuss/__manifest__.py,1,1,0,0,1,0,Test artifacts present
+portal_rating,addons/portal_rating/__manifest__.py,0,0,0,0,0,0,No matching test file found
+pos_account_tax_python,addons/pos_account_tax_python/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+pos_adyen,addons/pos_adyen/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+pos_bancontact_pay,addons/pos_bancontact_pay/__manifest__.py,8,3,5,5,0,3,Test artifacts present
+pos_cashdro,addons/pos_cashdro/__manifest__.py,1,0,1,1,0,0,Test artifacts present
+pos_cashmatic,addons/pos_cashmatic/__manifest__.py,1,0,1,1,0,0,Test artifacts present
+pos_discount,addons/pos_discount/__manifest__.py,7,1,6,6,0,1,Test artifacts present
+pos_dpopay,addons/pos_dpopay/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+pos_edi_ubl,addons/pos_edi_ubl/__manifest__.py,0,0,0,0,0,0,No matching test file found
+pos_event,addons/pos_event/__manifest__.py,7,1,6,6,0,1,Test artifacts present
+pos_event_sale,addons/pos_event_sale/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+pos_glory_cash,addons/pos_glory_cash/__manifest__.py,3,0,3,3,0,0,Test artifacts present
+pos_hr,addons/pos_hr/__manifest__.py,15,4,11,11,0,4,Test artifacts present
+pos_hr_restaurant,addons/pos_hr_restaurant/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+pos_imin,addons/pos_imin/__manifest__.py,0,0,0,0,0,0,No matching test file found
+pos_loyalty,addons/pos_loyalty/__manifest__.py,18,9,9,9,0,9,Test artifacts present
+pos_mercado_pago,addons/pos_mercado_pago/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+pos_mollie,addons/pos_mollie/__manifest__.py,2,1,1,1,0,1,Test artifacts present
+pos_mrp,addons/pos_mrp/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+pos_online_payment,addons/pos_online_payment/__manifest__.py,3,1,2,2,0,1,Test artifacts present
+pos_online_payment_self_order,addons/pos_online_payment_self_order/__manifest__.py,6,4,2,2,0,4,Test artifacts present
+pos_partner_autocomplete,addons/pos_partner_autocomplete/__manifest__.py,0,0,0,0,0,0,No matching test file found
+pos_pine_labs,addons/pos_pine_labs/__manifest__.py,0,0,0,0,0,0,No matching test file found
+pos_qfpay,addons/pos_qfpay/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+pos_razorpay,addons/pos_razorpay/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+pos_repair,addons/pos_repair/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+pos_restaurant,addons/pos_restaurant/__manifest__.py,21,4,17,17,0,4,Test artifacts present
+pos_restaurant_loyalty,addons/pos_restaurant_loyalty/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+pos_safaricom,addons/pos_safaricom/__manifest__.py,3,1,2,2,0,1,Test artifacts present
+pos_sale,addons/pos_sale/__manifest__.py,9,3,6,6,0,3,Test artifacts present
+pos_sale_delivery,addons/pos_sale_delivery/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+pos_sale_loyalty,addons/pos_sale_loyalty/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+pos_sale_margin,addons/pos_sale_margin/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+pos_sale_stock,addons/pos_sale_stock/__manifest__.py,4,3,1,1,0,3,Test artifacts present
+pos_self_order,addons/pos_self_order/__manifest__.py,47,19,28,28,1,18,Test artifacts present
+pos_self_order_bancontact_pay,addons/pos_self_order_bancontact_pay/__manifest__.py,4,2,2,2,0,2,Test artifacts present
+pos_self_order_event,addons/pos_self_order_event/__manifest__.py,5,1,4,4,0,1,Test artifacts present
+pos_self_order_pine_labs,addons/pos_self_order_pine_labs/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+pos_self_order_qfpay,addons/pos_self_order_qfpay/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+pos_self_order_razorpay,addons/pos_self_order_razorpay/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+pos_self_order_sale,addons/pos_self_order_sale/__manifest__.py,0,0,0,0,0,0,No matching test file found
+pos_self_order_sms,addons/pos_self_order_sms/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+pos_sms,addons/pos_sms/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+pos_stock,addons/pos_stock/__manifest__.py,20,14,6,6,0,14,Test artifacts present
+pos_stripe,addons/pos_stripe/__manifest__.py,2,1,1,1,0,1,Test artifacts present
+pos_sumup,addons/pos_sumup/__manifest__.py,3,1,2,2,0,1,Test artifacts present
+pos_viva_com,addons/pos_viva_com/__manifest__.py,4,2,2,2,0,2,Test artifacts present
+printer,addons/printer/__manifest__.py,3,2,1,1,0,2,Test artifacts present
+privacy_lookup,addons/privacy_lookup/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+product,addons/product/__manifest__.py,16,15,1,1,1,14,Test artifacts present
+product_email_template,addons/product_email_template/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+product_expiry,addons/product_expiry/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+product_margin,addons/product_margin/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+product_matrix,addons/product_matrix/__manifest__.py,0,0,0,0,0,0,No matching test file found
+project,addons/project/__manifest__.py,57,38,19,19,11,27,Test artifacts present
+project_account,addons/project_account/__manifest__.py,0,0,0,0,0,0,No matching test file found
+project_hr_expense,addons/project_hr_expense/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+project_hr_skills,addons/project_hr_skills/__manifest__.py,0,0,0,0,0,0,No matching test file found
+project_mail_plugin,addons/project_mail_plugin/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+project_mrp,addons/project_mrp/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+project_mrp_account,addons/project_mrp_account/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+project_mrp_sale,addons/project_mrp_sale/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+project_mrp_stock_landed_costs,addons/project_mrp_stock_landed_costs/__manifest__.py,0,0,0,0,0,0,No matching test file found
+project_purchase,addons/project_purchase/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+project_purchase_stock,addons/project_purchase_stock/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+project_sale_expense,addons/project_sale_expense/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+project_sms,addons/project_sms/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+project_stock,addons/project_stock/__manifest__.py,0,0,0,0,0,0,No matching test file found
+project_stock_account,addons/project_stock_account/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+project_stock_landed_costs,addons/project_stock_landed_costs/__manifest__.py,0,0,0,0,0,0,No matching test file found
+project_timesheet_holidays,addons/project_timesheet_holidays/__manifest__.py,4,4,0,0,0,4,Test artifacts present
+project_todo,addons/project_todo/__manifest__.py,15,9,6,6,1,8,Test artifacts present
+purchase,addons/purchase/__manifest__.py,12,12,0,0,4,8,Test artifacts present
+purchase_alternative,addons/purchase_alternative/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+purchase_alternative_sale,addons/purchase_alternative_sale/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+purchase_alternative_stock,addons/purchase_alternative_stock/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+purchase_edi_ubl_bis3,addons/purchase_edi_ubl_bis3/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+purchase_mrp,addons/purchase_mrp/__manifest__.py,3,3,0,0,0,3,Test artifacts present
+purchase_product_matrix,addons/purchase_product_matrix/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+purchase_repair,addons/purchase_repair/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+purchase_requisition,addons/purchase_requisition/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+purchase_requisition_stock,addons/purchase_requisition_stock/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+purchase_stock,addons/purchase_stock/__manifest__.py,24,22,2,2,2,20,Test artifacts present
+rating,addons/rating/__manifest__.py,2,2,0,0,1,1,Test artifacts present
+repair,addons/repair/__manifest__.py,3,3,0,0,1,2,Test artifacts present
+resource,addons/resource/__manifest__.py,11,7,4,4,0,7,Test artifacts present
+resource_mail,addons/resource_mail/__manifest__.py,2,0,2,2,0,0,Test artifacts present
+rpc,addons/rpc/__manifest__.py,1,1,0,0,1,0,Test artifacts present
+sale,addons/sale/__manifest__.py,37,34,3,3,8,26,Test artifacts present
+sale_crm,addons/sale_crm/__manifest__.py,4,4,0,0,0,4,Test artifacts present
+sale_edi_ubl,addons/sale_edi_ubl/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+sale_expense,addons/sale_expense/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+sale_expense_margin,addons/sale_expense_margin/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+sale_gelato,addons/sale_gelato/__manifest__.py,3,3,0,0,0,3,Test artifacts present
+sale_gelato_stock,addons/sale_gelato_stock/__manifest__.py,0,0,0,0,0,0,No matching test file found
+sale_loyalty,addons/sale_loyalty/__manifest__.py,12,12,0,0,0,12,Test artifacts present
+sale_loyalty_delivery,addons/sale_loyalty_delivery/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+sale_management,addons/sale_management/__manifest__.py,6,4,2,2,1,3,Test artifacts present
+sale_margin,addons/sale_margin/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+sale_mrp,addons/sale_mrp/__manifest__.py,7,7,0,0,0,7,Test artifacts present
+sale_mrp_margin,addons/sale_mrp_margin/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+sale_pdf_quote_builder,addons/sale_pdf_quote_builder/__manifest__.py,2,2,0,0,2,0,Test artifacts present
+sale_product_matrix,addons/sale_product_matrix/__manifest__.py,0,0,0,0,0,0,No matching test file found
+sale_project,addons/sale_project/__manifest__.py,11,8,3,3,1,7,Test artifacts present
+sale_project_margin,addons/sale_project_margin/__manifest__.py,0,0,0,0,0,0,No matching test file found
+sale_project_stock,addons/sale_project_stock/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+sale_project_stock_account,addons/sale_project_stock_account/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+sale_purchase,addons/sale_purchase/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+sale_purchase_project,addons/sale_purchase_project/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+sale_purchase_stock,addons/sale_purchase_stock/__manifest__.py,4,4,0,0,0,4,Test artifacts present
+sale_service,addons/sale_service/__manifest__.py,0,0,0,0,0,0,No matching test file found
+sale_sms,addons/sale_sms/__manifest__.py,0,0,0,0,0,0,No matching test file found
+sale_stock,addons/sale_stock/__manifest__.py,15,15,0,0,3,12,Test artifacts present
+sale_stock_margin,addons/sale_stock_margin/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+sale_stock_product_expiry,addons/sale_stock_product_expiry/__manifest__.py,2,2,0,0,1,1,Test artifacts present
+sale_timesheet,addons/sale_timesheet/__manifest__.py,22,20,2,2,1,19,Test artifacts present
+sale_timesheet_margin,addons/sale_timesheet_margin/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+sales_team,addons/sales_team/__manifest__.py,4,3,1,1,0,3,Test artifacts present
+sms,addons/sms/__manifest__.py,5,2,3,3,0,2,Test artifacts present
+sms_twilio,addons/sms_twilio/__manifest__.py,3,3,0,0,1,2,Test artifacts present
+snailmail,addons/snailmail/__manifest__.py,5,3,2,2,0,3,Test artifacts present
+snailmail_account,addons/snailmail_account/__manifest__.py,2,2,0,0,1,1,Test artifacts present
+social_media,addons/social_media/__manifest__.py,0,0,0,0,0,0,No matching test file found
+spreadsheet,addons/spreadsheet/__manifest__.py,41,7,34,34,1,6,Test artifacts present
+spreadsheet_account,addons/spreadsheet_account/__manifest__.py,15,6,9,9,0,6,Test artifacts present
+spreadsheet_dashboard,addons/spreadsheet_dashboard/__manifest__.py,19,6,13,13,3,3,Test artifacts present
+spreadsheet_dashboard_account,addons/spreadsheet_dashboard_account/__manifest__.py,1,0,1,1,0,0,Test artifacts present
+spreadsheet_dashboard_event_sale,addons/spreadsheet_dashboard_event_sale/__manifest__.py,0,0,0,0,0,0,No matching test file found
+spreadsheet_dashboard_hr_expense,addons/spreadsheet_dashboard_hr_expense/__manifest__.py,0,0,0,0,0,0,No matching test file found
+spreadsheet_dashboard_hr_timesheet,addons/spreadsheet_dashboard_hr_timesheet/__manifest__.py,0,0,0,0,0,0,No matching test file found
+spreadsheet_dashboard_im_livechat,addons/spreadsheet_dashboard_im_livechat/__manifest__.py,0,0,0,0,0,0,No matching test file found
+spreadsheet_dashboard_pos_hr,addons/spreadsheet_dashboard_pos_hr/__manifest__.py,0,0,0,0,0,0,No matching test file found
+spreadsheet_dashboard_pos_restaurant,addons/spreadsheet_dashboard_pos_restaurant/__manifest__.py,0,0,0,0,0,0,No matching test file found
+spreadsheet_dashboard_sale,addons/spreadsheet_dashboard_sale/__manifest__.py,0,0,0,0,0,0,No matching test file found
+spreadsheet_dashboard_sale_timesheet,addons/spreadsheet_dashboard_sale_timesheet/__manifest__.py,0,0,0,0,0,0,No matching test file found
+spreadsheet_dashboard_stock_account,addons/spreadsheet_dashboard_stock_account/__manifest__.py,0,0,0,0,0,0,No matching test file found
+spreadsheet_dashboard_website_sale,addons/spreadsheet_dashboard_website_sale/__manifest__.py,0,0,0,0,0,0,No matching test file found
+spreadsheet_dashboard_website_sale_slides,addons/spreadsheet_dashboard_website_sale_slides/__manifest__.py,0,0,0,0,0,0,No matching test file found
+stock,addons/stock/__manifest__.py,36,30,6,6,4,26,Test artifacts present
+stock_account,addons/stock_account/__manifest__.py,6,6,0,0,0,6,Test artifacts present
+stock_delivery,addons/stock_delivery/__manifest__.py,7,7,0,0,1,6,Test artifacts present
+stock_dropshipping,addons/stock_dropshipping/__manifest__.py,6,6,0,0,0,6,Test artifacts present
+stock_fleet,addons/stock_fleet/__manifest__.py,0,0,0,0,0,0,No matching test file found
+stock_landed_costs,addons/stock_landed_costs/__manifest__.py,6,6,0,0,0,6,Test artifacts present
+stock_maintenance,addons/stock_maintenance/__manifest__.py,0,0,0,0,0,0,No matching test file found
+stock_sms,addons/stock_sms/__manifest__.py,0,0,0,0,0,0,No matching test file found
+survey,addons/survey/__manifest__.py,22,16,6,6,10,6,Test artifacts present
+survey_crm,addons/survey_crm/__manifest__.py,1,1,0,0,1,0,Test artifacts present
+test_assetsbundle,odoo/addons/test_assetsbundle/__manifest__.py,4,3,1,1,1,2,Test artifacts present
+test_base,odoo/addons/test_base/__manifest__.py,93,93,0,0,3,90,Test artifacts present
+test_base_automation,addons/test_base_automation/__manifest__.py,4,4,0,0,2,2,Test artifacts present
+test_crm_full,addons/test_crm_full/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+test_data_module,odoo/addons/test_data_module/__manifest__.py,0,0,0,0,0,0,No matching test file found
+test_data_module_install,odoo/addons/test_data_module_install/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+test_discuss_full,addons/test_discuss_full/__manifest__.py,8,7,1,1,4,3,Test artifacts present
+test_event_full,addons/test_event_full/__manifest__.py,9,8,1,1,0,8,Test artifacts present
+test_html_field_history,addons/test_html_field_history/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+test_http,odoo/addons/test_http/__manifest__.py,19,19,0,0,19,0,Test artifacts present
+test_import_export,addons/test_import_export/__manifest__.py,8,8,0,0,2,6,Test artifacts present
+test_inherit,odoo/addons/test_inherit/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+test_inherit_depends,odoo/addons/test_inherit_depends/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+test_inherits_depends,odoo/addons/test_inherits_depends/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+test_install_auto,odoo/addons/test_base/tests/test_modules/test_install_addons/test_install_auto/__manifest__.py,0,0,0,0,0,0,No matching test file found
+test_install_base,odoo/addons/test_base/tests/test_modules/test_install_addons/test_install_base/__manifest__.py,0,0,0,0,0,0,No matching test file found
+test_install_fail,odoo/addons/test_base/tests/test_modules/test_install_addons/test_install_fail/__manifest__.py,0,0,0,0,0,0,No matching test file found
+test_l10n,odoo/addons/test_l10n/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+test_lint,odoo/addons/test_lint/__manifest__.py,21,21,0,0,1,20,Test artifacts present
+test_mail,addons/test_mail/__manifest__.py,40,34,6,6,6,28,Test artifacts present
+test_mail_full,addons/test_mail_full/__manifest__.py,15,14,1,1,1,13,Test artifacts present
+test_mail_sms,addons/test_mail_sms/__manifest__.py,13,13,0,0,0,13,Test artifacts present
+test_main_flows,odoo/addons/test_main_flows/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+test_mass_mailing,addons/test_mass_mailing/__manifest__.py,16,16,0,0,0,16,Test artifacts present
+test_populate,addons/test_populate/__manifest__.py,29,29,0,0,0,29,Test artifacts present
+test_resource,addons/test_resource/__manifest__.py,9,9,0,0,0,9,Test artifacts present
+test_sale_product_configurators,addons/test_sale_product_configurators/__manifest__.py,3,3,0,0,1,2,Test artifacts present
+test_sale_purchase_edi_ubl,addons/test_sale_purchase_edi_ubl/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+test_spreadsheet,addons/test_spreadsheet/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+test_tests,odoo/addons/test_tests/__manifest__.py,10,10,0,0,1,9,Test artifacts present
+test_translation,odoo/addons/test_translation/__manifest__.py,6,6,0,0,1,5,Test artifacts present
+test_translation_mode,addons/test_translation_mode/__manifest__.py,2,0,2,2,0,0,Test artifacts present
+test_uninstall,odoo/addons/test_uninstall/__manifest__.py,0,0,0,0,0,0,No matching test file found
+test_utm,addons/test_utm/__manifest__.py,3,3,0,0,1,2,Test artifacts present
+test_web,odoo/addons/test_web/__manifest__.py,19,19,0,0,2,17,Test artifacts present
+test_website,addons/test_website/__manifest__.py,28,27,1,1,22,5,Test artifacts present
+test_website_modules,addons/test_website_modules/__manifest__.py,4,4,0,0,2,2,Test artifacts present
+test_website_slides_full,addons/test_website_slides_full/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+theme_default,addons/theme_default/__manifest__.py,0,0,0,0,0,0,No matching test file found
+uom,addons/uom/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+utm,addons/utm/__manifest__.py,4,4,0,0,1,3,Test artifacts present
+web,addons/web/__manifest__.py,359,30,329,315,20,24,Test artifacts present
+web_hierarchy,addons/web_hierarchy/__manifest__.py,1,0,1,1,0,0,Test artifacts present
+web_tour,addons/web_tour/__manifest__.py,7,2,5,5,2,0,Test artifacts present
+web_unsplash,addons/web_unsplash/__manifest__.py,2,1,1,1,1,0,Test artifacts present
+website,addons/website/__manifest__.py,208,47,161,161,31,16,Test artifacts present
+website_address_autocomplete,addons/website_address_autocomplete/__manifest__.py,1,1,0,0,1,0,Test artifacts present
+website_blog,addons/website_blog/__manifest__.py,9,5,4,4,3,2,Test artifacts present
+website_cf_turnstile,addons/website_cf_turnstile/__manifest__.py,2,0,2,2,0,0,Test artifacts present
+website_crm,addons/website_crm/__manifest__.py,3,3,0,0,1,2,Test artifacts present
+website_crm_iap_reveal,addons/website_crm_iap_reveal/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+website_crm_livechat,addons/website_crm_livechat/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+website_crm_partner_assign,addons/website_crm_partner_assign/__manifest__.py,3,3,0,0,1,2,Test artifacts present
+website_crm_sms,addons/website_crm_sms/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+website_customer,addons/website_customer/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+website_event,addons/website_event/__manifest__.py,9,8,1,1,3,5,Test artifacts present
+website_event_booth,addons/website_event_booth/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+website_event_booth_exhibitor,addons/website_event_booth_exhibitor/__manifest__.py,1,1,0,0,1,0,Test artifacts present
+website_event_booth_sale,addons/website_event_booth_sale/__manifest__.py,2,2,0,0,1,1,Test artifacts present
+website_event_booth_sale_exhibitor,addons/website_event_booth_sale_exhibitor/__manifest__.py,0,0,0,0,0,0,No matching test file found
+website_event_crm,addons/website_event_crm/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+website_event_exhibitor,addons/website_event_exhibitor/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+website_event_sale,addons/website_event_sale/__manifest__.py,5,5,0,0,3,2,Test artifacts present
+website_event_track,addons/website_event_track/__manifest__.py,7,7,0,0,2,5,Test artifacts present
+website_event_track_live,addons/website_event_track_live/__manifest__.py,0,0,0,0,0,0,No matching test file found
+website_event_track_live_quiz,addons/website_event_track_live_quiz/__manifest__.py,0,0,0,0,0,0,No matching test file found
+website_event_track_quiz,addons/website_event_track_quiz/__manifest__.py,0,0,0,0,0,0,No matching test file found
+website_forum,addons/website_forum/__manifest__.py,14,11,3,3,3,8,Test artifacts present
+website_google_map,addons/website_google_map/__manifest__.py,0,0,0,0,0,0,No matching test file found
+website_hr_recruitment,addons/website_hr_recruitment/__manifest__.py,2,2,0,0,1,1,Test artifacts present
+website_hr_recruitment_livechat,addons/website_hr_recruitment_livechat/__manifest__.py,0,0,0,0,0,0,No matching test file found
+website_links,addons/website_links/__manifest__.py,3,3,0,0,2,1,Test artifacts present
+website_livechat,addons/website_livechat/__manifest__.py,13,9,4,4,7,2,Test artifacts present
+website_mail,addons/website_mail/__manifest__.py,0,0,0,0,0,0,No matching test file found
+website_mail_group,addons/website_mail_group/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+website_mass_mailing,addons/website_mass_mailing/__manifest__.py,7,5,2,2,4,1,Test artifacts present
+website_mass_mailing_event,addons/website_mass_mailing_event/__manifest__.py,0,0,0,0,0,0,No matching test file found
+website_mass_mailing_sms,addons/website_mass_mailing_sms/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+website_partner,addons/website_partner/__manifest__.py,0,0,0,0,0,0,No matching test file found
+website_partnership,addons/website_partnership/__manifest__.py,0,0,0,0,0,0,No matching test file found
+website_payment,addons/website_payment/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+website_profile,addons/website_profile/__manifest__.py,2,2,0,0,1,1,Test artifacts present
+website_project,addons/website_project/__manifest__.py,1,1,0,0,1,0,Test artifacts present
+website_sale,addons/website_sale/__manifest__.py,63,55,8,8,30,25,Test artifacts present
+website_sale_collect,addons/website_sale_collect/__manifest__.py,10,10,0,0,3,7,Test artifacts present
+website_sale_gelato,addons/website_sale_gelato/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+website_sale_loyalty,addons/website_sale_loyalty/__manifest__.py,10,10,0,0,4,6,Test artifacts present
+website_sale_mass_mailing,addons/website_sale_mass_mailing/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+website_sale_mrp,addons/website_sale_mrp/__manifest__.py,1,1,0,0,1,0,Test artifacts present
+website_sale_project,addons/website_sale_project/__manifest__.py,0,0,0,0,0,0,No matching test file found
+website_sale_slides,addons/website_sale_slides/__manifest__.py,2,2,0,0,0,2,Test artifacts present
+website_sale_stock,addons/website_sale_stock/__manifest__.py,14,14,0,0,11,3,Test artifacts present
+website_slides,addons/website_slides/__manifest__.py,17,14,3,3,7,7,Test artifacts present
+website_slides_forum,addons/website_slides_forum/__manifest__.py,1,1,0,0,0,1,Test artifacts present
+website_slides_survey,addons/website_slides_survey/__manifest__.py,3,3,0,0,0,3,Test artifacts present
+website_sms,addons/website_sms/__manifest__.py,0,0,0,0,0,0,No matching test file found
+website_timesheet,addons/website_timesheet/__manifest__.py,0,0,0,0,0,0,No matching test file found

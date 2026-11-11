@@ -1,0 +1,7 @@
+flowchart LR
+ Source[Source/module change] --> Unit[Unit/model tests]
+ Unit --> Integration[API/integration tests]
+ Integration --> Browser[Browser/UI tests]
+ Browser --> Security[Security and migration tests]
+ Security --> Gate[Release gate]
+ Gate --> Deploy[Deploy to environment]

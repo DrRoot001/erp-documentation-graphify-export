@@ -1,0 +1,7 @@
+Rule ID,Rule Type,Static Evidence,Count/Scope,Failure Scenario,Status
+FR-VAL-001,ORM constraints,`@api.constrains`/constraint calls,573,Affected operation rejected when constraint fails,Runtime verification required
+FR-VAL-002,Computed dependencies,`@api.depends` calls,3750,Dependent calculation/update does not satisfy implementation,Runtime verification required
+FR-VAL-003,Onchange behavior,`@api.onchange` calls,583,Client-side/server-side onchange path fails,Runtime verification required
+FR-SEC-002,Security declarations,Files under addon `security/`,279,Unauthorized access denied according to configured rules,Runtime verification required
+FR-OPS-002,Scheduled/automation declarations,Cron/server-action/automation references,496,Scheduled action fails or is not enabled,Runtime verification required
+FR-RPT-002,Report declarations,Report action/template references,183,Report generation fails explicitly,Runtime verification required

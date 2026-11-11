@@ -1,0 +1,9 @@
+flowchart LR
+ Client[Browser / external client] --> Router[HTTP route dispatcher]
+ Router --> Auth[Authentication and authorization]
+ Auth --> Controller[Controller adapter]
+ Controller --> Service[Application/domain service]
+ Service --> Data[(Relational persistence)]
+ Controller --> Render[JSON / HTTP / rendered response]
+ Provider[External provider] <--> Webhook[Webhook adapter]
+ Webhook --> Service
